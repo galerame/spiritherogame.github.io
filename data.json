@@ -1,0 +1,52 @@
+{
+	"hero": {
+		"bobgar": {
+			"name": "Bobgar",
+			"class": "mage",
+			"title": "Master of code",
+			"desc": "With his mighty sword the bends code through time and space!",
+			"skill": {
+				"q": {
+					"name": "Debug",
+					"desc": "Debugs the code"
+				},
+				"w": {
+					"name": "Compile",
+					"desc": "Compiles the code"
+				},
+				"e": {
+					"name": "Hexedit",
+					"desc": "Edit the binary code"
+				},
+				"r": {
+					"name": "Relase",
+					"desc": "Let the code fly!"
+				}
+			}
+		},
+		"anni": {
+			"name": "Anni",
+			"class": "hunter",
+			"title": "Animal Keeper Hunter",
+			"desc": "Anni is build to her basic attacks with just her skills...",
+			"skill": {
+				"q": {
+					"name": "Polecats",
+					"desc": "Anni summon...<br>test"
+				},
+				"w": {
+					"name": "Wolf Power",
+					"desc": "Anni got her power..."
+				},
+				"e": {
+					"name": "Sight",
+					"desc": "Anni call the birds..."
+				},
+				"r": {
+					"name": "Bear Rage",
+					"desc": "Anni sending..."
+				}
+			}
+		}
+	}
+}
