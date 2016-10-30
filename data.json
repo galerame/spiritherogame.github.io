@@ -1,45 +1,5686 @@
 {
 	"hero": {
-		"bobgar": {
-			"name": "Bobgar",
-			"class": "mage",
-			"title": "Master of code",
-			"desc": "With his mighty sword the bends code through time and space!",
+		"anni": {
+			"name": "Anni",
+			"class": "hunter",
+			"title": "Animal Keeper",
+			"desc": "Anni lives in the city of Kingdom Port, royal and the youngest sister to Asula. While Asula forced into the military, Anni stayed by her love for the animals in the nature. She borrowed two guns from the pirats, and got her animals by her side then she must go serious!",
 			"skill": {
-				"Debug":{
+				"Polecats":{
 					"prop":{
-						"Active": "Long ass text! Long ass text! Long ass text! Long ass text! Long ass text! Long ass text! Long ass text! Long ass text! Long ass text! Long ass text! Long ass text! Long ass text!<br>test",
+						"Active": "Anni summon polecats that fighting for you, fetch enemies in the area and dealing physical damage.",
 						"": "",
-						"Cost":"901823 mana",
-						"Cooldown":"99 seconds",
-						"Damage":"-2 damage"
+						"Ability": "Ground Target",
+						"Radius":"12 Size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "15 / 14 / 13 / 12 / 11 seconds",
+						"Damage": "Physical: 12 / 14 / 16 / 18 / 20 (+15% Physical Power)",
+						"Polecats": "7",
+						"Duration": "4 seconds"
 					}
 				},
-				"Compile":{
+				"Wolf Power":{
 					"prop":{
-						"Passive": "Compiles the code",
-						"Cost":"901823 mana",
-						"Cooldown":"99 seconds",
-						"Damage":"-2 damage"
+						"Active": "Anni got power from her family, gain increased Attack Speed, Movement Speed and Physical Power for a short duration.",
+						"": "",
+						"Ability": "Buff",
+						"Cost":"60 mana",
+						"Cooldown":"15 seconds",
+						"Physical Power": "8 / 20 / 32 / 44 / 56",
+						"Attack Speed": "15 / 20 / 25 / 30 / 35 %",
+						"Movement Speed": "12 / 25 / 37 / 50 / 62 %",
+						"Duration": "3 seconds"
 					}
 				},
-				"Hexedit":{
+				"Sight":{
 					"prop":{
-						"Active": "Edit the binary code",
-						"Cost":"901823 mana",
-						"Cooldown":"99 seconds",
-						"Damage":"-2 damage",
-						"Lifesteam":"9238 hp"
+						"Active": "Anni got sight form the birds, the same second each enemies who got catch by her sight got a peck from a bird. Dealing physical damage to each enemy and debuff they Armor for a short duration. <br>For a short duration, Anni can see invisible enemies and make catched enemies in her sight become visible while the debuff duration.",
+						"": "",
+						"Ability": "Area, Debuff",
+						"Cost":"80 mana",
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+40% Physical Power)",
+						"Armor": "-20 %",
+						"Duration": "3 seconds"
 					}
 				},
-				"Release":{
+				"Bear Rage":{
 					"prop":{
-						"Active": "Let the code fly!",
-						"Passive": "blalba",
-						"Ability": "",
-						"Cost":"901823 mana",
-						"Cooldown":"99 seconds",
-						"Damage":"-2 damage"
+						"Active": "Anni sending a bear to a targeted localtion, dealing physical damage to all enemies in the area and stunning them.",
+						"": "",
+						"Ability": "Ground Target",
+						"Cost":"125 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 300 / 425 / 550 / 675 / 800 (+100% Physical Power)",
+						"Stun": "1 seconds"
+					}
+				}
+			}
+		},
+		"aria": {
+			"name": "Aria",
+			"class": "hunter",
+			"title": "The Winged Archer",
+			"desc": "Aria is a angel of light with healing tactics, younger sister to Oone that is the leader of the military by the light angels. Aria fighting for the humans to create balance, with her bow and wings she can cause much damage, but with her healing skills she can also treat the wounded!",
+			"skill": {
+				"Light Arrow":{
+					"prop":{
+						"Active": "Aria launch a light arrow that piercing through enemies and allies in a line, dealing magic damage to enemies and make them paralyzed. <br>Heal allies hit in the line.",
+						"": "",
+						"Ability": "Line",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+120% Magic Power)",
+						"Heal": "50 / 95 / 140 / 185 / 230 (+120% Magic Power)",
+						"Paralyzed": "1 seconds"
+					}
+				},
+				"Protective Wings":{
+					"prop":{
+						"Active": "Aria creates a magical shield around her that absorbing a % of all incoming damage for a short duration. Then this shield ends, it dealing magic damage to enemies around you, heal you and your allies in same size.",
+						"": "",
+						"Ability": "Shield, Area",
+						"Radius": "18, Area",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Deflect": "35 / 45 / 55 / 65 / 75 %",
+						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+120% Magic Power)",
+						"Heal": "50 / 95 / 140 / 185 / 230 (+120% Magic Power)",
+						"Duration": "2 seconds"
+					}
+				},
+				"Angel Feathers":{
+					"prop":{
+						"Active": "Aria flying up and sending her feathers at a targeted area, dealing physical damage and slow all enemies hit. <br>In the second she fly up, she ignoring all attacks that are not from the sky.",
+						"": "",
+						"Ability": "Ground Target",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"10 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+40% Physical Power)",
+						"Slow": "25%",
+						"Duration": "2 seconds"
+					}
+				},
+				"Sweeping Light":{
+					"prop":{
+						"Active": "Aria sprinting fast in a line, her next basic attack will do a bonus magic damage. She can do this 3 times before the cooldown after.",
+						"": "",
+						"Ability": "Dash",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Bonus Magic Damage": "Magic: 250 / 350 / 450 / 550 / 650 (+120% Magic Power)"
+					}
+				}
+			}
+		},
+		"blade": {
+			"name": "Blade",
+			"class": "hunter",
+			"title": "Master of Blades",
+			"desc": "Blade lives in the Neutral City of Kings and Queens with a ruth childhood by standing up against her rival, Katana. They both parents died then they were young, then they struggled to live in the big city. She got an experience by using her magic to bend her blades around, with that tactic she create pain by magical power from being hit by her blades, but her Movements aren't like Katanas. By her tactics she make her enemies confused by binding them together with magical force.",
+			"skill": {
+				"Forced Blades":{
+					"prop":{
+						"Active": "Blade throw all her seven blades in a big line, dealing physical damage each blade hit. <br>Every hit by your basic attacks decrease this active cooldown by 0,5 seconds.",
+						"Passive": "Every seventh time she hit an enemy, deal an extra bonus magic damage.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "12 Size",
+						"Cost": "60 / 65 / 70 / 75 / 80 mana",
+						"Cooldown": "12 seconds",
+						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120% Physical Power)",
+						"Bonus Magic Damage": "100 (+4 per hero level = 180 at lvl 20)"
+					}
+				},
+				"Magic Pulse":{
+					"prop":{
+						"Active": "Blade blink to a nearby localtion, let her critt next hit by her basic attack with an increased critt damage the last 3 seconds. <br>Every hit by your basic attacks decrease this active cooldown by 0,5 seconds.",
+						"Passive": "Blade got increased critt chance, every time she critt, the targeted and hunted enemy take magic damage from a magical pulse. <br>2,5 seconds cooldown.",
+						"": "",
+						"Ability": "Teleport, Buff",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"12 seconds",
+						"Critt Damage": "50 / 100 / 150 / 200 / 250 %",
+						"Critt Chance": "10 / 20 / 30 / 40 / 50 %",
+						"Magic Damage": "100 (+4 per hero level = 180 at lvl 20)"
+					}
+				},
+				"Hunted":{
+					"prop":{
+						"Active": "Blade force a magical damage to all enemies who are binded to each other, also stunning them.",
+						"Passive": "Blade bind her enemies by her basic attacks, hitting two differently enemies bind them together. <br>Hunted enemies can't run from each other, using a leap away they are pulled back.",
+						"": "",
+						"Ability": "Effected",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Damage": "Magic: 40 / 70 / 100 / 130 / 160 (+4 per hero level +80 at lvl 20)",
+						"Hunted": "7",
+						"Stun": "2 seconds"
+					}
+				},
+				"Killing Instinct":{
+					"prop":{
+						"Active": "Blade increases her Attack Speed and letting her blades seek to the nearest hunted enemy.",
+						"": "",
+						"Ability": "Buff",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Attack Speed": "30 / 50 / 70 / 90 / 110 %",
+						"Duration": "4s"
+					}
+				}
+			}
+		},
+		"chantrea": {
+			"name": "Chantrea",
+			"class": "hunter",
+			"title": "Huntress of The Moon",
+			"desc": "Chantrea is an elven princess in City of Forest, leader in the hunt, and skilled with her magic used by the energy of the moon. Her wisest guide is Grey Wonder who learned her the moon energy, letting her arrows seek to enemies.",
+			"skill": {
+				"Moon Strike":{
+					"prop":{
+						"Active": "Chantrea creating a beam from the sky as a moon light, dealing magic damage and stunning all enemies in the targeted localtion.",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "12 Size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 seconds",
+						"Damage": "Magic: 60 / 110 / 160 / 210 / 260 (+90% Magic Power)",
+						"Stun": "1,5 seconds"
+					}
+				},
+				"Moon Arrows":{
+					"prop":{
+						"Active": "Chantreas next three arrows piercing through enemies in a line, at the end of the line, they start to seek to the nearest target.",
+						"Passive": "Her arrows start to seeking to your target nearby if you miss, but just a % of your damage. <br>Critt cause an extra true damage from a % of your magic power and seeking to an other enemy target nearby.",
+						"": "",
+						"Ability": "Line",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 80 / 135 / 190 / 245 / 300 (+80% Physical Power)",
+						"Seek Damage": "Physical: 40% Physical Power",
+						"Critt Bonus": "True: 35% Magic Power"
+					}
+				},
+				"White Tiger":{
+					"prop":{
+						"Active": "Chantrea whistling on her pet, dash forward while riding on it, dealing physical damage to enemies hit and pulling they back. <br>In a duration, she got increased movement speed and ignoring slow and fear effects.",
+						"": "",
+						"Ability": "Dash, Buff",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 seconds",
+						"Damage": "Physical: 70 / 115 / 160 / 205 / 250 (+60% Physical Power)",
+						"Movement Speed": "5 / 10 / 15 / 20 / 25 %",
+						"Duration": "2 seconds"
+					}
+				},
+				"Targeting Arrow":{
+					"prop":{
+						"Active": "Chantrea targeting one enemy in a long sight, waiting for 2,5 seconds then aim, dealing physical damage to the first enemy hero hit.",
+						"": "",
+						"Ability": "Target, Projectile",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "230 / 295 / 360 / 425 / 490 (+120% Physical Power)",
+						"Stun": "0,75 seconds"
+					}
+				}
+			}
+		},
+		"clear": {
+			"name": "Clear",
+			"class": "hunter",
+			"title": "The Bloody Killer",
+			"desc": "Clear is a cowboy in City of Desert, doesn't have family or siblings. She works alone and always been alone and have always trying to hunting down the roge broders Razor and Rexas! She is the best fighter with a whip by her movements and strength, letting her whip destroy her opponents ribs and letting they bleed.",
+			"skill": {
+				"Bloody Whip":{
+					"prop":{
+						"Active": "Clear strike with her whip in a line, dealing physical damage, let them bleed and they take a % more damage from physical in the bleed duration.",
+						"Passive": "Basic attacks now mark her enemies, dealing 2% more damage every stuck. (max 10%)",
+						"": "",
+						"Ability": "Line",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "10 seconds",
+						"Damage": "Physical: 80 / 135 / 190 / 245 / 300 (+80% Physical Power)",
+						"Bleed": "Physical: 16 / 27 / 38 / 49 / 60 (+50% Physical Power)",
+						"More Physical Damage": "5 / 10 / 15 / 20 / 25 %",
+						"Duration": "5 seconds"
+					}
+				},
+				"Harpoon":{
+					"prop":{
+						"Active": "Clear catch the first enemy, turrent or tree in a line. <br>Turrents & Trees let you in the same second leap to it. <br>Enemy become rooted while you can't attack, but let you leap to a localtion of three points around the enemy target in 1,5 seconds time. <br>After your leap, your next basic attack will do a % extra physical damage.",
+						"": "",
+						"Ability": "Line, Leap",
+						"Cost":"70 mana",
+						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
+						"Bonus Physical Damage": "50 / 80 / 110 / 140 / 170 (+90% Physical Power)"
+					}
+				},
+				"Ass Kick":{
+					"prop":{
+						"Active": "Clear wheel forward, dealing physical damage to all enemies from behind and pushing they back.",
+						"": "",
+						"Ability": "Dash",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"12 seconds",
+						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+60% Physical Power)"
+					}
+				},
+				"Broke They Ribs":{
+					"prop":{
+						"Active": "Clear pushes back all enemies in a area around her, make them bleed and slow them over time.",
+						"": "",
+						"Ability": "Area",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Bleed": "25 / 30 / 35 / 40 / 45 (+100% Physical Power)",
+						"Slow": "80% (-80% over 5 secodns)",
+						"Duration": "5 secodns"
+					}
+				}
+			}
+		},
+		"dwarlin": {
+			"name": "Dwarlin",
+			"class": "hunter",
+			"title": "The Beast Hunter",
+			"desc": "Dwarlin lives in Winterfall, friend to Storm but always start a fight agenst Tumblr.",
+			"skill": {
+				"Duble Axes":{
+					"prop":{
+						"Active": "Dwarlin throw both of his axes, piercing though enemies in the line, dealing physical damage.",
+						"Passive": "The third hit at a target make a bloody effect. <br>Bloody Effect: Slow your enemy while they are bleeding.",
+						"": "",
+						"Ability": "Line",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "11 seconds",
+						"Damage": "Physical: 60 / 90 / 110 / 150 / 180 (+60% Physical Power)",
+						"Bleed": "Physical: 30 / 50 / 70 90 / 110 (+15% Magic Power)",
+						"Slow": "15%",
+						"Duration": "3 seconds"
+					}
+				},
+				"Bear Trap":{
+					"prop":{
+						"Active": "Dwarlin sets a trap at the target location that arms after 1.1 seconds and lasts up to 90. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one. <br>Enemy champions who step on a trap set it off, rooting them for 1s and make they bleed over 3s while they are slowed and in same time they armor is destroyed.",
+						"": "",
+						"Ability": "Lay",
+						"Cost":"40 mana",
+						"Cooldown":"15 seconds",
+						"Root": "1 seconds",
+						"Slow": "80% (-80% over 3 seconds)",
+						"Bleed": "30 / 50 / 70 / 90 / 110 (+15% Magic Power)",
+						"Armor": "-25%"
+					}
+				},
+				"Chock Axe":{
+					"prop":{
+						"Active": "Dwarlin throwing an axe at the target localtion, the axe starts to chock enemies in the area, dealing magic damage. <br>Can be throwed two at once before the cooldown.",
+						"": "",
+						"Ability": "Ground Target",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"12 seconds",
+						"Damage": "Magic: 60 / 110 / 160 / 210 / 260 (+60% Magic Power)",
+						"Chock": "3 times"
+					}
+				},
+				"Overpowered":{
+					"prop":{
+						"Active": "Dwarlin starts to spark over his whole body, his basic attacks and Duble Axes got a bonus magic damage and stunning his targets. <br>Stun effect can only effect the same enemy once per 2,5 seconds.",
+						"": "",
+						"Ability": "Buff",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Bonus Magic Damage": "60 / 110 / 160 / 210 / 260 (+60% Magic Power)",
+						"Stun": "1 seconds",
+						"Duration": "5 secodns"
+					}
+				}
+			}
+		},
+		"elany": {
+			"name": "Elany",
+			"class": "hunter",
+			"title": "The Fairy Archer",
+			"desc": "",
+			"skill": {
+				"Fireflies":{
+					"prop":{
+						"Active": "Elany fires an arrow up to the sky, a flaming bolt strike at the targeted localtion, dealing magic damage to all enemies in the area.",
+						"Empowered": "10 more flaming bolts are aming nearby the targeted localtion in 10 other targeted localtions. Fireflies do a double damage this time.",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": "Magic: 10 / 40 / 70 / 100 / 130 (+100% Magic Power) (+2 per hero level = 40)"
+					}
+				},
+				"Become a Fairy":{
+					"prop":{
+						"Active": "Elany become a small fairy, increases her movement speed and ignoring skill effects, but can't attack or do skills and don't ignoring damage from skills with size.",
+						"Passive": "Elanys basic attacks got a bonus magic damage.",
+						"Empowered": "Elany starts to heal in fairy form.",
+						"": "",
+						"Ability": "Buff",
+						"Cost":"20 mana (per seconds)",
+						"Cooldown":"10 seconds",
+						"Movement Speed": "25%",
+						"Bonus Magic Damage": "10 / 40 / 70 / 100 / 130 (+100% Magic Power) (+2 per hero level = 40)",
+						"Heal": "20 health per 0,5 second."
+					}
+				},
+				"Blossom":{
+					"prop":{
+						"Active": "Elany confuse enemy heroes in a local area for a short duration, effected minions have a chance to fight the nearest enemy for a longer duration. <br>Effected enemies got a bonus magic damage from your first arrow hit the last 3.5 seconds.",
+						"Empowered": "In the blossom circle, make your enemy heroes as a prisoner for 3,5 secodns, they can't go or dash or leap out from the circle.",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Bonus Magic Damage:": "60 / 110 / 160 / 210 / 260 (+60% Magic Power)",
+						"Confusion": "1,5 seconds (double effect agenst minions)"
+					}
+				},
+				"Fairy Power":{
+					"prop":{
+						"Active": "Elany empowers her next ability cast within the next 8 seconds, adding an additional effect.",
+						"Passive": "Elany got increased magic power.",
+						"": "",
+						"Ability": "Empowering",
+						"Cost":"0 mana",
+						"Cooldown":"45 / 42 / 39 / 36 / 34 seconds",
+						"Magic Power": "20 / 40 / 60 / 80 / 100 (+2 per level = 40 at level 20)"
+					}
+				}
+			}
+		},
+		"lancel": {
+			"name": "Lancel",
+			"class": "hunter",
+			"title": "The Longest Sight",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"leo": {
+			"name": "Leo",
+			"class": "hunter",
+			"title": "The Fire Archer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"lucifer": {
+			"name": "Lucifer",
+			"class": "hunter",
+			"title": "Life Taker",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"mei": {
+			"name": "Mei",
+			"class": "hunter",
+			"title": "Colded Pirate",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"phia": {
+			"name": "Phia",
+			"class": "hunter",
+			"title": "Grenade Lover",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"raven": {
+			"name": "Raven",
+			"class": "hunter",
+			"title": "The Silent Archer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"richard": {
+			"name": "Richard",
+			"class": "hunter",
+			"title": "The Arcane Archer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"rogue": {
+			"name": "Rogue",
+			"class": "hunter",
+			"title": "The Trucker",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"simin": {
+			"name": "Simin",
+			"class": "hunter",
+			"title": "Bolts of Silver",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"snow": {
+			"name": "Snow",
+			"class": "hunter",
+			"title": "The Bounty Hunter",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"spiro": {
+			"name": "Spiro",
+			"class": "hunter",
+			"title": "The Spirit Seeker",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"tumblr": {
+			"name": "Tumblr",
+			"class": "hunter",
+			"title": "The Shielded Huntress",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		"anders": {
+			"name": "Anders",
+			"class": "tank",
+			"title": "Spirit Torturer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"diana": {
+			"name": "Diana",
+			"class": "tank",
+			"title": "Cleric of The Sun",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"diode": {
+			"name": "Diode",
+			"class": "tank",
+			"title": "The Crusader",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"dracula": {
+			"name": "Dracula",
+			"class": "tank",
+			"title": "Vampire Lord",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"elise": {
+			"name": "Elise",
+			"class": "tank",
+			"title": "Frozen Armored",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"fenrir": {
+			"name": "Fenrir",
+			"class": "tank",
+			"title": "Armored Pheonix",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"golem": {
+			"name": "Golem",
+			"class": "tank",
+			"title": "The Lonely Soul",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"oone": {
+			"name": "Oone",
+			"class": "tank",
+			"title": "The Angel Master",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"pius": {
+			"name": "Pius",
+			"class": "tank",
+			"title": "Fighter for Justice",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"asula": {
+			"name": "Asula",
+			"class": "tank",
+			"title": "Full Armored Princess",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"rebecca": {
+			"name": "Rebecca",
+			"class": "tank",
+			"title": "The Shield Master",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"tana": {
+			"name": "Tána",
+			"class": "tank",
+			"title": "Girl of Justice",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"tank": {
+			"name": "Tank",
+			"class": "tank",
+			"title": "The Soul Stealer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		"aenna": {
+			"name": "Aenna",
+			"class": "assassin",
+			"title": "The Blooded Bandit",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"albin": {
+			"name": "Albin",
+			"class": "assassin",
+			"title": "The Spirit Hunter",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"ashera": {
+			"name": "Ashera",
+			"class": "assassin",
+			"title": "The Sea Queen",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"chin": {
+			"name": "Chin",
+			"class": "assassin",
+			"title": "Master of Katana",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"drya": {
+			"name": "Drya",
+			"class": "assassin",
+			"title": "Keeper of the Nature",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"hana": {
+			"name": "Hana",
+			"class": "assassin",
+			"title": "The Pink Samurai",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"inferno": {
+			"name": "Inferno",
+			"class": "assassin",
+			"title": "The Demonic Shadows",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"katana": {
+			"name": "Katana",
+			"class": "assassin",
+			"title": "The Shadow",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"leanish": {
+			"name": "Leanish",
+			"class": "assassin",
+			"title": "Angel of Power",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"lotus": {
+			"name": "Lotus",
+			"class": "assassin",
+			"title": "Twin Bladed Phantom",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"maria": {
+			"name": "Maria",
+			"class": "assassin",
+			"title": "Masked Wind Bringer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"razor": {
+			"name": "Razor",
+			"class": "assassin",
+			"title": "Sand Brother of Shadow",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"relani": {
+			"name": "Relani",
+			"class": "assassin",
+			"title": "The Blinded Angel",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"rexas": {
+			"name": "Rexas",
+			"class": "assassin",
+			"title": "Sand Brother of Tactic",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"sarah": {
+			"name": "Sarah",
+			"class": "assassin",
+			"title": "The Blade Master",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"suki": {
+			"name": "Suki",
+			"class": "assassin",
+			"title": "The Succubus",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"tigra": {
+			"name": "Tigra",
+			"class": "assassin",
+			"title": "The Killing Assassin",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"walladin": {
+			"name": "Walladin",
+			"class": "assassin",
+			"title": "The Bat Master",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		"alisha": {
+			"name": "Alisha",
+			"class": "fighter",
+			"title": "Umbrella Dualist",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"ania": {
+			"name": "Ania",
+			"class": "fighter",
+			"title": "The Golden Cleric",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"blake": {
+			"name": "Blake",
+			"class": "fighter",
+			"title": "The Fearless Blade",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"brynhildr": {
+			"name": "Brynhildr",
+			"class": "fighter",
+			"title": "The Last Valkyria",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"caity": {
+			"name": "Caity",
+			"class": "fighter",
+			"title": "Earth Keeper",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"clain": {
+			"name": "Clain",
+			"class": "fighter",
+			"title": "The United Ally",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"defena": {
+			"name": "Defena",
+			"class": "fighter",
+			"title": "Snake Queen",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"hanet": {
+			"name": "Hánet",
+			"class": "fighter",
+			"title": "Paladin of Justice",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"jack": {
+			"name": "Jack",
+			"class": "fighter",
+			"title": "Man of Snow Day",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"kaliyah": {
+			"name": "Kaliyah",
+			"class": "fighter",
+			"title": "The Dragon Spirit",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"lee": {
+			"name": "Lee",
+			"class": "fighter",
+			"title": "The Fighting Monk",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"lerala": {
+			"name": "Lerala",
+			"class": "fighter",
+			"title": "Angel of Light",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"neo": {
+			"name": "Neo",
+			"class": "fighter",
+			"title": "The Half Demon",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"pheola": {
+			"name": "Pheola",
+			"class": "fighter",
+			"title": "Fighter From The Volcano",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"leonora": {
+			"name": "Leonora",
+			"class": "fighter",
+			"title": "Angel of War",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"reikon": {
+			"name": "Reikon",
+			"class": "fighter",
+			"title": "The Soul Reaper",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"scar": {
+			"name": "Scar",
+			"class": "fighter",
+			"title": "The Banded King",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"storm": {
+			"name": "Storm",
+			"class": "fighter",
+			"title": "The Storm Bringer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"sygy": {
+			"name": "Sýzygos & Gynaíka",
+			"class": "fighter",
+			"title": "The Lovers",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"tora": {
+			"name": "Tora",
+			"class": "fighter",
+			"title": "Elementalic Kung Fu Fighter",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"vlad": {
+			"name": "Vlad",
+			"class": "fighter",
+			"title": "Vampiric Swordsman",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"wolvern": {
+			"name": "Wolvern",
+			"class": "fighter",
+			"title": "Demon Wolf Bodysuits",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		"abobua": {
+			"name": "Abobua",
+			"class": "mage",
+			"title": "The Witch Doctor",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"allegra": {
+			"name": "Allegra",
+			"class": "mage",
+			"title": "The Music Witch",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"anthea": {
+			"name": "Anthea",
+			"class": "mage",
+			"title": "Keeper of the Forest",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"bane": {
+			"name": "Bane",
+			"class": "mage",
+			"title": "The Expert of Death",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"billy": {
+			"name": "Billy",
+			"class": "mage",
+			"title": "The Destroyer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"bones": {
+			"name": "Bones",
+			"class": "mage",
+			"title": "One Who Knows Pain",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"calida": {
+			"name": "Calida",
+			"class": "mage",
+			"title": "The Hot Mage",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"doom": {
+			"name": "Doom",
+			"class": "mage",
+			"title": "Masked Demon",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"dowyn": {
+			"name": "Dowyn",
+			"class": "mage",
+			"title": "Wizard on The Mountein",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"emiza": {
+			"name": "Emiza",
+			"class": "mage",
+			"title": "Snow Princess",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"eric": {
+			"name": "Eric",
+			"class": "mage",
+			"title": "The Summoner",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"grey": {
+			"name": "Grey",
+			"class": "mage",
+			"title": "Keeper of Wonder",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"helani": {
+			"name": "Helani",
+			"class": "mage",
+			"title": "Shaman of the Storm",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"kaprisha": {
+			"name": "Kaprisha",
+			"class": "mage",
+			"title": "The Frost Mage",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"kida": {
+			"name": "Kida",
+			"class": "mage",
+			"title": "Human From Atlantis",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"leila": {
+			"name": "Leila",
+			"class": "mage",
+			"title": "The Witch of Darkness",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"lilith": {
+			"name": "Lilith",
+			"class": "mage",
+			"title": "The Current Mother of all Demons",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"liza": {
+			"name": "Liza",
+			"class": "mage",
+			"title": "Little Sorceress",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"magi": {
+			"name": "Magi",
+			"class": "mage",
+			"title": "The Eagle Sorceress",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"malin": {
+			"name": "Malin",
+			"class": "mage",
+			"title": "The Holy Priest",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"maze": {
+			"name": "Maze",
+			"class": "mage",
+			"title": "The Silver Blades",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"melody": {
+			"name": "Melody",
+			"class": "mage",
+			"title": "The Engineer of Magic Stones",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"mia": {
+			"name": "Mia",
+			"class": "mage",
+			"title": "The Puppet Master",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"minghua": {
+			"name": "Ming-Hua",
+			"class": "mage",
+			"title": "Armless Water Bender",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"riley": {
+			"name": "Riley",
+			"class": "mage",
+			"title": "Master of Arcane",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"rosie": {
+			"name": "Rosie",
+			"class": "mage",
+			"title": "Playing With The Souls",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"sabrine": {
+			"name": "Sabrine",
+			"class": "mage",
+			"title": "Girl of Fear",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"samir": {
+			"name": "Samir",
+			"class": "mage",
+			"title": "Egyptian Priest",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"sapphire": {
+			"name": "Sapphire",
+			"class": "mage",
+			"title": "Master of Illusion",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"sasha": {
+			"name": "Sasha",
+			"class": "mage",
+			"title": "The Swamp Witch",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"seishin": {
+			"name": "Seishin",
+			"class": "mage",
+			"title": "The Fallen Angel",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"selene": {
+			"name": "Selene",
+			"class": "mage",
+			"title": "The Night Stalker",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"talon": {
+			"name": "Talon",
+			"class": "mage",
+			"title": "The Dragon Master",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"talutha": {
+			"name": "Talutha",
+			"class": "mage",
+			"title": "Mage of Blood Rituals",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"ulf": {
+			"name": "Ulf",
+			"class": "mage",
+			"title": "The Spirit Bringer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"vladdina": {
+			"name": "Vladdina",
+			"class": "mage",
+			"title": "The Blood Sucking Vampire",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
 					}
 				}
 			}
