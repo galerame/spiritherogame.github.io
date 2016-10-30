@@ -4,37 +4,41 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="hero.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-		<script src="index.js"></script>
-		<script id="template" type="text/x-handlebars-template">
-			{{#each hero}}
-					<a href="hero.html#{{@key}}" class="hero {{class}}">
-					<img src="images/hero/small/{{class}}/{{@key}}.jpg"></img>
-					<figcaption>{{name}}<div>{{title}}</div></figcaption>
-					</a>
-			{{/each}}
-		</script>
-		
 		<title>Spirit</title>
 	</head>
 	<body>
 		<div id="wrapper">
 			<div id="header">
+				<div class="fade"></div>
 				<img src="images/header/index.jpg"></img>
 			</div>
 			<div id="menu">
-				<a onclick="filter('hunter')">Hunter</a>
-				<a onclick="filter('assassin')">Assasin</a>
-				<a onclick="filter('fighter')">Fighter</a>
-				<a onclick="filter('tank')">Tank</a>
-				<a onclick="filter('mage')">Mage</a>
-				<a href="search.html">Items</a>
+				<a href="list.html#hunter">Hunter</a>
+				<a href="list.html#assassin">Assasin</a>
+				<a href="list.html#fighter">Fighter</a>
+				<a href="list.html#tank">Tank</a>
+				<a href="list.html#mage">Mage</a>
+				<a href="items.html">Items</a>
 				<a href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;</a>
 				<a href="search.html"><i class="fa fa-search fa-fw" aria-hidden="true"></i>&nbsp;</a>
 			</div>
 			<div id="content">
+				<div class="card desc">
+					<h1>Spirit</h1>
+					<p>Spirit is a MMORPG game like Smite, but the item build is like Diablo.</p>
+					<p>Health poison, Mana poison and actives skills from items come to a button bag between 1-9. </p>
+					<p>They are diffenrent classes, like Hunter, Assassin, Fighter, Tank and Mage. Some of the Mage can play as support like some characters that can play in the jungle. But same to play a Fighter as a Tank or Tank as a Fighter, but I chose just to have Tank, Fighter, Assassin and Mage with just a difficult play like Support or Jungle.</p>
+					<p>They are difference play modes. Play modes for just fun, more experience with difficult play, and those more serious with Ranked.</p>
+					<p>Difference play with both Magic damage and Physical Damage. That a Mage can do Physical Damage but play with Magic Power as a Fighter can have Magic Damage and play with Physical Power. Is about the attack is Physical or Magic, but diference just because I most combinade in a balance. Fire can be both Magic or Physical, is about the character and the balance.</p>
+					<p>Difference kategoris to typ of damage or disablers, like "slow, ensnare, fear, stun, confusion, silence".</p>
+				</div>
+				<div class="card image">
+					<img src="images/frontpage.jpg"></img>
+				</div>
+				
 			</div>
 		</div>
 	</body>
