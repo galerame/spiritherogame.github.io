@@ -230,7 +230,7 @@
 		"clear": {
 			"name": "Clear",
 			"class": "hunter",
-			"title": "The Bloody Killer",
+			"title": "The Bloody Cowboy",
 			"desc": "Clear is a cowboy in City of Desert, doesn't have family or siblings. She works alone and always been alone and have always trying to hunting down the roge broders Razor and Rexas! She is the best fighter with a whip by her movements and strength, letting her whip destroy her opponents ribs and letting they bleed.",
 			"skill": {
 				"Bloody Whip":{
@@ -285,7 +285,7 @@
 			"name": "Dwarlin",
 			"class": "hunter",
 			"title": "The Beast Hunter",
-			"desc": "Dwarlin lives in Winterfall, friend to Storm but always start a fight agenst Tumblr.",
+			"desc": "Dwarlin lives in Winterfall, friend to Storm but always start a fight agenst Tumblr. His axes got a enchantment to create shock pulses that he has learne to use, also created a habit to overloading the magical force that make him impossible to fight agenst.",
 			"skill": {
 				"Duble Axes":{
 					"prop":{
@@ -343,7 +343,7 @@
 			"name": "Elany",
 			"class": "hunter",
 			"title": "The Fairy Archer",
-			"desc": "",
+			"desc": "Elany is a fairy in the magical forest The Dark Forest. Learned how to greate her self in a bigger size to fight for the elven. Her experience by fairy magic and fighting with a elven bow make her a big threat.",
 			"skill": {
 				"Fireflies":{
 					"prop":{
@@ -401,50 +401,56 @@
 			"name": "Lancel",
 			"class": "hunter",
 			"title": "The Longest Sight",
-			"desc": "",
+			"desc": "Lancel live in the small villages outside the Neutral City of Kings and Queens, with a ruth life, he struggled and helped the poor people, but taking from the rich. With his great long bow and easy movable body he got the longest shot and is great in fights!",
 			"skill": {
-				"":{
+				"Multi Shot":{
 					"prop":{
-						"Active": "",
+						"Active": "Lancel fires multi of arrows in a cone with long size front of you, dealing physical damage to all enemies hit.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Cone",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "10 seconds",
+						"Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+90% Physical Power)"
 					}
 				},
-				"":{
+				"Slide":{
 					"prop":{
-						"Active": "",
+						"Active": "Lancel performs a slide in a direction he is currently traveling, increases his attack speed for a short duration after he slide.",
+						"": "",
+						"Ability": "Dash, Buff",
+						"Radius": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Attack Speed": "40 / 60 / 80 / 100 / 120 %",
+						"Duration": "3 seconds"
+					}
+				},
+				"Chain Arrow":{
+					"prop":{
+						"Active": "Lancel fires an arrow bound to a rope. The first enemy hero hit, they become binded to you for a short duration. Silence they movement tactics and slowing them. <br>Dealing physical damage to the enemy hero hit.",
+						"Passive": "Successful hitting enemies with his basic attacks, Lancel got a increased range with both his tactics and his basic attacks. <br>Ends then he out of combat in 5 seconds.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Increased Range": "5 size (per basic hit)",
+						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120 Physical Power)",
+						"Slow": "25%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Rain of Arrows":{
 					"prop":{
-						"Active": "",
+						"Active": "Lancel aming for the sky, every second his sight increases and you can launch at a localtion much far away, dealing physical damage in the targeted area Lancel launch his cone of arrows at, increases the damage done till the maximum size. <br>Become interupted from taking harm in this stance.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "35 size",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"15 seconds",
+						"Damage": "190 / 240 / 290 / 340 / 390",
+						"Full Size Damage": "240 / 290 / 340 / 390 / 440"
 					}
 				}
 			}
@@ -453,50 +459,53 @@
 			"name": "Leo",
 			"class": "hunter",
 			"title": "The Fire Archer",
-			"desc": "",
+			"desc": "Leo lives in City of Mordune together with Fenrir, leader of the offencive squad in the military. With her fire power as magic, her Bow tactics are incredibly dangerous to the enemies in fights.",
 			"skill": {
-				"":{
+				"Fire Bolt":{
 					"prop":{
-						"Active": "",
+						"Active": "Leo fires a flaming arrow at the first enemy hit in a long range, dealing physical damage and an extra magic damage to enemies effected by the fire ravens.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "80 size",
+						"Cost": "60 / 65 / 70 / 75 / 80 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 90 / 155 / 220 / 285 / 350 (+80% Physical Power)",
+						"Bonus Magic Damage": "Magic: 50 / 80 / 110 / 140 / 170"
 					}
 				},
-				"":{
+				"Vault":{
 					"prop":{
-						"Active": "",
+						"Active": "Leo jumps away from your localtion, fires a burning flame at the localtion she escaped from, dealing magic  damage instant to the enemies in the area.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Leap",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+80% Physical Power)"
 					}
 				},
-				"":{
+				"Fire Ravens":{
 					"prop":{
-						"Active": "",
+						"Active": "Leo fires a fire raven that burning enemies in a line, split up to three fire ravens that start to search for three enemies nearby, can stuck to same enemy and do more damage. <br>Dealing magic damage to burned enemies and fire ravens burn they target and can stuck up to three ravens at the same target.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Burn": "Magic: 20 / 30 / 40 / 50 / 60 (+15 Magic Power)",
+						"Ravens": "Magic: 15 / 25 / 35 / 45 / 55 (+20 Magic Power)",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Pheonix Fire":{
 					"prop":{
-						"Active": "",
+						"Active": "Leo turns on the bow to the sides, sending a burning wave of wings, dealing physical damage to all enemies it fly through. Reaches quite far.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line",
+						"Radius": "240",
+						"Cost":"125 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 300 / 425 / 550 / 675 / 800"
 					}
 				}
 			}
@@ -505,50 +514,57 @@
 			"name": "Lucifer",
 			"class": "hunter",
 			"title": "Life Taker",
-			"desc": "",
+			"desc": "Lucifer is a vampire and living with his brothers and sister in the Abandoned Castle, he aren't just skilled with his bow and hunting skills, he can also taking life and create pain to his enemies. With both healing him self and dealing incredible damage, he become a dangerous vampire.",
 			"skill": {
-				"":{
+				"Bloody Hell":{
 					"prop":{
-						"Active": "",
+						"Active": "Lucifer launch a magical arrow, dealing magic damage with a bonus damage of they vurrent health and healing him self by a % of it.",
+						"Passive": "Enemies hit by Lucifer's arrows cause a blood drop with a maximum of 5 blood drops. Each blood drop let Bloody Hell deal a bonus magic damage to the enemies effected and heal him by the half amount of the bonus magic damage.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost": "40 / 50 / 60 / 70 / 80 health",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Blood Drop": "Magic: 40 (+2 per hero level = 80 at level 20)",
+						"Damage": "Physical: 40 / 65 / 90 / 115 / 140 (+50% Physical Power) (+50% Magic Power)",
+						"Current Health": "20%",
+						"Heal": "15%"
 					}
 				},
-				"":{
+				"Banish Life":{
 					"prop":{
-						"Active": "",
+						"Active": "Lucifer taking out health from enemies in the area, dealing true magic damage from a % of they maximum health.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "12 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Health": "True: 16 / 20 / 24 / 28 / 32 %"
 					}
 				},
-				"":{
+				"Physical Pain":{
 					"prop":{
-						"Active": "",
+						"Active": "Lucifer take a % of his own health, to increases his physical power for a short duration.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Buff",
+						"Cost":"0 mana",
+						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
+						"Health": "- 12 / 16 / 20 / 24 / 28 %",
+						"Physical Power": "15 / 24 / 33 / 42 / 51 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Vampiric Prison":{
 					"prop":{
-						"Active": "",
+						"Active": "Lucifer launch a magical root that roots the first enemy hit, extending slowly to nearby enemies. Touching other enemies they will take the same pain as the targeted enemy, deamling magic damage and a true magic damage of a % of they maximum health while they entangled.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line",
+						"Radius": "60 size",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 100 / 160 / 220 / 280 / 340 (+100% Physical Power) (+100% Magic Power)",
+						"Health": "True: 16 / 20 / 24 / 28 / 32 % (Over time)",
+						"Duration": "2 seconds"
 					}
 				}
 			}
@@ -556,51 +572,61 @@
 		"mei": {
 			"name": "Mei",
 			"class": "hunter",
-			"title": "Colded Pirate",
-			"desc": "",
+			"title": "The Ice Cold Pirate",
+			"desc": "Mei is a pirate living in Kingdom Port, took over her faders place by becom captain of the pirates. She got the best enchantress with her with name Melody, and have always trying to catch the sea queen Ashera. Because of her ice magic, she can freeze her enemies, create incredible walls of ice and freeze the water as well, letting her walk on the sea as if she own it!",
 			"skill": {
-				"":{
+				"Spittering Cristal":{
 					"prop":{
-						"Active": "",
+						"Active": "Mei shattering her loaded cristal, creates a cone of icicles front of her, chill and dealing physical damage to all enemies hit.",
+						"Passive": "Killing a minion creates a cone of icicles behind the killed minion and hit enemies in the cone, dealing physical damage and chill them, double effect if killing enemy hero.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Cone",
+						"Radius": "50 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 seconds",
+						"Damage": "Physical: 80 / 140 / 200 / 260 / 320 (+60% Physical Power)",
+						"Cone of Icicles": "Physical: 40 / 60 / 80 / 100 / 120 (+100% Physical Power)",
+						"Slow": "10%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Frozen Wall":{
 					"prop":{
-						"Active": "",
+						"Active": "Mei creates a frozen wall to stop enemies, active again or after the duration ends, the wall explode to icicles in a area around the wall, dealing physical damage to each enemy hit and create the same chill effects as Splittering Cristal. <br>Active again before doing the skill, change the angle.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Wall",
+						"Radius": "60 size",
+						"Area": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 40 / 60 / 80 / 100 / 120 (+100% Physical Power)",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Freeze":{
 					"prop":{
-						"Active": "",
+						"Active": "Mei spraying cold frost in a line, channeling while moving. Dealing physical damage to the enemy hit per second. <br>Freeze the enemy in a certain time and double effect to chilled enemies.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line, Channeling",
+						"Radius": "60 size",
+						"Cost":"14 mana (per second)",
+						"Cooldown":"12 seconds",
+						"Damage": "14 / 20 / 26 / 32 / 38 (+95% Physical Power)",
+						"Freeze Effect": "+20% per seconds",
+						"Freeze": "3 seconds"
 					}
 				},
-				"":{
+				"Frozen Field":{
 					"prop":{
-						"Active": "",
+						"Active": "Mei creates a cristal that chilling all enemies in a area and dealing physical damage per seconds, freeze enemies at last. <br>Double effect to chilled enemies.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "30 size",
+						"Cost":"100 / 110 / 120 / 130 / 140  mana",
+						"Cooldown":"90 seconds",
+						"Damage": "14 / 20 / 26 / 32 / 38 (+95% Physical Power)",
+						"Freeze Effect": "+20% per seconds",
+						"Freeze": "3 seconds"
 					}
 				}
 			}
@@ -608,51 +634,55 @@
 		"phia": {
 			"name": "Phia",
 			"class": "hunter",
-			"title": "Grenade Lover",
-			"desc": "",
+			"title": "The Deserted Bounty Hunter",
+			"desc": "Phia lives in the City of Desert as a bounty hunter, playing as a bandit self but lives to catch all the other bandits. Do always race by catching the bandits before the cowboy, Clear arrives. With her bola, bombs and her special crossbow she is prepared for fighting!",
 			"skill": {
-				"":{
+				"Bola Bomb":{
 					"prop":{
-						"Active": "",
+						"Active": "Phia throwing a bola at the first enemy hit in a line. Slowing the enemy before it's detonation, dealing physical damage to all enemies around the target.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "10 seconds",
+						"Damage": "Physical: 70 / 100 / 130 / 160 / 190 (+90% Physical Power)",
+						"Slow": "16 / 32 / 48 / 64 / 80 %",
+						"Detonation": "2 seconds"
 					}
 				},
-				"":{
+				"Three Arrows":{
 					"prop":{
-						"Active": "",
+						"Active": "Phia fires three arrows that piercing through enemies in a line, dealing physical damage to enemies hit.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Projectile",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 30 / 50 / 70 / 90 / 120 (+100% Physical Power) (per arrow)"
 					}
 				},
-				"":{
+				"Sentry":{
 					"prop":{
-						"Active": "",
+						"Active": "Phia lay a sentry on a targeted localtion, start to fire arrows at targeted enemies. Lasts up to 25 seconds. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Lay",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"10 seconds",
+						"Damage": "Physical: 20 / 30 / 40 / 50 / 60 (+40% Physical Power)",
+						"Sentry": "2"
 					}
 				},
-				"":{
+				"Ticking Bomb":{
 					"prop":{
-						"Active": "",
+						"Active": "Phia lay a ticking bomb on a targeted localtion, dealing physical damage to all enemies in the area around the bomb after the detonation.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "40 size",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 220 / 300 / 380 / 460 / 540 (+120% Physical Power)",
+						"Detonation": "3 seconds"
 					}
 				}
 			}
@@ -661,50 +691,57 @@
 			"name": "Raven",
 			"class": "hunter",
 			"title": "The Silent Archer",
-			"desc": "",
+			"desc": "Raven lives in the Abandoned City, found as just a child helpless without parents, was raised by the vampire Lucifer, now lives with her ravens as her name as well, and taking care of Sabrine as if she was her little sister. She fighting in silence as a hunter and can some magical tactics. She are to strong too be just a ordinary human!",
 			"skill": {
-				"":{
+				"Dark Arrow":{
 					"prop":{
-						"Active": "",
+						"Active": "Raven fires a dark arrow that piercing through enemies in a line, dealing magic damage and destroy they defence for a long duration.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "65 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 90 / 155 / 220 / 285 / 350 (+90% Physical Power)",
+						"Defence": "- 20%",
+						"Duration": "6 seconds"
 					}
 				},
-				"":{
+				"Silence":{
 					"prop":{
-						"Active": "",
+						"Active": "Raven cause a magical force on a area, silence the enemies and dealing magic damage to them.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"10 / 11 / 12 / 13 / 14 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+80% Magic Power)",
+						"Silence": "2,25 / 2,5 / 2,75 / 3 / 3,25 seconds seconds"
 					}
 				},
-				"":{
+				"Silent Leap":{
 					"prop":{
-						"Active": "",
+						"Active": "Raven leap to a localtion invisible. <br>Silent Strike: Her next basic attack silence the enemy and dealing a bonus magic damage, can't be silences for 3 seconds cooldown after Silent Strike, same to Silent Strike.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Leap, Stealth",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Stealth": "4 seconds",
+						"Bonus Damage": "Magic: 45 / 90 / 135 / 180 / 225",
+						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds"
+						
 					}
 				},
-				"":{
+				"Ravens":{
 					"prop":{
-						"Active": "",
+						"Active": "Raven summons her friends that targeting enemies inside the area, dealing physical damage over a duration. <br>Effected enemies can't go stright and they are slowed.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "40 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+60% Physical Power)",
+						"Duration": "5 seconds",
+						"Slow": "15%"
 					}
 				}
 			}
@@ -713,50 +750,56 @@
 			"name": "Richard",
 			"class": "hunter",
 			"title": "The Arcane Archer",
-			"desc": "",
+			"desc": "Richard lives in City of Mordune, engaged with Riley.",
 			"skill": {
-				"":{
+				"Arcane Bolts":{
 					"prop":{
-						"Active": "",
+						"Active": "Richard fires five bolts at random enemies, dealing magic damage each bolt. <br>Can crit.",
+						"Passive": "Basic attacks got a % of his magic power, he also got increased magic power.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Cone",
+						"Radius": "80 size",
+						"Cost": "60 / 65 / 70 / 75 / 80 mana",
+						"Cooldown": "10 seconds",
+						"Damage": "Magic: 60 / 110 / 160 / 210 / 260 (+90% Magic Power)",
+						"Magic Power": "20 / 30 / 40 / 50 / 60",
+						"Bonus Damage": "Magic: 24 / 48 / 72 / 96 / 120 % (Magic Power)"
 					}
 				},
-				"":{
+				"Arcane Prison":{
 					"prop":{
-						"Active": "",
+						"Active": "Richard sending three arcane pixies that ensnare the first enemy hit by a prison, dealing magic damage.",
+						"Item": "Create a shield that deflect the first magical tactic on you, increases your mana and your Magic Power as well.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Projectile",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"13 / 12 / 11 / 10 / 9 seconds",
+						"Damage": "Magic: 80 / 100 / 120 / 140 / 160 (+20% of ability power) (+1% bonus mana)",
+						"Duration": "1 seconds"
 					}
 				},
-				"":{
+				"Teleport":{
 					"prop":{
-						"Active": "",
+						"Active": "Richard teleport to a localtion, silence enemies in the targeted area and dealing magic damage to them. <br>Reduction 50% cooldown for Arcane Bolts.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Teleport",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+80% Physical Power)",
+						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds"
 					}
 				},
-				"":{
+				"Massive Arcane":{
 					"prop":{
-						"Active": "",
+						"Active": "Richard sending a % of his mana to an increadible arrow, dealing magic damage to all enemies in a line.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Line",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"12% mana",
+						"Cooldown":"None",
+						"Damage": "Magic: 100 / 145 / 190 / 235 / 280 (+60% Magic Power)"
 					}
 				}
 			}
@@ -765,50 +808,57 @@
 			"name": "Rogue",
 			"class": "hunter",
 			"title": "The Trucker",
-			"desc": "",
+			"desc": "Rogue lives in the wild, ",
 			"skill": {
-				"":{
+				"Boomerang":{
 					"prop":{
-						"Active": "",
+						"Active": "Rogue throwing a boomerang like a half moon, stunning enemies hit and dealing physical damage. <br>Active twise, she throwing the boomerang in a line instead, dealing half of the physical damage, but teleport to it's end. Double damage to minions and monsters.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12",
+						"Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+120% Physical Power)",
+						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
 					}
 				},
-				"":{
+				"Trucking":{
 					"prop":{
-						"Active": "",
+						"Active": "Rogue play a sound from her fluet, increases her and her allies attack speed for a long duration.",
+						"Passive": "Now you see footsteps from enemies 5 seconds behind and you both hear nearby enemies footsteps and can see a red arrow at what direction you hearing them.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Area",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Attack Speed": "10 / 20 / 30 / 40 / 50 %",
+						"Duration:": "6 seconds"
 					}
 				},
-				"":{
+				"Hunting Experience":{
 					"prop":{
-						"Active": "",
+						"Active": "Rogue leap to a targeted localtion, dealing physical damage to all enemies in the area, decreases they defence for a short duration. <br>Bow: Rogue launch arrows at a targeted localtion, slows and dealing physical damage to enemies.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Leap / Ground Target",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "80 / 140 / 210 / 270 / 340 (+80 Physical Power)",
+						"Defence": "- 10 / 15 / 20 / 25 / 30 %",
+						"Slow": "25%",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Bow":{
 					"prop":{
-						"Active": "",
+						"Active": "Rogue switch to her bow, increases her Armor Penetration while she holding her bow. <br>While she has her dagger, increases her crit chance and crit damage with a bloody effect.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Switch Stance",
+						"Cost":"None",
+						"Cooldown":"None",
+						"Armor Penetration": "15 / 20 / 25 / 30 / 35 %",
+						"Crit Chance": "10 / 20 / 30 / 40 / 50 %",
+						"Crit Damage": "40 / 80 / 120 / 160 / 200 %"
 					}
 				}
 			}
@@ -816,51 +866,58 @@
 		"simin": {
 			"name": "Simin",
 			"class": "hunter",
-			"title": "Bolts of Silver",
-			"desc": "",
+			"title": "Demon Hunter",
+			"desc": "Simin lives in Mordune, always fighting side by side with Diode and Tigra, But often in search after demons and vampire like a phantom, while Diode and Tigra stay in the kingdom for the protection in the military and the royal family.",
 			"skill": {
-				"":{
+				"Piercing Arrow":{
 					"prop":{
-						"Active": "",
+						"Active": "Simin fires an arrow that piercing through enemies in a line, dealing piercing damage.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120 Physical Power)",
+						"Piercing": "32% (+2% per hero level = 72% at level 20)"
 					}
 				},
-				"":{
+				"Mercury HG / Arrow Bomb":{
 					"prop":{
-						"Active": "",
+						"Active": "Simin launch an arrow at a targeted localtion, dealing physical damage to all enemies in that small area. <br>Can't fires in a short range, but have increased sight.",
+						"Passive": "Basic attacks from Simins arrows effecting your enemies with a poison from toxic silver, dealing physical damage over time. <br>Effected enemies can't become invisible and let you see them in a longer range.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "12 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"None",
+						"Toxic": "Physical: 25 / 28 / 31 / 34 / 37 (+15% Physical Power)",
+						"Duration": "5 seconds",
+						"Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+60% Physical Power)"
 					}
 				},
-				"":{
+				"Spitting Arrow":{
 					"prop":{
-						"Active": "",
+						"Active": "Simin launch an arrow that explode on your target, creates sharp pieces as a cone, dealing physical damage to the targeted enemy and an other damage to they behind. <br>Enemies hit by the projectiles also got the toxic.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Projectile",
+						"Radius": "70 size (Cone: 40 size)",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"11 seconds",
+						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120 Physical Power)",
+						"Cone Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+100% Physical Power)"
 					}
 				},
-				"":{
+				"Awesome Arrow":{
 					"prop":{
-						"Active": "",
+						"Active": "Samin launch a great arrow in a line, the first enemy hit got pushed back, dealing physical damage to the target and an other damage to all enemies the pushed enemy hit and also knock they back too. <br>If the target hit a wall, turrent or a tree they be stunned.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 240 / 400 / 560 / 720 / 880 (+100% Physical Power)",
+						"Knock Damage": "Physical: 140 / 300 / 460 / 620 / 780 (+100% Physical Power)",
+						"Stun": "2 seconds"
 					}
 				}
 			}
@@ -869,50 +926,59 @@
 			"name": "Snow",
 			"class": "hunter",
 			"title": "The Bounty Hunter",
-			"desc": "",
+			"desc": "Snow lives in Winterfall, lives to catch all bounties.",
 			"skill": {
-				"":{
+				"Bounty Bomb":{
 					"prop":{
-						"Active": "",
+						"Active": "Snow fires an arrow at the first enemy hit, detornate after 1,5 seconds after hit an enemy, dealing physical damage and can crit. <br>In crit, the detonate dealing true damage.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "9 seconds",
+						"Damage": "Physical: 120 / 140 / 160 / 180 / 200 % Physical Power",
+						"Detonate Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+90% Physical Power)"
 					}
 				},
-				"":{
+				"Stars":{
 					"prop":{
-						"Active": "",
+						"Active": "Snow fires metal stars that piercing through enemies in a cone, dealing physical damage and make them bleed and become slowed while bleeding.",
+						"": "",
+						"Ability": "Cone",
+						"Radius": "50 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"12 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+70% Physical Power)",
+						"Bleed": "Physical: 25 / 35 / 45 / 55 / 65 (+5% Physical Power)",
+						"Slow": "15 / 25 / 35 / 45 / 55%",
+						"Duration": "3 seconds"
+					}
+				},
+				"Jump":{
+					"prop":{
+						"Active": "Snow jump over things he get close to, increases his movement speed and attack speed a short duration.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"None",
+						"Cooldown":"None",
+						"Movement Speed": "20 / 30 / 40 / 50 / 60 %",
+						"Attack Speed": "20 / 30 / 40 / 50 / 60 %",
+						"Duration": "2,5 seconds"
 					}
 				},
-				"":{
+				"Tactical Stance":{
 					"prop":{
-						"Active": "",
+						"Active": "Snow targeting a nearby tree, turrent, building or other high things, ignoring all harming or effects and let your Stars fire at a ground target, Bounty Bomb also hit a ground target, detonate and dealing half of it's physical damage as true damage to all enemies in the targeted area. <br>Leaves make you jump to a targeted localtion.",
+						"Passive": "Snow got increased crit damage.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cost":"None",
 						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Duration": "3,5 seconds",
+						"Ground Target": "30 size",
+						"Crit Damage": "50 / 100 / 150 / 200 / 250 %"
 					}
 				}
 			}
@@ -921,50 +987,64 @@
 			"name": "Spiro",
 			"class": "hunter",
 			"title": "The Spirit Seeker",
-			"desc": "",
+			"desc": "Spiro is a elven who lives in City of Forest, big brother to Chantrea, but chose the spiritual power front of the royal duty. Chantrea got the moon power, but Spiro developed a spiritual power from the inner him created by spiritual energy from the nature.",
 			"skill": {
-				"":{
+				"Shooting Vault":{
 					"prop":{
-						"Active": "",
+						"Active": "Spiro launch an arrow to a targeted localtion while vault to the direction he goes, dealing physical damage to all enemies in the small area from a spiritual field created by the arrow that also slowing them.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Ground Target, Dash",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+100% Physical Power)",
+						"Slow": "25%",
+						"Duration": "2 seconds"
 					}
 				},
-				"":{
+				"Spirit Seeker":{
 					"prop":{
-						"Active": "",
+						"Active": "Spiro summons a spirit that searching for enemies, floating around in the targeted localtion for 30 seconds and sense stealthed enemies. Dealing physical damage and slowing the targeted enemy it find. <br>This spirit is invisible to it catch one enemy and can just catch same enemy each spirit.",
+						"": "",
+						"Ability": "Summon, Ground Target",
+						"Radius": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 50 / 60 / 70 / 80 / 90 (+36% Physical Power)",
+						"Slow": "25%",
+						"Duration": "3 seconds",
+						"Summon": "1 / 1 / 2 / 2 / 3"
+					}
+				},
+				"Stacking Arrows":{
+					"prop":{
+						"Active": "Spiro detonate the power of his spiritual arrows stack at enemies, dealing physical damage to all enemies stack by arrows and become slowed.",
+						"Passive": "All basic attacks stacking at enemies body.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 40 / 70 / 100 / 130 / 160 (+30% Physical Power) (per arrow stack)",
+						"Slow": "25%",
+						"Duration": "3 seconds",
+						"Arrows": "5 max",
+						"Stack Duration": "8 seconds (out of combat)"
 					}
 				},
-				"":{
+				"Secret Power":{
 					"prop":{
-						"Active": "",
+						"Active": "Spiro take his life for every arrow launched, but he got increased Physical Power and every basic attack, a spiritual nova is created and dealing physical damage to all closed enemies.",
+						"Passive": "Spiro got increased Life steal.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Buff, Area",
+						"Radius": "30 size",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 30 / 50 / 70 / 90 / 110 (+100% Physical Power)",
+						"Physical Power": "40 / 50 / 60 / 70 / 80",
+						"Life Steal": "16 / 20 / 24 / 28 / 32 %",
+						"Duration": "5 seconds"
 					}
 				}
 			}
@@ -973,50 +1053,55 @@
 			"name": "Tumblr",
 			"class": "hunter",
 			"title": "The Shielded Huntress",
-			"desc": "",
+			"desc": "Tumblr lives in Winterfall, loving then Dwarlin always pick a fight agenst her, sees him like a little brother of his size. She's like a great viking, with her tactics with her shield and spear she is increadible in fights!",
 			"skill": {
-				"":{
+				"Four Spears":{
 					"prop":{
-						"Active": "",
+						"Active": "Tumblrs next four basic attacks got an increased attack speed and the spears got armor penetration.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Buff",
+						"Cost": "60 / 65 / 70 / 75 / 80 mana",
+						"Cooldown": "11 seconds",
+						"Attack Speed": "20 / 30 / 40 / 50 / 60 %",
+						"Armor Penetration": "10 / 20 / 30 / 40 / 50 %"
 					}
 				},
-				"":{
+				"Block":{
 					"prop":{
-						"Active": "",
+						"Active": "Tumblr shield her self and block a % of all incoming damage at her front for a short duration.",
+						"Passive": "She got a block chance agenst projectiles, block 80% of the damage.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Buff",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Block": "50%",
+						"Block Chance": "10 / 20 / 30 / 40 / 50 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Targeted Area":{
 					"prop":{
-						"Active": "",
+						"Active": "Tumblr throw her spear at a targeted localtion, dealing physical damage to all enemies in the area and slowing them. <br>Taking this up decreases the cooldown of this skill.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"90 seconds",
+						"Damage": "Physical 90 / 140 / 190 / 240 / 290 (+90% Physical Power)",
+						"Slow": "25%",
+						"Decreased Cooldown": "50%"
 					}
 				},
-				"":{
+				"On The Hunt":{
 					"prop":{
-						"Active": "",
+						"Active": "Tumblr increases her and her allies movement speed for a long duration. <br>In the duration, her Four Spears got a increased attack speed.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Buff",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Movement Speed": "20 / 30 / 40 / 50 / 60 %",
+						"Attack Speed": "20 / 30 / 40 / 50 / 60 %",
+						"Duration": "8 seconds"
 					}
 				}
 			}
