@@ -55,6 +55,17 @@
 						"Stun": "1 seconds"
 					}
 				}
+			},
+			"skin" : {
+				"Test skin 1": {
+					"link": "test_skin"
+				},
+				"Test skin 2": {
+					"link": "test_skin"
+				},
+				"Test skin 3": {
+					"link": "test_skin"
+				}
 			}
 		},
 		"aria": {
