@@ -55,18 +55,7 @@
 						"Stun": "1 seconds"
 					}
 				}
-			},
-			"skin" : {
-				"Test skin 1": {
-					"link": "test_skin"
-				},
-				"Test skin 2": {
-					"link": "test_skin"
-				},
-				"Test skin 3": {
-					"link": "test_skin"
-				}
-			}
+			}	
 		},
 		"aria": {
 			"name": "Aria",
@@ -290,6 +279,14 @@
 						"Duration": "5 secodns"
 					}
 				}
+			},
+			"skin" : {
+				"Clear - Cat Woman": {
+					"link": "clear1"
+				},
+				"Clear - Chain Breaker": {
+					"link": "clear2"
+				}
 			}
 		},
 		"dwarlin": {
@@ -464,6 +461,11 @@
 						"Full Size Damage": "240 / 290 / 340 / 390 / 440"
 					}
 				}
+			},
+			"skin" : {
+				"Green Lancel": {
+					"link": "lancel1"
+				}
 			}
 		},
 		"leo": {
@@ -518,6 +520,11 @@
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 300 / 425 / 550 / 675 / 800"
 					}
+				}
+			},
+			"skin" : {
+				"Red Pheonix Leo": {
+					"link": "leo1"
 				}
 			}
 		},
@@ -812,6 +819,11 @@
 						"Cooldown":"None",
 						"Damage": "Magic: 100 / 145 / 190 / 235 / 280 (+60% Magic Power)"
 					}
+				}
+			},
+			"skin" : {
+				"Hawkeye Richard": {
+					"link": "richard1"
 				}
 			}
 		},
@@ -1488,6 +1500,38 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Armored Golem": {
+					"link": "golem1"
+				},
+				"Childminders Golem": {
+					"link": "golem2"
+				},
+				"Golem Fatso": {
+					"link": "golem3"
+				},
+				"Frost Golem": {
+					"link": "golem4"
+				},
+				"Golem Frankenstein": {
+					"link": "golem5"
+				},
+				"Iron Golem": {
+					"link": "golem6"
+				},
+				"King Kong": {
+					"link": "golem7"
+				},
+				"RIP Golem": {
+					"link": "golem8"
+				},
+				"Totem Golem": {
+					"link": "golem9"
+				},
+				"Volcano Golem": {
+					"link": "golem10"
+				}
 			}
 		},
 		"oone": {
@@ -1695,6 +1739,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Royal Gold Rebecca": {
+					"link": "rebecca1"
 				}
 			}
 		},
@@ -2069,6 +2118,26 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Drya - Fall": {
+					"link": "drya1"
+				},
+				"Drya - Forest Queen": {
+					"link": "drya2"
+				},
+				"Drya - Human Girl": {
+					"link": "drya3"
+				},
+				"Drya - Little Leaf": {
+					"link": "drya4"
+				},
+				"Drya - Shadow Thorn": {
+					"link": "drya5"
+				},
+				"Drya - Summer": {
+					"link": "drya6"
+				}
 			}
 		},
 		"hana": {
@@ -2120,6 +2189,26 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Black Blade Hana": {
+					"link": "hana1"
+				},
+				"Cherry Blossom Hana": {
+					"link": "hana2"
+				},
+				"Masked Fox Hana": {
+					"link": "hana3"
+				},
+				"Ninja Blade Hana": {
+					"link": "hana4"
+				},
+				"Princess Hana": {
+					"link": "hana5"
+				},
+				"Samurai Soldier Hana": {
+					"link": "hana6"
 				}
 			}
 		},
@@ -2225,6 +2314,17 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Elven Rogue Katana": {
+					"link": "katana1"
+				},
+				"Perfect Shadow Katana": {
+					"link": "katana2"
+				},
+				"Pirate Rogue Katana": {
+					"link": "katana3"
+				}
 			}
 		},
 		"leanish": {
@@ -2329,6 +2429,14 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Purple Phantom Lotus": {
+					"link": "lotus1"
+				},
+				"Twin Blade Pirate Lotus": {
+					"link": "lotus2"
+				}
 			}
 		},
 		"maria": {
@@ -2432,6 +2540,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Masked Horror Razor": {
+					"link": "razor1"
 				}
 			}
 		},
@@ -2641,6 +2754,26 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Black Mamba Suki": {
+					"link": "suki1"
+				},
+				"Blondy Suki": {
+					"link": "suki2"
+				},
+				"Bone Dragon Suki": {
+					"link": "suki3"
+				},
+				"Demon Queen Suki": {
+					"link": "suki4"
+				},
+				"Meow": {
+					"link": "suki5"
+				},
+				"Purple Lover Suki": {
+					"link": "suki6"
+				}
 			}
 		},
 		"tigra": {
@@ -2693,6 +2826,14 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"City Tiger Tigra": {
+					"link": "tigra1"
+				},
+				"Crow Tigra": {
+					"link": "tigra2"
+				}
 			}
 		},
 		"walladin": {
@@ -2744,6 +2885,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Cold Winter Walladin": {
+					"link": "walladin1"
 				}
 			}
 		},
@@ -2805,6 +2951,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Alisha - Royal Pirate": {
+					"link": "alisha1"
 				}
 			}
 		},
@@ -3378,6 +3529,20 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Arc Angel Lerala": {
+					"link": "lerala1"
+				},
+				"Great Sword Lerala": {
+					"link": "lerala2"
+				},
+				"Young Priest Lerala": {
+					"link": "lerala3"
+				},
+				"Military Human Lerala": {
+					"link": "lerala4"
+				}
 			}
 		},
 		"neo": {
@@ -3429,6 +3594,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Demon Pirate Neo": {
+					"link": "neo1"
 				}
 			}
 		},
@@ -3482,6 +3652,11 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Lava Queen Pheola": {
+					"link": "pheola1"
+				}
 			}
 		},
 		"leonora": {
@@ -3533,6 +3708,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Human Princess Leonora": {
+					"link": "leonora1"
 				}
 			}
 		},
@@ -3637,6 +3817,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Captain Scar": {
+					"link": "scar1"
 				}
 			}
 		},
@@ -3846,6 +4031,17 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Black Master Vlad": {
+					"link": "vlad1"
+				},
+				"Hollowfied Vampire Vlad": {
+					"link": "vlad2"
+				},
+				"Vampire Pirate Vlad": {
+					"link": "vlad3"
+				}
 			}
 		},
 		"wolvern": {
@@ -3897,6 +4093,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Pet Pirate Wolvern": {
+					"link": "wolvern1"
 				}
 			}
 		},
@@ -4010,6 +4211,14 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Allegra - Fiol Player": {
+					"link": "allegra1"
+				},
+				"Allegra - Skeleton Rock": {
+					"link": "allegra2"
 				}
 			}
 		},
@@ -4583,6 +4792,11 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Young Shaman Helani": {
+					"link": "helani1"
+				}
 			}
 		},
 		"kaprisha": {
@@ -4687,6 +4901,23 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Dark Water Kida": {
+					"link": "kida1"
+				},
+				"Normal Water Girl Kida": {
+					"link": "kida2"
+				},
+				"Normal Water Girl Kida [Red]": {
+					"link": "kida3"
+				},
+				"Water Queen Kida": {
+					"link": "kida4"
+				},
+				"Water Dragon Kida": {
+					"link": "kida5"
+				}
 			}
 		},
 		"leila": {
@@ -4738,6 +4969,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Desert Darkness Leila": {
+					"link": "leila1"
 				}
 			}
 		},
@@ -4791,6 +5027,11 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Mother Ruler Lilith": {
+					"link": "lilith1"
+				}
 			}
 		},
 		"liza": {
@@ -4842,6 +5083,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Green Fairy Liza": {
+					"link": "liza1"
 				}
 			}
 		},
@@ -4895,6 +5141,20 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Armored Magi": {
+					"link": "magi1"
+				},
+				"Eagle Girl Magi": {
+					"link": "magi2"
+				},
+				"Goth Magi": {
+					"link": "magi3"
+				},
+				"Pink Feather Magi": {
+					"link": "magi4"
+				}
 			}
 		},
 		"malin": {
@@ -4946,6 +5206,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Priest Master Malin": {
+					"link": "malin1"
 				}
 			}
 		},
@@ -5102,6 +5367,14 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Puppet Rogue": {
+					"link": "mia1"
+				},
+				"Queen of Puppets": {
+					"link": "mia2"
 				}
 			}
 		},
@@ -5571,6 +5844,11 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Halloween Selene": {
+					"link": "selene1"
+				}
 			}
 		},
 		"talon": {
@@ -5675,6 +5953,17 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Death Talutha": {
+					"link": "talutha1"
+				},
+				"Infection Brain Talutha": {
+					"link": "talutha2"
+				},
+				"Red Beauty Talutha": {
+					"link": "talutha3"
+				}
 			}
 		},
 		"ulf": {
@@ -5778,6 +6067,11 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Vampire Mother Vladdina": {
+					"link": "vladdina1"
 				}
 			}
 		}
