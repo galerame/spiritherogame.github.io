@@ -2120,22 +2120,22 @@
 				}
 			},
 			"skin" : {
-				"Drya - Fall": {
+				"Fall Drya": {
 					"link": "drya1"
 				},
-				"Drya - Forest Queen": {
+				"Forest Queen Drya": {
 					"link": "drya2"
 				},
-				"Drya - Human Girl": {
+				"Human Girl Drya": {
 					"link": "drya3"
 				},
-				"Drya - Little Leaf": {
+				"Little Leaf Drya": {
 					"link": "drya4"
 				},
-				"Drya - Shadow Thorn": {
+				"Shadow Thorn Drya": {
 					"link": "drya5"
 				},
-				"Drya - Summer": {
+				"Summer Drya": {
 					"link": "drya6"
 				}
 			}
@@ -4214,10 +4214,10 @@
 				}
 			},
 			"skin" : {
-				"Allegra - Fiol Player": {
+				"Violin Player Allegra": {
 					"link": "allegra1"
 				},
-				"Allegra - Skeleton Rock": {
+				"Skeleton Rock Allegra": {
 					"link": "allegra2"
 				}
 			}
