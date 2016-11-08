@@ -1141,51 +1141,118 @@
 		"anders": {
 			"name": "Anders",
 			"class": "tank",
-			"title": "Spirit Torturer",
-			"desc": "",
+			"title": "The Spirit Torturer",
+			"desc": "Anders lives in Mordune, right hand to the king and working to get the truth from the criminals. He's a perfect spirit user, creating spiritual weapons to catch or pierce enemies body just to hurt or torture enemies.",
 			"skill": {
-				"":{
+				"Spirit Hammer":{
 					"prop":{
-						"Active": "",
+						"Active": "Anders strike enemies with a spiritual hammer that crushing they spirit, dealing magic damage and slowing them. <br>Strike at three different stances. In a line, in a cone or in a area.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
+						"Ability": "Line, Cone, Area",
+						"Radius": "70, 50 , 45",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "11, 11, 11 seconds",
+						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+50% Magic Power)",
+						"Slow": "25%",
+						"Duration": "2,5 seconds"
 					}
 				},
-				"":{
+				"Spirit Swords":{
 					"prop":{
-						"Active": "",
+						"Active": "In an area, Anders creates four spiritual swords that strike all at once, dealing magic damage and slowing them.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 100 / 155 / 210 / 265 / 320 (+50% Magic Power)",
+						"Slow": "25%",
+						"Duration": "2,5 seconds"
 					}
 				},
-				"":{
+				"Chained":{
 					"prop":{
-						"Active": "",
+						"Active": "Anders catch the first enemy hero hit in a line, dealing physical damage and slowing they. <br>Ending if they escape the maximum size.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"70 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 55 / 90 / 125 / 160 / 195 (+90% Physical Power)",
+						"Slow": "25%",
+						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds",
+						"Size": "90"
 					}
 				},
-				"":{
+				"Torture":{
 					"prop":{
-						"Active": "",
+						"Active": "Anders catch all enemies in a big size around him, if they stay inside the size, they become pulled to him after 2,5 seconds, dealing physical damage to pulled enemies, but before the pull, they become slowed. <br>He can walk while he chained them, but become stunned for 0,5 seconds after pulling them.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "100 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 200 / 275 / 350 / 425 / 500 (+40% Physical Power)",
+						"Slow": "80%",
+						"Size": "120"
+					}
+				}
+			}
+		},
+		"asula": {
+			"name": "Asula",
+			"class": "tank",
+			"title": "Full Armored Princess",
+			"desc": "Princess Asula lives in the city of Kingdom Port, the oldest sister by Anni, Aenna and cousin to Diode from City of Mordune. Asula is inherited the throne, she is the captain by the military forces, side by side with Tána and they healer Malin. With her magical powers increases her tactics in the fights.",
+			"skill": {
+				"Sola Blade":{
+					"prop":{
+						"Active": "Asula sending a magical energy from her sword, dealing magic damage to all enemies hit in a line. It also catch the last enemy hero hit, let her dash to the targeted hero and stunning all enemies in the way by her shield and pull them away a bit. <br>Stunned enemies taking a bonus damage from your armor.",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 / 14 / 13 / 12 / 11",
+						"Damage": "Magic: 80 / 130 / 180 / 230 / 280 (+50% Magic Power)",
+						"Stun": "1 seconds",
+						"Stun Damage": "Physical: 35 % Armor"
+					}
+				},
+				"Calling to War":{
+					"prop":{
+						"Active": "Asula increases her and her allies physical and magic power for a short duration.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"60 mana",
+						"Cooldown":"18 seconds",
+						"Bonus Physical Power": "20 / 30 / 40 / 50 / 60",
+						"Bonus Magic Power": "20 / 30 / 40 / 50 / 60",
+						"Duration": "4 seconds"
+					}
+				},
+				"Magical Mirror":{
+					"prop":{
+						"Active": "Asula creates a magical mirror on her shield, creates a destructive armor front of her. <br>The first ability projectile that hit the mirror, sends back and this mirror will end.",
+						"": "",
+						"Ability": "Shield",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"13 seconds",
+						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100",
+						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4"
+					}
+				},
+				"Angel Wings":{
+					"prop":{
+						"Active": "Asula gain power from the angels, heal her and her allies around her per second and increases they and her magic protection for the healing duration.",
+						"": "",
+						"Ability": "Buff, Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Heal": "20 per 0,5 seconds",
+						"Magic Protection": "40 / 50 / 60 / 70 / 80",
+						"Duration": "4 seconds"
 					}
 				}
 			}
@@ -1590,58 +1657,6 @@
 			"name": "Pius",
 			"class": "tank",
 			"title": "Fighter for Justice",
-			"desc": "",
-			"skill": {
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				}
-			}
-		},
-		"asula": {
-			"name": "Asula",
-			"class": "tank",
-			"title": "Full Armored Princess",
 			"desc": "",
 			"skill": {
 				"":{
