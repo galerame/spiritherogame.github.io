@@ -8,13 +8,14 @@
 			"skill": {
 				"Polecats":{
 					"prop":{
-						"Active": "Anni summon polecats that fighting for you, fetch enemies in the area and dealing physical damage.",
+						"Active": "Anni summon polecats that fighting for you, fetch enemies in the area and dealing physical damage. <br>As the polecats can't be touched, but affected enemies become slowed while running around they legs.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius":"12 Size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "15 / 14 / 13 / 12 / 11 seconds",
 						"Damage": "Physical: 12 / 14 / 16 / 18 / 20 (+15% Physical Power)",
+						"Slow": "10% (+10% each polecat)",
 						"Polecats": "7",
 						"Duration": "4 seconds"
 					}
@@ -401,6 +402,64 @@
 						"Cost":"0 mana",
 						"Cooldown":"45 / 42 / 39 / 36 / 34 seconds",
 						"Magic Power": "20 / 40 / 60 / 80 / 100 (+2 per level = 40 at level 20)"
+					}
+				}
+			}
+		},
+		"frank": {
+			"name": "Frank",
+			"class": "hunter",
+			"title": "The Alchemist",
+			"desc": "Frank own The Library Tower and got a own labb under his office where he experiments with the experimental rats, and other animals, He doesn't has experience by using magic, but his own working poisons makes him more excited in fights with his crossbow.",
+			"skill": {
+				"Poisen":{
+					"prop":{
+						"Active": "Frank throw a poison at a target localtion, affect all enemies with poisen, dealing true magic damage per seconds over a time.",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "30 size",
+						"Cost": "None",
+						"Cooldown": "18 / 17 / 16 / 15 / 14 seconds",
+						"Damage": "True: 72 / 108 / 144 / 180 / 216 (+100% Magic Power)",
+						"Duration": "Over 6 seconds"
+					}
+				},
+				"Poisons":{
+					"prop":{
+						"Active": "Frank throw a poison at a target localtion, randomly affects enemies by Confusion, Contrarwise, Charm or Mesmerize over a duration. All enemies got randomly affects, but monsters just got confused and decreased Armor. <br>Active again he switch poison to give allies in a target localtion mana and magic protection.",
+						"": "",
+						"Ability": "Ground Target, Debuff/Buff",
+						"Radius": "40 size",
+						"Cost":"None",
+						"Cooldown":"14 seconds",
+						"Mana": "80 / 100 / 120 / 140 / 160",
+						"Magic Protection": "10 / 20 / 30 / 40 / 50",
+						"Duration": "3 seconds",
+						"Armor": "-30%",
+						"Affected": "1,5 / 1,75 / 2 / 2,25 / 2,5 seconds"
+					}
+				},
+				"Drink":{
+					"prop":{
+						"Active": "Frank drink a poison, increases his power and attack speed over a time.",
+						"": "",
+						"Ability": "Buff",
+						"Cost":"None",
+						"Cooldown":"16 seconds",
+						"Power": "20 / 30 / 40 / 50 / 60",
+						"Attack Speed": "15 / 20 / 25 / 30 / 35%",
+						"Duration": "4 seconds",
+					}
+				},
+				"Explosive Poison":{
+					"prop":{
+						"Active": "Frank throw a poison at a target localtion, blast the area and dealing physical damage to all enemies hit.",
+						"Passive": "Frank go in stealth mode after 5 seconds if out of combat.",
+						"": "",
+						"Ability": "Grount Target",
+						"Cost":"None",
+						"Cooldown":"90 seconds",
+						"Damage": "350 / 400 / 450 / 500 / 550 (+110% Magic Power)"
 					}
 				}
 			}
@@ -1212,7 +1271,7 @@
 						"Ability": "Ground Target",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "14 / 14 / 13 / 12 / 11",
+						"Cooldown": "14 / 14 / 13 / 12 / 11 seconds",
 						"Damage": "Magic: 80 / 130 / 180 / 230 / 280 (+50% Magic Power)",
 						"Stun": "1 seconds",
 						"Stun Damage": "Physical: 35 % Armor"
@@ -1261,50 +1320,54 @@
 			"name": "Diana",
 			"class": "tank",
 			"title": "Cleric of The Sun",
-			"desc": "",
+			"desc": "Diana lives in the holy church in City of Kingdom Port, best friend to Ania, Pius and Malin. She also is a cleric that believes in the goddes of the sun, blinding enemies and burning them with her spear by holy magic.",
 			"skill": {
-				"":{
+				"Burning Spear":{
 					"prop":{
-						"Active": "",
+						"Active": "Diana throwing a spear of flames, dealing magic damage to all enemies hit in a line.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 100 / 150 / 200 / 250 / 300 (+50% Magic Power)"
 					}
 				},
-				"":{
+				"Eclipse":{
 					"prop":{
-						"Active": "",
+						"Active": "Diana creates a magical shield around her, absorbing all sorts of attacks the following duration. <br>The end of the duration, the shield expires and creating a nova that dealing magic damage to all enemies in a area. A % of all absorbing damage, increases this nova damage.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Shield, Area",
+						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Shield": "10 / 15 / 20 / 25 / 30 %",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+50% Magic Power)",
+						"Absorbing": "50%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Sun Light":{
 					"prop":{
-						"Active": "",
+						"Active": "Diana blindes enemies with her shield in a cone for 1 second, decreases they protection for a short duration and they can't move stright.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Cone",
+						"Radius": "50 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"10 seconds",
+						"Protection": "6 / 12 / 18 / 24 / 30 / 36 %",
+						"Duration": "2,5 / 2,75 / 3 / 3,25 / 3,5 seconds"
 					}
 				},
-				"":{
+				"Sun Power":{
 					"prop":{
-						"Active": "",
+						"Active": "Diana sending a light from the sky, stunning enemies hit for 1 second in the targeted localtion and dealing magic damage.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "30 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 250 / 350 / 450 / 550 / 650 (+50% Magic Power)"
 					}
 				}
 			}
@@ -1313,50 +1376,57 @@
 			"name": "Diode",
 			"class": "tank",
 			"title": "The Crusader",
-			"desc": "",
+			"desc": "Diode lives in the City of Mordune, cousin to princess Asula in Kingdom Port, rival to the shield master Rebecca in Neutral City of Kings and Queens, lives as a crusaider and also is a believer. Crushing enemies with her mace and always are good with her shouting voice to taunting enemies!",
 			"skill": {
-				"":{
+				"Mace Swing":{
 					"prop":{
-						"Active": "",
+						"Active": "Diode strike with her mace increased by god power, dealing physical damage to all enemies in a cone and destroying they armor for a short duration.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Cone",
+						"Radius": "50 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+75% Physical Power)",
+						"Armor": "15 / 20 / 25 / 30 / 35%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Taunt":{
 					"prop":{
-						"Active": "",
+						"Active": "Diode taunt all enemies around her, give her a bonus destructive armor per enemy taunted.",
+						"Passive": "Diode got a buff called Revansh, increases the damage to her next strike with Mace Swing. <br>The buff stacks every time she take damage.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "50 size",
+						"Cost":"70 mana",
+						"Cooldown":"15 seconds",
+						"Revansh": "10% (100% maximum stack)",
+						"Taunt": "2 / 2,5 / 3 / 3,5 / 4 seconds",
+						"Destructive Armor": "60 / 100 / 140 / 180 / 220",
+						"Duration": "6 seconds"
 					}
 				},
-				"":{
+				"Dancing Swords":{
 					"prop":{
-						"Active": "",
+						"Active": "Diode trap enemies inside a circle with swords circulating the area, dealing physical damage per second to enemies inside the area. <br>Enemies can't go out or in to/from the area.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 15 / 25 / 35 / 45 / 55 (+5% Physical Power)",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Healping Hand":{
 					"prop":{
-						"Active": "",
+						"Active": "Diode be lift by an angel, after lock a target location, she strike at the area, stunning enemies and dealing physical damage. <br>Diode can't be attacked then she up on the sky.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "40 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 150 / 200 / 250 / 300 / 350 (+50% Physical Power)"
 					}
 				}
 			}
@@ -1365,50 +1435,58 @@
 			"name": "Dracula",
 			"class": "tank",
 			"title": "Vampire Lord",
-			"desc": "",
+			"desc": "Dracula lives in the Abandoned Castle, oldest by the sister and brothers, and also the leader of the vampires. He got a blade and his gigantic shield by a head of the king of the bats in the demon world, because of his gigantic body and wings he can be kind of dangerous by also ignoring he got pain.",
 			"skill": {
-				"":{
+				"Monstrous Bite":{
 					"prop":{
-						"Active": "",
+						"Active": "Dracula strike all enemies in a cone front of him with a gigantic bite, dealing physical damage and heal him a % of all the damage from each enemy. Enemies hit become slowed for a short duration.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Cone",
+						"Radius": "35 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 seconds",
+						"Damage": "Physical: 70 / 130 / 190 / 250 / 310 (+90% Physical Power)",
+						"Heal": "15 / 18 / 21 / 24 / 27%",
+						"Slow": "80%",
+						"Duration": "1,5 seconds"
 					}
 				},
-				"":{
+				"Funny Kick":{
 					"prop":{
-						"Active": "",
+						"Active": "Dracula kick one enemy away in a line, dealing physical damage to all enemies hit and slow the target. <br>Double effect from minions and also slow the targets the minion hit with duble effect.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "80 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 60 / 90 / 120 / 170 / 220 (+100% Physical Power)",
+						"Slow": "80%",
+						"Duration": "1,5 seconds"
 					}
 				},
-				"":{
+				"Winged Vampire":{
 					"prop":{
-						"Active": "",
+						"Active": "Dracula leaps to a target localtion, dealing physical damage to all enemies in the area and also slow them down.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Leap",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 80 / 140 / 210 / 270 / 340 (+80 Physical Power)"
+						"Slow": "80%"
+						"Duration": "1,5 seconds"
 					}
 				},
-				"":{
+				"Painful Fear":{
 					"prop":{
-						"Active": "",
+						"Active": "Dracula laugh and fear all enemies around him, dealing physical damage per ,25 seconds who is catch by his fear.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "80 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 30 / 35 / 40 / 45 / 50 (+15% Physical Power)",
+						"Duration": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
 					}
 				}
 			}
@@ -1417,50 +1495,55 @@
 			"name": "Elise",
 			"class": "tank",
 			"title": "Frozen Armored",
-			"desc": "",
+			"desc": "Elise lives in City of Ice, right hand to princess Emiza and like her sister, found helpless in a cave and taken care of by the royal family. Now she working in the military defences, carrying on a self-built armor, hammer and shield. Her strong attacks and the force of ice magic makes her harmless to kill!",
 			"skill": {
-				"":{
+				"Smash Up":{
 					"prop":{
-						"Active": "",
+						"Active": "Elise dash to the first enemy hit, strike with her hammer and dealing physical damage to the target and smash them up the the sky.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Dash",
+						"Radius": "60 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "10 seconds",
+						"Damage": "Physical: 80 / 130 / 180 / 230 / 280 (+75% Physical Power)"
 					}
 				},
-				"":{
+				"Frozen Skin":{
 					"prop":{
-						"Active": "",
+						"Active": "Elise creates cristals on her armor, give her a destructive armor. <br>After the armor destroys, it shattering icicles around her, dealing physical damage to all enemies nearby, or she can just active again to shattering the icicles by her self.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Shield, Area",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"11 seconds",
+						"Destructive Armor": "70 / 140 / 120 / 190 / 260 (+20 per hero level = 400",
+						"Damage": "Physical: 55 / 110 / 165 / 220 / 275 (+75% Magic Power)"
 					}
 				},
-				"":{
+				"Line of Cristals":{
 					"prop":{
-						"Active": "",
+						"Active": "Elise smash her hammer at the ground, creates a line of cristals, dealing physical damage to all enemies hit by the field in the line and slowing them. <br>Enemies that are flying up to the sky and landing on this field of cristals, they taking an increased damage.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Line, Field",
+						"Radius": "80 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 seconds",
+						"Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+90 Magic Power)",
+						"Slow": "35%",
+						"Fall Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+35% Magic Power)"
 					}
 				},
-				"":{
+				"Frozen Cave":{
 					"prop":{
-						"Active": "",
+						"Active": "Elise smash her hammer at the ground again, but now make her enemies stumble down at the ground, dealing physical damage and creates a icy field. <br>Dealing physical damage per cristal enemies walk over and slowed on the field.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line (<000>)",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 260 / 340 / 420 / 500 / 580 (+80% Magic Power)",
+						"Slow": "60%",
+						"Cristal Damage": "Physcial: 60 / 70 / 80 / 90 / 100 (+15% Magic Power)"
 					}
 				}
 			}
@@ -1469,50 +1552,57 @@
 			"name": "Fenrir",
 			"class": "tank",
 			"title": "Armored Pheonix",
-			"desc": "",
+			"desc": "Fenrir lives in City of Mordune together with Leo, leader of the deffencive squad in the military. With his mace and fire power as magic, he can run and not to bother if he got any harm, he just continues burning his enemies!",
 			"skill": {
-				"":{
+				"Cone of Fire":{
 					"prop":{
-						"Active": "",
+						"Active": "Fenrir start to burn all enemies in a cone for 3 seconds, dealing magic damage per seconds.",
+						"Passive": "Every third strike with his mace burst a breath, burn enemies in a cone with an instant damage.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Cone",
+						"Radius": "40 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 seconds",
+						"Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+7% Magic Power)",
+						"Per Seconds": "0,5 seconds",
+						"Breath": "Magic: 15 / 20 / 25 / 30 / 35 (+70% Magic Power)"
 					}
 				},
-				"":{
+				"Burning Trail":{
 					"prop":{
-						"Active": "",
+						"Active": "Fenrir start to burn the ground he walk over, creates a trail behind him that burn enemies per second who walking over the trail.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self",
+						"Cost":"13 mana (per second)",
+						"Cooldown":"1 seconds",
+						"Damage": "Magic: 22 / 34 / 46 / 58 / 70 (+8% Magic Power)"
 					}
 				},
-				"":{
+				"Flaming Wall":{
 					"prop":{
-						"Active": "",
+						"Active": "Fenrir creates a fall of flame that affecting all enemies that walking through it by burn, dealing magic damage per second. <br>Enemies standing in wall of flame are burning, dealing XX magic damage per second. Leaving wall of flame deals XX magic damage over 3 seconds. Active again before doing the skill, change the angle.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+40% Magic Power)",
+						"Burn": "Magic: 15 / 20 / 25 / 30 / 35 (+15% Magic Power)",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Skin as a Pheonix":{
 					"prop":{
-						"Active": "",
+						"Active": "Fenrir create a burning skin that burning enemies near him, dealing magic damage per second. <br>If he dies with this active, he resurrect with just 30% of his maximum health.",
+						"Passive": "Fenrir got an increased Health Regen and Magic Protection.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Buff",
+						"Radius": "20 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 100 / 120 / 140 / 160 / 180 (+7% Magic Power) (per second)",
+						"Health Regen": "2 / 4 / 6 / 8 / 10 (Health per second)",
+						"Magic Protection": "15 / 25 / 35 / 45 / 55"
 					}
 				}
 			}
@@ -1521,50 +1611,59 @@
 			"name": "Golem",
 			"class": "tank",
 			"title": "The Lonely Soul",
-			"desc": "",
+			"desc": "Golem lives self in the mountains, scare away people who walks through the mountain path. He is a lonely soul with no friends and doesn't know his background and how he came to, he is just a big rock with thoughts and feelings that crush enemies he sees.",
 			"skill": {
-				"":{
+				"Earth Blast":{
 					"prop":{
-						"Active": "",
+						"Active": "Golem smash at the ground, dealing physical damage to all enemies front of him in a line and slowing them for 2 seconds. <br>Can be active again to smash the ground but dealing physical damage to all enemies around him in a small area, giving him a buff of streangth.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line / Area, Buff",
+						"Radius": "70 / 40 size",
+						"Cost [Line]": "70 / 75 / 80 / 85 / 90 mana",
+						"Cost [Area]": "40 / 45 / 50 / 55 / 60 mana",
+						"Cooldown": "12 seconds",
+						"Damage [Line]": "Physical: 60 / 100 / 140 / 180 / 220 (+110% Armor)",
+						"Damage [Area]": "Physical: 50 / 100 / 150 / 200 / 250 (+110% Armor)",
+						"Slow": "25%",
+						"Physical Power": "20%",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Stone Armor":{
 					"prop":{
-						"Active": "",
+						"Active": "Golem give him an his allies around him a destructive armor for 10 seconds.",
+						"Passive": "Golem got a destructive armor after 5 seconds out of combat. <br>Golem also got a thorn from his armor and 30% of his Armor increases his Physical Power included his destructive armor.",
+						"": "",
+						"Ability": "Area, Buff",
+						"Radius": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 seconds",
+						"Destructive Armor": "20 / 40 / 60 / 70 / 80 (+20 per hero level = 400)",
+						"Buff": "50 / 100 / 150 / 200 / 250 (+20 per hero level = 400)",
+						"Thorn": "30%"
+					}
+				},
+				"Body Slam":{
+					"prop":{
+						"Active": "Golem leap to a target localtion, dealing physical damage to all enemies and smash them up to the sky.",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Damage": "Physical: 110 / 180 / 270 / 360 / 450% of his Armor"
+					}
+				},
+				"Earth Shaking":{
+					"prop":{
+						"Active": "Golem starts to channel, crating a strong burst of a instant earthquake as a nova. After 2,5 seconds he dealing physical damage to all enemies in the area around him. <br>While channel, he slowing enemies in the targeted area around him.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 500 / 660 / 800 / 950 / 1100 (+150% Physical Power)",
+						"Slow": "30%"
 					}
 				}
 			},
@@ -1605,50 +1704,56 @@
 			"name": "Oone",
 			"class": "tank",
 			"title": "The Angel Master",
-			"desc": "",
+			"desc": "Oone is a arc angel of light with healing tactics, leader of the military by the light angels. older brother to Aria, and the best swordsman in the world!",
 			"skill": {
-				"":{
+				"Mighty Sword":{
 					"prop":{
-						"Active": "",
+						"Active": "Oone swing his mighty sword, dealing physical damage and stealing they protection for a short duration.",
+						"Passive": "Enemy hit by this sword stacking up his physical power to he is out of vombat for 10 seconds (max 20 stacks)",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Cone, Debuff/Buff",
+						"Radius": "30 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "13 / 12 / 11 / 10 / 9 seconds",
+						"Damage": "Physical: 60 / 140 / 220 / 300 / 380 (+30% Physical Power)"
+						"Protection": "5 / 8 / 11 / 14 / 17 (per stack)",
+						"Duration": "10 seconds (out of combat)",
+						"Physical Power": "2 / 2,5 / 3 / 3,5 / 4"
 					}
 				},
-				"":{
+				"Fallin Wings":{
 					"prop":{
-						"Active": "",
+						"Active": "Oone flying up and fast leap to a target localtion, pulling enemies up to the air, increases his movement speed & attack spoeed for a short duration.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Leap, Buff",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Movement Speed": "10 / 14 / 18 / 22 / 26%",
+						"Attack Speed": "10 / 14 / 18 / 22 / 26%",
+						"Duration": "3,5 seconds"
 					}
 				},
-				"":{
+				"Healing Wave":{
 					"prop":{
-						"Active": "",
+						"Active": "Oone heal him and his allies around him instantly, 10% more per stack from Mighty Sword but end all the stacks.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Heal": "80 / 130 / 180 / 230 / 280 (+70% Magic Power)"
 					}
 				},
-				"":{
+				"Mighty Strike":{
 					"prop":{
-						"Active": "",
+						"Active": "Oone dash forward and strike all enemies in the line with his sword, dealing physical damage and stacking his mighty sword per enemy hit with a duble affect.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Dash",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 200 / 275 / 350 / 425 / 500 (+100% Physcial Power)"
 					}
 				}
 			}
@@ -1657,50 +1762,60 @@
 			"name": "Pius",
 			"class": "tank",
 			"title": "Fighter for Justice",
-			"desc": "",
+			"desc": "Pius lives in the holy church in City of Kingdom Port, best friend to Ania, Diana and Malin. He also is a paladin, fighting for justice and destroy all evil in the world by his hammer and blessed powers.",
 			"skill": {
-				"":{
+				"Blessed Hammer":{
 					"prop":{
-						"Active": "",
+						"Active": "Pius sending a magical hammer in a line to the first hero hit, dealing magic damage and stunning the target. <br>Also dealing magic damage to all enemies in the line before hitting a hero.",
+						"Passive": "Pius got increased power to his basic attacks and a % bonus magic damage by his power.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line, Projectile",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12",
+						"Damage": "Magic: 100 / 170 / 240 / 310 / 380 (+60% Physical Power)",
+						"Stun": "1,5 seconds",
+						"Physical Power": "20 / 30 / 40 / 50 / 60",
+						"Magic Damage": "30%"
 					}
 				},
-				"":{
+				"Divine Shield":{
 					"prop":{
-						"Active": "",
+						"Active": "Pius creates a shield that deflect all incoming damage for a short duration. <br>Also got a aura that increases his and his allies Armor after the shield end for a longer duration.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Shield, Buff, Area",
+						"Radius": "90 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Divine Duration": "1,5",
+						"Armor": "10 / 15 / 20 / 25 / 30 (+1,5 per hero lever = 30)",
+						"Duration": "10 seconds"
 					}
 				},
-				"":{
+				"Holy Light":{
 					"prop":{
-						"Active": "",
+						"Active": "Pius sending a light of holy at a target localtion, heal and give armor to allies, but dealing magic damage to enemies hit by this light.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+70% Magic Power)",
+						"Heal": "50 / 95 / 140 / 185 / 230 (+45% Magic Power)",
+						"Armor": "20 (+2 per hero level = 60)"
 					}
 				},
-				"":{
+				"Judgement":{
 					"prop":{
-						"Active": "",
+						"Active": "Pius debuff all enemies in a target localtion, decreasing they power and protection for a short duration.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "60 size",
+						"Cost":"90 / 100 / 110 / 120 / mana",
+						"Cooldown":"90 seconds",
+						"Damage Debuff": "10 / 15 / 20 / 25 / 30%",
+						"Protection Debuff": "10 / 15 / 20 / 25 / 30%",
+						"Duration": "3 seconds"
 					}
 				}
 			}
@@ -1709,50 +1824,56 @@
 			"name": "Rebecca",
 			"class": "tank",
 			"title": "The Shield Master",
-			"desc": "",
+			"desc": "Rebecca lives in Neutral City of Kings and Queens, always fighting for skills and dreaming of a pieceful world, also rival to the crusaider Diode. She is also the greatest shield master in the world, fighting with it like it was her right hand like a main weapon as her mace.",
 			"skill": {
-				"":{
+				"Bash":{
 					"prop":{
-						"Active": "",
+						"Active": "Rebecca bash all enemies front of her with her shield, dealing physical damage and stunning them.",
+						"Passive": "Rebecca got a chance to bash her target with her basic attack, dealing a % increased damage of her physical power and stunning them.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "30 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 100 / 140 / 180 / 220 / 260 (+40% Physical Power) (+120% Armor)",
+						"Stun": "1 seconds",
+						"Bash Chance": "15%",
+						"Physical Power": "40 / 65 / 90 / 115 / 140%",
+						"Stun [passive]": "0,5 seconds"
 					}
 				},
-				"":{
+				"Bouncing Shield":{
 					"prop":{
-						"Active": "",
+						"Active": "Rebecca throw her shield in a line, dealing physical damage to the first enemy hit and start to bounce up to 5 enemies in a 30 radius. <br>While the shield is bouncing, she can't do Bash, Shield Rush or other shield item skills the following seconds.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+40% Physical Power) (+120% Armor)"
 					}
 				},
-				"":{
+				"Shield Rush":{
 					"prop":{
-						"Active": "",
+						"Active": "Rebecca rush forward, push back all enemies and dealing physical damage to them.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Rush",
+						"Radius": "50 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: (+40 / 65 / 90 / 115 / 140% Physical Power) (+100 / 140 / 180 / 220 / 260% Armor)"
 					}
 				},
-				"":{
+				"Shield Master":{
 					"prop":{
-						"Active": "",
+						"Active": "Rebecca start to ignore 30% of all physical damage agenst her, blocking all piercing projectiles for harming allies from behind. <br>She also got increased damage to her shield skills.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Buff",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Shield Power": "30 / 40 / 50 / 60 /70%",
+						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
+						
 					}
 				}
 			},
@@ -1766,50 +1887,54 @@
 			"name": "Tána",
 			"class": "tank",
 			"title": "Girl of Justice",
-			"desc": "",
+			"desc": "Tána lives in City of Kindom Port, believe in justice and fight side by side with princess Asula. From living in the streets, she climbed quite high in order to reach its goal. Now with her golden whip and sword she clearing the city from crimes.",
 			"skill": {
-				"":{
+				"Dash of Justice":{
 					"prop":{
-						"Active": "",
+						"Active": "Tána dash trough all enemies in a line, dealing physical damage to all enemies addition 25% of an amount between your maximum health and the enemies maximum health as true damage. <br>Basic attacks decreases this cooldown by 0,5 seconds and counting on all enemy hits by Sword of Justice.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Dash",
+						"Radius": "50 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "16",
+						"Damage": "Physical: 70 / 110 / 150 / 190 / 230 (+50% Physcial Power)",
+						"True Damage": "True: +25% Between they Maximum Health (250 Maximum Damage)"
 					}
 				},
-				"":{
+				"Sword of Justice":{
 					"prop":{
-						"Active": "",
+						"Active": "Tána throw her sword, piercing through enemies in a line and dealing physical damage both forward and back to Tána. <br>Loosing her basic attack, but left click and the sword coming back.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 50 / 90 / 130 / 170 / 210 (+30% Physcial Power) (Item: +15% Maximum Health)"
+					}
+				},
+				"Golden Whip":{
+					"prop":{
+						"Active": "Tána catch the first enemy hero hit, decrease they physical power and movement speed while they caught. <br>Her next basic attack at this target hero do an extra true damage from 15% of her maximum health.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Physical Power": "-10 / 20 / 30 / 40 / 50%",
+						"Movement Speed": "-6 / 12 / 18 / 24 / 30%",
+						"Duration": "3 seconds",
+						"Next Attack": "+15% Maximum Health"
 					}
 				},
-				"":{
+				"Fallin Sword":{
 					"prop":{
-						"Active": "",
+						"Active": "Tána leap to a localtion and cause a increadible physical damage to all enemies in the target localtion.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Leap",
+						"Radius": "30 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "300 / 400 / 500 / 600 / 700 (+120% Physical Power)"
 					}
 				}
 			}
@@ -1820,48 +1945,57 @@
 			"title": "The Soul Stealer",
 			"desc": "",
 			"skill": {
-				"":{
+				"Soul Breathe":{
 					"prop":{
-						"Active": "",
+						"Active": "Tank breathe out deadly souls in a cone, dealing magic damage to all enemies hit. Kill enemy hit heal him 12% of they maximum health.",
+						"Passive": "He got a bonus magic damage from a % by his magic protection. <br>Killing enemies give him permanent health and also heal after killing. Double effect from killing heroes.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Cone",
+						"Radius": "30 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "13 seconds",
+						"Damage": "Magic: 85 / 140 / 195 / 250 / 305 (+70% Physical Power)",
+						"Magic Damage": "Magic: 35%",
+						"Heal": "12% Maximum Health",
+						"Health": "30"
 					}
 				},
-				"":{
+				"Eye of The Sword":{
 					"prop":{
-						"Active": "",
+						"Active": "Tank throw his sword at a target localtion, dealing physical damage to all enemies and slowing them. <br>Enemies with 30% health or less got killed, giving him the permanent health buff. Attacking makes the sword fall back to your hand, ",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 90 / 130 / 170 / 210 / 250 (+50% Physical Power)",
+						"Kill": "30% Maximum Health (250 Max Damage)",
+						"Slow": "25%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Rush":{
 					"prop":{
-						"Active": "",
+						"Active": "Tank rush forward, strike all enemies in the line and sending them up to the air, dealing physical damage.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Rush",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Damage": "Physical: 70 / 110 / 150 / 190 / 230 (+110% Armor)"
 					}
 				},
-				"":{
+				"Soul Burst":{
 					"prop":{
-						"Active": "",
+						"Active": "Tank burst out souls in a area around him, dealing magic damage and slowing them.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "60 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 200 / 250 / 300 / 350 / 400 (+120 Physical Power)",
+						"Slow": "80%",
+						"Duration": "3 seconds"
 					}
 				}
 			}
