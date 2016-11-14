@@ -448,7 +448,7 @@
 						"Cooldown":"16 seconds",
 						"Power": "20 / 30 / 40 / 50 / 60",
 						"Attack Speed": "15 / 20 / 25 / 30 / 35%",
-						"Duration": "4 seconds",
+						"Duration": "4 seconds"
 					}
 				},
 				"Explosive Poison":{
@@ -1472,8 +1472,8 @@
 						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
-						"Damage": "Physical: 80 / 140 / 210 / 270 / 340 (+80 Physical Power)"
-						"Slow": "80%"
+						"Damage": "Physical: 80 / 140 / 210 / 270 / 340 (+80 Physical Power)",
+						"Slow": "80%",
 						"Duration": "1,5 seconds"
 					}
 				},
@@ -1715,7 +1715,7 @@
 						"Radius": "30 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "13 / 12 / 11 / 10 / 9 seconds",
-						"Damage": "Physical: 60 / 140 / 220 / 300 / 380 (+30% Physical Power)"
+						"Damage": "Physical: 60 / 140 / 220 / 300 / 380 (+30% Physical Power)",
 						"Protection": "5 / 8 / 11 / 14 / 17 (per stack)",
 						"Duration": "10 seconds (out of combat)",
 						"Physical Power": "2 / 2,5 / 3 / 3,5 / 4"
