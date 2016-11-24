@@ -743,7 +743,7 @@
 			"skill": {
 				"Bola Bomb":{
 					"prop":{
-						"Active": "Phia throwing a bola at the first enemy hit in a line. Slowing the enemy before it's detonation, dealing physical damage to all enemies around the target.",
+						"Active": "Phia throwing a bola at the first enemy hit in a line. Slowing the enemy before it's detonation, dealing physical damage to all enemies at the targeted area.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
@@ -3069,6 +3069,58 @@
 				}
 			}
 		},
+		"yui": {
+			"name": "Yui",
+			"class": "assassin",
+			"title": "The Young Phoenix",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
 		
 		
 		
@@ -3076,8 +3128,58 @@
 		
 		
 		
-		
-		
+	    "alex": {
+			"name": "Alex",
+			"class": "fighter",
+			"title": "The Dragon Slayer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
 		"alisha": {
 			"name": "Alisha",
 			"class": "fighter",
@@ -3139,6 +3241,58 @@
 			"name": "Ania",
 			"class": "fighter",
 			"title": "The Golden Cleric",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"beatrix": {
+			"name": "Beatrix",
+			"class": "fighter",
+			"title": "The Beak of A Phoenix",
 			"desc": "",
 			"skill": {
 				"":{
@@ -3451,6 +3605,58 @@
 			"name": "Hánet",
 			"class": "fighter",
 			"title": "Paladin of Justice",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"hawk": {
+			"name": "Hawk",
+			"class": "fighter",
+			"title": "The Shapshifter",
 			"desc": "",
 			"skill": {
 				"":{
@@ -6139,6 +6345,58 @@
 				},
 				"Red Beauty Talutha": {
 					"link": "talutha3"
+				}
+			}
+		},
+		"titania": {
+			"name": "Titania",
+			"class": "mage",
+			"title": "The Phoenix Master",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
 				}
 			}
 		},
