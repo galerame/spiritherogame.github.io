@@ -3,15 +3,15 @@
 		"anni": {
 			"name": "Anni",
 			"class": "hunter",
-			"title": "Animal Keeper",
-			"desc": "Anni lives in the city of Kingdom Port, royal and the youngest sister to Asula. While Asula forced into the military, Anni stayed by her love for the animals in the nature. She borrowed two guns from the pirats, and got her animals by her side then she must go serious!",
+			"title": "The Friend of Animals",
+			"desc": "Anni lives in the city of Kingdom Port, royal and the youngest sister to Asula. While Asula forced into the military, Anni stayed by her love for the animals in the nature. She borrowed two guns from the pirates, and got her animals by her side then she must go serious!",
 			"skill": {
 				"Polecats":{
 					"prop":{
-						"Active": "Anni summon polecats that fighting for you, fetch enemies in the area and dealing physical damage. <br>As the polecats can't be touched, but affected enemies become slowed while running around they legs.",
+						"Active": "Anni summon polecats that fighting for you, fetch enemies in the area and dealing physical damage. <br>The polecats can't be touched, but affecting enemies by slowness while running around they legs.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius":"12 Size",
+						"Radius":"25 Size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "15 / 14 / 13 / 12 / 11 seconds",
 						"Damage": "Physical: 12 / 14 / 16 / 18 / 20 (+15% Physical Power)",
@@ -22,22 +22,23 @@
 				},
 				"Wolf Power":{
 					"prop":{
-						"Active": "Anni got power from her family, gain increased Attack Speed, Movement Speed and Physical Power for a short duration.",
+						"Active": "Anni get power from her family, gain increased Attack Speed, Movement Speed and Physical Power for a short duration.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"60 mana",
 						"Cooldown":"15 seconds",
-						"Physical Power": "8 / 20 / 32 / 44 / 56",
-						"Attack Speed": "15 / 20 / 25 / 30 / 35 %",
-						"Movement Speed": "12 / 25 / 37 / 50 / 62 %",
+						"Physical Power": "8 / 16 / 24 / 32 / 40",
+						"Attack Speed": "10 / 16 / 22 / 28 / 34 %",
+						"Movement Speed": "6 / 12 / 18 / 24 / 30 %",
 						"Duration": "3 seconds"
 					}
 				},
 				"Sight":{
 					"prop":{
-						"Active": "Anni got sight form the birds, the same second each enemies who got catch by her sight got a peck from a bird. Dealing physical damage to each enemy and debuff they Armor for a short duration. <br>For a short duration, Anni can see invisible enemies and make catched enemies in her sight become visible while the debuff duration.",
+						"Active": "Anni get sight from the birds, the same second each enemy who get catch by her sight get a peck from a bird. Dealing physical damage to each enemy and debuff they Armor for a short duration. <br>For a short duration, Anni can see invisibility and her allies inside this sight of area.",
 						"": "",
 						"Ability": "Area, Debuff",
+						"Radius": "140 size",
 						"Cost":"80 mana",
 						"Cooldown":"18 seconds",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+40% Physical Power)",
@@ -47,9 +48,10 @@
 				},
 				"Bear Rage":{
 					"prop":{
-						"Active": "Anni sending a bear to a targeted localtion, dealing physical damage to all enemies in the area and stunning them.",
+						"Active": "Anni sending a bear to a target location, dealing physical damage to all enemies hit and stunning them.",
 						"": "",
 						"Ability": "Ground Target",
+						"Radius":"25 Size",
 						"Cost":"125 mana",
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 300 / 425 / 550 / 675 / 800 (+100% Physical Power)",
@@ -62,13 +64,14 @@
 			"name": "Aria",
 			"class": "hunter",
 			"title": "The Winged Archer",
-			"desc": "Aria is a angel of light with healing tactics, younger sister to Oone that is the leader of the military by the light angels. Aria fighting for the humans to create balance, with her bow and wings she can cause much damage, but with her healing skills she can also treat the wounded!",
+			"desc": "Aria is an angel of light with healing tactics, younger sister to Oone that is the leader of the military by the light angels. Aria fighting for the humans to create balance, with her bow and wings she can cause much damage, but with her healing skills she can also treat the wounded!",
 			"skill": {
 				"Light Arrow":{
 					"prop":{
-						"Active": "Aria launch a light arrow that piercing through enemies and allies in a line, dealing magic damage to enemies and make them paralyzed. <br>Heal allies hit in the line.",
+						"Active": "Aria launch a light arrow that pierce through enemies and allies in a line, dealing magic damage to enemies hit and make them paralyzed, but heal allies hit in the line.",
 						"": "",
 						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
 						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+120% Magic Power)",
@@ -78,13 +81,13 @@
 				},
 				"Protective Wings":{
 					"prop":{
-						"Active": "Aria creates a magical shield around her that absorbing a % of all incoming damage for a short duration. Then this shield ends, it dealing magic damage to enemies around you, heal you and your allies in same size.",
+						"Active": "Aria creates a magical shield around her that absorbing a % of all incoming damage for a short duration. Then this shield ends, it dealing magic damage to enemies hit around you, but heal you and your allies hit inside the area.",
 						"": "",
 						"Ability": "Shield, Area",
-						"Radius": "18, Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
-						"Deflect": "35 / 45 / 55 / 65 / 75 %",
+						"Deflect": "12 / 18 / 24 / 30 / 36 %",
 						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+120% Magic Power)",
 						"Heal": "50 / 95 / 140 / 185 / 230 (+120% Magic Power)",
 						"Duration": "2 seconds"
@@ -92,9 +95,10 @@
 				},
 				"Angel Feathers":{
 					"prop":{
-						"Active": "Aria flying up and sending her feathers at a targeted area, dealing physical damage and slow all enemies hit. <br>In the second she fly up, she ignoring all attacks that are not from the sky.",
+						"Active": "Aria flying up and sending her feathers at a target location, dealing physical damage and slow all enemies hit. <br>In the second she fly up, she ignoring all attacks that aren't from the sky.",
 						"": "",
 						"Ability": "Ground Target",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"10 seconds",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+40% Physical Power)",
@@ -104,9 +108,10 @@
 				},
 				"Sweeping Light":{
 					"prop":{
-						"Active": "Aria sprinting fast in a line, her next basic attack will do a bonus magic damage. She can do this 3 times before the cooldown after.",
+						"Active": "Aria sprinting fast in a line, her next basic attack will do a bonus magic damage. She can do this 3 times before the cooldown start.",
 						"": "",
 						"Ability": "Dash",
+						"Radius": "55 size",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
 						"Bonus Magic Damage": "Magic: 250 / 350 / 450 / 550 / 650 (+120% Magic Power)"
@@ -117,16 +122,16 @@
 		"blade": {
 			"name": "Blade",
 			"class": "hunter",
-			"title": "Master of Blades",
-			"desc": "Blade lives in the Neutral City of Kings and Queens with a ruth childhood by standing up against her rival, Katana. They both parents died then they were young, then they struggled to live in the big city. She got an experience by using her magic to bend her blades around, with that tactic she create pain by magical power from being hit by her blades, but her Movements aren't like Katanas. By her tactics she make her enemies confused by binding them together with magical force.",
+			"title": "The Bladed Magician",
+			"desc": "Blade lives in the Neutral City of Kings and Queens with a ruth childhood by standing up against her rival, Katana. They both parents died then they were young, then they struggled to live in the big city. She got an experience by using her magic to bend her blades around, with that tactic she create pain by magical power from being hit by her blades, but her Movements aren't like Katanas. By her tactics, she make her enemies confused by binding them together with magical force.",
 			"skill": {
 				"Forced Blades":{
 					"prop":{
-						"Active": "Blade throw all her seven blades in a big line, dealing physical damage each blade hit. <br>Every hit by your basic attacks decrease this active cooldown by 0,5 seconds.",
+						"Active": "Blade throw all her seven blades in a wide line, dealing physical damage each blade hit. <br>Every hit by your basic attacks decreases this cooldown by 0,5 seconds.",
 						"Passive": "Every seventh time she hit an enemy, deal an extra bonus magic damage.",
 						"": "",
 						"Ability": "Line",
-						"Radius": "12 Size",
+						"Radius": "70 size",
 						"Cost": "60 / 65 / 70 / 75 / 80 mana",
 						"Cooldown": "12 seconds",
 						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120% Physical Power)",
@@ -135,40 +140,45 @@
 				},
 				"Magic Pulse":{
 					"prop":{
-						"Active": "Blade blink to a nearby localtion, let her critt next hit by her basic attack with an increased critt damage the last 3 seconds. <br>Every hit by your basic attacks decrease this active cooldown by 0,5 seconds.",
-						"Passive": "Blade got increased critt chance, every time she critt, the targeted and hunted enemy take magic damage from a magical pulse. <br>2,5 seconds cooldown.",
+						"Active": "Blade blink to a nearby target location, lets her critt by her next basic hit with a increased critt damage the last 3 seconds. <br>Every hit by your basic attacks decreases this cooldown by 0,5 seconds.",
+						"Passive": "Blade get increased critt chance, every time she critt, the targeted and hunted enemy takes magic damage from a magical pulse. <br>2,5 seconds cooldown.",
 						"": "",
 						"Ability": "Teleport, Buff",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 seconds",
 						"Critt Damage": "50 / 100 / 150 / 200 / 250 %",
-						"Critt Chance": "10 / 20 / 30 / 40 / 50 %",
+						"Critt Chance": "10 / 15 / 20 / 25 / 30 %",
 						"Magic Damage": "100 (+4 per hero level = 180 at lvl 20)"
 					}
 				},
 				"Hunted":{
 					"prop":{
 						"Active": "Blade force a magical damage to all enemies who are binded to each other, also stunning them.",
-						"Passive": "Blade bind her enemies by her basic attacks, hitting two differently enemies bind them together. <br>Hunted enemies can't run from each other, using a leap away they are pulled back.",
+						"Passive": "Blade bind her enemies by her basic attacks, hitting two differently enemies binding them together. <br>Hunted enemies can't run from each other, using a leap away they are pulled back.",
 						"": "",
 						"Ability": "Effected",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Damage": "Magic: 40 / 70 / 100 / 130 / 160 (+4 per hero level +80 at lvl 20)",
-						"Hunted": "7",
+						"Hunted": "7 seconds",
 						"Stun": "2 seconds"
 					}
 				},
 				"Killing Instinct":{
 					"prop":{
-						"Active": "Blade increases her Attack Speed and letting her blades seek to the nearest hunted enemy.",
+						"Active": "Blade increases her attack speed and lets her blades seek to the nearest hunted enemy.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
 						"Attack Speed": "30 / 50 / 70 / 90 / 110 %",
-						"Duration": "4s"
+						"Duration": "4 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Shuriken Master Blade": {
+					"link": "blade1"
 				}
 			}
 		},
@@ -176,14 +186,14 @@
 			"name": "Chantrea",
 			"class": "hunter",
 			"title": "Huntress of The Moon",
-			"desc": "Chantrea is an elven princess in City of Forest, leader in the hunt, and skilled with her magic used by the energy of the moon. Her wisest guide is Grey Wonder who learned her the moon energy, letting her arrows seek to enemies.",
+			"desc": "Chantrea is an elven princess in City of Forest, leader in the hunt, younger sister to Spiro who rather choose his magic in front of the royal duty. Her wisest guide is Grey Wonder who learned her the moon energy, letting her arrows seek to enemies.",
 			"skill": {
 				"Moon Strike":{
 					"prop":{
-						"Active": "Chantrea creating a beam from the sky as a moon light, dealing magic damage and stunning all enemies in the targeted localtion.",
+						"Active": "Chantrea sending a beam from the sky as a moon light at a target location, dealing magic damage and stunning all enemies hit.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "12 Size",
+						"Radius": "25 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 seconds",
 						"Damage": "Magic: 60 / 110 / 160 / 210 / 260 (+90% Magic Power)",
@@ -193,9 +203,10 @@
 				"Moon Arrows":{
 					"prop":{
 						"Active": "Chantreas next three arrows piercing through enemies in a line, at the end of the line, they start to seek to the nearest target.",
-						"Passive": "Her arrows start to seeking to your target nearby if you miss, but just a % of your damage. <br>Critt cause an extra true damage from a % of your magic power and seeking to an other enemy target nearby.",
+						"Passive": "Her arrows seek to the last enemy hit if you miss your target, but just a % of your damage. <br>Critt cause an extra true damage from a % of your magic power and seek to an other enemy nearby your target.",
 						"": "",
 						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
 						"Damage": "Physical: 80 / 135 / 190 / 245 / 300 (+80% Physical Power)",
@@ -205,13 +216,14 @@
 				},
 				"White Tiger":{
 					"prop":{
-						"Active": "Chantrea whistling on her pet, dash forward while riding on it, dealing physical damage to enemies hit and pulling they back. <br>In a duration, she got increased movement speed and ignoring slow and fear effects.",
+						"Active": "Chantrea whistling on her pet, dash forward while riding on it, dealing physical damage to enemies hit and pulling they back. <br>In a duration, she get increased movement speed and ignoring body effects.",
 						"": "",
 						"Ability": "Dash, Buff",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"16 seconds",
 						"Damage": "Physical: 70 / 115 / 160 / 205 / 250 (+60% Physical Power)",
-						"Movement Speed": "5 / 10 / 15 / 20 / 25 %",
+						"Movement Speed": "16 / 20 / 24 / 28 / 32 %",
 						"Duration": "2 seconds"
 					}
 				},
@@ -236,23 +248,25 @@
 			"skill": {
 				"Bloody Whip":{
 					"prop":{
-						"Active": "Clear strike with her whip in a line, dealing physical damage, let them bleed and they take a % more damage from physical in the bleed duration.",
+						"Active": "Clear strike with her whip in a line, dealing physical damage to enemies hit, let them bleed and take a % more damage from physical while they bleed.",
 						"Passive": "Basic attacks now mark her enemies, dealing 2% more damage every stuck. (max 10%)",
 						"": "",
 						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "10 seconds",
 						"Damage": "Physical: 80 / 135 / 190 / 245 / 300 (+80% Physical Power)",
 						"Bleed": "Physical: 16 / 27 / 38 / 49 / 60 (+50% Physical Power)",
-						"More Physical Damage": "5 / 10 / 15 / 20 / 25 %",
+						"More Physical Damage": "6 / 12 / 18 / 24 / 30 %",
 						"Duration": "5 seconds"
 					}
 				},
 				"Harpoon":{
 					"prop":{
-						"Active": "Clear catch the first enemy, turrent or tree in a line. <br>Turrents & Trees let you in the same second leap to it. <br>Enemy become rooted while you can't attack, but let you leap to a localtion of three points around the enemy target in 1,5 seconds time. <br>After your leap, your next basic attack will do a % extra physical damage.",
+						"Active": "Clear leap to the first turret or tree she hit, but root the first enemy catch by her whip in the line. <br>Root a enemy makes so you can't attack, but let you leap to a location between left, right or forward over the rooted enemy by a time of 1,5 seconds before the root ends. <br>After your leap, your next basic attack will do a % extra physical damage.",
 						"": "",
 						"Ability": "Line, Leap",
+						"Radius": "80 size",
 						"Cost":"70 mana",
 						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
 						"Bonus Physical Damage": "50 / 80 / 110 / 140 / 170 (+90% Physical Power)"
@@ -263,29 +277,32 @@
 						"Active": "Clear wheel forward, dealing physical damage to all enemies from behind and pushing they back.",
 						"": "",
 						"Ability": "Dash",
+						"Radius": "55*55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 seconds",
 						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+60% Physical Power)"
+						"Knockback": "55 size behind"
 					}
 				},
 				"Broke They Ribs":{
 					"prop":{
-						"Active": "Clear pushes back all enemies in a area around her, make them bleed and slow them over time.",
+						"Active": "Clear pushes back all enemies in a area around her, slowing them and make them bleed over a time.",
 						"": "",
 						"Ability": "Area",
+						"Radius": "60 size",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
 						"Bleed": "25 / 30 / 35 / 40 / 45 (+100% Physical Power)",
-						"Slow": "80% (-80% over 5 secodns)",
-						"Duration": "5 secodns"
+						"Slow": "80% (-80% over 5 seconds)",
+						"Duration": "5 seconds"
 					}
 				}
 			},
 			"skin" : {
-				"Clear - Cat Woman": {
+				"Cat Woman": {
 					"link": "clear1"
 				},
-				"Clear - Chain Breaker": {
+				"Chain Breaker Clear": {
 					"link": "clear2"
 				}
 			}
@@ -294,40 +311,42 @@
 			"name": "Dwarlin",
 			"class": "hunter",
 			"title": "The Beast Hunter",
-			"desc": "Dwarlin lives in Winterfall, friend to Storm but always start a fight agenst Tumblr. His axes got a enchantment to create shock pulses that he has learne to use, also created a habit to overloading the magical force that make him impossible to fight agenst.",
+			"desc": "Dwarlin lives in Winterfall, friend to Storm but always start a fight with Tumblr. His axes got a enchantment to create shock pulses that he has learned to use, also created a habit to overloading the magical force that make him impossible to fight against!",
 			"skill": {
 				"Duble Axes":{
 					"prop":{
-						"Active": "Dwarlin throw both of his axes, piercing though enemies in the line, dealing physical damage.",
-						"Passive": "The third hit at a target make a bloody effect. <br>Bloody Effect: Slow your enemy while they are bleeding.",
+						"Active": "Dwarlin throw both of his axes, piercing through enemies in a line, dealing physical damage.",
+						"Passive": "The third hit at a enemy target create a wound that causing them to bleed and slow they movement speed.",
 						"": "",
 						"Ability": "Line",
+						"Radius": "80 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "11 seconds",
 						"Damage": "Physical: 60 / 90 / 110 / 150 / 180 (+60% Physical Power)",
 						"Bleed": "Physical: 30 / 50 / 70 90 / 110 (+15% Magic Power)",
-						"Slow": "15%",
+						"Slow": "9 / 12 / 15 / 18 / 21 %",
 						"Duration": "3 seconds"
 					}
 				},
 				"Bear Trap":{
 					"prop":{
-						"Active": "Dwarlin sets a trap at the target location that arms after 1.1 seconds and lasts up to 90. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one. <br>Enemy champions who step on a trap set it off, rooting them for 1s and make they bleed over 3s while they are slowed and in same time they armor is destroyed.",
+						"Active": "Dwarlin sets a trap at the target location that arms after 1.1 seconds and lasts up to 90 seconds. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one. <br>Enemy champions who step on a trap set it off, rooting them for 1s and make they bleed over 3s while they are slowed and in same time they armor is destroyed.",
 						"": "",
 						"Ability": "Lay",
 						"Cost":"40 mana",
 						"Cooldown":"15 seconds",
 						"Root": "1 seconds",
 						"Slow": "80% (-80% over 3 seconds)",
-						"Bleed": "30 / 50 / 70 / 90 / 110 (+15% Magic Power)",
+						"Bleed": "Physical: 30 / 50 / 70 / 90 / 110 (+15% Magic Power)",
 						"Armor": "-25%"
 					}
 				},
 				"Chock Axe":{
 					"prop":{
-						"Active": "Dwarlin throwing an axe at the target localtion, the axe starts to chock enemies in the area, dealing magic damage. <br>Can be throwed two at once before the cooldown.",
+						"Active": "Dwarlin throwing an axe at a target location, the axe starts to chock enemies in the area, dealing magic damage to all enemies hit. <br>Can be throwed two at once before the cooldown.",
 						"": "",
 						"Ability": "Ground Target",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 seconds",
 						"Damage": "Magic: 60 / 110 / 160 / 210 / 260 (+60% Magic Power)",
@@ -336,14 +355,14 @@
 				},
 				"Overpowered":{
 					"prop":{
-						"Active": "Dwarlin starts to spark over his whole body, his basic attacks and Duble Axes got a bonus magic damage and stunning his targets. <br>Stun effect can only effect the same enemy once per 2,5 seconds.",
+						"Active": "Dwarlin starts to spark over his whole body, his basic attacks and Duble Axes get a bonus magic damage and stunning his targets. <br>Stun effect can only effect the same enemy once per 2,5 seconds.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
 						"Bonus Magic Damage": "60 / 110 / 160 / 210 / 260 (+60% Magic Power)",
 						"Stun": "1 seconds",
-						"Duration": "5 secodns"
+						"Duration": "5 seconds"
 					}
 				}
 			}
@@ -351,16 +370,16 @@
 		"elany": {
 			"name": "Elany",
 			"class": "hunter",
-			"title": "The Fairy Archer",
-			"desc": "Elany is a fairy in the magical forest The Dark Forest. Learned how to greate her self in a bigger size to fight for the elven. Her experience by fairy magic and fighting with a elven bow make her a big threat.",
+			"title": "The Humanized Fairy",
+			"desc": "Elany is a fairy in the magical forest "The Dark Forest". Learned how to create herself bigger to fight for the elves. Her experience by fairy magic and fighting with an elven bow make her a big threat!",
 			"skill": {
 				"Fireflies":{
 					"prop":{
-						"Active": "Elany fires an arrow up to the sky, a flaming bolt strike at the targeted localtion, dealing magic damage to all enemies in the area.",
-						"Empowered": "10 more flaming bolts are aming nearby the targeted localtion in 10 other targeted localtions. Fireflies do a double damage this time.",
+						"Active": "Elany fires an arrow up to the sky, a flaming bolt strike at a target location, dealing magic damage to all enemies in the area.",
+						"Empowered": "Ten more flaming bolts are aming nearby the targeted location in ten other target locations. Fireflies do a double damage this time.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "10 size",
+						"Radius": "15 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
 						"Damage": "Magic: 10 / 40 / 70 / 100 / 130 (+100% Magic Power) (+2 per hero level = 40)"
@@ -368,25 +387,25 @@
 				},
 				"Become a Fairy":{
 					"prop":{
-						"Active": "Elany become a small fairy, increases her movement speed and ignoring skill effects, but can't attack or do skills and don't ignoring damage from skills with size.",
-						"Passive": "Elanys basic attacks got a bonus magic damage.",
+						"Active": "Elany become a small fairy, increases her movement speed and ignoring all sorts of harm and effects. While she is a fairy, she can't attack or use skills.",
+						"Passive": "Elanys basic attacks get a bonus magic damage.",
 						"Empowered": "Elany starts to heal in fairy form.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"20 mana (per seconds)",
 						"Cooldown":"10 seconds",
-						"Movement Speed": "25%",
+						"Movement Speed": "12 / 15 / 18 / 21 / 24 %",
 						"Bonus Magic Damage": "10 / 40 / 70 / 100 / 130 (+100% Magic Power) (+2 per hero level = 40)",
 						"Heal": "20 health per 0,5 second."
 					}
 				},
 				"Blossom":{
 					"prop":{
-						"Active": "Elany confuse enemy heroes in a local area for a short duration, effected minions have a chance to fight the nearest enemy for a longer duration. <br>Effected enemies got a bonus magic damage from your first arrow hit the last 3.5 seconds.",
-						"Empowered": "In the blossom circle, make your enemy heroes as a prisoner for 3,5 secodns, they can't go or dash or leap out from the circle.",
+						"Active": "Elany confuse enemies at a target location for a short duration, affected minions have a chance to fight the nearest enemy for a longer duration. <br>Affected enemies take a bonus magic damage from your first arrow hit the last 3.5 seconds.",
+						"Empowered": "In the blossom circle, make your enemy heroes as a prisoner for 3,5 seconds, they can't go or dash or leap out from the circle.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Bonus Magic Damage:": "60 / 110 / 160 / 210 / 260 (+60% Magic Power)",
@@ -395,13 +414,13 @@
 				},
 				"Fairy Power":{
 					"prop":{
-						"Active": "Elany empowers her next ability cast within the next 8 seconds, adding an additional effect.",
-						"Passive": "Elany got increased magic power.",
+						"Active": "Elany empowering her next ability cast within the next 8 seconds, adding an additional effect.",
+						"Passive": "Elany get increased magic power.",
 						"": "",
 						"Ability": "Empowering",
 						"Cost":"0 mana",
 						"Cooldown":"45 / 42 / 39 / 36 / 34 seconds",
-						"Magic Power": "20 / 40 / 60 / 80 / 100 (+2 per level = 40 at level 20)"
+						"Magic Power": "20 / 35 / 50 / 65 / 80 (+2 per level = 40 at level 20)"
 					}
 				}
 			}
@@ -410,26 +429,26 @@
 			"name": "Frank",
 			"class": "hunter",
 			"title": "The Alchemist",
-			"desc": "Frank own The Library Tower and got a own labb under his office where he experiments with the experimental rats, and other animals, He doesn't has experience by using magic, but his own working poisons makes him more excited in fights with his crossbow.",
+			"desc": "Frank own The Library Tower and got a own labb under his office where he experiments with the experimental rats, and other animals, He doesn't has experience by using magic, but his own working potions makes him more excited in fights with his crossbow.",
 			"skill": {
 				"Poisen":{
 					"prop":{
-						"Active": "Frank throw a poison at a target localtion, affect all enemies with poisen, dealing true magic damage per seconds over a time.",
+						"Active": "Frank throw a potion at a target location, affect all enemies by poison, dealing true magic damage per seconds over a time.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "30 size",
+						"Radius": "25 size",
 						"Cost": "None",
 						"Cooldown": "18 / 17 / 16 / 15 / 14 seconds",
 						"Damage": "True: 72 / 108 / 144 / 180 / 216 (+100% Magic Power)",
 						"Duration": "Over 6 seconds"
 					}
 				},
-				"Poisons":{
+				"Potions":{
 					"prop":{
-						"Active": "Frank throw a poison at a target localtion, randomly affects enemies by Confusion, Contrarwise, Charm or Mesmerize over a duration. All enemies got randomly affects, but monsters just got confused and decreased Armor. <br>Active again he switch poison to give allies in a target localtion mana and magic protection.",
+						"Active": "Frank throw a potion at a target location, randomly affects enemies by Confusion, Contrarwise, Charm or Mesmerize over a duration. All enemies get randomly affects, but monsters just get confused and decreased Armor. <br>Active again he switch potion to give allies in a target location mana and magic protection.",
 						"": "",
 						"Ability": "Ground Target, Debuff/Buff",
-						"Radius": "40 size",
+						"Radius": "35 size",
 						"Cost":"None",
 						"Cooldown":"14 seconds",
 						"Mana": "80 / 100 / 120 / 140 / 160",
@@ -441,22 +460,23 @@
 				},
 				"Drink":{
 					"prop":{
-						"Active": "Frank drink a poison, increases his power and attack speed over a time.",
+						"Active": "Frank drink a potion, increases his power and attack speed over a time.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"None",
 						"Cooldown":"16 seconds",
 						"Power": "20 / 30 / 40 / 50 / 60",
-						"Attack Speed": "15 / 20 / 25 / 30 / 35%",
+						"Attack Speed": "15 / 20 / 25 / 30 / 35 %",
 						"Duration": "4 seconds"
 					}
 				},
-				"Explosive Poison":{
+				"Explosive Bottle":{
 					"prop":{
-						"Active": "Frank throw a poison at a target localtion, blast the area and dealing physical damage to all enemies hit.",
+						"Active": "Frank throw a potion at a target location, blast the area and dealing physical damage to all enemies hit.",
 						"Passive": "Frank go in stealth mode after 5 seconds if out of combat.",
 						"": "",
 						"Ability": "Grount Target",
+						"Radius": "45 size",
 						"Cost":"None",
 						"Cooldown":"90 seconds",
 						"Damage": "350 / 400 / 450 / 500 / 550 (+110% Magic Power)"
@@ -468,14 +488,14 @@
 			"name": "Lancel",
 			"class": "hunter",
 			"title": "The Longest Sight",
-			"desc": "Lancel live in the small villages outside the Neutral City of Kings and Queens, with a ruth life, he struggled and helped the poor people, but taking from the rich. With his great long bow and easy movable body he got the longest shot and is great in fights!",
+			"desc": "Lancel lives in the small villages outside the Neutral City of Kings and Queens, with a ruth life he struggled and helped the poor people by taking from the rich. With his great long bow and easy movable body he got the longest distance in fights!",
 			"skill": {
 				"Multi Shot":{
 					"prop":{
-						"Active": "Lancel fires multi of arrows in a cone with long size front of you, dealing physical damage to all enemies hit.",
+						"Active": "Lancel fires multi of arrows in a cone in a long distance front of you, dealing physical damage to all enemies hit.",
 						"": "",
 						"Ability": "Cone",
-						"Radius": "70 size",
+						"Radius": "80 size (maximum size = 115)",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "10 seconds",
 						"Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+90% Physical Power)"
@@ -486,23 +506,23 @@
 						"Active": "Lancel performs a slide in a direction he is currently traveling, increases his attack speed for a short duration after he slide.",
 						"": "",
 						"Ability": "Dash, Buff",
-						"Radius": "40 size",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Attack Speed": "40 / 60 / 80 / 100 / 120 %",
+						"Attack Speed": "18 / 23 / 28 / 33 / 38 %",
 						"Duration": "3 seconds"
 					}
 				},
 				"Chain Arrow":{
 					"prop":{
-						"Active": "Lancel fires an arrow bound to a rope. The first enemy hero hit, they become binded to you for a short duration. Silence they movement tactics and slowing them. <br>Dealing physical damage to the enemy hero hit.",
-						"Passive": "Successful hitting enemies with his basic attacks, Lancel got a increased range with both his tactics and his basic attacks. <br>Ends then he out of combat in 5 seconds.",
+						"Active": "Lancel fires an arrow bound to a rope. The first enemy hero hit, they become binded to you for a short duration. Dealing physical damage to the enemy hero hit and silence they movement tactics and slowing them.",
+						"Passive": "Successful hitting enemies with his basic attacks, Lancel get a increased range with both his tactics and his basic attacks. <br>Ends then he out of combat in 5 seconds.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "70 size (maximum size = 105)",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Increased Range": "5 size (per basic hit)",
+						"Increased Range": "5 size per basic hit (maximum size = 35",
 						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120 Physical Power)",
 						"Slow": "25%",
 						"Duration": "3 seconds"
@@ -510,14 +530,15 @@
 				},
 				"Rain of Arrows":{
 					"prop":{
-						"Active": "Lancel aming for the sky, every second his sight increases and you can launch at a localtion much far away, dealing physical damage in the targeted area Lancel launch his cone of arrows at, increases the damage done till the maximum size. <br>Become interupted from taking harm in this stance.",
+						"Active": "Lancel aiming for the sky, every second, the size increases and you can launch at a target location much far away, dealing physical damage at a target location and increases the damage done till the maximum size. <br>Become interrupted from taking harm in this stance.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius": "35 size",
+						"Radius [Sight]": "0 - 1000 over 4 seconds",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"15 seconds",
-						"Damage": "190 / 240 / 290 / 340 / 390",
-						"Full Size Damage": "240 / 290 / 340 / 390 / 440"
+						"Damage": "Physical: 190 / 240 / 290 / 340 / 390 (+90% Physical Power)",
+						"Full Size Damage": "Physical: 240 / 290 / 340 / 390 / 440 (+90% Physical Power)"
 					}
 				}
 			},
@@ -530,12 +551,12 @@
 		"leo": {
 			"name": "Leo",
 			"class": "hunter",
-			"title": "The Fire Archer",
+			"title": "The Eye of A Phoenix",
 			"desc": "Leo lives in City of Mordune together with Fenrir, leader of the offencive squad in the military. With her fire power as magic, her Bow tactics are incredibly dangerous to the enemies in fights.",
 			"skill": {
 				"Fire Bolt":{
 					"prop":{
-						"Active": "Leo fires a flaming arrow at the first enemy hit in a long range, dealing physical damage and an extra magic damage to enemies effected by the fire ravens.",
+						"Active": "Leo fires a flaming arrow at the first enemy hit in a line, dealing physical damage and an extra magic damage to enemies affected by the Fire Ravens.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "80 size",
@@ -547,10 +568,10 @@
 				},
 				"Vault":{
 					"prop":{
-						"Active": "Leo jumps away from your localtion, fires a burning flame at the localtion she escaped from, dealing magic  damage instant to the enemies in the area.",
+						"Active": "Leo jumping away from your location, fires a burning flame at the location she stood at, dealing physical damage instant to the enemies hit.",
 						"": "",
 						"Ability": "Leap",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+80% Physical Power)"
@@ -558,7 +579,7 @@
 				},
 				"Fire Ravens":{
 					"prop":{
-						"Active": "Leo fires a fire raven that burning enemies in a line, split up to three fire ravens that start to search for three enemies nearby, can stuck to same enemy and do more damage. <br>Dealing magic damage to burned enemies and fire ravens burn they target and can stuck up to three ravens at the same target.",
+						"Active": "Leo fires a raven that burning enemies in a line, split up to three new ravens that start to search for three nearby enemies to burn. Dealing magic damage to burned enemies over a time and the ravens can stack to the same enemy to stack the burning affect.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
@@ -569,20 +590,20 @@
 						"Duration": "5 seconds"
 					}
 				},
-				"Pheonix Fire":{
+				"Phoenix Fire":{
 					"prop":{
-						"Active": "Leo turns on the bow to the sides, sending a burning wave of wings, dealing physical damage to all enemies it fly through. Reaches quite far.",
+						"Active": "Leo turns on the bow to the sides, sending a burning wave of wings that flying through enemies in a line, dealing physical damage to all enemies hit. Reaches quite far.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "240",
 						"Cost":"125 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Physical: 300 / 425 / 550 / 675 / 800"
+						"Damage": "Physical: 300 / 425 / 550 / 675 / 800 (+40% Physical Power) (+40% Magic Power)"
 					}
 				}
 			},
 			"skin" : {
-				"Red Pheonix Leo": {
+				"Red Phoenix Leo": {
 					"link": "leo1"
 				}
 			}
@@ -590,13 +611,13 @@
 		"lucifer": {
 			"name": "Lucifer",
 			"class": "hunter",
-			"title": "Life Taker",
-			"desc": "Lucifer is a vampire and living with his brothers and sister in the Abandoned Castle, he aren't just skilled with his bow and hunting skills, he can also taking life and create pain to his enemies. With both healing him self and dealing incredible damage, he become a dangerous vampire.",
+			"title": "The Life Eater",
+			"desc": "Lucifer is a vampire and lives with his brothers and sister in the Abandoned Castle, he ain't just skilled with his bow and hunting skills, he also can taking life and create pain against his enemies. With both healing himself and dealing incredible damage, he became a dangerous vampire!",
 			"skill": {
 				"Bloody Hell":{
 					"prop":{
-						"Active": "Lucifer launch a magical arrow, dealing magic damage with a bonus damage of they vurrent health and healing him self by a % of it.",
-						"Passive": "Enemies hit by Lucifer's arrows cause a blood drop with a maximum of 5 blood drops. Each blood drop let Bloody Hell deal a bonus magic damage to the enemies effected and heal him by the half amount of the bonus magic damage.",
+						"Active": "Lucifer launch a magical arrow at a line, dealing magic damage with a bonus damage of they current health and healing him self by a % of it.",
+						"Passive": "Enemies hit by your arrows cause a blood drop with a maximum of 5 blood drops. Each blood drop let Bloody Hell deal a bonus magic damage to the affected enemy and heal himself by the half amount of the bonus magic damage.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
@@ -610,18 +631,18 @@
 				},
 				"Banish Life":{
 					"prop":{
-						"Active": "Lucifer taking out health from enemies in the area, dealing true magic damage from a % of they maximum health.",
+						"Active": "Lucifer taking out health from enemies at a target location, dealing true magic damage from a % of they maximum health.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "12 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Radius": "25 size",
+						"Cost":"90 / 95 / 100 / 105 / 110 mana",
 						"Cooldown":"16 seconds",
 						"Health": "True: 16 / 20 / 24 / 28 / 32 %"
 					}
 				},
 				"Physical Pain":{
 					"prop":{
-						"Active": "Lucifer take a % of his own health, to increases his physical power for a short duration.",
+						"Active": "Lucifer take a % of his own health, to increase his physical power for a short duration.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"0 mana",
@@ -633,11 +654,11 @@
 				},
 				"Vampiric Prison":{
 					"prop":{
-						"Active": "Lucifer launch a magical root that roots the first enemy hit, extending slowly to nearby enemies. Touching other enemies they will take the same pain as the targeted enemy, deamling magic damage and a true magic damage of a % of they maximum health while they entangled.",
+						"Active": "Lucifer launch a magical root that roots the first enemy hit, extending slowly to nearby enemies. Touching other enemies they will take the same pain as the targeted enemy, dealing magic damage and a % true magic damage of they maximum health while they entangled.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "60 size",
-						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cost":"140 mana",
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 100 / 160 / 220 / 280 / 340 (+100% Physical Power) (+100% Magic Power)",
 						"Health": "True: 16 / 20 / 24 / 28 / 32 % (Over time)",
@@ -650,12 +671,12 @@
 			"name": "Mei",
 			"class": "hunter",
 			"title": "The Ice Cold Pirate",
-			"desc": "Mei is a pirate living in Kingdom Port, took over her faders place by becom captain of the pirates. She got the best enchantress with her with name Melody, and have always trying to catch the sea queen Ashera. Because of her ice magic, she can freeze her enemies, create incredible walls of ice and freeze the water as well, letting her walk on the sea as if she own it!",
+			"desc": "Mei is a pirate living in Kingdom Port, took over her father's place by became captain of the pirates. She got the best enchantress with her with name Melody, and have always trying to catch the sea queen Ashera. Because of her ice magic, she can freeze her enemies, create incredible walls of ice and freeze the water as well, letting her walk on the sea as if she own it!",
 			"skill": {
-				"Spittering Cristal":{
+				"Spitting Crystal":{
 					"prop":{
-						"Active": "Mei shattering her loaded cristal, creates a cone of icicles front of her, chill and dealing physical damage to all enemies hit.",
-						"Passive": "Killing a minion creates a cone of icicles behind the killed minion and hit enemies in the cone, dealing physical damage and chill them, double effect if killing enemy hero.",
+						"Active": "Mei shattering her loaded crystal, creates a cone of icicles front of her, chill and dealing physical damage to all enemies hit.",
+						"Passive": "Killing a minion cause a same cone behind it that also chill and dealing physical damage to enemies hit. Double affect if killing enemy hero. <br>Criting with her basic attack agenst a freesed enemy destroy the freeze, but dealing true physical damage from a % of they maximum health.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "50 size",
@@ -663,13 +684,14 @@
 						"Cooldown": "12 seconds",
 						"Damage": "Physical: 80 / 140 / 200 / 260 / 320 (+60% Physical Power)",
 						"Cone of Icicles": "Physical: 40 / 60 / 80 / 100 / 120 (+100% Physical Power)",
-						"Slow": "10%",
+						"Crit": "True: 30% of they maximum health",
+						"Chill": "-10% [Attack Speed & Movement Speed]",
 						"Duration": "3 seconds"
 					}
 				},
 				"Frozen Wall":{
 					"prop":{
-						"Active": "Mei creates a frozen wall to stop enemies, active again or after the duration ends, the wall explode to icicles in a area around the wall, dealing physical damage to each enemy hit and create the same chill effects as Splittering Cristal. <br>Active again before doing the skill, change the angle.",
+						"Active": "Mei creates a frozen wall to stop enemies, then the duration ends or if you activate before it ends, the wall explode to icicles. Dealing physical damage to each enemy hit and create the same chill affect as Splitting Crystal. <br>Active again before doing the skill, change the angle.",
 						"": "",
 						"Ability": "Wall",
 						"Radius": "60 size",
@@ -682,27 +704,27 @@
 				},
 				"Freeze":{
 					"prop":{
-						"Active": "Mei spraying cold frost in a line, channeling while moving. Dealing physical damage to the enemy hit per second. <br>Freeze the enemy in a certain time and double effect to chilled enemies.",
+						"Active": "Mei spraying cold frost in her way, continuing to spray until she interrupts and can move while spraying. Dealing physical damage to the enemy hit per second and stacking with chill which eventually freezes them when they reach 100% but double affect to already chilled enemies. <br>Half of its damage against freeze enemies.",
 						"": "",
 						"Ability": "Line, Channeling",
 						"Radius": "60 size",
 						"Cost":"14 mana (per second)",
 						"Cooldown":"12 seconds",
 						"Damage": "14 / 20 / 26 / 32 / 38 (+95% Physical Power)",
-						"Freeze Effect": "+20% per seconds",
+						"Freeze Effect": "-6% per 0,10 seconds",
 						"Freeze": "3 seconds"
 					}
 				},
 				"Frozen Field":{
 					"prop":{
-						"Active": "Mei creates a cristal that chilling all enemies in a area and dealing physical damage per seconds, freeze enemies at last. <br>Double effect to chilled enemies.",
+						"Active": "Mei creates a crystal that chilling all enemies at a target location and dealing physical damage per seconds, freeze enemies at last but Double effect to chilled enemies. <br>Half of its damage against freeze enemies.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "30 size",
+						"Radius": "45 size",
 						"Cost":"100 / 110 / 120 / 130 / 140  mana",
 						"Cooldown":"90 seconds",
 						"Damage": "14 / 20 / 26 / 32 / 38 (+95% Physical Power)",
-						"Freeze Effect": "+20% per seconds",
+						"Freeze Effect": "-6% per 0,10 seconds",
 						"Freeze": "3 seconds"
 					}
 				}
@@ -1551,7 +1573,7 @@
 		"fenrir": {
 			"name": "Fenrir",
 			"class": "tank",
-			"title": "Armored Pheonix",
+			"title": "The Armored Phoenix",
 			"desc": "Fenrir lives in City of Mordune together with Leo, leader of the deffencive squad in the military. With his mace and fire power as magic, he can run and not to bother if he got any harm, he just continues burning his enemies!",
 			"skill": {
 				"Cone of Fire":{
@@ -1591,7 +1613,7 @@
 						"Duration": "3 seconds"
 					}
 				},
-				"Skin as a Pheonix":{
+				"Skin as a Phoenix":{
 					"prop":{
 						"Active": "Fenrir create a burning skin that burning enemies near him, dealing magic damage per second. <br>If he dies with this active, he resurrect with just 30% of his maximum health.",
 						"Passive": "Fenrir got an increased Health Regen and Magic Protection.",
@@ -1611,7 +1633,7 @@
 			"name": "Golem",
 			"class": "tank",
 			"title": "The Lonely Soul",
-			"desc": "Golem lives self in the mountains, scare away people who walks through the mountain path. He is a lonely soul with no friends and doesn't know his background and how he came to, he is just a big rock with thoughts and feelings that crush enemies he sees.",
+			"desc": "Golem lives self in the mountains, scare away people who walks through the mountain path. He is a lonely soul with no friends and doesn't know his background and how he came to, he is just a big rock with throughts and feelings that crush enemies he sees.",
 			"skill": {
 				"Earth Blast":{
 					"prop":{
