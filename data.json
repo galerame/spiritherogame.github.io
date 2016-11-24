@@ -1,5 +1,10 @@
 {
 	"hero": {
+	"mana_potion": {
+			"name": "Mana potion",
+			"class": "item",
+			"desc": "Champion gains 100 mana over 5 seconds"
+		},
 		"anni": {
 			"name": "Anni",
 			"class": "hunter",
