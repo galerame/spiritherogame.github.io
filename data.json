@@ -5760,58 +5760,6 @@
 				}
 			}
 		},
-		"minghua": {
-			"name": "Ming-Hua",
-			"class": "mage",
-			"title": "Armless Water Bender",
-			"desc": "",
-			"skill": {
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				}
-			}
-		},
 		"riley": {
 			"name": "Riley",
 			"class": "mage",
