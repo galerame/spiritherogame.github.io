@@ -285,7 +285,7 @@
 						"Radius": "55*55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 seconds",
-						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+60% Physical Power)"
+						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+60% Physical Power)",
 						"Knockback": "55 size behind"
 					}
 				},
@@ -376,7 +376,7 @@
 			"name": "Elany",
 			"class": "hunter",
 			"title": "The Humanized Fairy",
-			"desc": "Elany is a fairy in the magical forest "The Dark Forest". Learned how to create herself bigger to fight for the elves. Her experience by fairy magic and fighting with an elven bow make her a big threat!",
+			"desc": "Elany is a fairy in the magical forest. Learned how to create herself bigger to fight for the elves. Her experience by fairy magic and fighting with an elven bow make her a big threat!",
 			"skill": {
 				"Fireflies":{
 					"prop":{
