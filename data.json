@@ -1,9 +1,79 @@
 {
 	"hero": {
-	"mana_potion": {
-			"name": "Mana potion",
+	"sandals": {
+			"name": "Sandals",
 			"class": "item",
-			"desc": "Champion gains 100 mana over 5 seconds"
+			"desc": "+6% Movement Speed"
+		},
+	"lightness": {
+			"name": "Boots of Lightness",
+			"class": "item",
+			"desc": "+15% Movement Speed <br>Active: Get +8% Movement Speed for 6 seconds and ignore slow affects. [Cooldown: 60 seconds]"
+		},
+	"ninja_boots": {
+			"name": "Ninja Boots",
+			"class": "item",
+			"desc": "+15% Movement Speed <br>Active: Blink at a target location. [Cooldown: 60 seconds]"
+		},
+	"leather_boots": {
+			"name": "Leather Boots",
+			"class": "item",
+			"desc": "+15% Movement Speed, +10 Armor, +150 Health, +15 Physical Power <br>Active: Knock back a nearby enemy front of you and stun they for 0,5 seconds. [Cooldown: 60 seconds]"
+		},
+	"iron": {
+			"name": "Boots of Iron",
+			"class": "item",
+			"desc": "+15% Movement Speed, +20 Armor <br>Passive: 10% Protection to all sorts of damage against you."
+		},
+	"nymph": {
+			"name": "Nymph Boots",
+			"class": "item",
+			"desc": "+15% Movement Speed, +25 Magic Protection, +20 Magic Power, +20% Crowd Control <br>Active: Remove all Crowd Control on you and make you invulnerable agenst it for 2,5 seconds. [Cooldown: 60 seconds]"
+		},
+	"wizardy": {
+			"name": "Wizard Boots",
+			"class": "item",
+			"desc": "+15% Movement Speed, +25 Magic Power, +15 Magic Penetration <br>Passive: 10% Cooldown Reduction to Abilitys and actives from items."
+		},
+	"gloves": {
+			"name": "Gloves",
+			"class": "item",
+			"desc": "+6% Attack Speed"
+		},
+	"gloves_power": {
+			"name": "Gloves of Power",
+			"class": "item",
+			"desc": "+10% Attack Speed, +20 Physical Power, +5 Armor Penetration <br>Active: +15% Attack Speed for 4 seconds. [Cooldown: 60 seconds]"
+		},
+	"gloves_vital": {
+			"name": "Gloves of Vital",
+			"class": "item",
+			"desc": "+10% Attack Speed, +15% Crit Chance, +30 Crit Damage"
+		},
+	"military": {
+			"name": "Gloves of Military",
+			"class": "item",
+			"desc": "+10% Attack Speed, +10 Armor, +100 Health, +15 Physical Power <br>Passive: Hitting enemies with basic attack, increases +2 Physical Power with a maximum of 20 stacks last 5 seconds."
+		},
+	"iron_gloves": {
+			"name": "Iron Gloves",
+			"class": "item",
+			"desc": "+10% Attack Speed, +20 Armor, +20 Physical Power <br>Passive: 10% Protection to all sorts of damage agenst you."
+		},
+	"nymph_gloves": {
+			"name": "Nymph Gloves",
+			"class": "item",
+			"desc": "+10% Attack Speed, +25 Magic Protection, +20 Magic Power <br>Passive: 10% Cooldown Reduction to Abilitys and actives from items."
+		},
+	"wizardy_gloves": {
+			"name": "Wizardy Gloves",
+			"class": "item",
+			"desc": "+10% Attack Speed, +25 Magic Power, +15 Magic Penetration <br>Passive: Every tenth ability use, increases your next basic attack by 200% damage as magic."
+		},
+	"frozen_gloves": {
+			"name": "Frozen Gloves",
+			"class": "item",
+			"desc": "+10% Attack Speed, +12 Magic Protection, +12 Armor, +12 Physical Power, +12 Magic Power <br>Passive: Basic attacks now slow enemies by 6% over 1 second."
 		},
 		"anni": {
 			"name": "Anni",
@@ -145,14 +215,14 @@
 				},
 				"Magic Pulse":{
 					"prop":{
-						"Active": "Blade blink to a nearby target location, lets her critt by her next basic hit with a increased critt damage the last 3 seconds. <br>Every hit by your basic attacks decreases this cooldown by 0,5 seconds.",
-						"Passive": "Blade get increased critt chance, every time she critt, the targeted and hunted enemy takes magic damage from a magical pulse. <br>2,5 seconds cooldown.",
+						"Active": "Blade blink to a nearby target location, lets her crit by her next basic hit with a increased crit damage the last 3 seconds. <br>Every hit by your basic attacks decreases this cooldown by 0,5 seconds.",
+						"Passive": "Blade get increased crit chance, every time she crit, the targeted and hunted enemy takes magic damage from a magical pulse. <br>2,5 seconds cooldown.",
 						"": "",
 						"Ability": "Teleport, Buff",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 seconds",
-						"Critt Damage": "50 / 100 / 150 / 200 / 250 %",
-						"Critt Chance": "10 / 15 / 20 / 25 / 30 %",
+						"Crit Damage": "50 / 100 / 150 / 200 / 250 %",
+						"Crit Chance": "10 / 15 / 20 / 25 / 30 %",
 						"Magic Damage": "100 (+4 per hero level = 180 at lvl 20)"
 					}
 				},
@@ -208,7 +278,7 @@
 				"Moon Arrows":{
 					"prop":{
 						"Active": "Chantreas next three arrows piercing through enemies in a line, at the end of the line, they start to seek to the nearest target.",
-						"Passive": "Her arrows seek to the last enemy hit if you miss your target, but just a % of your damage. <br>Critt cause an extra true damage from a % of your magic power and seek to an other enemy nearby your target.",
+						"Passive": "Her arrows seek to the last enemy hit if you miss your target, but just a % of your damage. <br>crit cause an extra true damage from a % of your magic power and seek to an other enemy nearby your target.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
@@ -216,7 +286,7 @@
 						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
 						"Damage": "Physical: 80 / 135 / 190 / 245 / 300 (+80% Physical Power)",
 						"Seek Damage": "Physical: 40% Physical Power",
-						"Critt Bonus": "True: 35% Magic Power"
+						"crit Bonus": "True: 35% Magic Power"
 					}
 				},
 				"White Tiger":{
@@ -743,7 +813,7 @@
 			"skill": {
 				"Bola Bomb":{
 					"prop":{
-						"Active": "Phia throwing a bola at the first enemy hit in a line. Slowing the enemy before it's detonation, dealing physical damage to all enemies at the targeted area.",
+						"Active": "Phia throwing a bola at the first enemy hit in a line. Slowing the enemy before its detonate, dealing physical damage to all enemies at the targeted area.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
@@ -762,12 +832,12 @@
 						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
-						"Damage": "Physical: 30 / 50 / 70 / 90 / 120 (+100% Physical Power) (per arrow)"
+						"Damage": "Physical: 30 / 50 / 70 / 90 / 120 (+100% Physical Power) each arrow"
 					}
 				},
 				"Sentry":{
 					"prop":{
-						"Active": "Phia lay a sentry on a targeted localtion, start to fire arrows at targeted enemies. Lasts up to 25 seconds. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one.",
+						"Active": "Phia lay a sentry at a target location, start to fire arrows at random enemies or the target. Lasts up to 25 seconds. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one.",
 						"": "",
 						"Ability": "Lay",
 						"Radius": "70 size",
@@ -779,7 +849,7 @@
 				},
 				"Ticking Bomb":{
 					"prop":{
-						"Active": "Phia lay a ticking bomb on a targeted localtion, dealing physical damage to all enemies in the area around the bomb after the detonation.",
+						"Active": "Phia lay a ticking bomb at a target location, after it detonating, dealing physical damage to all enemies hit.",
 						"": "",
 						"Ability": "Ground Target",
 						"Radius": "40 size",
@@ -794,56 +864,55 @@
 		"raven": {
 			"name": "Raven",
 			"class": "hunter",
-			"title": "The Silent Archer",
-			"desc": "Raven lives in the Abandoned City, found as just a child helpless without parents, was raised by the vampire Lucifer, now lives with her ravens as her name as well, and taking care of Sabrine as if she was her little sister. She fighting in silence as a hunter and can some magical tactics. She are to strong too be just a ordinary human!",
+			"title": "The Silent Sniper",
+			"desc": "Raven lives in the Abandoned City, found as just a child helpless without parents, was raised by the vampire Lucifer, now lives with her ravens as her name as well, and taking care of Sabrine as if she was her little sister. She fighting in silence and the last thing you hear is just a sound from a crow before you get hit by her arrow!",
 			"skill": {
-				"Dark Arrow":{
+				"Black Arrow":{
 					"prop":{
-						"Active": "Raven fires a dark arrow that piercing through enemies in a line, dealing magic damage and destroy they defence for a long duration.",
+						"Active": "Raven starts to fire black arrows, give her basic attacks a bonus magic damage. <br>Killing minions with this active, give you permanent bonus magic damage to Black Arrow.",
 						"": "",
-						"Ability": "Line",
-						"Radius": "65 size",
-						"Cost": "70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
-						"Damage": "Magic: 90 / 155 / 220 / 285 / 350 (+90% Physical Power)",
-						"Defence": "- 20%",
-						"Duration": "6 seconds"
+						"Ability": "Projectile, On / Off",
+						"Cost": "14 mana (per arrow)",
+						"Cooldown": "None",
+						"Bonus Magic Damage": "Magic: 25 / 35 / 45 / 55 / 65 (+2 per hero level = 40)",
+						"Kills": "+2 Permanent Magic Bonus"
 					}
 				},
 				"Silence":{
 					"prop":{
-						"Active": "Raven cause a magical force on a area, silence the enemies and dealing magic damage to them.",
+						"Active": "Raven cause a magical force at a target location, silence and dealing magic damage that destroying their defences.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"10 / 11 / 12 / 13 / 14 seconds",
+						"Cooldown":"13 / 14,25 / 15,5 / 16,75 / 18 seconds",
 						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+80% Magic Power)",
-						"Silence": "2,25 / 2,5 / 2,75 / 3 / 3,25 seconds seconds"
+						"Defence": "-20%",
+						"Duration": "3 / 3,5 / 4 / 4,5 / 5 seconds"
 					}
 				},
 				"Silent Leap":{
 					"prop":{
-						"Active": "Raven leap to a localtion invisible. <br>Silent Strike: Her next basic attack silence the enemy and dealing a bonus magic damage, can't be silences for 3 seconds cooldown after Silent Strike, same to Silent Strike.",
+						"Active": "Raven leaps at a target location while becoming invisible, give her Silent Strike to her next basic hit. <br>Silent Strike: Silence the enemy and dealing a bonus damage by they maximum health as true damage.",
 						"": "",
-						"Ability": "Leap, Stealth",
+						"Ability": "Leap, Invisible",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"15 seconds",
-						"Stealth": "4 seconds",
-						"Bonus Damage": "Magic: 45 / 90 / 135 / 180 / 225",
+						"Cooldown":"16 seconds",
+						"Invisible": "4 seconds",
+						"Bonus Damage": "True: 16 / 20 / 24 / 28 / 32 %",
 						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds"
 						
 					}
 				},
 				"Ravens":{
 					"prop":{
-						"Active": "Raven summons her friends that targeting enemies inside the area, dealing physical damage over a duration. <br>Effected enemies can't go stright and they are slowed.",
+						"Active": "Raven summoning her friends that targeting enemies, dealing physical damage over a duration. <br>Affected enemies can't go stright and they are slowed.",
 						"": "",
 						"Ability": "Area",
-						"Radius": "40 size",
+						"Radius": "70 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+60% Physical Power)",
+						"Damage": "Physical: 175 / 210 / 245 / 280 / 315 (+60% Physical Power)",
 						"Duration": "5 seconds",
 						"Slow": "15%"
 					}
@@ -854,20 +923,19 @@
 			"name": "Richard",
 			"class": "hunter",
 			"title": "The Arcane Archer",
-			"desc": "Richard lives in City of Mordune, engaged with Riley.",
+			"desc": "Richard lives in City of Mordune, engaged with Riley. Has always study arcane magic and are known as the true user of arcane archery!",
 			"skill": {
 				"Arcane Bolts":{
 					"prop":{
-						"Active": "Richard fires five bolts at random enemies, dealing magic damage each bolt. <br>Can crit.",
-						"Passive": "Basic attacks got a % of his magic power, he also got increased magic power.",
+						"Active": "Richard fires five bolts at random targets inside a cone, dealing physical damage from each bolt and your next basic attack hit against choose targets piercing through a % of they armor as True damage. The bolts also can crit.",
+						"Passive": "Hit enemies with basic attacks decreases the cooldown of Arcane Bolts by 0,5 seconds.",
 						"": "",
 						"Ability": "Cone",
-						"Radius": "80 size",
+						"Radius": "70 size",
 						"Cost": "60 / 65 / 70 / 75 / 80 mana",
-						"Cooldown": "10 seconds",
-						"Damage": "Magic: 60 / 110 / 160 / 210 / 260 (+90% Magic Power)",
-						"Magic Power": "20 / 30 / 40 / 50 / 60",
-						"Bonus Damage": "Magic: 24 / 48 / 72 / 96 / 120 % (Magic Power)"
+						"Cooldown": "12 seconds",
+						"Damage": "Physical: 20 / 30 / 40 / 50 / 60 (+20% Physical Power) each bolt",
+						"Armor": "True: 10% each bolt = 50% maximum"
 					}
 				},
 				"Arcane Prison":{
@@ -879,31 +947,31 @@
 						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"13 / 12 / 11 / 10 / 9 seconds",
-						"Damage": "Magic: 80 / 100 / 120 / 140 / 160 (+20% of ability power) (+1% bonus mana)",
+						"Damage": "Magic: 80 / 100 / 120 / 140 / 160 (+40% Magic Power) (+1% bonus mana)",
 						"Duration": "1 seconds"
 					}
 				},
 				"Teleport":{
 					"prop":{
-						"Active": "Richard teleport to a localtion, silence enemies in the targeted area and dealing magic damage to them. <br>Reduction 50% cooldown for Arcane Bolts.",
+						"Active": "Richard teleport to a target location, silence enemies in the targeted area and dealing magic damage to them. <br>Reduction 50% cooldown for Arcane Bolts.",
 						"": "",
 						"Ability": "Teleport",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 seconds",
-						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+80% Physical Power)",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+20% Physical Power) (+20% Magic Power)",
 						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds"
 					}
 				},
 				"Massive Arcane":{
 					"prop":{
-						"Active": "Richard sending a % of his mana to an increadible arrow, dealing magic damage to all enemies in a line.",
+						"Active": "Richard sending a % of his mana to a increadible arrow, dealing physical damage to all enemies in a line.",
 						"": "",
 						"Ability": "Line",
-						"Radius": "15 size",
+						"Radius": "90 size",
 						"Cost":"12% mana",
 						"Cooldown":"None",
-						"Damage": "Magic: 100 / 145 / 190 / 235 / 280 (+60% Magic Power)"
+						"Damage": "Physical: 100 / 145 / 190 / 235 / 280 (+20% Physical Power) (+20% Magic Power)"
 					}
 				}
 			},
@@ -917,56 +985,56 @@
 			"name": "Rogue",
 			"class": "hunter",
 			"title": "The Trucker",
-			"desc": "Rogue lives in the wild, ",
+			"desc": "Rogue came from a small village near the big forest, her parents was killed by bandits that started her life. She was starting to train young, using her bow and a strong boomerang, then used it to do revansh against the bandits, she found them and did the revansh then started to live in the wild and stop bandits for killing innocent people.",
 			"skill": {
 				"Boomerang":{
 					"prop":{
-						"Active": "Rogue throwing a boomerang like a half moon, stunning enemies hit and dealing physical damage. <br>Active twise, she throwing the boomerang in a line instead, dealing half of the physical damage, but teleport to it's end. Double damage to minions and monsters.",
+						"Active": "Rogue throw a boomerang like a half moon, stunning enemies hit and dealing physical damage. <br>Active twice, she throw the boomerang in a straight line instead, dealing half of the damage, but teleport to its end if active again while it is thrown. Double damage to minions and monsters.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "12",
+						"Cooldown": "12 seconds",
 						"Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+120% Physical Power)",
 						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
 					}
 				},
 				"Trucking":{
 					"prop":{
-						"Active": "Rogue play a sound from her fluet, increases her and her allies attack speed for a long duration.",
-						"Passive": "Now you see footsteps from enemies 5 seconds behind and you both hear nearby enemies footsteps and can see a red arrow at what direction you hearing them.",
+						"Active": "Rogue play a sound from her flute, increases her and her allies attack speed for a long duration.",
+						"Passive": "Now you see footsteps from enemies 5 seconds behind and you also hear nearby enemies footsteps and can see a red arrow at what direction you hearing them.",
 						"": "",
 						"Ability": "Area",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Attack Speed": "10 / 20 / 30 / 40 / 50 %",
+						"Attack Speed": "10 / 16 / 22 / 28 / 34 %",
 						"Duration:": "6 seconds"
 					}
 				},
 				"Hunting Experience":{
 					"prop":{
-						"Active": "Rogue leap to a targeted localtion, dealing physical damage to all enemies in the area, decreases they defence for a short duration. <br>Bow: Rogue launch arrows at a targeted localtion, slows and dealing physical damage to enemies.",
+						"Active": "Rogue leap at a target location, dealing physical damage to all enemies hit, decreases they defence for a short duration. <br>Bow: Rogue launch arrows at a target location, slows and dealing physical damage to enemies hit.",
 						"": "",
 						"Ability": "Leap / Ground Target",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
 						"Damage": "80 / 140 / 210 / 270 / 340 (+80 Physical Power)",
 						"Defence": "- 10 / 15 / 20 / 25 / 30 %",
 						"Slow": "25%",
-						"Duration": "4 seconds"
+						"Duration": "3 seconds"
 					}
 				},
 				"Bow":{
 					"prop":{
-						"Active": "Rogue switch to her bow, increases her Armor Penetration while she holding her bow. <br>While she has her dagger, increases her crit chance and crit damage with a bloody effect.",
+						"Active": "Rogue switch to her bow, increases her Armor Penetration while she holding her bow. <br>While she has her dagger, increases her crit damage with a bloody effect and increases her crit chance for every time she not critting.",
 						"": "",
 						"Ability": "Switch Stance",
 						"Cost":"None",
 						"Cooldown":"None",
-						"Armor Penetration": "15 / 20 / 25 / 30 / 35 %",
-						"Crit Chance": "10 / 20 / 30 / 40 / 50 %",
+						"Armor Penetration": "12 / 14 / 16 / 18 / 20 %",
+						"Crit Chance": "+ 12 / 13 / 14 / 15 / 16 % per miss",
 						"Crit Damage": "40 / 80 / 120 / 160 / 200 %"
 					}
 				}
@@ -1078,7 +1146,7 @@
 				},
 				"Tactical Stance":{
 					"prop":{
-						"Active": "Snow targeting a nearby tree, turrent, building or other high things, ignoring all harming or effects and let your Stars fire at a ground target, Bounty Bomb also hit a ground target, detonate and dealing half of it's physical damage as true damage to all enemies in the targeted area. <br>Leaves make you jump to a targeted localtion.",
+						"Active": "Snow targeting a nearby tree, turrent, building or other high things, ignoring all harming or effects and let your Stars fire at a ground target, Bounty Bomb also hit a ground target, detonate and dealing half of its physical damage as true damage to all enemies in the targeted area. <br>Leaves make you jump to a targeted localtion.",
 						"Passive": "Snow got increased crit damage.",
 						"": "",
 						"Ability": "Ground Target",
