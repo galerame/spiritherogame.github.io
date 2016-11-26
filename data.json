@@ -131,6 +131,7 @@
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 300 / 425 / 550 / 675 / 800 (+100% Physical Power)",
 						"Stun": "1 seconds"
+						
 					}
 				}
 			}	
@@ -312,6 +313,11 @@
 						"Damage": "230 / 295 / 360 / 425 / 490 (+120% Physical Power)",
 						"Stun": "0,75 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Cherry Blossom Chantrea": {
+					"link": "chantrea1"
 				}
 			}
 		},
@@ -1408,6 +1414,11 @@
 						"Magic Protection": "40 / 50 / 60 / 70 / 80",
 						"Duration": "4 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Red Golden Princess Asula": {
+					"link": "asula1"
 				}
 			}
 		},
@@ -2680,6 +2691,9 @@
 				},
 				"Twin Blade Pirate Lotus": {
 					"link": "lotus2"
+				},
+				"Black & White Lotus": {
+					"link": "lotus3"
 				}
 			}
 		},
