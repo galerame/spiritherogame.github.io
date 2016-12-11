@@ -310,7 +310,7 @@
 						"Ability": "Target, Projectile",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "230 / 295 / 360 / 425 / 490 (+120% Physical Power)",
+						"Damage": "Physical: 230 / 295 / 360 / 425 / 490 (+120% Physical Power)",
 						"Stun": "0,75 seconds"
 					}
 				}
@@ -318,6 +318,68 @@
 			"skin" : {
 				"Cherry Blossom Chantrea": {
 					"link": "chantrea1"
+				}
+			}
+		},
+		"cicada": {
+			"name": "Cicada",
+			"class": "hunter",
+			"title": "The Insect Queen",
+			"desc": "Cicada lives in the dark forest, living as a forest keeper that hate humans. Kokong enemies and fly around to look for new enemies. Because of her insect eyes she is a incredible killing machine with her arrows!",
+			"skill": {
+				"Kokong Arrow":{
+					"prop":{
+						"Active": "Cicada launch an arrow at a line, kokong the first enemy hit and dealing physical damage.",
+						"": "",
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 seconds",
+						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+120% Physical Power)",
+						"Kokong": "1,2 / 1,4 / 1,6 / 1,8 / 2 seconds"
+					}
+				},
+				"Hunting Insect":{
+					"prop":{
+						"Active": "Cicada lay a webb trap at a target location, ensnare the first enemie walking over it. <br>Triggering the trap summon small spiders that attack the targeted enemy, dealing physical damage over time.",
+						"Passive": "Cicada get increased Attack Speed and Movement Speed by her level.",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"45 mana",
+						"Cooldown":"18 / 16 / 14 / 12 / 10 seconds",
+						"Attack Speed": "8 / 12 / 16 / 20 / 24 % (+0,5% per hero level = 10% at level 20)",
+						"Movement Speed": "6 / 10 / 14 / 18 / 22 % (+0,2% per hero level = 4% at level 20)",
+						"Damage": "Physical: 15 / 20 / 25 / 30 / 35 (+30% Physical Power) per spider",
+						"Spiders": "3 / 3 / 4 / 4 / 5",
+						"Ensnare": "2 seconds",
+						"Max Traps": "3"
+					}
+				},
+				"Webb Trail":{
+					"prop":{
+						"Active": "Cicada dash forward and create a trail of webb, slowing enemies who walking over it. <br>Enemies hit by your dash gets caught by your webb, ensnare enemies and dealing physical damage to them.",
+						"": "",
+						"Ability": "Dash",
+						"Radius": "55 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 seconds",
+						"Damage": "Physical: 70 / 115 / 160 / 205 / 250 (+60% Physical Power)",
+						"Ensnare": "1,2 / 1,4 / 1,6 / 1,8 / 2 seconds",
+						"Slow": "16 / 20 / 24 / 28 / 32 %",
+						"Duration": "3,2 / 3,4 / 3,6 / 3,8 / 4 seconds"
+					}
+				},
+				"Circulating Arc":{
+					"prop":{
+						"Active": "Cicada flying around in a circle, can launch an arrow at a target location while flying, dealing physical damage to enemies hit each arrow launch.",
+						"": "",
+						"Ability": "Fly, Area / Ground Target",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 240 / 320 / 400 / 480 / 560 % Physical Power",
+						"Duration": "3 seconds"
+					}
 				}
 			}
 		},
@@ -984,6 +1046,9 @@
 			"skin" : {
 				"Hawkeye Richard": {
 					"link": "richard1"
+				},
+				"Lightning Bringer Richard": {
+					"link": "richard2"
 				}
 			}
 		},
@@ -2632,6 +2697,11 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Lightning Sorceress Leanish": {
+					"link": "leanish1"
+				}
 			}
 		},
 		"lotus": {
@@ -2701,6 +2771,58 @@
 			"name": "Maria",
 			"class": "assassin",
 			"title": "Masked Wind Bringer",
+			"desc": "",
+			"skill": {
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "10 size",
+						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cooldown": "None",
+						"Damage": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				},
+				"":{
+					"prop":{
+						"Active": "",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "15 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"": ""
+					}
+				}
+			}
+		},
+		"minae": {
+			"name": "Minae",
+			"class": "assassin",
+			"title": "The Ninja of Japan",
 			"desc": "",
 			"skill": {
 				"":{
