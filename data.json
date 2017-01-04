@@ -325,7 +325,7 @@
 			"name": "Cicada",
 			"class": "hunter",
 			"title": "The Insect Queen",
-			"desc": "Cicada lives in the dark forest, living as a forest keeper that hate humans. Kokong enemies and fly around to look for new enemies. Because of her insect eyes she is a incredible killing machine with her arrows!",
+			"desc": "Cicada lives in the dark forest, living as a forest keeper that hate humans. Kokong enemies and fly around to look for new enemies. Because of her insect eyes she is an incredible killing machine with her arrows!",
 			"skill": {
 				"Kokong Arrow":{
 					"prop":{
@@ -991,7 +991,7 @@
 			"name": "Richard",
 			"class": "hunter",
 			"title": "The Arcane Archer",
-			"desc": "Richard lives in City of Mordune, engaged with Riley. Has always study arcane magic and are known as the true user of arcane archery!",
+			"desc": "Richard lives in City of Mordune, engaged with Riley. Has always study arcane magic and is known as the true user of arcane archery!",
 			"skill": {
 				"Arcane Bolts":{
 					"prop":{
@@ -1033,7 +1033,7 @@
 				},
 				"Massive Arcane":{
 					"prop":{
-						"Active": "Richard sending a % of his mana to a increadible arrow, dealing physical damage to all enemies in a line.",
+						"Active": "Richard sending a % of his mana to an increadible arrow, dealing physical damage to all enemies in a line.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "90 size",
@@ -1055,7 +1055,7 @@
 		"rogue": {
 			"name": "Rogue",
 			"class": "hunter",
-			"title": "The Trucker",
+			"title": "The Tracker",
 			"desc": "Rogue came from a small village near the big forest, her parents was killed by bandits that started her life. She was starting to train young, using her bow and a strong boomerang, then used it to do revansh against the bandits, she found them and did the revansh then started to live in the wild and stop bandits for killing innocent people.",
 			"skill": {
 				"Boomerang":{
@@ -1070,7 +1070,7 @@
 						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
 					}
 				},
-				"Trucking":{
+				"Tracking":{
 					"prop":{
 						"Active": "Rogue play a sound from her flute, increases her and her allies attack speed for a long duration.",
 						"Passive": "Now you see footsteps from enemies 5 seconds behind and you also hear nearby enemies footsteps and can see a red arrow at what direction you hearing them.",
@@ -1125,17 +1125,16 @@
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
-						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120 Physical Power)",
-						"Piercing": "32% (+2% per hero level = 72% at level 20)"
+						"Damage": "Piercing: 70 / 120 / 170 / 220 / 270 (+120 Physical Power)"
 					}
 				},
-				"Mercury HG / Arrow Bomb":{
+				"Quicksilver":{
 					"prop":{
-						"Active": "Simin launch an arrow at a targeted localtion, dealing physical damage to all enemies in that small area. <br>Can't fires in a short range, but have increased sight.",
+						"Active": "Simin launch an arrow at a target location, dealing physical damage to all enemies hit. <br>Can't fires in a short range, but have increased sight.",
 						"Passive": "Basic attacks from Simins arrows effecting your enemies with a poison from toxic silver, dealing physical damage over time. <br>Effected enemies can't become invisible and let you see them in a longer range.",
 						"": "",
 						"Ability": "Ground Target",
-						"Radius": "12 size",
+						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"None",
 						"Toxic": "Physical: 25 / 28 / 31 / 34 / 37 (+15% Physical Power)",
@@ -1145,19 +1144,19 @@
 				},
 				"Spitting Arrow":{
 					"prop":{
-						"Active": "Simin launch an arrow that explode on your target, creates sharp pieces as a cone, dealing physical damage to the targeted enemy and an other damage to they behind. <br>Enemies hit by the projectiles also got the toxic.",
+						"Active": "Simin launch an arrow at the first enemy hit, explode in to sharp pieces as a cone behind the targeted hit, dealing physical damage to the targeted hit, but piercing damage to enemies hit in the cone. <br>Enemies hit by the projectiles also got the toxic.",
 						"": "",
 						"Ability": "Projectile",
-						"Radius": "70 size (Cone: 40 size)",
+						"Radius": "70 size (Cone: 50 size)",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"11 seconds",
 						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120 Physical Power)",
-						"Cone Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+100% Physical Power)"
+						"Cone Damage": "Piercing: 60 / 110 / 160 / 210 / 260 (+100% Physical Power)"
 					}
 				},
 				"Awesome Arrow":{
 					"prop":{
-						"Active": "Samin launch a great arrow in a line, the first enemy hit got pushed back, dealing physical damage to the target and an other damage to all enemies the pushed enemy hit and also knock they back too. <br>If the target hit a wall, turrent or a tree they be stunned.",
+						"Active": "Simin launch a great arrow in a line, the first enemy hit get pushed back, dealing physical damage to the target and an other damage to all enemies the pushed enemy hit and also knock them back too. <br>If the target hit a wall, turret or a tree they be stunned.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
@@ -1217,7 +1216,7 @@
 				},
 				"Tactical Stance":{
 					"prop":{
-						"Active": "Snow targeting a nearby tree, turrent, building or other high things, ignoring all harming or effects and let your Stars fire at a ground target, Bounty Bomb also hit a ground target, detonate and dealing half of its physical damage as true damage to all enemies in the targeted area. <br>Leaves make you jump to a targeted localtion.",
+						"Active": "Snow targeting a nearby tree, turret, building or other high things, ignoring all harming or effects and let your Stars fire at a ground target, Bounty Bomb also hit a ground target, detonate and dealing half of its physical damage as true damage to all enemies in the targeted area. <br>Leaves make you jump to a targeted localtion.",
 						"Passive": "Snow got increased crit damage.",
 						"": "",
 						"Ability": "Ground Target",
@@ -1558,7 +1557,7 @@
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
 						"Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+75% Physical Power)",
-						"Armor": "15 / 20 / 25 / 30 / 35%",
+						"Armor": "- 15 / 20 / 25 / 30 / 35%",
 						"Duration": "3 seconds"
 					}
 				},
@@ -1687,7 +1686,7 @@
 						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"11 seconds",
-						"Destructive Armor": "70 / 140 / 120 / 190 / 260 (+20 per hero level = 400",
+						"Destructive": "70 / 140 / 120 / 190 / 260 (+20 per hero level = 400",
 						"Damage": "Physical: 55 / 110 / 165 / 220 / 275 (+75% Magic Power)"
 					}
 				},
@@ -2051,6 +2050,65 @@
 			"skin" : {
 				"Royal Gold Rebecca": {
 					"link": "rebecca1"
+				}
+			}
+		},
+		"rohan": {
+			"name": "Rohan",
+			"class": "tank",
+			"title": "The Scorpion King",
+			"desc": "Lives in the Deserted Path by himself, trading with humans by giving them protection. Against bounty hunters he is hard to be find, by his tail he poisoned his enemies and destroying their armor with his strong claws and creating much sand eddies.",
+			"skill": {
+				"Needle":{
+					"prop":{
+						"Active": "Rohan strike with his tail, poisoning all enemies in a line, dealing true physical damage for a short duration and reducing their Physical Power.",
+						"Passive": "His third basic attack destroying they armor in a cone for a short duration.",
+						"": "",
+						"Ability": "Line, Cone",
+						"Radius (Line)": "70 size",
+						"Radius (Cone)": "35 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "True: 35 / 40 / 45 / 50 / 55 (+15% Physical Power)",
+						"Physical Power": "- 12 / 18 / 24 / 30 / 36 %",
+						"Armor": "- 10 / 15 / 20 / 25 / 30 %",
+						"Duration": "5 seconds"
+					}
+				},
+				"Sandstorm":{
+					"prop":{
+						"Active": "Rohan creates a circulating storm around him by sand, give him increased Armor. Every time his third basic attack have been done, Rohan spitting sand in the cone, dealing piercing damage to enemies hit.",
+						"": "",
+						"Ability": "Shield, Cone",
+						"Radius (Cone)": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Armor": "+ 20 / 30 / 40 / 50 / 60",
+						"Damage": "Piercing: 60 / 100 / 140 / 180 / 220 (+40% Physical Power)"
+					}
+				},
+				"Quicksand":{
+					"prop":{
+						"Active": "Rohan creates quicksand in a target location, slowing enemies. <br>If an enemy stay still on the sand, their knees are stuck in the sand and can't move.",
+						"": "",
+						"Ability": "Ground Target",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
+						"Slow": "16 / 20 / 24 / 28 / 32 %",
+						"Duration": "4 seconds"
+					}
+				},
+				"Sand Rush":{
+					"prop":{
+						"Active": "Rohan rush to a target location, dealing physical damage to all enemies hit. <br>Can be use from bot lane to top lane, no limit.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 300 / 400 / 500 / 600 / 700 (+120% Physical Power"
+					}
 				}
 			}
 		},
