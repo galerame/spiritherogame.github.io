@@ -4233,7 +4233,7 @@
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+120% Physical Power)",
-						"Bonus Damage": "True: 5 / 10 / 15 / 20 / 25 (+1,5 per hero level = 30 at level 20)",
+						"Bonus Damage": "True: 5 / 10 / 15 / 20 / 25 (+1,5 per hero level = 30 at level 20)"
 					}
 				},
 				"Convince":{
@@ -4271,6 +4271,11 @@
 						"Duration": "2 / 2,5 / 3 / 3,5 / 4 seconds"
 					}
 				}
+			},	
+			"skin" : {
+				"Black Beard": {
+					"link": "mikael1"
+			    }
 			}
 		},
 		"neo": {
@@ -4493,63 +4498,6 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
-				}
-			}
-		},
-		"scar": {
-			"name": "Scar",
-			"class": "fighter",
-			"title": "The Banded King",
-			"desc": "",
-			"skill": {
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				}
-			},
-			"skin" : {
-				"Captain Scar": {
-					"link": "scar1"
 				}
 			}
 		},
