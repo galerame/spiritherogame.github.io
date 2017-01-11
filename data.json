@@ -85,12 +85,12 @@
 					"prop":{
 						"Active": "Anni summon polecats that fighting for you, fetch enemies in the area and dealing physical damage. <br>The polecats can't be touched, but affecting enemies by slowness while running around they legs.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius":"25 Size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "15 / 14 / 13 / 12 / 11 seconds",
 						"Damage": "Physical: 12 / 14 / 16 / 18 / 20 (+15% Physical Power)",
-						"Slow": "10% (+10% each polecat)",
+						"Movement Speed": "-10% (+10% each polecat)",
 						"Polecats": "7",
 						"Duration": "4 seconds"
 					}
@@ -125,7 +125,7 @@
 					"prop":{
 						"Active": "Anni sending a bear to a target location, dealing physical damage to all enemies hit and stunning them.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius":"25 Size",
 						"Cost":"125 mana",
 						"Cooldown":"90 seconds",
@@ -171,14 +171,14 @@
 				},
 				"Angel Feathers":{
 					"prop":{
-						"Active": "Aria flying up and sending her feathers at a target location, dealing physical damage and slow all enemies hit. <br>In the second she fly up, she ignoring all attacks that aren't from the sky.",
+						"Active": "Aria flying up and sending her feathers at a target location, dealing physical damage to all enemies hit and slowing their movement speed for a short duration. <br>In the second she fly up, she ignoring all attacks that aren't from the sky.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"10 seconds",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+40% Physical Power)",
-						"Slow": "25%",
+						"Movement Speed": "-25%",
 						"Duration": "2 seconds"
 					}
 				},
@@ -268,7 +268,7 @@
 					"prop":{
 						"Active": "Chantrea sending a beam from the sky as a moon light at a target location, dealing magic damage and stunning all enemies hit.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "25 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 seconds",
@@ -287,7 +287,7 @@
 						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
 						"Damage": "Physical: 80 / 135 / 190 / 245 / 300 (+80% Physical Power)",
 						"Seek Damage": "Physical: 40% Physical Power",
-						"crit Bonus": "True: 35% Magic Power"
+						"Crit Bonus": "True: 35% Magic Power"
 					}
 				},
 				"White Tiger":{
@@ -329,7 +329,7 @@
 			"skill": {
 				"Kokong Arrow":{
 					"prop":{
-						"Active": "Cicada launch an arrow at a line, kokong the first enemy hit and dealing physical damage.",
+						"Active": "Cicada launch an arrow in a line, kokong the first enemy hit and dealing physical damage.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
@@ -344,7 +344,7 @@
 						"Active": "Cicada lay a webb trap at a target location, ensnare the first enemie walking over it. <br>Triggering the trap summon small spiders that attack the targeted enemy, dealing physical damage over time.",
 						"Passive": "Cicada get increased Attack Speed and Movement Speed by her level.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"45 mana",
 						"Cooldown":"18 / 16 / 14 / 12 / 10 seconds",
@@ -358,7 +358,7 @@
 				},
 				"Webb Trail":{
 					"prop":{
-						"Active": "Cicada dash forward and create a trail of webb, slowing enemies who walking over it. <br>Enemies hit by your dash gets caught by your webb, ensnare enemies and dealing physical damage to them.",
+						"Active": "Cicada dash forward and create a trail of webb, affecting enemies by slowness who walking over it. <br>Enemies hit by your dash gets caught by your webb, ensnare enemies and dealing physical damage to them.",
 						"": "",
 						"Ability": "Dash",
 						"Radius": "55 size",
@@ -366,7 +366,7 @@
 						"Cooldown":"16 seconds",
 						"Damage": "Physical: 70 / 115 / 160 / 205 / 250 (+60% Physical Power)",
 						"Ensnare": "1,2 / 1,4 / 1,6 / 1,8 / 2 seconds",
-						"Slow": "16 / 20 / 24 / 28 / 32 %",
+						"Movement Speed": "- 16 / 20 / 24 / 28 / 32 %",
 						"Duration": "3,2 / 3,4 / 3,6 / 3,8 / 4 seconds"
 					}
 				},
@@ -374,7 +374,7 @@
 					"prop":{
 						"Active": "Cicada flying around in a circle, can launch an arrow at a target location while flying, dealing physical damage to enemies hit each arrow launch.",
 						"": "",
-						"Ability": "Fly, Area / Ground Target",
+						"Ability": "Fly, Area / Target Location",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 240 / 320 / 400 / 480 / 560 % Physical Power",
@@ -429,14 +429,14 @@
 				},
 				"Broke They Ribs":{
 					"prop":{
-						"Active": "Clear pushes back all enemies in a area around her, slowing them and make them bleed over a time.",
+						"Active": "Clear pushes back all enemies in a area around her, affecting enemies by slowness and make them bleed over a time.",
 						"": "",
 						"Ability": "Area",
 						"Radius": "60 size",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
 						"Bleed": "25 / 30 / 35 / 40 / 45 (+100% Physical Power)",
-						"Slow": "80% (-80% over 5 seconds)",
+						"Movement Speed": "80% (-80% over 5 seconds)",
 						"Duration": "5 seconds"
 					}
 				}
@@ -459,7 +459,7 @@
 				"Duble Axes":{
 					"prop":{
 						"Active": "Dwarlin throw both of his axes, piercing through enemies in a line, dealing physical damage.",
-						"Passive": "The third hit at a enemy target create a wound that causing them to bleed and slow they movement speed.",
+						"Passive": "The third hit at an enemy target create a wound that causing them to bleed and slow they movement speed.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "80 size",
@@ -467,19 +467,19 @@
 						"Cooldown": "11 seconds",
 						"Damage": "Physical: 60 / 90 / 110 / 150 / 180 (+60% Physical Power)",
 						"Bleed": "Physical: 30 / 50 / 70 90 / 110 (+15% Magic Power)",
-						"Slow": "9 / 12 / 15 / 18 / 21 %",
+						"Movement Speed": "- 9 / 12 / 15 / 18 / 21 %",
 						"Duration": "3 seconds"
 					}
 				},
 				"Bear Trap":{
 					"prop":{
-						"Active": "Dwarlin sets a trap at the target location that arms after 1.1 seconds and lasts up to 90 seconds. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one. <br>Enemy champions who step on a trap set it off, rooting them for 1s and make they bleed over 3s while they are slowed and in same time they armor is destroyed.",
+						"Active": "Dwarlin sets a trap at the target location that arms after 1.1 seconds and lasts up to 90 seconds. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one. <br>Enemy champions who step on a trap set it off, rooting them for 1s and make they bleed over 3s, affecting them by slowness and in same time their armor is destroyed.",
 						"": "",
 						"Ability": "Lay",
 						"Cost":"40 mana",
 						"Cooldown":"15 seconds",
 						"Root": "1 seconds",
-						"Slow": "80% (-80% over 3 seconds)",
+						"Movement Speed": "-80% (-80% over 3 seconds)",
 						"Bleed": "Physical: 30 / 50 / 70 / 90 / 110 (+15% Magic Power)",
 						"Armor": "-25%"
 					}
@@ -488,7 +488,7 @@
 					"prop":{
 						"Active": "Dwarlin throwing an axe at a target location, the axe starts to chock enemies in the area, dealing magic damage to all enemies hit. <br>Can be throwed two at once before the cooldown.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 seconds",
@@ -521,7 +521,7 @@
 						"Active": "Elany fires an arrow up to the sky, a flaming bolt strike at a target location, dealing magic damage to all enemies in the area.",
 						"Empowered": "Ten more flaming bolts are aming nearby the targeted location in ten other target locations. Fireflies do a double damage this time.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -547,7 +547,7 @@
 						"Active": "Elany confuse enemies at a target location for a short duration, affected minions have a chance to fight the nearest enemy for a longer duration. <br>Affected enemies take a bonus magic damage from your first arrow hit the last 3.5 seconds.",
 						"Empowered": "In the blossom circle, make your enemy heroes as a prisoner for 3,5 seconds, they can't go or dash or leap out from the circle.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -578,7 +578,7 @@
 					"prop":{
 						"Active": "Frank throw a potion at a target location, affect all enemies by poison, dealing true magic damage per seconds over a time.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "25 size",
 						"Cost": "None",
 						"Cooldown": "18 / 17 / 16 / 15 / 14 seconds",
@@ -590,7 +590,7 @@
 					"prop":{
 						"Active": "Frank throw a potion at a target location, randomly affects enemies by Confusion, Contrarwise, Charm or Mesmerize over a duration. All enemies get randomly affects, but monsters just get confused and decreased Armor. <br>Active again he switch potion to give allies in a target location mana and magic protection.",
 						"": "",
-						"Ability": "Ground Target, Debuff/Buff",
+						"Ability": "Target Location, Debuff/Buff",
 						"Radius": "35 size",
 						"Cost":"None",
 						"Cooldown":"14 seconds",
@@ -658,7 +658,7 @@
 				},
 				"Chain Arrow":{
 					"prop":{
-						"Active": "Lancel fires an arrow bound to a rope. The first enemy hero hit, they become binded to you for a short duration. Dealing physical damage to the enemy hero hit and silence they movement tactics and slowing them.",
+						"Active": "Lancel fires an arrow bound to a rope. The first enemy hero hit, they become binded to you for a short duration. Dealing physical damage to the enemy hero hit and silence they movement tactics and slowing they movement speed while they caught.",
 						"Passive": "Successful hitting enemies with his basic attacks, Lancel get a increased range with both his tactics and his basic attacks. <br>Ends then he out of combat in 5 seconds.",
 						"": "",
 						"Ability": "Line",
@@ -667,7 +667,7 @@
 						"Cooldown":"14 seconds",
 						"Increased Range": "5 size per basic hit (maximum size = 35",
 						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120 Physical Power)",
-						"Slow": "25%",
+						"Movement Speed": "-25%",
 						"Duration": "3 seconds"
 					}
 				},
@@ -675,7 +675,7 @@
 					"prop":{
 						"Active": "Lancel aiming for the sky, every second, the size increases and you can launch at a target location much far away, dealing physical damage at a target location and increases the damage done till the maximum size. <br>Become interrupted from taking harm in this stance.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "35 size",
 						"Radius [Sight]": "0 - 1000 over 4 seconds",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
@@ -759,7 +759,7 @@
 			"skill": {
 				"Bloody Hell":{
 					"prop":{
-						"Active": "Lucifer launch a magical arrow at a line, dealing magic damage with a bonus damage of they current health and healing him self by a % of it.",
+						"Active": "Lucifer launch a magical arrow in a line, dealing magic damage with a bonus damage of they current health and healing him self by a % of it.",
 						"Passive": "Enemies hit by your arrows cause a blood drop with a maximum of 5 blood drops. Each blood drop let Bloody Hell deal a bonus magic damage to the affected enemy and heal himself by the half amount of the bonus magic damage.",
 						"": "",
 						"Ability": "Line",
@@ -776,7 +776,7 @@
 					"prop":{
 						"Active": "Lucifer taking out health from enemies at a target location, dealing true magic damage from a % of they maximum health.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "25 size",
 						"Cost":"90 / 95 / 100 / 105 / 110 mana",
 						"Cooldown":"16 seconds",
@@ -862,7 +862,7 @@
 					"prop":{
 						"Active": "Mei creates a crystal that chilling all enemies at a target location and dealing physical damage per seconds, freeze enemies at last but Double effect to chilled enemies. <br>Half of its damage against freeze enemies.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "45 size",
 						"Cost":"100 / 110 / 120 / 130 / 140  mana",
 						"Cooldown":"90 seconds",
@@ -881,14 +881,14 @@
 			"skill": {
 				"Bola Bomb":{
 					"prop":{
-						"Active": "Phia throwing a bola at the first enemy hit in a line. Slowing the enemy before its detonate, dealing physical damage to all enemies at the targeted area.",
+						"Active": "Phia throwing a bola at the first enemy hit in a line. Affecting enemies by slowness before its detonate, dealing physical damage to all enemies at the targeted area after it detonate.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "10 seconds",
 						"Damage": "Physical: 70 / 100 / 130 / 160 / 190 (+90% Physical Power)",
-						"Slow": "16 / 32 / 48 / 64 / 80 %",
+						"Movement Speed": "- 16 / 32 / 48 / 64 / 80 %",
 						"Detonation": "2 seconds"
 					}
 				},
@@ -919,7 +919,7 @@
 					"prop":{
 						"Active": "Phia lay a ticking bomb at a target location, after it detonating, dealing physical damage to all enemies hit.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "40 size",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
@@ -950,7 +950,7 @@
 					"prop":{
 						"Active": "Raven cause a magical force at a target location, silence and dealing magic damage that destroying their defences.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"13 / 14,25 / 15,5 / 16,75 / 18 seconds",
@@ -974,7 +974,7 @@
 				},
 				"Ravens":{
 					"prop":{
-						"Active": "Raven summoning her friends that targeting enemies, dealing physical damage over a duration. <br>Affected enemies can't go stright and they are slowed.",
+						"Active": "Raven summoning her friends that targeting enemies, dealing physical damage over a duration. <br>Affected enemies can't go stright and have their movement speed reduced.",
 						"": "",
 						"Ability": "Area",
 						"Radius": "70 size",
@@ -982,7 +982,7 @@
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 175 / 210 / 245 / 280 / 315 (+60% Physical Power)",
 						"Duration": "5 seconds",
-						"Slow": "15%"
+						"Movement Speed": "-15%"
 					}
 				}
 			}
@@ -1085,15 +1085,15 @@
 				},
 				"Hunting Experience":{
 					"prop":{
-						"Active": "Rogue leap at a target location, dealing physical damage to all enemies hit, decreases they defence for a short duration. <br>Bow: Rogue launch arrows at a target location, slows and dealing physical damage to enemies hit.",
+						"Active": "Rogue leap at a target location, dealing physical damage to all enemies hit, decreases their defence for a short duration. <br>Bow: Rogue launch arrows at a target location, slowing their movement speed and dealing physical damage to enemies hit.",
 						"": "",
-						"Ability": "Leap / Ground Target",
+						"Ability": "Leap / Target Location",
 						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
 						"Damage": "80 / 140 / 210 / 270 / 340 (+80 Physical Power)",
 						"Defence": "- 10 / 15 / 20 / 25 / 30 %",
-						"Slow": "25%",
+						"Movement Speed": "-25%",
 						"Duration": "3 seconds"
 					}
 				},
@@ -1133,7 +1133,7 @@
 						"Active": "Simin launch an arrow at a target location, dealing physical damage to all enemies hit. <br>Can't fires in a short range, but have increased sight.",
 						"Passive": "Basic attacks from Simins arrows effecting your enemies with a poison from toxic silver, dealing physical damage over time. <br>Effected enemies can't become invisible and let you see them in a longer range.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"None",
@@ -1173,23 +1173,23 @@
 			"name": "Snow",
 			"class": "hunter",
 			"title": "The Bounty Hunter",
-			"desc": "Snow lives in Winterfall, lives to catch all bounties.",
+			"desc": "Snow lives in Winterfall, lives to catch all bounties like a ninja. He is a dangerous hunter with many names to hide himself from other bounty hunters, do everything for gold, fighting is his life.",
 			"skill": {
 				"Bounty Bomb":{
 					"prop":{
-						"Active": "Snow fires an arrow at the first enemy hit, detornate after 1,5 seconds after hit an enemy, dealing physical damage and can crit. <br>In crit, the detonate dealing true damage.",
+						"Active": "Snow fires an arrow at the first enemy hit, detonate after 1,5 seconds after hit an enemy, dealing physical damage and can crit. <br>In crit, the detonate dealing true damage.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "9 seconds",
-						"Damage": "Physical: 120 / 140 / 160 / 180 / 200 % Physical Power",
+						"Damage": "Physical: 120 / 140 / 160 / 180 / 200 (+120% Physical Power)",
 						"Detonate Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+90% Physical Power)"
 					}
 				},
 				"Stars":{
 					"prop":{
-						"Active": "Snow fires metal stars that piercing through enemies in a cone, dealing physical damage and make them bleed and become slowed while bleeding.",
+						"Active": "Snow fires metal stars that piercing through enemies in a cone, dealing physical damage and make them bleed. Affecting enemies by slowness while bleeding.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "50 size",
@@ -1197,7 +1197,7 @@
 						"Cooldown":"12 seconds",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+70% Physical Power)",
 						"Bleed": "Physical: 25 / 35 / 45 / 55 / 65 (+5% Physical Power)",
-						"Slow": "15 / 25 / 35 / 45 / 55%",
+						"Movement Speed": "- 15 / 25 / 35 / 45 / 55 %",
 						"Duration": "3 seconds"
 					}
 				},
@@ -1205,7 +1205,7 @@
 					"prop":{
 						"Active": "Snow jump over things he get close to, increases his movement speed and attack speed a short duration.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"None",
 						"Cooldown":"None",
@@ -1216,15 +1216,15 @@
 				},
 				"Tactical Stance":{
 					"prop":{
-						"Active": "Snow targeting a nearby tree, turret, building or other high things, ignoring all harming or effects and let your Stars fire at a ground target, Bounty Bomb also hit a ground target, detonate and dealing half of its physical damage as true damage to all enemies in the targeted area. <br>Leaves make you jump to a targeted localtion.",
-						"Passive": "Snow got increased crit damage.",
+						"Active": "Snow targeting a nearby tree, turret, building or other high things, ignoring all harming or effects and let your Stars fire at a Target Location, Bounty Bomb also hit a Target Location, detonate and dealing half of its physical damage as true damage to all enemies in the targeted area. <br>Leaves make you jump to a targeted location.",
+						"Passive": "Snow get increased crit damage.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"None",
 						"Cooldown":"14 seconds",
 						"Duration": "3,5 seconds",
-						"Ground Target": "30 size",
+						"Target Location": "30 size",
 						"Crit Damage": "50 / 100 / 150 / 200 / 250 %"
 					}
 				}
@@ -1238,42 +1238,42 @@
 			"skill": {
 				"Shooting Vault":{
 					"prop":{
-						"Active": "Spiro launch an arrow to a targeted localtion while vault to the direction he goes, dealing physical damage to all enemies in the small area from a spiritual field created by the arrow that also slowing them.",
+						"Active": "Spiro launch an arrow to a target location while vault to the direction he goes, dealing physical damage to all enemies in the small area from a spiritual field created by the arrow that also reducing their movement speed.",
 						"": "",
-						"Ability": "Ground Target, Dash",
-						"Radius": "10 size",
+						"Ability": "Target Location, Dash",
+						"Radius": "25 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
 						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+100% Physical Power)",
-						"Slow": "25%",
+						"Movement Speed": "-25%",
 						"Duration": "2 seconds"
 					}
 				},
 				"Spirit Seeker":{
 					"prop":{
-						"Active": "Spiro summons a spirit that searching for enemies, floating around in the targeted localtion for 30 seconds and sense stealthed enemies. Dealing physical damage and slowing the targeted enemy it find. <br>This spirit is invisible to it catch one enemy and can just catch same enemy each spirit.",
+						"Active": "Spiro summons a spirit that searching for enemies, floating around in the target location for 30 seconds and sense stealthed enemies. Dealing physical damage and affecting the target it find by slowness. <br>This spirit is invisible to it catch one enemy and can just catch same enemy each spirit.",
 						"": "",
-						"Ability": "Summon, Ground Target",
+						"Ability": "Summon, Target Location",
 						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
 						"Damage": "Physical: 50 / 60 / 70 / 80 / 90 (+36% Physical Power)",
-						"Slow": "25%",
+						"Movement Speed": "-25%",
 						"Duration": "3 seconds",
 						"Summon": "1 / 1 / 2 / 2 / 3"
 					}
 				},
 				"Stacking Arrows":{
 					"prop":{
-						"Active": "Spiro detonate the power of his spiritual arrows stack at enemies, dealing physical damage to all enemies stack by arrows and become slowed.",
+						"Active": "Spiro detonate the power of his spiritual arrows stack at enemies, dealing physical damage to all enemies stack by arrows and reduce their movement speed.",
 						"Passive": "All basic attacks stacking at enemies body.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Damage": "Physical: 40 / 70 / 100 / 130 / 160 (+30% Physical Power) (per arrow stack)",
-						"Slow": "25%",
+						"Movement Speed": "-25%",
 						"Duration": "3 seconds",
 						"Arrows": "5 max",
 						"Stack Duration": "8 seconds (out of combat)"
@@ -1300,54 +1300,54 @@
 			"name": "Tumblr",
 			"class": "hunter",
 			"title": "The Shielded Huntress",
-			"desc": "Tumblr lives in Winterfall, loving then Dwarlin always pick a fight agenst her, sees him like a little brother of his size. She's like a great viking, with her tactics with her shield and spear she is increadible in fights!",
+			"desc": "Tumblr lives in Winterfall, loving then Dwarlin always pick a fight against her, sees him like a little brother of his size. She's like a great viking, with her tactics with her shield and spear she is incredible in fights!",
 			"skill": {
 				"Four Spears":{
 					"prop":{
-						"Active": "Tumblrs next four basic attacks got an increased attack speed and the spears got armor penetration.",
+						"Active": "Tumblrs next four basic attacks get an increased attack speed and the spears get armor penetration.",
 						"": "",
 						"Ability": "Buff",
 						"Cost": "60 / 65 / 70 / 75 / 80 mana",
 						"Cooldown": "11 seconds",
-						"Attack Speed": "20 / 30 / 40 / 50 / 60 %",
-						"Armor Penetration": "10 / 20 / 30 / 40 / 50 %"
+						"Attack Speed": "20 / 25 / 30 / 35 / 40 %",
+						"Armor Penetration": "10 / 15 / 20 / 25 / 30 %"
 					}
 				},
 				"Block":{
 					"prop":{
-						"Active": "Tumblr shield her self and block a % of all incoming damage at her front for a short duration.",
-						"Passive": "She got a block chance agenst projectiles, block 80% of the damage.",
+						"Active": "Tumblr shield her self and block a % of all incoming damage at her front for a short duration. <br>While this is active, she doesn't walk slower backwards.",
+						"Passive": "Every Fith basic attack, she block the next projectile that hit her shield from the front.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Block": "50%",
-						"Block Chance": "10 / 20 / 30 / 40 / 50 %",
+						"Block": "+ 20 / 25 / 30 / 35 / 40 %",
 						"Duration": "4 seconds"
 					}
 				},
 				"Targeted Area":{
 					"prop":{
-						"Active": "Tumblr throw her spear at a targeted localtion, dealing physical damage to all enemies in the area and slowing them. <br>Taking this up decreases the cooldown of this skill.",
+						"Active": "Tumblr throw her spear at a target location, dealing physical damage to all enemies hit and reduce their movement speed. <br>Taking this up decreases the cooldown of this skill.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Physical 90 / 140 / 190 / 240 / 290 (+90% Physical Power)",
-						"Slow": "25%",
+						"Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+120% Physical Power)",
+						"Movement Speed": "-25%",
 						"Decreased Cooldown": "50%"
 					}
 				},
 				"On The Hunt":{
 					"prop":{
-						"Active": "Tumblr increases her and her allies movement speed for a long duration. <br>In the duration, her Four Spears got a increased attack speed.",
+						"Active": "Tumblr increases her and her allies movement speed for a long duration. <br>In the duration, her Four Spears get an increased attack speed.",
 						"": "",
 						"Ability": "Buff",
+						"Radius": "110 size",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
 						"Movement Speed": "20 / 30 / 40 / 50 / 60 %",
-						"Attack Speed": "20 / 30 / 40 / 50 / 60 %",
+						"Attack Speed": "20 / 25 / 30 / 35 / 40 %",
 						"Duration": "8 seconds"
 					}
 				}
@@ -1370,54 +1370,59 @@
 			"skill": {
 				"Spirit Hammer":{
 					"prop":{
-						"Active": "Anders strike enemies with a spiritual hammer that crushing they spirit, dealing magic damage and slowing them. <br>Strike at three different stances. In a line, in a cone or in a area.",
+						"Active": "Anders strike enemies with a spiritual hammer that crushing their spirit, dealing magic damage and debuff their strength for a short duration. <br>Strike at three different stances. In a line, in a cone or in an area that stacking the debuff three times.",
 						"": "",
-						"Ability": "Line, Cone, Area",
-						"Radius": "70, 50 , 45",
+						"Ability": "Debuff: Line, Cone, Area",
+						"Radius [Line]": "70 size",
+						"Radius [Cone]": "50 size",
+						"Radius [Area]": "45 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "11, 11, 11 seconds",
 						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+50% Magic Power)",
-						"Slow": "25%",
-						"Duration": "2,5 seconds"
+						"Physical Power": "- 4 / 6 / 8 / 10 / 12 %",
+						"Magic Power": "- 4 / 6 / 8 / 10 / 12 %",
+						"Armor": "- 4 / 6 / 8 / 10 / 12 %",
+						"Magic Protection": "- 4 / 6 / 8 / 10 / 12 %",
+						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
 				"Spirit Swords":{
 					"prop":{
-						"Active": "In an area, Anders creates four spiritual swords that strike all at once, dealing magic damage and slowing them.",
+						"Active": "At a target location, Anders creates four spiritual swords that strike all at once, dealing magic damage and reduce their movement speed.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "30 size",
+						"Ability": "Target Location",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Damage": "Magic: 100 / 155 / 210 / 265 / 320 (+50% Magic Power)",
-						"Slow": "25%",
+						"Movement Speed": "-25%",
 						"Duration": "2,5 seconds"
 					}
 				},
 				"Chained":{
 					"prop":{
-						"Active": "Anders catch the first enemy hero hit in a line, dealing physical damage and slowing they. <br>Ending if they escape the maximum size.",
+						"Active": "Anders catch the first enemy hero hit in a line, dealing physical damage and reduce their movement speed. <br>Ending if they escape the maximum size.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
 						"Cost":"70 mana",
 						"Cooldown":"14 seconds",
 						"Damage": "Physical: 55 / 90 / 125 / 160 / 195 (+90% Physical Power)",
-						"Slow": "25%",
+						"Movement Speed": "-18%",
 						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds",
 						"Size": "90"
 					}
 				},
 				"Torture":{
 					"prop":{
-						"Active": "Anders catch all enemies in a big size around him, if they stay inside the size, they become pulled to him after 2,5 seconds, dealing physical damage to pulled enemies, but before the pull, they become slowed. <br>He can walk while he chained them, but become stunned for 0,5 seconds after pulling them.",
+						"Active": "Anders catch all enemies in a big size around him, if they stay inside the size, they become pulled to him after 2,5 seconds, dealing physical damage to pulled enemies, but before the pull, they get reduced movement speed. <br>He can walk while he chained them, but become stunned for 0,5 seconds after pulling them.",
 						"": "",
 						"Ability": "Area",
 						"Radius": "100 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
+						"Cost":"90 mana",
+						"Cooldown":"90 seconds",
 						"Damage": "Physical: 200 / 275 / 350 / 425 / 500 (+40% Physical Power)",
-						"Slow": "80%",
+						"Movement Speed": "-80%",
 						"Size": "120"
 					}
 				}
@@ -1426,56 +1431,55 @@
 		"asula": {
 			"name": "Asula",
 			"class": "tank",
-			"title": "Full Armored Princess",
+			"title": "Armored Princess",
 			"desc": "Princess Asula lives in the city of Kingdom Port, the oldest sister by Anni, Aenna and cousin to Diode from City of Mordune. Asula is inherited the throne, she is the captain by the military forces, side by side with Tána and they healer Malin. With her magical powers increases her tactics in the fights.",
 			"skill": {
 				"Sola Blade":{
 					"prop":{
-						"Active": "Asula sending a magical energy from her sword, dealing magic damage to all enemies hit in a line. It also catch the last enemy hero hit, let her dash to the targeted hero and stunning all enemies in the way by her shield and pull them away a bit. <br>Stunned enemies taking a bonus damage from your armor.",
+						"Active": "Asula sending a magical energy from her sword, dealing magic damage to all enemies hit in a line. It also catch the last enemy hero hit, let her dash to the targeted hero and stunning all enemies in her way including the target by her shield.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Line",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "14 / 14 / 13 / 12 / 11 seconds",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
 						"Damage": "Magic: 80 / 130 / 180 / 230 / 280 (+50% Magic Power)",
-						"Stun": "1 seconds",
-						"Stun Damage": "Physical: 35 % Armor"
+						"Stun": "1 seconds"
 					}
 				},
 				"Calling to War":{
 					"prop":{
 						"Active": "Asula increases her and her allies physical and magic power for a short duration.",
 						"": "",
-						"Ability": "Area",
+						"Ability": "Buff, Area",
 						"Radius": "70 size",
 						"Cost":"60 mana",
 						"Cooldown":"18 seconds",
-						"Bonus Physical Power": "20 / 30 / 40 / 50 / 60",
-						"Bonus Magic Power": "20 / 30 / 40 / 50 / 60",
+						"Bonus Physical Power": "15 / 20 / 25 / 30 / 35",
+						"Bonus Magic Power": "20 / 25 / 30 / 35 / 40",
 						"Duration": "4 seconds"
 					}
 				},
 				"Magical Mirror":{
 					"prop":{
-						"Active": "Asula creates a magical mirror on her shield, creates a destructive armor front of her. <br>The first ability projectile that hit the mirror, sends back and this mirror will end.",
+						"Active": "Asula creates a magical mirror on her shield, creates a destructive armor front of her which also stops the attacks to get through. <br>Ability projectiles that hit the mirror, sends back.",
 						"": "",
 						"Ability": "Shield",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"13 seconds",
-						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100",
-						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4"
+						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100 at level 20)",
+						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
 				"Angel Wings":{
 					"prop":{
-						"Active": "Asula gain power from the angels, heal her and her allies around her per second and increases they and her magic protection for the healing duration.",
+						"Active": "Asula gain power from the angels, heal her and her allies around her per second and increases their and her magic protection for the healing duration.",
 						"": "",
 						"Ability": "Buff, Area",
 						"Radius": "70 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
 						"Heal": "20 per 0,5 seconds",
-						"Magic Protection": "40 / 50 / 60 / 70 / 80",
+						"Magic Protection": "25 / 30 / 35 / 40 / 45",
 						"Duration": "4 seconds"
 					}
 				}
@@ -1490,7 +1494,7 @@
 			"name": "Diana",
 			"class": "tank",
 			"title": "Cleric of The Sun",
-			"desc": "Diana lives in the holy church in City of Kingdom Port, best friend to Ania, Pius and Malin. She also is a cleric that believes in the goddes of the sun, blinding enemies and burning them with her spear by holy magic.",
+			"desc": "Diana lives in the holy church in City of Kingdom Port, best friend to Ania, Pius and Malin. She also is a cleric that believes in the goddess of the sun, blinding enemies and burning them with her spear by holy magic.",
 			"skill": {
 				"Burning Spear":{
 					"prop":{
@@ -1505,21 +1509,20 @@
 				},
 				"Eclipse":{
 					"prop":{
-						"Active": "Diana creates a magical shield around her, absorbing all sorts of attacks the following duration. <br>The end of the duration, the shield expires and creating a nova that dealing magic damage to all enemies in a area. A % of all absorbing damage, increases this nova damage.",
+						"Active": "Diana creates a magical shield around her, absorbing all sorts of attacks the following duration. <br>The end of the duration, the shield expires and creating a nova that dealing magic damage to all enemies in a area, increased with all the absorbing damage.",
 						"": "",
 						"Ability": "Shield, Area",
 						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
-						"Shield": "10 / 15 / 20 / 25 / 30 %",
+						"Absorbing": "35%",
 						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+50% Magic Power)",
-						"Absorbing": "50%",
 						"Duration": "3 seconds"
 					}
 				},
 				"Sun Light":{
 					"prop":{
-						"Active": "Diana blindes enemies with her shield in a cone for 1 second, decreases they protection for a short duration and they can't move stright.",
+						"Active": "Diana blinds enemies with her shield in a cone for 1 second, decreases their protection for a short duration and they can't move straight.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "50 size",
@@ -1531,9 +1534,9 @@
 				},
 				"Sun Power":{
 					"prop":{
-						"Active": "Diana sending a light from the sky, stunning enemies hit for 1 second in the targeted localtion and dealing magic damage.",
+						"Active": "Diana sending a light from the sky, stunning enemies hit for 1 second in the target location and dealing magic damage.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "30 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
@@ -1546,11 +1549,11 @@
 			"name": "Diode",
 			"class": "tank",
 			"title": "The Crusader",
-			"desc": "Diode lives in the City of Mordune, cousin to princess Asula in Kingdom Port, rival to the shield master Rebecca in Neutral City of Kings and Queens, lives as a crusaider and also is a believer. Crushing enemies with her mace and always are good with her shouting voice to taunting enemies!",
+			"desc": "Diode lives in the City of Mordune, cousin to princess Asula in Kingdom Port, rival to the shield master Rebecca in Neutral City of Kings and Queens, lives as a crusader and also is a believer. Crushing enemies with her mace and always are good with her shouting voice to taunting enemies!",
 			"skill": {
 				"Mace Swing":{
 					"prop":{
-						"Active": "Diode strike with her mace increased by god power, dealing physical damage to all enemies in a cone and destroying they armor for a short duration.",
+						"Active": "Diode strike with her mace increased by god power, dealing physical damage to all enemies in a cone and destroying their armor for a short duration.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "50 size",
@@ -1564,15 +1567,15 @@
 				"Taunt":{
 					"prop":{
 						"Active": "Diode taunt all enemies around her, give her a bonus destructive armor per enemy taunted.",
-						"Passive": "Diode got a buff called Revansh, increases the damage to her next strike with Mace Swing. <br>The buff stacks every time she take damage.",
+						"Passive": "Diode get a buff called Revansh, increases the damage to her next Mace Swing. <br>The buff stacks every time she take damage.",
 						"": "",
-						"Ability": "Area",
+						"Ability": "Taunt, Area, Buff",
 						"Radius": "50 size",
 						"Cost":"70 mana",
 						"Cooldown":"15 seconds",
 						"Revansh": "10% (100% maximum stack)",
-						"Taunt": "2 / 2,5 / 3 / 3,5 / 4 seconds",
-						"Destructive Armor": "60 / 100 / 140 / 180 / 220",
+						"Taunt": "2 / 2,25 / 2,5 / 2,75 / 3 seconds",
+						"Destructive Armor": "60 / 100 / 140 / 180 / 220 (+5 per hero level = 100 at level 20)",
 						"Duration": "6 seconds"
 					}
 				},
@@ -1580,23 +1583,24 @@
 					"prop":{
 						"Active": "Diode trap enemies inside a circle with swords circulating the area, dealing physical damage per second to enemies inside the area. <br>Enemies can't go out or in to/from the area.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "40 size",
+						"Ability": "Target Location",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"15 seconds",
+						"Cooldown":"14 seconds",
 						"Damage": "Physical: 15 / 25 / 35 / 45 / 55 (+5% Physical Power)",
 						"Duration": "4 seconds"
 					}
 				},
 				"Healping Hand":{
 					"prop":{
-						"Active": "Diode be lift by an angel, after lock a target location, she strike at the area, stunning enemies and dealing physical damage. <br>Diode can't be attacked then she up on the sky.",
+						"Active": "Diode be lift by an angel, after lock a target location, she strike in the target location, stunning enemies and dealing physical damage. <br>Diode can't be attacked then she up on the sky.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "40 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Physical: 150 / 200 / 250 / 300 / 350 (+50% Physical Power)"
+						"Damage": "Physical: 150 / 200 / 250 / 300 / 350 (+50% Physical Power)",
+						"Stun": "1 seconds"
 					}
 				}
 			}
@@ -1609,7 +1613,7 @@
 			"skill": {
 				"Monstrous Bite":{
 					"prop":{
-						"Active": "Dracula strike all enemies in a cone front of him with a gigantic bite, dealing physical damage and heal him a % of all the damage from each enemy. Enemies hit become slowed for a short duration.",
+						"Active": "Dracula strike all enemies in a cone front of him with a gigantic bite, dealing physical damage and heal him a % of all the damage from each enemy. Enemies hit have they movement speed reduced for a short duration.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "35 size",
@@ -1617,33 +1621,33 @@
 						"Cooldown": "12 seconds",
 						"Damage": "Physical: 70 / 130 / 190 / 250 / 310 (+90% Physical Power)",
 						"Heal": "15 / 18 / 21 / 24 / 27%",
-						"Slow": "80%",
+						"Movement Speed": "-80%",
 						"Duration": "1,5 seconds"
 					}
 				},
 				"Funny Kick":{
 					"prop":{
-						"Active": "Dracula kick one enemy away in a line, dealing physical damage to all enemies hit and slow the target. <br>Double effect from minions and also slow the targets the minion hit with duble effect.",
+						"Active": "Dracula kick one enemy away in a line, dealing physical damage to all enemies hit and reduce their movement speed. <br>Double effect from minions and also slow the targets the minion hit with double effect.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "80 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Damage": "Physical: 60 / 90 / 120 / 170 / 220 (+100% Physical Power)",
-						"Slow": "80%",
+						"Movement Speed": "-80%",
 						"Duration": "1,5 seconds"
 					}
 				},
 				"Winged Vampire":{
 					"prop":{
-						"Active": "Dracula leaps to a target localtion, dealing physical damage to all enemies in the area and also slow them down.",
+						"Active": "Dracula leaps to a target location, dealing physical damage to all enemies in the area and also reduce their movement speed.",
 						"": "",
 						"Ability": "Leap",
 						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
 						"Damage": "Physical: 80 / 140 / 210 / 270 / 340 (+80 Physical Power)",
-						"Slow": "80%",
+						"Movement Speed": "-80%",
 						"Duration": "1,5 seconds"
 					}
 				},
@@ -1664,15 +1668,15 @@
 		"elise": {
 			"name": "Elise",
 			"class": "tank",
-			"title": "Frozen Armored",
+			"title": "The Crystal Warrior",
 			"desc": "Elise lives in City of Ice, right hand to princess Emiza and like her sister, found helpless in a cave and taken care of by the royal family. Now she working in the military defences, carrying on a self-built armor, hammer and shield. Her strong attacks and the force of ice magic makes her harmless to kill!",
 			"skill": {
-				"Smash Up":{
+				"Up Smash":{
 					"prop":{
-						"Active": "Elise dash to the first enemy hit, strike with her hammer and dealing physical damage to the target and smash them up the the sky.",
+						"Active": "Elise dash to the first enemy hit, strike with her hammer and dealing physical damage to the target and smash them up to the sky.",
 						"": "",
 						"Ability": "Dash",
-						"Radius": "60 size",
+						"Radius": "55 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "10 seconds",
 						"Damage": "Physical: 80 / 130 / 180 / 230 / 280 (+75% Physical Power)"
@@ -1680,40 +1684,44 @@
 				},
 				"Frozen Skin":{
 					"prop":{
-						"Active": "Elise creates cristals on her armor, give her a destructive armor. <br>After the armor destroys, it shattering icicles around her, dealing physical damage to all enemies nearby, or she can just active again to shattering the icicles by her self.",
+						"Active": "Elise creates crystals on her armor, give her a destructive armor. <br>After the armor destroys, it shattering icicles around her, dealing physical damage to all enemies nearby, or she can just active again to shattering the icicles by herself.",
 						"": "",
 						"Ability": "Shield, Area",
 						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"11 seconds",
-						"Destructive": "70 / 140 / 120 / 190 / 260 (+20 per hero level = 400",
-						"Damage": "Physical: 55 / 110 / 165 / 220 / 275 (+75% Magic Power)"
+						"Destructive": "70 / 140 / 120 / 190 / 260 (+5 per hero level = 100 at level 20)",
+						"Damage": "Physical: 55 / 110 / 165 / 220 / 275 (+75% Magic Power)",
+						"Duration": "6 seconds"
 					}
 				},
-				"Line of Cristals":{
+				"Line of Crystals":{
 					"prop":{
-						"Active": "Elise smash her hammer at the ground, creates a line of cristals, dealing physical damage to all enemies hit by the field in the line and slowing them. <br>Enemies that are flying up to the sky and landing on this field of cristals, they taking an increased damage.",
+						"Active": "Elise smash her hammer at the ground, creates a line of crystals, dealing physical damage to all enemies hit. <br>Affecting enemies by slowness by walking on the following created field and enemies that are landing on this field by Up Smash or other abilities that do alike are taking increased damage.",
 						"": "",
 						"Ability": "Line, Field",
 						"Radius": "80 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 seconds",
 						"Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+90 Magic Power)",
-						"Slow": "35%",
-						"Fall Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+35% Magic Power)"
+						"Movement Speed": "-35%",
+						"Fall Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+35% Magic Power)",
+						"Duration": "3,5 seconds"
 					}
 				},
 				"Frozen Cave":{
 					"prop":{
-						"Active": "Elise smash her hammer at the ground again, but now make her enemies stumble down at the ground, dealing physical damage and creates a icy field. <br>Dealing physical damage per cristal enemies walk over and slowed on the field.",
+						"Active": "Elise smash her hammer at the ground, make her enemies stumble down at the ground, dealing physical damage and creates an icy field. <br>Every crystal enemies walk over on the field take physical damage and have they movement speed reduced.",
 						"": "",
 						"Ability": "Line (<000>)",
 						"Radius": "70 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 260 / 340 / 420 / 500 / 580 (+80% Magic Power)",
-						"Slow": "60%",
-						"Cristal Damage": "Physcial: 60 / 70 / 80 / 90 / 100 (+15% Magic Power)"
+						"Crystal Damage": "Physcial: 60 / 70 / 80 / 90 / 100 (+15% Magic Power)",
+						"Movement Speed": "-80%",
+						"Slow Duration": "0,75 seconds",
+						"Duration": "3,5 seconds"
 					}
 				}
 			}
@@ -1722,25 +1730,25 @@
 			"name": "Fenrir",
 			"class": "tank",
 			"title": "The Armored Phoenix",
-			"desc": "Fenrir lives in City of Mordune together with Leo, leader of the deffencive squad in the military. With his mace and fire power as magic, he can run and not to bother if he got any harm, he just continues burning his enemies!",
+			"desc": "Fenrir lives in City of Mordune together with Leo, leader of the defensive squad in the military. With his mace and fire power as magic, he can run and not to bother if he got any harm, he just continues burning his enemies!",
 			"skill": {
 				"Cone of Fire":{
 					"prop":{
-						"Active": "Fenrir start to burn all enemies in a cone for 3 seconds, dealing magic damage per seconds.",
-						"Passive": "Every third strike with his mace burst a breath, burn enemies in a cone with an instant damage.",
+						"Active": "Fenrir start to burn all enemies in a cone for 3 seconds, dealing magic damage per second.",
+						"Passive": "Every third strike by his mace burst a breath, burn enemies in a cone with a instant damage.",
 						"": "",
 						"Ability": "Cone",
-						"Radius": "40 size",
+						"Radius": "50 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 seconds",
 						"Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+7% Magic Power)",
-						"Per Seconds": "0,5 seconds",
+						"Per Seconds": "0,25 seconds",
 						"Breath": "Magic: 15 / 20 / 25 / 30 / 35 (+70% Magic Power)"
 					}
 				},
 				"Burning Trail":{
 					"prop":{
-						"Active": "Fenrir start to burn the ground he walk over, creates a trail behind him that burn enemies per second who walking over the trail.",
+						"Active": "Fenrir start to burn the ground he walk over, creates a trail behind him that burn enemies per seconds who walking over the trail.",
 						"": "",
 						"Ability": "Self",
 						"Cost":"13 mana (per second)",
@@ -1750,9 +1758,9 @@
 				},
 				"Flaming Wall":{
 					"prop":{
-						"Active": "Fenrir creates a fall of flame that affecting all enemies that walking through it by burn, dealing magic damage per second. <br>Enemies standing in wall of flame are burning, dealing XX magic damage per second. Leaving wall of flame deals XX magic damage over 3 seconds. Active again before doing the skill, change the angle.",
+						"Active": "Fenrir creates a wall of flame that affecting all enemies that walking through it by Burn, dealing magic damage per second. <br>Enemies standing in wall of flame are burning, dealing XX magic damage per second. Leaving wall of flame deals XX magic damage over 3 seconds. Active again before doing the skill, change the angle.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -1761,18 +1769,18 @@
 						"Duration": "3 seconds"
 					}
 				},
-				"Skin as a Phoenix":{
+				"Skin of Phoenix":{
 					"prop":{
 						"Active": "Fenrir create a burning skin that burning enemies near him, dealing magic damage per second. <br>If he dies with this active, he resurrect with just 30% of his maximum health.",
-						"Passive": "Fenrir got an increased Health Regen and Magic Protection.",
+						"Passive": "Fenrir get increased Health Regen and Magic Protection.",
 						"": "",
 						"Ability": "Buff",
 						"Radius": "20 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Magic: 100 / 120 / 140 / 160 / 180 (+7% Magic Power) (per second)",
+						"Damage": "Magic: 100 / 120 / 140 / 160 / 180 (+7% Magic Power)",
 						"Health Regen": "2 / 4 / 6 / 8 / 10 (Health per second)",
-						"Magic Protection": "15 / 25 / 35 / 45 / 55"
+						"Magic Protection": "20 / 25 / 30 / 35 / 40"
 					}
 				}
 			}
@@ -1781,44 +1789,46 @@
 			"name": "Golem",
 			"class": "tank",
 			"title": "The Lonely Soul",
-			"desc": "Golem lives self in the mountains, scare away people who walks through the mountain path. He is a lonely soul with no friends and doesn't know his background and how he came to, he is just a big rock with throughts and feelings that crush enemies he sees.",
+			"desc": "Golem lives self in the mountains, scare away people who walks through the mountain path. He is a lonely soul with no friends and doesn't know his background and how he came to, he is just a big rock with thoughts and feelings that crush enemies he sees.",
 			"skill": {
 				"Earth Blast":{
 					"prop":{
-						"Active": "Golem smash at the ground, dealing physical damage to all enemies front of him in a line and slowing them for 2 seconds. <br>Can be active again to smash the ground but dealing physical damage to all enemies around him in a small area, giving him a buff of streangth.",
+						"Active": "Golem smash at the ground, dealing physical damage to all enemies front of him in a line and reduce their movement speed for a long duration. <br>Can be active again to smash the ground but dealing physical damage to all enemies around him in a small area, instead of slowing enemies, this giving him a buff of strength by same duration.",
 						"": "",
 						"Ability": "Line / Area, Buff",
-						"Radius": "70 / 40 size",
+						"Radius [Line]": "70 size",
+						"Radius [Area]": "70 size",
 						"Cost [Line]": "70 / 75 / 80 / 85 / 90 mana",
 						"Cost [Area]": "40 / 45 / 50 / 55 / 60 mana",
 						"Cooldown": "12 seconds",
 						"Damage [Line]": "Physical: 60 / 100 / 140 / 180 / 220 (+110% Armor)",
 						"Damage [Area]": "Physical: 50 / 100 / 150 / 200 / 250 (+110% Armor)",
-						"Slow": "25%",
-						"Physical Power": "20%",
+						"Movement Speed": "- 15 / 18 / 20 / 22 / 24 %",
+						"Physical Power": "12 / 14 / 16 / 18 / 20 %",
 						"Duration": "4 seconds"
 					}
 				},
 				"Stone Armor":{
 					"prop":{
-						"Active": "Golem give him an his allies around him a destructive armor for 10 seconds.",
-						"Passive": "Golem got a destructive armor after 5 seconds out of combat. <br>Golem also got a thorn from his armor and 30% of his Armor increases his Physical Power included his destructive armor.",
+						"Active": "Golem creates a destructive armor to him and his allies for a long duration.",
+						"Passive": "Golem get a destructive armor after 5s out of combat. <br>Golem also get a thorn from his armor and 30% of his Armor increases his Physical Power included his destructive armor.",
 						"": "",
 						"Ability": "Area, Buff",
 						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"16 seconds",
-						"Destructive Armor": "20 / 40 / 60 / 70 / 80 (+20 per hero level = 400)",
-						"Buff": "50 / 100 / 150 / 200 / 250 (+20 per hero level = 400)",
+						"Destructive Armor [Active]": "20 / 40 / 60 / 70 / 80 (+20 per hero level = 400)",
+						"Duration": "10 seconds",
+						"Destructive Armor [Passive]": "50 / 100 / 150 / 200 / 250 (+20 per hero level = 400)",
 						"Thorn": "30%"
 					}
 				},
 				"Body Slam":{
 					"prop":{
-						"Active": "Golem leap to a target localtion, dealing physical damage to all enemies and smash them up to the sky.",
+						"Active": "Golem leap to a target location, dealing physical damage to all enemies and smash them up to the sky.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "40 size",
+						"Ability": "Target Location",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Damage": "Physical: 110 / 180 / 270 / 360 / 450% of his Armor"
@@ -1826,14 +1836,14 @@
 				},
 				"Earth Shaking":{
 					"prop":{
-						"Active": "Golem starts to channel, crating a strong burst of a instant earthquake as a nova. After 2,5 seconds he dealing physical damage to all enemies in the area around him. <br>While channel, he slowing enemies in the targeted area around him.",
+						"Active": "Golem starts to channel, crating an earthquake as a nova. After 2,5 seconds he dealing physical damage to all enemies in the area around him. <br>While channel, he affecting enemies by slowness in the target area around him.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Damage": "Physical: 500 / 660 / 800 / 950 / 1100 (+150% Physical Power)",
-						"Slow": "30%"
+						"Damage": "Physical: 500 / 660 / 800 / 950 / 1100 (+150% Armor)",
+						"Movement Speed": "-30%"
 					}
 				}
 			},
@@ -1873,27 +1883,27 @@
 		"oone": {
 			"name": "Oone",
 			"class": "tank",
-			"title": "The Angel Master",
-			"desc": "Oone is a arc angel of light with healing tactics, leader of the military by the light angels. older brother to Aria, and the best swordsman in the world!",
+			"title": "The Archangel",
+			"desc": "Oone is a archangel of light with healing tactics, leader of the military by the light angels. Older brother to Aria, and the best swordsman in the world!",
 			"skill": {
 				"Mighty Sword":{
 					"prop":{
-						"Active": "Oone swing his mighty sword, dealing physical damage and stealing they protection for a short duration.",
-						"Passive": "Enemy hit by this sword stacking up his physical power to he is out of vombat for 10 seconds (max 20 stacks)",
+						"Active": "Oone swing his mighty sword, dealing physical damage and stealing their protection for a short duration.",
+						"Passive": "Enemy hit by this sword stacking up his physical power to he is out of combat for 10 seconds (max 20 stacks)",
 						"": "",
 						"Ability": "Cone, Debuff/Buff",
 						"Radius": "30 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "13 / 12 / 11 / 10 / 9 seconds",
 						"Damage": "Physical: 60 / 140 / 220 / 300 / 380 (+30% Physical Power)",
-						"Protection": "5 / 8 / 11 / 14 / 17 (per stack)",
+						"Protection": "2 / 2,5 / 3 / 3,5 / 4 (per stack)",
 						"Duration": "10 seconds (out of combat)",
 						"Physical Power": "2 / 2,5 / 3 / 3,5 / 4"
 					}
 				},
 				"Fallin Wings":{
 					"prop":{
-						"Active": "Oone flying up and fast leap to a target localtion, pulling enemies up to the air, increases his movement speed & attack spoeed for a short duration.",
+						"Active": "Oone flying up and fast leap to a target location, smash enemies up to the air, increases his movement speed and attack speed for a short duration.",
 						"": "",
 						"Ability": "Leap, Buff",
 						"Radius": "30 size",
@@ -1906,7 +1916,7 @@
 				},
 				"Healing Wave":{
 					"prop":{
-						"Active": "Oone heal him and his allies around him instantly, 10% more per stack from Mighty Sword but end all the stacks.",
+						"Active": "Oone heal him and his allies around him instantly, 10% more per stack from Mighty Sword but end all the stacks after use.",
 						"": "",
 						"Ability": "Area",
 						"Radius": "70 size",
@@ -1917,7 +1927,7 @@
 				},
 				"Mighty Strike":{
 					"prop":{
-						"Active": "Oone dash forward and strike all enemies in the line with his sword, dealing physical damage and stacking his mighty sword per enemy hit with a duble affect.",
+						"Active": "Oone dash forward and strike all enemies in the line with his sword, dealing physical damage and stacking his Mighty Sword per enemy hit with a double effect.",
 						"": "",
 						"Ability": "Dash",
 						"Radius": "70 size",
@@ -1937,7 +1947,7 @@
 				"Blessed Hammer":{
 					"prop":{
 						"Active": "Pius sending a magical hammer in a line to the first hero hit, dealing magic damage and stunning the target. <br>Also dealing magic damage to all enemies in the line before hitting a hero.",
-						"Passive": "Pius got increased power to his basic attacks and a % bonus magic damage by his power.",
+						"Passive": "Pius get increased power to his basic attacks and a % bonus magic damage by his power.",
 						"": "",
 						"Ability": "Line, Projectile",
 						"Radius": "70 size",
@@ -1945,20 +1955,20 @@
 						"Cooldown": "12",
 						"Damage": "Magic: 100 / 170 / 240 / 310 / 380 (+60% Physical Power)",
 						"Stun": "1,5 seconds",
-						"Physical Power": "20 / 30 / 40 / 50 / 60",
-						"Magic Damage": "30%"
+						"Physical Power": "20 / 25 / 30 / 35 / 40",
+						"Magic Damage": "30% of his Physical Power"
 					}
 				},
 				"Divine Shield":{
 					"prop":{
-						"Active": "Pius creates a shield that deflect all incoming damage for a short duration. <br>Also got a aura that increases his and his allies Armor after the shield end for a longer duration.",
+						"Active": "Pius creates a shield that deflect all incoming damage for a short duration. <br>Also get an aura that increases his and his allies Armor after the shield end for a longer duration.",
 						"": "",
 						"Ability": "Shield, Buff, Area",
 						"Radius": "90 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Divine Duration": "1,5",
-						"Armor": "10 / 15 / 20 / 25 / 30 (+1,5 per hero lever = 30)",
+						"Divine Duration": "1,5 seconds",
+						"Armor": "10 / 15 / 20 / 25 / 30 (+1,5 per hero lever = 30 at level 20)",
 						"Duration": "10 seconds"
 					}
 				},
@@ -1966,20 +1976,21 @@
 					"prop":{
 						"Active": "Pius sending a light of holy at a target localtion, heal and give armor to allies, but dealing magic damage to enemies hit by this light.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+70% Magic Power)",
 						"Heal": "50 / 95 / 140 / 185 / 230 (+45% Magic Power)",
-						"Armor": "20 (+2 per hero level = 60)"
+						"Armor": "20 (+1,5 per hero level = 30 at level 20)",
+						"Duration": "4 seconds"
 					}
 				},
 				"Judgement":{
 					"prop":{
-						"Active": "Pius debuff all enemies in a target localtion, decreasing they power and protection for a short duration.",
+						"Active": "Pius debuff all enemies in a target location, decreasing their power and protection for a short duration.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "60 size",
 						"Cost":"90 / 100 / 110 / 120 / mana",
 						"Cooldown":"90 seconds",
@@ -1994,27 +2005,27 @@
 			"name": "Rebecca",
 			"class": "tank",
 			"title": "The Shield Master",
-			"desc": "Rebecca lives in Neutral City of Kings and Queens, always fighting for skills and dreaming of a pieceful world, also rival to the crusaider Diode. She is also the greatest shield master in the world, fighting with it like it was her right hand like a main weapon as her mace.",
+			"desc": "Rebecca lives in Neutral City of Kings and Queens, always fighting for skills and dreaming of a peaceful world, also rival to the crusader Diode. She is also the greatest shield master in the world, fighting with it like it was her right hand like a main weapon as her mace.",
 			"skill": {
 				"Bash":{
 					"prop":{
 						"Active": "Rebecca bash all enemies front of her with her shield, dealing physical damage and stunning them.",
-						"Passive": "Rebecca got a chance to bash her target with her basic attack, dealing a % increased damage of her physical power and stunning them.",
+						"Passive": "Rebecca get a chance to bash her target with her basic attack, dealing a % increased damage of her physical power and stunning them.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "30 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
 						"Damage": "Physical: 100 / 140 / 180 / 220 / 260 (+40% Physical Power) (+120% Armor)",
-						"Stun": "1 seconds",
+						"Stun [Active]": "1 seconds",
 						"Bash Chance": "15%",
 						"Physical Power": "40 / 65 / 90 / 115 / 140%",
-						"Stun [passive]": "0,5 seconds"
+						"Stun [Passive]": "0,5 seconds"
 					}
 				},
 				"Bouncing Shield":{
 					"prop":{
-						"Active": "Rebecca throw her shield in a line, dealing physical damage to the first enemy hit and start to bounce up to 5 enemies in a 30 radius. <br>While the shield is bouncing, she can't do Bash, Shield Rush or other shield item skills the following seconds.",
+						"Active": "Rebecca throw her shield in a line, dealing physical damage to the first enemy hit and start to bounce up to 5 enemies in a 30 radius. <br>While the shield is bouncing, she can't do Bash, Shield Rush or other shield item skills the following seconds including the block chance.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
@@ -2025,9 +2036,9 @@
 				},
 				"Shield Rush":{
 					"prop":{
-						"Active": "Rebecca rush forward, push back all enemies and dealing physical damage to them.",
+						"Active": "Rebecca dash forward, push back all enemies and dealing physical damage to them.",
 						"": "",
-						"Ability": "Rush",
+						"Ability": "Dash",
 						"Radius": "50 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
@@ -2036,7 +2047,7 @@
 				},
 				"Shield Master":{
 					"prop":{
-						"Active": "Rebecca start to ignore 30% of all physical damage agenst her, blocking all piercing projectiles for harming allies from behind. <br>She also got increased damage to her shield skills.",
+						"Active": "Rebecca start to ignore 30% of all physical damage against her, blocking all piercing projectiles for hurting allies from behind. <br>She also get increased damage to her shield skills.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
@@ -2062,7 +2073,7 @@
 				"Needle":{
 					"prop":{
 						"Active": "Rohan strike with his tail, poisoning all enemies in a line, dealing true physical damage for a short duration and reducing their Physical Power.",
-						"Passive": "His third basic attack destroying they armor in a cone for a short duration.",
+						"Passive": "His third basic attack destroying their armor in a cone for a short duration.",
 						"": "",
 						"Ability": "Line, Cone",
 						"Radius (Line)": "70 size",
@@ -2077,25 +2088,25 @@
 				},
 				"Sandstorm":{
 					"prop":{
-						"Active": "Rohan creates a circulating storm around him by sand, give him increased Armor. Every time his third basic attack have been done, Rohan spitting sand in the cone, dealing piercing damage to enemies hit.",
+						"Active": "Rohan creates a circulating storm around him by sand, give him increased armor. Every time his third basic attack have been done, Rohan spitting sand in the cone, dealing piercing damage to enemies hit.",
 						"": "",
 						"Ability": "Shield, Cone",
 						"Radius (Cone)": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Armor": "+ 20 / 30 / 40 / 50 / 60",
+						"Armor": "20 / 25 / 30 / 35 / 40",
 						"Damage": "Piercing: 60 / 100 / 140 / 180 / 220 (+40% Physical Power)"
 					}
 				},
 				"Quicksand":{
 					"prop":{
-						"Active": "Rohan creates quicksand in a target location, slowing enemies. <br>If an enemy stay still on the sand, their knees are stuck in the sand and can't move.",
+						"Active": "Rohan creates quicksand in a target location, reduce their movement speed. <br>If an enemy stay still on the sand for 2s, their knees are stuck in the sand and can't move.",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
-						"Slow": "16 / 20 / 24 / 28 / 32 %",
+						"Movement Speed": "- 30 / 35 / 40 / 45 / 50 %",
 						"Duration": "4 seconds"
 					}
 				},
@@ -2107,7 +2118,7 @@
 						"Radius": "25 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Physical: 300 / 400 / 500 / 600 / 700 (+120% Physical Power"
+						"Damage": "Physical: 300 / 400 / 500 / 600 / 700 (+120% Physical Power)"
 					}
 				}
 			}
@@ -2115,12 +2126,12 @@
 		"tana": {
 			"name": "Tána",
 			"class": "tank",
-			"title": "Girl of Justice",
-			"desc": "Tána lives in City of Kindom Port, believe in justice and fight side by side with princess Asula. From living in the streets, she climbed quite high in order to reach its goal. Now with her golden whip and sword she clearing the city from crimes.",
+			"title": "Hero of Justice",
+			"desc": "Tána lives in City of Kingdom Port, believe in justice and fight side by side with princess Asula. From living in the streets, she climbed quite high in order to reach her goal. Now with her golden whip and sword she clearing the city from crimes.",
 			"skill": {
 				"Dash of Justice":{
 					"prop":{
-						"Active": "Tána dash trough all enemies in a line, dealing physical damage to all enemies addition 25% of an amount between your maximum health and the enemies maximum health as true damage. <br>Basic attacks decreases this cooldown by 0,5 seconds and counting on all enemy hits by Sword of Justice.",
+						"Active": "Tána dash through all enemies in a line, dealing physical damage to all enemies addition 25% of an amount between her maximum health and the enemies maximum health as true damage. <br>Basic attacks decreases this cooldown by 0,5 seconds and counting on all enemy hits by Sword of Justice.",
 						"": "",
 						"Ability": "Dash",
 						"Radius": "50 size",
@@ -2143,21 +2154,21 @@
 				},
 				"Golden Whip":{
 					"prop":{
-						"Active": "Tána catch the first enemy hero hit, decrease they physical power and movement speed while they caught. <br>Her next basic attack at this target hero do an extra true damage from 15% of her maximum health.",
+						"Active": "Tána catch the first enemy hero hit, decrease their physical power and movement speed while they caught. <br>Her next basic attack at this target hero do an extra true damage from a % of her maximum health.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Physical Power": "-10 / 20 / 30 / 40 / 50%",
-						"Movement Speed": "-6 / 12 / 18 / 24 / 30%",
+						"Physical Power": "- 12 / 18 / 24 / 30 / 36 %",
+						"Movement Speed": "- 6 / 12 / 18 / 24 / 30 %",
 						"Duration": "3 seconds",
-						"Next Attack": "+15% Maximum Health"
+						"Maximum Health": "True: +15%"
 					}
 				},
 				"Fallin Sword":{
 					"prop":{
-						"Active": "Tána leap to a localtion and cause a increadible physical damage to all enemies in the target localtion.",
+						"Active": "Tána leap to a location and cause an incredible physical damage to all enemies in the target location.",
 						"": "",
 						"Ability": "Leap",
 						"Radius": "30 size",
@@ -2176,8 +2187,8 @@
 			"skill": {
 				"Soul Breathe":{
 					"prop":{
-						"Active": "Tank breathe out deadly souls in a cone, dealing magic damage to all enemies hit. Kill enemy hit heal him 12% of they maximum health.",
-						"Passive": "He got a bonus magic damage from a % by his magic protection. <br>Killing enemies give him permanent health and also heal after killing. Double effect from killing heroes.",
+						"Active": "Tank breathe out deadly souls in a cone, dealing magic damage to all enemies hit. Kill enemy on hit heal him 12% of their maximum health.",
+						"Passive": "He get a bonus magic damage from a % by his magic protection. <br>Killing enemies give him permanent health and also heal after killing. Double effect from killing heroes.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "30 size",
@@ -2191,23 +2202,23 @@
 				},
 				"Eye of The Sword":{
 					"prop":{
-						"Active": "Tank throw his sword at a target localtion, dealing physical damage to all enemies and slowing them. <br>Enemies with 30% health or less got killed, giving him the permanent health buff. Attacking makes the sword fall back to your hand, ",
+						"Active": "Tank throw his sword at a target location, dealing physical damage to all enemies and reduce their movement speed. <br>Enemies with 30% health or less get killed, giving him the permanent health buff. Attacking makes the sword fall back to his hand.",
 						"": "",
-						"Ability": "Ground Target",
-						"Radius": "30 size",
+						"Ability": "Target Location",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
 						"Damage": "Physical: 90 / 130 / 170 / 210 / 250 (+50% Physical Power)",
-						"Kill": "30% Maximum Health (250 Max Damage)",
-						"Slow": "25%",
+						"Kill": "30% Maximum Health (250 Maximum Damage)",
+						"Movement Speed": "-25%",
 						"Duration": "3 seconds"
 					}
 				},
 				"Rush":{
 					"prop":{
-						"Active": "Tank rush forward, strike all enemies in the line and sending them up to the air, dealing physical damage.",
+						"Active": "Tank dash forward, strike all enemies in the line and sending them up to the air, dealing physical damage.",
 						"": "",
-						"Ability": "Rush",
+						"Ability": "Dash",
 						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"16 seconds",
@@ -2216,14 +2227,14 @@
 				},
 				"Soul Burst":{
 					"prop":{
-						"Active": "Tank burst out souls in a area around him, dealing magic damage and slowing them.",
+						"Active": "Tank burst out souls in a area around him, dealing magic damage and reduce their movement speed.",
 						"": "",
 						"Ability": "Area",
 						"Radius": "60 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
 						"Damage": "Magic: 200 / 250 / 300 / 350 / 400 (+120 Physical Power)",
-						"Slow": "80%",
+						"Movement Speed": "80%",
 						"Duration": "3 seconds"
 					}
 				}
@@ -2248,7 +2259,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2259,7 +2270,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2270,7 +2281,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2281,7 +2292,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2300,7 +2311,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2311,7 +2322,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2322,7 +2333,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2333,7 +2344,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2352,7 +2363,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2363,7 +2374,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2374,7 +2385,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2385,7 +2396,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2404,7 +2415,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2415,7 +2426,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2426,7 +2437,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2437,7 +2448,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2456,7 +2467,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2467,7 +2478,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2478,7 +2489,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2489,7 +2500,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2528,7 +2539,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2539,7 +2550,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2550,7 +2561,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2561,7 +2572,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2600,7 +2611,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2611,7 +2622,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2622,7 +2633,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2633,7 +2644,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2652,7 +2663,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2663,7 +2674,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2674,7 +2685,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2685,7 +2696,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2715,7 +2726,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2726,7 +2737,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2737,7 +2748,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2748,7 +2759,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2772,7 +2783,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2783,7 +2794,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2794,7 +2805,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2805,7 +2816,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2835,7 +2846,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2846,7 +2857,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2857,7 +2868,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2868,7 +2879,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2887,7 +2898,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2898,7 +2909,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2909,7 +2920,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2920,7 +2931,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2939,7 +2950,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -2950,7 +2961,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2961,7 +2972,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2972,7 +2983,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -2996,7 +3007,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3007,7 +3018,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3018,7 +3029,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3029,7 +3040,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3048,7 +3059,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3059,7 +3070,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3070,7 +3081,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3081,7 +3092,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3100,7 +3111,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3111,7 +3122,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3122,7 +3133,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3133,7 +3144,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3152,7 +3163,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3163,7 +3174,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3174,7 +3185,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3185,7 +3196,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3224,7 +3235,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3235,7 +3246,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3246,7 +3257,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3257,7 +3268,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3284,7 +3295,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3295,7 +3306,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3306,7 +3317,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3317,7 +3328,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3341,7 +3352,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3352,7 +3363,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3363,7 +3374,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3374,7 +3385,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3400,7 +3411,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3411,7 +3422,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3422,7 +3433,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3433,7 +3444,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3452,7 +3463,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3463,7 +3474,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3474,7 +3485,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3485,7 +3496,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3509,7 +3520,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3520,7 +3531,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3531,7 +3542,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3542,7 +3553,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3561,7 +3572,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3572,7 +3583,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3583,7 +3594,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3594,7 +3605,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3613,7 +3624,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3624,7 +3635,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3635,7 +3646,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3646,7 +3657,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3665,7 +3676,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3676,7 +3687,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3687,7 +3698,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3698,7 +3709,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3717,7 +3728,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3728,7 +3739,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3739,7 +3750,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3750,7 +3761,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3769,7 +3780,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3780,7 +3791,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3791,7 +3802,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3802,7 +3813,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3821,7 +3832,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3832,7 +3843,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3843,7 +3854,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3854,7 +3865,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3873,7 +3884,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3884,7 +3895,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3895,7 +3906,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3906,7 +3917,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3925,7 +3936,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3936,7 +3947,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3947,7 +3958,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3958,7 +3969,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3977,7 +3988,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -3988,7 +3999,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -3999,7 +4010,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4010,7 +4021,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4029,7 +4040,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4040,7 +4051,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4051,7 +4062,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4062,7 +4073,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4081,7 +4092,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4092,7 +4103,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4103,7 +4114,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4114,7 +4125,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4133,7 +4144,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4144,7 +4155,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4155,7 +4166,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4166,7 +4177,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4199,7 +4210,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4210,7 +4221,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4221,7 +4232,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4232,7 +4243,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4256,7 +4267,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4267,7 +4278,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4278,7 +4289,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4289,7 +4300,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4313,7 +4324,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4324,7 +4335,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4335,7 +4346,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4346,7 +4357,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4370,7 +4381,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4381,7 +4392,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4392,7 +4403,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4403,7 +4414,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4422,7 +4433,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4433,7 +4444,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4444,7 +4455,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4455,7 +4466,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4479,7 +4490,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4490,7 +4501,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4501,7 +4512,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4512,7 +4523,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4531,7 +4542,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4542,7 +4553,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4553,7 +4564,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4564,7 +4575,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4583,7 +4594,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4594,7 +4605,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4605,7 +4616,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4616,7 +4627,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4635,7 +4646,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4646,7 +4657,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4657,7 +4668,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4668,7 +4679,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4701,7 +4712,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4712,7 +4723,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4723,7 +4734,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4734,7 +4745,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4767,7 +4778,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4778,7 +4789,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4789,7 +4800,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4800,7 +4811,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4819,7 +4830,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4830,7 +4841,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4841,7 +4852,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4852,7 +4863,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4879,7 +4890,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4890,7 +4901,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4901,7 +4912,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4912,7 +4923,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4931,7 +4942,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4942,7 +4953,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4953,7 +4964,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4964,7 +4975,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -4983,7 +4994,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -4994,7 +5005,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5005,7 +5016,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5016,7 +5027,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5035,7 +5046,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5046,7 +5057,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5057,7 +5068,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5068,7 +5079,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5087,7 +5098,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5098,7 +5109,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5109,7 +5120,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5120,7 +5131,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5139,7 +5150,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5150,7 +5161,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5161,7 +5172,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5172,7 +5183,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5191,7 +5202,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5202,7 +5213,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5213,7 +5224,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5224,7 +5235,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5243,7 +5254,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5254,7 +5265,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5265,7 +5276,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5276,7 +5287,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5295,7 +5306,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5306,7 +5317,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5317,7 +5328,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5328,7 +5339,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5347,7 +5358,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5358,7 +5369,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5369,7 +5380,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5380,7 +5391,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5399,7 +5410,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5410,7 +5421,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5421,7 +5432,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5432,7 +5443,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5456,7 +5467,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5467,7 +5478,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5478,7 +5489,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5489,7 +5500,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5508,7 +5519,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5519,7 +5530,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5530,7 +5541,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5541,7 +5552,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5577,7 +5588,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5588,7 +5599,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5599,7 +5610,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5610,7 +5621,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5634,7 +5645,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5645,7 +5656,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5656,7 +5667,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5667,7 +5678,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5691,7 +5702,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5702,7 +5713,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5713,7 +5724,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5724,7 +5735,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5748,7 +5759,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5759,7 +5770,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5770,7 +5781,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5781,7 +5792,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5814,7 +5825,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5825,7 +5836,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5836,7 +5847,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5847,7 +5858,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5871,7 +5882,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5882,7 +5893,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5893,7 +5904,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5904,7 +5915,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5923,7 +5934,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5934,7 +5945,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5945,7 +5956,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5956,7 +5967,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5975,7 +5986,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -5986,7 +5997,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -5997,7 +6008,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6008,7 +6019,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6035,7 +6046,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6046,7 +6057,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6057,7 +6068,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6068,7 +6079,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6087,7 +6098,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6098,7 +6109,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6109,7 +6120,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6120,7 +6131,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6139,7 +6150,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6150,7 +6161,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6161,7 +6172,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6172,7 +6183,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6191,7 +6202,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6202,7 +6213,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6213,7 +6224,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6224,7 +6235,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6243,7 +6254,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6254,7 +6265,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6265,7 +6276,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6276,7 +6287,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6295,7 +6306,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6306,7 +6317,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6317,7 +6328,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6328,7 +6339,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6347,7 +6358,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6358,7 +6369,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6369,7 +6380,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6380,7 +6391,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6399,7 +6410,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6410,7 +6421,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6421,7 +6432,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6432,7 +6443,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6456,7 +6467,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6467,7 +6478,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6478,7 +6489,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6489,7 +6500,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6508,7 +6519,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6519,7 +6530,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6530,7 +6541,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6541,7 +6552,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6571,7 +6582,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6582,7 +6593,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6593,7 +6604,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6604,7 +6615,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6623,7 +6634,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6634,7 +6645,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6645,7 +6656,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6656,7 +6667,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6675,7 +6686,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "None",
@@ -6686,7 +6697,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6697,7 +6708,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
@@ -6708,7 +6719,7 @@
 					"prop":{
 						"Active": "",
 						"": "",
-						"Ability": "Ground Target",
+						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
