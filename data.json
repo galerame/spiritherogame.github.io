@@ -2804,7 +2804,7 @@
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8",
 						"Damage [Wind Blades]": "Physical: 40 / 75 / 110 / 145 / 180 (+40% Physical Power)",
-						"Damage [Whirlwind]": "Physical: 15 / 20 / 25 / 30 / 35",
+						"Damage [Whirlwind]": "Physical: 15 / 20 / 25 / 30 / 35"
 					}
 				},
 				"":{
