@@ -75,6 +75,22 @@
 			"class": "item",
 			"desc": "+10% Attack Speed, +12 Magic Protection, +12 Armor, +12 Physical Power, +12 Magic Power <br>Passive: Basic attacks now slow enemies by 6% over 1 second."
 		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 		"anni": {
 			"name": "Anni",
 			"class": "hunter",
@@ -2776,18 +2792,19 @@
 		"lotus": {
 			"name": "Lotus",
 			"class": "assassin",
-			"title": "Twin Bladed Phantom",
-			"desc": "",
+			"title": "The Moon Phantom",
+			"desc": "She lives everywere, walking under the moonlight, taking shelter in caves, but sometimes she takes a few drinks in a bar. People who sees her talking about the moon phantom. She is not a dangerous person, but they who bothering her have said something for the last time.",
 			"skill": {
-				"":{
+				"Bladed Wind":{
 					"prop":{
-						"Active": "",
+						"Active": "Creates two wind blades in a line, dealing physical damage hit. <br>In the end of the line, it become a piercing whirlwind. Dealing physical damage hit per seconds and silence their movement tactics. Active again Móna teleport to mitt of the whilrwind.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8",
+						"Damage [Wind Blades]": "Physical: 40 / 75 / 110 / 145 / 180 (+40% Physical Power)",
+						"Damage [Whirlwind]": "Physical: 15 / 20 / 25 / 30 / 35",
 					}
 				},
 				"":{
@@ -4197,6 +4214,62 @@
 				},
 				"Military Human Lerala": {
 					"link": "lerala4"
+				}
+			}
+		},
+		"mikael": {
+			"name": "Mikael",
+			"class": "Fighter",
+			"title": "The Pirate",
+			"desc": "He lives in the ocean, is originally from Kingdom Port, but turned into a pirate like his dad. He has found a deadly fruit that makes him immortal, let him rise after death. With the help of his deadly gun and his poisonous blade, there is no one who has a match against him.",
+			"skill": {
+				"Deadly Weapon":{
+					"prop":{
+						"Active": "Shoot with his gun, piercing through enemies in a line and dealing physical damage hit.",
+						"Passive": "His basic attacks dealing an extra true damage.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+120% Physical Power)",
+						"Bonus Damage": "True: 5 / 10 / 15 / 20 / 25 (+1,5 per hero level = 30 at level 20)",
+					}
+				},
+				"Convince":{
+					"prop":{
+						"Active": "Shout, increase his and his allies movement speed and attack speed for a short duration.",
+						"": "",
+						"Ability": "Area, Buff",
+						"Radius": "60 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Movement Speed": "6 / 12 / 18 / 24 / 30 %",
+						"Attack Speed": "10 / 16 / 22 / 28 / 34 %",
+						"Duration": "4 seconds"
+					}
+				},
+				"Pirate Blades":{
+					"prop":{
+						"Active": "He throws four swords in all four directions, dealing physical damage to all enemies they hit through.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "55 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+90% Physical Power)"
+					}
+				},
+				"Immortal":{
+					"prop":{
+						"Active": "He become a skeleton for a short duration, start to ignore bleeding affects and other over time like poison, immune from crowd controlls, but ignoring buffs from friendly tactics the following seconds.",
+						"Passive": "After his death, he resurrect to life again with only 30% of his maximum health. Happen every 90s.",
+						"": "",
+						"Ability": "Self",
+						"Cost":"90 mana",
+						"Cooldown":"18 / 19 / 20 / 21 / 22 seconds",
+						"Duration": "2 / 2,5 / 3 / 3,5 / 4 seconds"
+					}
 				}
 			}
 		},
