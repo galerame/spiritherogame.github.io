@@ -4219,7 +4219,7 @@
 		},
 		"mikael": {
 			"name": "Mikael",
-			"class": "Fighter",
+			"class": "fighter",
 			"title": "The Pirate",
 			"desc": "He lives in the ocean, is originally from Kingdom Port, but turned into a pirate like his dad. He has found a deadly fruit that makes him immortal, let him rise after death. With the help of his deadly gun and his poisonous blade, there is no one who has a match against him.",
 			"skill": {
