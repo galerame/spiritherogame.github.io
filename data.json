@@ -95,7 +95,7 @@
 			"name": "Anni",
 			"class": "hunter",
 			"title": "The Friend of Animals",
-			"desc": "Anni lives in the city of Kingdom Port, royal and the youngest sister to Asula. While Asula forced into the military, Anni stayed by her love for the animals in the nature. She borrowed two guns from the pirates, and got her animals by her side then she must go serious!",
+			"desc": "Anni lives in the city of Kingdom Port, royal and the youngest sister to Asula and Aenna. While Asula forced into the military, Anni stayed by her love for the animals in the nature. She borrowed two guns from the pirates, and got her animals by her side then she must go serious!",
 			"skill": {
 				"Polecats":{
 					"prop":{
@@ -215,7 +215,7 @@
 			"name": "Blade",
 			"class": "hunter",
 			"title": "The Bladed Magician",
-			"desc": "Blade lives in the Neutral City of Kings and Queens with a ruth childhood by standing up against her rival, Katana. They both parents died then they were young, then they struggled to live in the big city. She got an experience by using her magic to bend her blades around, with that tactic she create pain by magical power from being hit by her blades, but her Movements aren't like Katanas. By her tactics, she make her enemies confused by binding them together with magical force.",
+			"desc": "Blade lives in the city of Peace with a ruth childhood by standing up against her rival, Katana. They both parents died then they were young, then they struggled to live in the big city. She got an experience by using her magic to bend her blades around, with that tactic she create pain by magical power from being hit by her blades, but her Movements aren't like Katanas. By her tactics, she make her enemies confused by binding them together with magical force.",
 			"skill": {
 				"Forced Blades":{
 					"prop":{
@@ -391,6 +391,8 @@
 						"Active": "Cicada flying around in a circle, can launch an arrow at a target location while flying, dealing physical damage to enemies hit each arrow launch.",
 						"": "",
 						"Ability": "Fly, Area / Target Location",
+						"Radius [Flying Area]": "90 size",
+						"Radius [Target Location]": "25 size",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 240 / 320 / 400 / 480 / 560 % Physical Power",
@@ -647,7 +649,7 @@
 			"name": "Lancel",
 			"class": "hunter",
 			"title": "The Longest Sight",
-			"desc": "Lancel lives in the small villages outside the Neutral City of Kings and Queens, with a ruth life he struggled and helped the poor people by taking from the rich. With his great long bow and easy movable body he got the longest distance in fights!",
+			"desc": "Lancel lives in the small villages outside the city of Peace, with a ruth life he struggled and helped the poor people by taking from the rich. With his great long bow and easy movable body he got the longest distance in fights!",
 			"skill": {
 				"Multi Shot":{
 					"prop":{
@@ -1391,7 +1393,7 @@
 						"Ability": "Debuff: Line, Cone, Area",
 						"Radius [Line]": "70 size",
 						"Radius [Cone]": "50 size",
-						"Radius [Area]": "45 size",
+						"Radius [Area]": "35 size",
 						"Cost": "40 / 45 / 50 / 60 / 65 mana",
 						"Cooldown": "11, 11, 11 seconds",
 						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+50% Magic Power)",
@@ -1565,7 +1567,7 @@
 			"name": "Diode",
 			"class": "tank",
 			"title": "The Crusader",
-			"desc": "Diode lives in the City of Mordune, cousin to princess Asula in Kingdom Port, rival to the shield master Rebecca in Neutral City of Kings and Queens, lives as a crusader and also is a believer. Crushing enemies with her mace and always are good with her shouting voice to taunting enemies!",
+			"desc": "Diode lives in the City of Mordune, cousin to princess Asula in Kingdom Port, rival to the shield master Rebecca in the city of Peace, lives as a crusader and also is a believer. Crushing enemies with her mace and always are good with her shouting voice to taunting enemies!",
 			"skill": {
 				"Mace Swing":{
 					"prop":{
@@ -2021,7 +2023,7 @@
 			"name": "Rebecca",
 			"class": "tank",
 			"title": "The Shield Master",
-			"desc": "Rebecca lives in Neutral City of Kings and Queens, always fighting for skills and dreaming of a peaceful world, also rival to the crusader Diode. She is also the greatest shield master in the world, fighting with it like it was her right hand like a main weapon as her mace.",
+			"desc": "Rebecca lives in the city of Peace, always fighting for skills and dreaming of a peaceful world, also rival to the crusader Diode. She is also the greatest shield master in the world, fighting with it like it was her right hand like a main weapon as her mace.",
 			"skill": {
 				"Bash":{
 					"prop":{
@@ -2269,50 +2271,57 @@
 			"name": "Aenna",
 			"class": "assassin",
 			"title": "The Blooded Bandit",
-			"desc": "",
+			"desc": "Aenna lives in the city of Kingdom Port, older sister to Anni but younger sister to Asula. After she become a teenager, she runned away and lived her own life in the big city, became the blooded bandit. With her water power she got some usefull to her fighting stile and creates mirrors to fool her enemies before they execution.",
 			"skill": {
-				"":{
+				"Second Blade":{
 					"prop":{
-						"Active": "",
+						"Active": "Aenna throw her second blade at the first enemy hit in a line, for 3,5s her next basic attack agenst that enemy is increased with piercing damage, and also she can teleport behind the target by activate this again.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Projectile, Teleport",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 35 / 55 / 75 / 95 / 115 (+40 Physical Power)",
+						"Bonus Damage": "Piercing: 45 / 70 / 95 / 120 / 145 (+50% Physical Power)"
 					}
 				},
-				"":{
+				"Chilled Mist":{
 					"prop":{
-						"Active": "",
+						"Active": "Aenna creates a mist in a target location, makes Aenna invisible inside it and chilling enemies. After attacking, she become invisible after ,5s out of combat.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Chill": "- 15 / 20 / 25 / 30 / 35 % [Attack Speed & Movement Speed]",
+						"Duration": "4 seconds",
 					}
 				},
-				"":{
+				"Mirror of Ice":{
 					"prop":{
-						"Active": "",
+						"Active": "Aenna creates a mirror of ice in a target location that she can get inside and move to other placed mirrors nearby the targeted by A or D. Active this inside the mirror creates a decoy by your self, get hit by a enemy it explode and catch nearby enemies by a water prison that dealing physical damage per ,25s. <br>From the mirror, she can throw her Second Blade.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "70 size",
+						"Cost [Mirror]":"35 mana",
+						"Cost [Decoy]":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown [Mirror]":"14 seconds",
+						"Cooldown [Decoy]":"18 seconds",
+						"Mirror": "Last 90 seconds",
+						"Duration": "3 seconds [How long she can stay inside a mirror]",
+						"Damage": "Physical: 15 / 20 / 25 / 30 / 35 (+40% Magic Power)",
+						"Water Prison": "1,75 seconds"
 					}
 				},
-				"":{
+				"Water Dragon":{
 					"prop":{
-						"Active": "",
+						"Active": "Aenna sending a dragon of water in a line, dealing physical damage to each enemy hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line",
+						"Radius": "110 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 400 / 500 / 600 / 700 / 800 (+60% Physical Power) (+60% Magical Power)"
 					}
 				}
 			}
@@ -2321,50 +2330,55 @@
 			"name": "Albin",
 			"class": "assassin",
 			"title": "The Spirit Hunter",
-			"desc": "",
+			"desc": "Albin lives in the land of spooky, but came from the city of Peace. He trying to search for answer about spirits and the world between us and they. To survive he fight in silence, snipe enemies with his crossbow and hunting down enemies with his haunted spears and his main weapon.",
 			"skill": {
-				"":{
+				"Arrow Shot":{
 					"prop":{
-						"Active": "",
+						"Active": "Albin launch an arrow from his crossbow on his back, dealing piercing damage to the first enemy hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Piercing: 50 / 120 / 190 / 260 / 330 (+40% Physical Power)"
 					}
 				},
-				"":{
+				"Protecting Spirits":{
 					"prop":{
-						"Active": "",
+						"Active": "Albin call for spirits to protect him, stealing health from enemies around him and protect a % of all incoming damage and ignoring armor penetration like piercing damage.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Health": "True: 5 / 10 / 15 / 20 / 25 (per ,25s) (+15% Magic Power)",
+						"Protection": "15 / 20 / 25 / 30 / 35 %",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Haunted Spear":{
 					"prop":{
-						"Active": "",
+						"Active": "Albin throw a haunted spear in a target location, dealing piercing damage to all enemies hit. He can throw up to three spears that stay on the ground till you become too far away or pick it up to throw it again. <br>Nearby a spear can let you vault to it by press W twice.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "25 size",
+						"Cost":"22,5 mana",
+						"Cooldown":"None",
+						"Damage": "Piercing: 35 / 40 / 45 / 55 / 65 (+35% Physical Power)"
 					}
 				},
-				"":{
+				"Haunt":{
 					"prop":{
-						"Active": "",
+						"Active": "Albin call for the spirits inside his haunted spear, dealing physical damage to all enemies hit around the spears and reduce they movement speed. Dispelling all summonings and decoys. The damage is stealing health that sends to you.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Active",
+						"Radius": "35 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 150 / 250 / 350 / 450 / 550 (+140% Physical Power)",
+						"Life Steal": "25%",
+						"Movement Speed": "-50%",
+						"Duration": "2,5 seconds"
 					}
 				}
 			}
@@ -2373,50 +2387,58 @@
 			"name": "Ashera",
 			"class": "assassin",
 			"title": "The Sea Queen",
-			"desc": "",
+			"desc": "Ashera lives in the ocean, call her self the sea queen! Many pirates have tried to find her and kill her, but she is to clever. Because of her four arms she fighting with four blades, and can manipulate the enemy's mind.",
 			"skill": {
-				"":{
+				"Winds":{
 					"prop":{
-						"Active": "",
+						"Active": "Ashera winds in a line, dealing physical damage to all enemies by her swords. For 4s she ignoring slow effects [non-chill].",
+						"Passive": "Ashera have increased movement speed.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Dash (Like a snake)",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "16 seconds",
+						"Damage": "Physical: 80 / 140 / 200 / 260 / 320 (+100% Physical Power)",
+						"Movement Speed": "6 / 9 / 12 / 15 / 18 % (+0,25 per hero level = 5 at level 20)"
 					}
 				},
-				"":{
+				"Screech":{
 					"prop":{
-						"Active": "",
+						"Active": "Ashera create a noisy scream in nearby enemies head, reduce their protection and make them paralyzed.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Protection": "- 15 / 20 / 25 / 30 / 35 %",
+						"Duration": "2,75 / 3 / 3,25 / 3,5 / 3,75 seconds",
+						"Paralyzed": "1 seconds"
 					}
 				},
-				"":{
+				"Slicing Blades":{
 					"prop":{
-						"Active": "",
+						"Active": "Ashera slice with her blades in a cone, dealing physical damage to enemies hit.",
+						"Passive": "Attacks from Asheras blades increases her movement speed.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Cone",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 40 / 80 / 140 / 200 / 260 (+120% Physical Power)",
+						"Movement Speed": "6 / 9 / 12 / 15 / 18 % (+0,25 per hero level = 5 at level 20)"
 					}
 				},
-				"":{
+				"Four Bladed Whirlwind":{
 					"prop":{
-						"Active": "",
+						"Active": "Ashera becomes an unstoppable force of destruction, creating a damage aura around her. During this time, she can be reduced to 1 Health, but cannot die. She is Immune to Knockup, Slow effects, and protected from Root, but still vulnerable to Stuns. If Ashera is under 15% of her total Health at the end of the duration, she will heal to 15% Health.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self, Area",
+						"Radius": "45 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 25 / 30 / 35 / 40 / 45 (+5% Physical Power)",
+						"Life Steal": "33% of the damage dune per ticking damage",
+						"Duration": "4 / 4,25 / 4,5 / 4,75 / 5 seconds"
 					}
 				}
 			}
@@ -2425,50 +2447,50 @@
 			"name": "Chin",
 			"class": "assassin",
 			"title": "Master of Katana",
-			"desc": "",
+			"desc": "Chin lives in the city of Peace, lives silently by him self, no one have ever seen his face and they call him the Ninja Demon. He is brother to Hana without she even know. In the childhood he saved her many times from to be killed, but she was always unconscious to know that he has done for her. He always runs on Blakes footsteps like they was rivals and she is the only one who know his face. He's a master with Katana but not cold blooded like Blake.",
 			"skill": {
-				"":{
+				"Chargin Katana":{
 					"prop":{
-						"Active": "",
+						"Active": "Chin dash with his katana, dealing physical damage to all enemies hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Dash",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 80 / 140 / 200 / 260 / 320 (+50% Physical Power)"
 					}
 				},
-				"":{
+				"Like a Smoke":{
 					"prop":{
-						"Active": "",
+						"Active": "Chin drops a smoke bomb, become invisible for a short duration. Gain bonus movement speed in stealth.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Movement Speed": "18 / 22 / 26 / 30 / 34 %",
+						"Stealth": "3 seconds"
 					}
 				},
-				"":{
+				"Three Strikes":{
 					"prop":{
-						"Active": "",
+						"Active": "Chin strikes three basic attacks to random enemies in a cone.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Cone",
+						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 50 / 75 / 100 / 125 / 150 (+50% Physical Power)"
 					}
 				},
-				"":{
+				"Deadly Strike":{
 					"prop":{
-						"Active": "",
+						"Active": "Chin get close to an enemy, strike it then both are stopped and then jump back. Dealing true damage over a bleeding time.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Target",
+						"Radius": "45 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "True: 228 / 342 / 456 / 570 / 684 Over 5 seconds."
 					}
 				}
 			}
@@ -2477,71 +2499,78 @@
 			"name": "Drya",
 			"class": "assassin",
 			"title": "Keeper of the Nature",
-			"desc": "",
+			"desc": "Drya lives in the forest, she is a keeper of the nature and catch every single enemy that harm the forest and are a danger to the animals. She don't accept humans except Brynhildr and Caity that are a friend to the nature. A human have never seen her true form, she only show her self as a reindeer. Once Anni took a look on her eyes and understood who it was, while Drya accept her just because her friendly to the animals.",
 			"skill": {
-				"":{
+				"Angry Roots":{
 					"prop":{
-						"Active": "",
+						"Active": "Drya creates some roots in a line, dealing physical damage and reduce their movement speed.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "55 size",
+						"Cost":"40 mana",
+						"Cooldown": "2,5 seconds",
+						"Damage": "Physical: 40 / 55 / 70 / 85 / 100 (+40% Physical Power)",
+						"Movement Speed": "-25%",
+						"Duration": "1,5 seconds"
 					}
 				},
-				"":{
+				"Spiritual Reindeer":{
 					"prop":{
-						"Active": "",
+						"Active": "Drya transforming to a spiritual reindeer, gain bonus movement speed and the ability to walk through walls, trees and turrets. In this mode, she become invulnerable to all effects and damage.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Self",
+						"Cost":"70 mana (+20 mana over 1 seconds)",
+						"Cooldown":"18 seconds",
+						"Movement Speed": "18 / 26 / 34 / 42 / 50 %"
+					}
+				},
+				"Touch of Nature":{
+					"prop":{
+						"Active": "Drya activate a force from the nature, increases her next basic attack by a bonus magic damage.",
+						"Passive": "Drya get an increased attack speed after succeed a crit.",
+						"": "",
+						"Ability": "Self",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 60 / 90 / 120 / 150 / 180 (+40% Magic Power)",
+						"Attack Speed": "20 / 30 / 40 / 50 / 60 % (+2 per hero level = 40 at level 20)",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Thorn Area":{
 					"prop":{
-						"Active": "",
+						"Active": "Drya creates a entangling area by thorn, dealing physical damage per second and ensnare enemies hit. Reduce their movement speed inside the area.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "50 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 50 / 100 / 150 / 200 / 250 (+80% Magic Power) (Per seconds)",
+						"Ensnare": "1 seconds",
+						"Movement Speed": "-80%",
+						"Duration": "3 seconds"
 					}
 				}
 			},
 			"skin" : {
+				"Summer Drya": {
+					"link": "drya6"
+				},
 				"Fall Drya": {
 					"link": "drya1"
-				},
-				"Forest Queen Drya": {
-					"link": "drya2"
-				},
-				"Human Girl Drya": {
-					"link": "drya3"
 				},
 				"Little Leaf Drya": {
 					"link": "drya4"
 				},
+				"Human Girl Drya": {
+					"link": "drya3"
+				},
+				"Forest Queen Drya": {
+					"link": "drya2"
+				},
 				"Shadow Thorn Drya": {
 					"link": "drya5"
-				},
-				"Summer Drya": {
-					"link": "drya6"
 				}
 			}
 		},
@@ -2557,7 +2586,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -2629,7 +2658,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -2681,7 +2710,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -2744,7 +2773,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -2865,7 +2894,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -2917,7 +2946,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -2969,7 +2998,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3026,7 +3055,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3078,7 +3107,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3130,7 +3159,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3182,7 +3211,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3254,7 +3283,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3314,7 +3343,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3371,7 +3400,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3430,7 +3459,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3482,7 +3511,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3539,7 +3568,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3591,7 +3620,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3643,7 +3672,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3695,7 +3724,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3747,7 +3776,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3799,7 +3828,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3851,7 +3880,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3903,7 +3932,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -3955,7 +3984,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4007,7 +4036,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4059,7 +4088,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4111,7 +4140,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4163,7 +4192,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4290,7 +4319,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4347,7 +4376,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4404,7 +4433,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4461,7 +4490,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4513,7 +4542,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4565,7 +4594,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4617,7 +4646,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4669,7 +4698,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4735,7 +4764,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4801,7 +4830,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4853,7 +4882,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4913,7 +4942,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -4965,7 +4994,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5017,7 +5046,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5069,7 +5098,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5121,7 +5150,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5173,7 +5202,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5225,7 +5254,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5277,7 +5306,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5329,7 +5358,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5381,7 +5410,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5433,7 +5462,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5490,7 +5519,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5542,7 +5571,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5611,7 +5640,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5668,7 +5697,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5725,7 +5754,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5782,7 +5811,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5848,7 +5877,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5905,7 +5934,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -5957,7 +5986,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6009,7 +6038,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6069,7 +6098,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6121,7 +6150,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6173,7 +6202,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6225,7 +6254,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6277,7 +6306,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6329,7 +6358,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6381,7 +6410,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6433,7 +6462,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6490,7 +6519,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6542,7 +6571,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6605,7 +6634,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6657,7 +6686,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
@@ -6709,7 +6738,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
 						"Damage": ""
 					}
