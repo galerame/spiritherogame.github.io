@@ -79,14 +79,51 @@
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
+	"conquest": {
+			"name": "Conquest",
+			"class": "maps",
+			"desc": "In Conquest, two teams of five players fight off in a three-laned map with turrets and a big jungle. Conquest is about a fight between the city of Mordune and Kingdom Port, then each of them sending troops to the mitt between the Valkyrie river called Conquest!"
+		},
+	"arena": {
+			"name": "Arena",
+			"class": "maps",
+			"desc": "In Arena, two teams of five players in a small arena with no lanes nor towers. Arena is about a fight to show who the strongest heroes and to get popularity from the people in the city of Peace!"
+		},
+	"3v3": {
+			"name": "3v3",
+			"class": "maps",
+			"desc": "In 3v3, two teams of three players fight off in a two-laned map with turrets and a small jungle. 3v3 is about two teams with three heroes each team inside the dark forest."
+		},
+	"one_path": {
+			"name": "One Path",
+			"class": "maps",
+			"desc": "One Path, two teams of five players trying to get to their other side, with two turrets each team."
+		},
+	"angels_demons": {
+			"name": "Uranus",
+			"class": "maps",
+			"desc": "In Uranus, two teams of five players fight off in a three-laned map with turrets and a jungle in the city. Uranus is a war between angels and demons up in the city of sky named Uranus built from the hight archangels."
+		},
+	"thebridge": {
+			"name": "Bridge in to the Mountain",
+			"class": "maps",
+			"desc": "In the bridge, two teams [defenders and attackers] with five players each team in one lane without walls. Falling down kill you, but each player got a decreased death-cooldown. In a time limit, the attackers are supposed to let their minions destroy the other teams turret, while the defender are defending it."
+		},
+	"zombiecity": {
+			"name": "Zombie City",
+			"class": "maps",
+			"desc": "In Zombie City, two teams of five players collecting points by surviving zombie waves. With abilities like leap can jump to the roof on the houses."
+		},
+	"tempel": {
+			"name": "Tempel of Spirits",
+			"class": "maps",
+			"desc": "In Tempel of Spirits, two teams of five players trying to open the chest by activates some crystalls. By leap you can go to special places and get gold for your team."
+		},
+	"4v4_volcano": {
+			"name": "4v4_Volcano",
+			"class": "maps",
+			"desc": "In 4v4 Volcano, two teams of four players fight off in a two-laned with turrets and some reign of fire."
+		},
 		
 		
 		
