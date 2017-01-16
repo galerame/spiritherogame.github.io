@@ -2294,7 +2294,7 @@
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Chill": "- 15 / 20 / 25 / 30 / 35 % [Attack Speed & Movement Speed]",
-						"Duration": "4 seconds",
+						"Duration": "4 seconds"
 					}
 				},
 				"Mirror of Ice":{
