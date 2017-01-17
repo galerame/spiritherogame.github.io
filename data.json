@@ -1912,26 +1912,29 @@
 				"Golem Fatso": {
 					"link": "golem3"
 				},
-				"Frost Golem": {
+				"RIP Golem": {
 					"link": "golem4"
 				},
-				"Golem Frankenstein": {
+				"Totem Golem": {
 					"link": "golem5"
 				},
-				"Iron Golem": {
+				"Desert Golem": {
 					"link": "golem6"
 				},
-				"King Kong": {
+				"Iron Golem": {
 					"link": "golem7"
 				},
-				"RIP Golem": {
+				"Volcano Golem": {
 					"link": "golem8"
 				},
-				"Totem Golem": {
+				"Golem Frankenstein": {
 					"link": "golem9"
 				},
-				"Volcano Golem": {
+				"King Kong": {
 					"link": "golem10"
+				},
+				"Snowman Golem": {
+					"link": "golem11"
 				}
 			}
 		},
@@ -2615,50 +2618,54 @@
 			"name": "Hana",
 			"class": "assassin",
 			"title": "The Pink Samurai",
-			"desc": "",
+			"desc": "Hana lives in the city of Peace, alone in a rich house with the only sakura tree in the city by a family who know her parents. Her parents died in a fire then she was young, now she have been training under the sakura tree and become the pink samurai! She and Lotus are rivals and without knowing she is a younger sister to Chin. With a power to controlling sakura leaves like small pinked blades makes her to a dangerous samurai!",
 			"skill": {
-				"":{
+				"Sakura Blades":{
 					"prop":{
-						"Active": "",
+						"Active": "Hana creates some sakura leaves that circulating her sword, give her basic attacks a bonus piercing damage to enemies hit. <br>The leaves also bounce up to two enemies after hitting one and can activate again while this is active, letting her sending some blades through all enemies in a line, dealing piercing damage hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Self, Line",
+						"Radius [Line]": "55 size",
+						"Cost":"None",
+						"Cost [Line]":"70 / 75 / 80 / 85 / 90",
+						"Cooldown": "14 seconds",
+						"Cooldown [Line]": "None",
+						"Damage": "Piercing: 60 / 90 / 120 / 150 / 180 (+40% Physical Power)",
+						"Sakura Blades": "Piercing: 25 / 35 / 45 / 55 / 65 (+10% Physical Power)",
+						"Duration": "4 seconds",
+						"Times": "3 Max"
 					}
 				},
-				"":{
+				"Surrounding Blades":{
 					"prop":{
-						"Active": "",
+						"Active": "Hana creates some sakura leaves in a target location, starting to circulating in the circle, stop enemies to run in or out from the area. After 3s they all strike to the mitt at the same time, dealing piercing damage to each enemy hit. <br>Can't use nearby you.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Piercing: 100 / 160 / 220 / 280 / 340 (+40% Physical Power)",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Shunpo":{
 					"prop":{
-						"Active": "",
+						"Active": "Hana teleport to a target with the opposite direction from their eyes. <br>Can teleport to a ward.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Teleport, Target",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"70 mana",
+						"Cooldown":"15 / 13 / 11 / 9 / 7 seconds"
 					}
 				},
-				"":{
+				"Catch":{
 					"prop":{
-						"Active": "",
+						"Active": "Her next Sakura Blades one of choose three are going to catch an enemy with no piercing damage, in the end of the catch, dealing piercing damage to the target.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self",
+						"Cost":"90 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Piercing: 240 / 320 / 400 / 480 / 560 (+40% Physical Power)"
 					}
 				}
 			},
@@ -2689,7 +2696,7 @@
 			"title": "The Demonic Shadows",
 			"desc": "",
 			"skill": {
-				"":{
+				"Burning Blades":{
 					"prop":{
 						"Active": "",
 						"": "",
