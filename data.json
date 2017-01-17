@@ -2698,13 +2698,17 @@
 			"skill": {
 				"Burning Blades":{
 					"prop":{
-						"Active": "",
+						"Active": "Inferno get his swords to burn for a long duration, burn enemies hit by his sword and dealing magic damage over time.",
+						"Passive": "Every third basic attack creates a cone of fire, dealing magic damage to all enemies hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Self, Cone",
+						"Radius [Cone]": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 seconds",
+						"Cone of Fire": "Magic: 15 / 30 / 45 / 60 / 75 (+90% Magic Power)",
+						"Damage": "",
+						"Burn": "",
+						"Duration": "5 seconds"
 					}
 				},
 				"":{
@@ -3805,6 +3809,14 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Winter Valkyrie Brynhildr": {
+					"link": "brynhildr1"
+				},
+				"Desert Valkyrie Brynhildr": {
+					"link": "brynhildr2"
 				}
 			}
 		},
