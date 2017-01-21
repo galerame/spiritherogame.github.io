@@ -1795,7 +1795,7 @@
 						"Radius": "50 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 seconds",
-						"Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+70% Magic Power)"
+						"Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+70% Magic Power)",
 						"Per Seconds": "0,25 seconds"
 					}
 				},
