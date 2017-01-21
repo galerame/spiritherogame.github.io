@@ -1790,15 +1790,13 @@
 				"Cone of Fire":{
 					"prop":{
 						"Active": "Fenrir start to burn all enemies in a cone for 3 seconds, dealing magic damage per second.",
-						"Passive": "Every third strike by his mace burst a breath, burn enemies in a cone with a instant damage.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "50 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 seconds",
-						"Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+7% Magic Power)",
-						"Per Seconds": "0,25 seconds",
-						"Breath": "Magic: 15 / 20 / 25 / 30 / 35 (+70% Magic Power)"
+						"Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+70% Magic Power)"
+						"Per Seconds": "0,25 seconds"
 					}
 				},
 				"Burning Trail":{
@@ -2535,6 +2533,68 @@
 				}
 			}
 		},
+		"diablo": {
+			"name": "Diablo",
+			"class": "assassin",
+			"title": "The Demon Child",
+			"desc": "Diablo lives in the city of Desert, alone with only his shadows as family. He renaim himself Diablo, because of the people call him the demon child. Defena told him to find himself, so he found Lilith in the city of peace who become his first friend. Now he just traveling with his two swords.",
+			"skill": {
+				"Inferno":{
+					"prop":{
+						"Active": "Diablo jump to a target location, strike with his both swords and create a burning flame, dealing physical damage to enemies hit.",
+						"Passive": "Every fifth basic attack creates a cone of fire, dealing magic damage to all enemies hit and burn them over a time. <br>Diablo dealing a bonus magic damage to burning enemies.",
+						"": "",
+						"Ability": "Leap, Cone",
+						"Radius [Leap]": "25 size",
+						"Radius [Cone]": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "15 seconds",
+						"Cone of Fire": "Magic: 15 / 30 / 45 / 60 / 75 (+70% Magic Power)",
+						"Burn": "Magic: 15 / 20 / 25 / 30 / 35 (+7% Magic Power) (Per ,5 seconds)",
+						"Duration": "5 seconds",
+						"Bonus Magic Damage": "Magic: +10 / 15 / 20 / 25 / 30",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+90% Physical Power)"
+					}
+				},
+				"Burn":{
+					"prop":{
+						"Active": "Diablo creates a five-point star circle under him, burning enemies standing on it and increases his protection while he standing on it.",
+						"": "",
+						"Ability": "Area, Buff",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Protection": "20 / 25 / 30 / 35 / 40",
+						"Burn": "Magic: 22 / 34 / 46 / 58 / 70 (+8% Magic Power)",
+						"Duration": "3 seconds"
+					}
+				},
+				"Shadow Bite":{
+					"prop":{
+						"Active": "Diablo sending one of his five shadows, dealing physical damage to the first enemy hit and reduce their movement speed. <br>40% of this damage is doubled agenst a burning enemy.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"12 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+90% Physical Power)",
+						"Movement Speed": "-60%",
+						"Duration": "2,5 seconds"
+					}
+				},
+				"Demonic Rage":{
+					"prop":{
+						"Active": "Diablo sending all of his five shadows to a target location, dealing physical damage to each enemy hit. <br>Enemies see the target location before the shadows has arrived, if Diablo kill a hero enemy, you can use this again but only 50% of the damage. Can last 5 times.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 220 / 340 / 460 / 580 / 700 (+120% Physical Power)"
+					}
+				}
+			}
+		},
 		"drya": {
 			"name": "Drya",
 			"class": "assassin",
@@ -2690,110 +2750,59 @@
 				}
 			}
 		},
-		"inferno": {
-			"name": "Inferno",
-			"class": "assassin",
-			"title": "The Demonic Shadows",
-			"desc": "",
-			"skill": {
-				"Burning Blades":{
-					"prop":{
-						"Active": "Inferno get his swords to burn for a long duration, burn enemies hit by his sword and dealing magic damage over time.",
-						"Passive": "Every third basic attack creates a cone of fire, dealing magic damage to all enemies hit.",
-						"": "",
-						"Ability": "Self, Cone",
-						"Radius [Cone]": "40 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "14 seconds",
-						"Cone of Fire": "Magic: 15 / 30 / 45 / 60 / 75 (+90% Magic Power)",
-						"Damage": "",
-						"Burn": "",
-						"Duration": "5 seconds"
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				}
-			}
-		},
 		"katana": {
 			"name": "Katana",
 			"class": "assassin",
 			"title": "The Shadow",
-			"desc": "",
+			"desc": "Katana lives in the city of Peace with a ruth childhood. Her parents died then she was young, but she was never alone because of her only friend, Blade. Blade was looking up to Katana because of her skilled movements. Katana is an excellent rogue because of her shadow tactics. They both struggled to live in the big city, and whatever happened, they had each other.",
 			"skill": {
-				"":{
+				"Bouncing Dagger":{
 					"prop":{
-						"Active": "",
+						"Active": "Katana throw her dagger in a line, to the first enemy hit it start to bounce. Dealing physical damage and silence enemies hit, active again, she teleport to the enemy the bouncing dagger is on, and in same time drop a dagger on the ground before she teleport, like a ward without sight.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Projectile, Teleport",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "15 seconds",
+						"Damage": "Physical: 40 / 80 / 120 / 160 / 200 (+60% Physical Power)",
+						"Bounce": "6 / 7 / 8 / 9 / 10",
+						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds"
 					}
 				},
-				"":{
+				"Escape Plan":{
 					"prop":{
-						"Active": "",
+						"Active": "Katana teleport to an allied, ward or her dagger on the ground. Can be used on her wolves.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Target",
+						"Radius": "90 size",
+						"Cost":"60 mana",
+						"Cooldown":"15 / 13 / 11 / 9 / 7 seconds"
 					}
 				},
-				"":{
+				"Shadow Stab":{
 					"prop":{
-						"Active": "",
+						"Active": "Katana teleport to one enemy, stab their back and dealing physical damage and silent them. Let her crit next attack and for a short time you can teleport back.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Target",
+						"Radius": "90 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 90 / 145 / 200 / 255 / 310 (+120% Physical Power)",
+						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Mimetic Shadows":{
 					"prop":{
-						"Active": "",
+						"Active": "Katana creates shadows that mimetic her, strike nearby enemies with Shadow Stab or Bouncing Dagger, but just dealing 25% of all the damage. When they disappear, daggers throws nearby them, dealing physical damage hit. <br>They go through allies, can't take damage from enemies but disappears from [Mind] Crowd Controls.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self, Summoning",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: (10 / 15 / 20 / 25 / 30 % Physical Power)",
+						"Trap": "Physical: 40 / 60 / 80 / 100 / 120 (+90% Physical Power)",
+						"Shadows": "2 / 3 / 4 / 5 / 6",
+						"Duration": "6 seconds"
 					}
 				}
 			},
@@ -2815,48 +2824,51 @@
 			"title": "Angel of Power",
 			"desc": "",
 			"skill": {
-				"":{
+				"Lightning Bolts":{
 					"prop":{
-						"Active": "",
+						"Active": "Leanish creates lightning in a cone, dealing physical damage hit and stunning them. <br>can be changed to line, instead double the damage but doesn't stunning on hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Cone, Line",
+						"Radius [Cone]": "40 size",
+						"Radius [Line]": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 seconds",
+						"Damage": "Phyical: 50 / 100 / 150 / 200 / 250 (+50% Physical Power)",
+						"Stun": "1 seconds"
 					}
 				},
-				"":{
+				"Paralysis":{
 					"prop":{
-						"Active": "",
+						"Active": "Leanish creates a lightning prison in a target location, catch enemies hit and dealing magic damage per second.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 12 / 16 / 20 / 24 / 28 (+15% Magic Power) per 0,25 seconds",
+						"Duration": "1,5 seconds"
 					}
 				},
-				"":{
+				"Bladed Wings":{
 					"prop":{
-						"Active": "",
+						"Active": "Leanish dash forward, dealing physical damage to enemies hit by her wings on the sides.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Dash",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 70 / 115 / 160 / 205 / 250 (+60% Physical Power)"
 					}
 				},
-				"":{
+				"In a Flash":{
 					"prop":{
-						"Active": "",
+						"Active": "In a flash, Leanish strike all enemies nearby her.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 220 / 340 / 460 / 580 / 700 (+100% Physical Power)"
 					}
 				}
 			},
@@ -2874,7 +2886,7 @@
 			"skill": {
 				"Bladed Wind":{
 					"prop":{
-						"Active": "Creates two wind blades in a line, dealing physical damage hit. <br>In the end of the line, it become a piercing whirlwind. Dealing physical damage hit per seconds and silence their movement tactics. Active again Móna teleport to mitt of the whilrwind.",
+						"Active": "Creates two wind blades in a line, dealing physical damage hit. <br>In the end of the line, it become a piercing whirlwind. Dealing physical damage hit per seconds and silence their movement tactics. Active again Móna teleport to middle of the whirlwind.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
@@ -2882,39 +2894,44 @@
 						"Cooldown": "12 / 11 / 10 / 9 / 8",
 						"Damage [Wind Blades]": "Physical: 40 / 75 / 110 / 145 / 180 (+40% Physical Power)",
 						"Damage [Whirlwind]": "Physical: 15 / 20 / 25 / 30 / 35"
+						
 					}
 				},
-				"":{
+				"Catching Spin":{
 					"prop":{
-						"Active": "",
+						"Active": "Lotus pulling all nearby enemies to her with a chain, silence their movement tactics for a short duration.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "45 size",
+						"Cost":"70 mana",
+						"Cooldown":"16 / 14 / 12 / 10 / 8 seconds",
+						"Silence": "2 / 2,5 / 3 / 3,5 / 4 seconds"
 					}
 				},
-				"":{
+				"Twin Blades":{
 					"prop":{
-						"Active": "",
+						"Active": "Lotus start to spin around, dealing physical damage per hit. <br>While spinning she get increased movement speed and ignoring melee attacks.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self, Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 14 / 18 / 22 / 26 / 30 (+35% Physical Power)",
+						"Movement Speed": "15 / 20 / 25 / 30 / 35%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Death Lotus":{
 					"prop":{
-						"Active": "",
+						"Active": "Begin to channeling by spinning around, throws a flurry of blades, dealing physical damage each blade.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area, Channel",
+						"Radius": "50 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 175 / 310 / 445 / 580 / 715 (+40% Physical Power)",
+						"Channeling": "2,5 seconds",
+						"Blades": "10"
 					}
 				}
 			},
@@ -2934,50 +2951,59 @@
 			"name": "Maria",
 			"class": "assassin",
 			"title": "Masked Wind Bringer",
-			"desc": "",
+			"desc": "Maria lives in the city of Mordune, throughout her life she has been living in a lie, made people trust her just to fix the information and continue living in her lie, with no idea of who she is, she has now been working on the same project, to be closer to the royal family to stop the war! Tigra is their right hand, and the true one to be a friend with just to fulfill her mission. With her power of creating piercing winds with her bladed wind fans, makes her to a dangerous rouge.",
 			"skill": {
-				"":{
+				"Piercing Air":{
 					"prop":{
-						"Active": "",
+						"Active": "For a long duration, Maria creating piercing winds in a cone by her basic attacks, dealing piercing damage each enemy hit. <br>Each enemy hit, decreases the cooldown of her skills by 0,5s.",
+						"Passive": "Hitting an enemy with her basic attack cause a piercing damage per second over a time, stacking up to 5 times.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Self, Cone",
+						"Radius": "50 size",
+						"Cost":"40 mana",
+						"Cooldown": "18",
+						"Damage": "Piercing: 20 / 30 / 40 / 50 / 60 (+20% Physical Power)",
+						"Duration": "6 seconds",
+						"Damage [Passive]": "Piercing: 15 / 20 / 25 / 30 / 35 (+15% Physical Power) per second",
+						"Duration [Passive]": "4 seconds"
 					}
 				},
-				"":{
+				"Whirl Cut":{
 					"prop":{
-						"Active": "",
+						"Active": "Maria creates a piercing wind in a target location, dealing piercing damage hit and reduce their movement speed.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Piercing: 100 / 140 / 180 / 220 / 260 (+60% Physical Power)",
+						"Movement Speed": "- 25 / 35 / 45 / 55 / 65 %",
+						"Duration": "2,5 seconds"
 					}
 				},
-				"":{
+				"Through the Void":{
 					"prop":{
-						"Active": "",
+						"Active": "Maria teleport to a target location, creates a piercing wind away from her in the two places, dealing piercing damage to enemies hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Target Location, Teleport",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 seconds",
+						"Damage": "Piercing: 50 / 75 / 100 / 125 / 150 (+40% Physical Power)"
 					}
 				},
-				"":{
+				"Cutting Blow":{
 					"prop":{
-						"Active": "",
+						"Active": "Maria creates a piercing wind in a line, dealing piercing damage and reduce their movement speed. <br>Leave a trail that dealing piercing damage per second to enemies inside.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Lane",
+						"Radius": "90 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Piercing: 240 / 320 / 400 / 480 / 560 (+100% Physical Power)",
+						"Movement Speed": "- 80%",
+						"Trail": "Piercing: 15 / 20 / 25 / 30 / 35 (+55% Physical Power) per second",
+						"Duration": "4 seconds"
 					}
 				}
 			}
@@ -2986,50 +3012,55 @@
 			"name": "Minae",
 			"class": "assassin",
 			"title": "The Ninja of Japan",
-			"desc": "",
+			"desc": "Minae lives in the city of peace, loving to fight and show her potential. Uses enchanting scrolls to get weapons to kill her opponents.",
 			"skill": {
-				"":{
+				"Enchanted Weapon":{
 					"prop":{
-						"Active": "",
+						"Active": "Minae open a scroll, taking her greatest weapon and dash forward, dealing physical damage to enemies hit and increases her physical power for a short duration.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Dash",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "15",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+120% Physical Power)",
+						"Physical Power": "20 / 30 / 40 / 50 / 60",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Mines":{
 					"prop":{
-						"Active": "",
+						"Active": "Minae lay a scroll on a target location, explode when hit by a enemy. Dealing physical damage. <br>Invisible to enemies.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Lay, Target Location",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"40 mana",
+						"Cooldown":"10 seconds",
+						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+100% Physical Power)",
+						"Duration": "90 seconds"
 					}
 				},
-				"":{
+				"Flying Dragon Scroll":{
 					"prop":{
-						"Active": "",
+						"Active": "Minae jump up with two circulating scrolls, start to throw weapons at random enemies. Dealing physical damage to enemies hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Channeling",
+						"Radius": "80 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 15 / 20 / 25 / 30 / 35 (+20% Physical Power)",
+						"Channeling": "2,5 seconds",
+						"Blades": "10"
 					}
 				},
-				"":{
+				"Needles Fall":{
 					"prop":{
-						"Active": "",
+						"Active": "Minae throw three umbrellas at the sky that start to sending needles on a target location, dealing piercing damage hit.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "55 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Piercing: 225 / 350 / 475 / 600 / 725 (+20% Physical Power)"
 					}
 				}
 			}
@@ -3439,7 +3470,7 @@
 		"yui": {
 			"name": "Yui",
 			"class": "assassin",
-			"title": "The Young Phoenix",
+			"title": "The Newborn Phoenix",
 			"desc": "",
 			"skill": {
 				"":{
@@ -6681,7 +6712,7 @@
 		"titania": {
 			"name": "Titania",
 			"class": "mage",
-			"title": "The Phoenix Master",
+			"title": "The Burning Phoenix",
 			"desc": "",
 			"skill": {
 				"":{
