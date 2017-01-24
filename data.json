@@ -442,7 +442,7 @@
 			"name": "Clear",
 			"class": "hunter",
 			"title": "The Bloody Cowboy",
-			"desc": "Clear is a cowboy in City of Desert, doesn't have family or siblings. She works alone and always been alone and have always trying to hunting down the roge broders Razor and Rexas! She is the best fighter with a whip by her movements and strength, letting her whip destroy her opponents ribs and letting they bleed.",
+			"desc": "Clear is a cowboy in City of Desert, doesn't have family or siblings. She works alone and always been alone and have always trying to hunting down the rogue broders Razor and Rexas! She is the best fighter with a whip by her movements and strength, letting her whip destroy her opponents ribs and letting they bleed.",
 			"skill": {
 				"Bloody Whip":{
 					"prop":{
@@ -706,7 +706,7 @@
 						"Ability": "Dash, Buff",
 						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
+						"Cooldown":"16 seconds",
 						"Attack Speed": "18 / 23 / 28 / 33 / 38 %",
 						"Duration": "3 seconds"
 					}
@@ -1169,7 +1169,7 @@
 		"simin": {
 			"name": "Simin",
 			"class": "hunter",
-			"title": "Demon Hunter",
+			"title": "The Demon Hunter",
 			"desc": "Simin lives in Mordune, always fighting side by side with Diode and Tigra, But often in search after demons and vampire like a phantom, while Diode and Tigra stay in the kingdom for the protection in the military and the royal family.",
 			"skill": {
 				"Piercing Arrow":{
@@ -1264,8 +1264,8 @@
 						"Radius": "15 size",
 						"Cost":"None",
 						"Cooldown":"None",
-						"Movement Speed": "20 / 30 / 40 / 50 / 60 %",
-						"Attack Speed": "20 / 30 / 40 / 50 / 60 %",
+						"Movement Speed": "15 / 20 / 25 / 30 / 35 %",
+						"Attack Speed": "15 / 20 / 25 / 30 / 35 %",
 						"Duration": "2,5 seconds"
 					}
 				},
@@ -1733,7 +1733,7 @@
 						"Ability": "Dash",
 						"Radius": "55 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "10 seconds",
+						"Cooldown": "16 seconds",
 						"Damage": "Physical: 80 / 130 / 180 / 230 / 280 (+75% Physical Power)"
 					}
 				},
@@ -2095,7 +2095,7 @@
 						"Active": "Rebecca dash forward, push back all enemies and dealing physical damage to them.",
 						"": "",
 						"Ability": "Dash",
-						"Radius": "50 size",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
 						"Damage": "Physical: (+40 / 65 / 90 / 115 / 140% Physical Power) (+100 / 140 / 180 / 220 / 260% Armor)"
@@ -2190,7 +2190,7 @@
 						"Active": "Tána dash through all enemies in a line, dealing physical damage to all enemies addition 25% of an amount between her maximum health and the enemies maximum health as true damage. <br>Basic attacks decreases this cooldown by 0,5 seconds and counting on all enemy hits by Sword of Justice.",
 						"": "",
 						"Ability": "Dash",
-						"Radius": "50 size",
+						"Radius": "55 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "16",
 						"Damage": "Physical: 70 / 110 / 150 / 190 / 230 (+50% Physcial Power)",
@@ -2822,7 +2822,7 @@
 			"name": "Leanish",
 			"class": "assassin",
 			"title": "Angel of Power",
-			"desc": "",
+			"desc": "Leanish is an angel of power, defeating her enemies with her speed and creates lightning from her own hands. She also a black sheep of all the angels, because of the power she gain.",
 			"skill": {
 				"Lightning Bolts":{
 					"prop":{
@@ -2856,7 +2856,7 @@
 						"Ability": "Dash",
 						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"15 seconds",
+						"Cooldown":"16 seconds",
 						"Damage": "Physical: 70 / 115 / 160 / 205 / 250 (+60% Physical Power)"
 					}
 				},
@@ -2891,7 +2891,7 @@
 						"Ability": "Line",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "12 / 11 / 10 / 9 / 8",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
 						"Damage [Wind Blades]": "Physical: 40 / 75 / 110 / 145 / 180 (+40% Physical Power)",
 						"Damage [Whirlwind]": "Physical: 15 / 20 / 25 / 30 / 35"
 						
@@ -2961,7 +2961,7 @@
 						"Ability": "Self, Cone",
 						"Radius": "50 size",
 						"Cost":"40 mana",
-						"Cooldown": "18",
+						"Cooldown": "18 seconds",
 						"Damage": "Piercing: 20 / 30 / 40 / 50 / 60 (+20% Physical Power)",
 						"Duration": "6 seconds",
 						"Damage [Passive]": "Piercing: 15 / 20 / 25 / 30 / 35 (+15% Physical Power) per second",
@@ -3021,7 +3021,7 @@
 						"Ability": "Dash",
 						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "15",
+						"Cooldown": "16 seconds",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+120% Physical Power)",
 						"Physical Power": "20 / 30 / 40 / 50 / 60",
 						"Duration": "4 seconds"
@@ -3069,50 +3069,57 @@
 			"name": "Razor",
 			"class": "assassin",
 			"title": "Sand Brother of Shadow",
-			"desc": "",
+			"desc": "Razor lives in the city of Desert with his brother Rexas, they have always been the black sheep in the city and never catch by Clear the cowboy. They are called the rogue brothers! Razor is expert to use Kusarigama and makes him dangerous.",
 			"skill": {
-				"":{
+				"Kusarigama":{
 					"prop":{
-						"Active": "",
+						"Active": "Razor catch the first enemy hit in a line, then dash to the target and do serious damage. Dealing physical damage and double the passive against the target.",
+						"Passive": "His basic attacks affects enemies by bleed.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line, Dash",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "16 seconds",
+						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+90% Physical Power)",
+						"Bleed": "Physical: 15 / 25 / 35 / 45 / 55 (+5% Physical Power) per second",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Slice":{
 					"prop":{
-						"Active": "",
+						"Active": "Razor spin his Kusarigama one turn, dealing piercing damage to enemies nearby him and affecting they by the passive.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Piercing: 100 / 140 / 180 / 220 / 260 (+40% Physical Power)"
 					}
 				},
-				"":{
+				"Crushing Chain":{
 					"prop":{
-						"Active": "",
+						"Active": "Razor throw his two Kusarigama and let it slice through enemies, dealing physical damage and reduce their movement speed.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "80 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 / 17 / 16 / 15 / 14 seconds",
+						"Damage": "Physical: 70 / 105 / 140 / 175 / 210 (+90% Physical Power)",
+						"Movement Speed": "- 20 / 25 / 30 / 35 / 40 %",
+						"Duration": "2,5 seconds"
 					}
 				},
-				"":{
+				"?":{
 					"prop":{
-						"Active": "",
+						"Active": "Razor catch all enemies around him by summoned Kusarigama, dealing physical damage and silence their movement tactics.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 220 / 340 / 460 / 580 / 700 (+100% Physical Power)",
+						"Silence": "4 seconds",
+						"Duration": "1,5 seconds"
 					}
 				}
 			},
@@ -3126,50 +3133,56 @@
 			"name": "Relani",
 			"class": "assassin",
 			"title": "The Blinded Angel",
-			"desc": "",
+			"desc": "Relani is an angel of balance, she made a mistake and got her eyes off by an high archangel. By her blindness she have learned to analyze enemies by their energy flowing in their body. With her magical forces she punishment evil enemies.",
 			"skill": {
-				"":{
+				"Orb of Punishment":{
 					"prop":{
-						"Active": "",
+						"Active": "Relani launch a magical orb in a line, dealing magic damage and reduce their protection and power.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 seconds",
+						"Damage": "Magic: 70 / 110 / 150 / 190 / 230 (+70% Magic Power)",
+						"Protection": "- 15 / 20 / 25 / 30 / 35 %",
+						"Power": "- 15 / 20 / 25 / 30 / 35 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Riposte":{
 					"prop":{
-						"Active": "",
+						"Active": "Relani deflect all the incoming attacks the following 1,5s, then sending magical projectiles back at the deflected enemies. Dealing magic damage each projectile hit. ",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Shield, Projectile",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 / 17 / 16 / 15 / 14 seconds",
+						"Damage": "Magic: 20 / 30 / 35 / 40 / 45 (+20% Magic Power)",
+						"Projectile": "5 each enemy"
 					}
 				},
-				"":{
+				"Analyce":{
 					"prop":{
-						"Active": "",
+						"Active": "Relani fly to a target location, dealing physical damage to all enemies hit and get a shield that deflect a % of all damage at her.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Leap, Shield",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+90% Physical Power)",
+						"Deflect": "40 / 50 / 60 / 70 / 80 %",
+						"Duration": "2,5 seconds"
 					}
 				},
-				"":{
+				"Punishments":{
 					"prop":{
-						"Active": "",
+						"Active": "Relani flies up, launch three magical orbs that punish enemies, dealing magic damage on hit in three target locations.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "25 size",
+						"Cost":"90 / 95 / 100 / 105 / 110 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 120 / 150 / 180 / 210 / 240 (+35% Magical Power) (+35% Physical Power)",
+						"Duration": "2,5 seconds"
 					}
 				}
 			}
@@ -3177,51 +3190,56 @@
 		"rexas": {
 			"name": "Rexas",
 			"class": "assassin",
-			"title": "Sand Brother of Tactic",
-			"desc": "",
+			"title": "The Sneaky Rogue",
+			"desc": "Rexas lives in the city of Desert with his brother Razor, they have always been the black sheep in the city and never catch by Clear the cowboy. They are called the rogue brothers! Rexas is expert in the silently sneaky way to assassinate from behind that makes him dangerous!",
 			"skill": {
-				"":{
+				"Blind Spot":{
 					"prop":{
-						"Active": "",
+						"Active": "Rexas dash to the first enemy in a line, cutting their throut and make them bleed.",
+						"Passive": "Rexas get increased crit chance. 100% crit chance against their back each for every 10s that silent enemies.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Dash",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "16 seconds",
+						"Crit Chance": "10 / 20 / 30 / 40 / 50 %",
+						"Bleed": "Physical: 15 / 25 / 35 / 45 / 55 (+5% Physical Power) per second",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Smooth":{
 					"prop":{
-						"Active": "",
+						"Active": "Rexas go inside the stealth mode, become invisible after 1,5s with no harm.",
+						"Passive": "Rexas get increased crit damage.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Stealth",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Crit Damage": "40 / 80 / 120 / 160 / 200 (+7,5 per hero level = 150 at lvl 20)"
 					}
 				},
-				"":{
+				"Rabbit":{
 					"prop":{
-						"Active": "",
+						"Active": "Rexas jump over his standing target, to get behind your target.",
+						"Passive": "Rexas get increased movement speed. <br>For every 10s you jumping, you rolls faster and dodge ranged attacks.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Leap, Target",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"None",
+						"Cooldown":"3,5 seconds",
+						"Movement Speed": "6 / 10 / 14 / 18 / 22 % (+0,2% per hero level = 4% at level 20)"
 					}
 				},
-				"":{
+				"Smoke Bomb":{
 					"prop":{
-						"Active": "",
+						"Active": "Rexas throw a smoke bomb and blind all enemies inside the smoke.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 mana",
+						"Cooldown":"90 seconds",
+						"Duration": "2,5 / 3 / 3,5 / 4 / 4,5"
 					}
 				}
 			}
@@ -3230,51 +3248,64 @@
 			"name": "Sarah",
 			"class": "assassin",
 			"title": "The Blade Master",
-			"desc": "",
+			"desc": "Sarah lives in the city of Kingdom Port, daughter to a blacksmith and have always been good with blades. Her mother died sick and they don't have much money, so she became a phantom to get money for killing people.",
 			"skill": {
-				"":{
+				"Boomerang Blade":{
 					"prop":{
-						"Active": "",
+						"Active": "Sarah put her two halfed chakram together and throw it like a boomerang, piercing through enemies in a line, dealing physical damage both times it moves. <br>Active again and teleport to the chakram.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Projectile, Teleport",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "13 / 12 / 11 / 10 / 9 seconds",
+						"Damage": "Physical: 50 / 90 / 130 / 170 / 210 (+30% Physical Power)"
 					}
 				},
-				"":{
+				"Circulating Blades":{
 					"prop":{
-						"Active": "",
+						"Active": "Sarah throw her blade after hit with basic attacks, start to let her blades circulating around her and floating longer from the location. Dealing physical damage each hit and increase her attack speed.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self",
+						"Radius": "15-55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 10 / 20 / 30 / 40 / 50 (+30% Physical Power)",
+						"Attack Speed": "12 / 15 / 18 / 21 / 24 % (+0,2% per hero level = 4% at level 20)",
+						"Blades": "1 / 1 / 1 / 1 / 2",
+						"Duration": "3,5 seconds"
 					}
 				},
-				"":{
+				"Slash":{
 					"prop":{
-						"Active": "",
+						"Active": "Sarah dash forward, dealing physical damage hit and make they bleed, increases her physical power and destroy their armor. <br>Circulating Blades let the throwed blades come back and dealing their damage each.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Dash, Buff",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 70 / 110 / 150 / 200 / 240 (+30% Physical Power)",
+						"Bleed": "Physical: 15 / 25 / 35 / 45 / 55 (+15% Physical Power) ",
+						"Armor": "- 15 / 20 / 25 / 30 / 35 %",
+						"Physical Power": "20 / 30 / 40 / 50 / 60",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Shadow Assault":{
 					"prop":{
-						"Active": "",
+						"Active": "Sarah throwing out blades that stay still in the maximum radius. You become invisible for a short duration, then all the blades will strike back to you, dealing Physical Damage both times they moves.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area, Stealth",
+						"Radius": "55 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 30 / 50 / 70 / 90 / 110 (Per blade hit) (+30% Physical Power)",
+						"Stealth": "3 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Bladed Vampire Sarah": {
+					"link": "sarah1"
 				}
 			}
 		},
@@ -3282,50 +3313,55 @@
 			"name": "Suki",
 			"class": "assassin",
 			"title": "The Succubus",
-			"desc": "",
+			"desc": "Suki is a Succubus from the underground, lives to make men as her slaves. Now she lives in the city of piece, using dark magic to kill her enemies. Also she is an dangerous woman!",
 			"skill": {
-				"":{
+				"Beauty Step":{
 					"prop":{
-						"Active": "",
+						"Active": "Suki leap to a target location, dealing physical damage hit, killing a unit heal you a % of they maximum health and let her use this again. Hitting no enemies, let her use this again but no mana cost. (only once)",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Leap",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+80% Physical Power)",
+						"Heal": "33%"
 					}
 				},
-				"":{
+				"Dark Prison":{
 					"prop":{
-						"Active": "",
+						"Active": "Suki launch a magical orb in a line, ensnare the first enemy hit, dealing magic damage over time.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Projectile",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 25 / 30 / 35 / 40 / 45 (+50% Magic Power) per 0,5s",
+						"Duration": "2 seconds"
 					}
 				},
-				"":{
+				"Dark Wave":{
 					"prop":{
-						"Active": "",
+						"Active": "Suki creates a wave of darkness coming from the ground, dealing magic damage hit and reduce their protection.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 70 / 140 / 210 / 280 / 350 (+80% Magic Power)",
+						"Protection": "- 15 / 20 / 25 / 30 / 35 %",
+						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
-				"":{
+				"Love Kiss":{
 					"prop":{
-						"Active": "",
+						"Active": "Suki charm all enemies in her area, dealing a bonus magic damage to the first enemy she attack.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 240 / 300 / 360 / 420 / 480 (+40% Magic Power) (+120% Physical Power)",
+						"Duration": "1 seconds"
 					}
 				}
 			},
@@ -3354,50 +3390,61 @@
 			"name": "Tigra",
 			"class": "assassin",
 			"title": "The Killing Assassin",
-			"desc": "",
+			"desc": "Tigra lives in the city of Mordune, doing importend errands for the King. She was picked up by the king when she was little, was growing as an assassin in his order. Maria, who believe that they are friends, are suspicious, Tigra understand her better than she thinks. She is fighting with blades like three nails each hand, with a smooth body makes her dangerous in close combat!",
 			"skill": {
-				"":{
+				"Tiger Strike":{
 					"prop":{
-						"Active": "",
+						"Active": "Tigra jump to a target location, silence enemies and give they a mark. <br>Marked enemies takes a % of they maximum health from physical attacks as true damage.",
+						"Passive": "Tigra get energy for each basic hit, after five energy point, she strike a powerfull hit, dealing a % of your targets maximum health as true damage and stun the target.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cost":"None",
+						"Cooldown": "18 seconds",
+						"Health": "True: 16 / 20 / 24 / 28 / 32 %",
+						"Stun": "0,5 / 0,5 / 0,5 / 0,5 / 1 seconds",
+						"Silence": "2,5 seconds",
+						"Mark": "True: 15%",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Electric Trap":{
 					"prop":{
-						"Active": "",
+						"Active": "Tigra lay a trap that become invisible after 0,5s. Activates by nearby enemies that start to launch bouncing lightning at the nearest enemy, dealing magic damage each lightning and stun for 0,5s.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 30 / 50 / 70 / 90 / 110 (+30% Magic Power)",
+						"Lightning": "3",
+						"Bounce": "5",
+						"Duration": "90 seconds"
 					}
 				},
-				"":{
+				"Sweeping Tiger":{
 					"prop":{
-						"Active": "",
+						"Active": "Tigra slash all nearby enemies, make them bleed for a long duration.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "35 size",
+						"Cost":"None",
+						"Cooldown":"16 / 15 / 14 / 13 / 12 seconds",
+						"Damage": "15 / 20 / 25 / 30 / 35 (+5% Physical Power) per second",
+						"Duration": "10 seconds"
 					}
 				},
-				"":{
+				"Flash Bomb":{
 					"prop":{
-						"Active": "",
+						"Active": "Tigra throw a flash bomb on a target location, slowing them over time after stunning.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "40 size",
+						"Cost":"None",
+						"Cooldown":"90 seconds",
+						"Stun": "05 / 05 / 1 / 1 / 1,5 seconds",
+						"Movement Speed": "- 20 / 35 / 50 / 65 / 80 %",
+						"Duration": "4 seconds"
 					}
 				}
 			},
@@ -3414,56 +3461,64 @@
 			"name": "Walladin",
 			"class": "assassin",
 			"title": "The Bat Master",
-			"desc": "",
+			"desc": "Walladin is a vampire that lives with his brothers and sister in the Abandoned Castle. He controlling all the bats and get power from them, the more blood they suck, the more power he get.",
 			"skill": {
-				"":{
+				"Transporting":{
 					"prop":{
-						"Active": "",
+						"Active": "Walladin becoming several bats, transporting through enemies and ignoring all sorts of harm and effects that ain't a effect as a prison in a target location. Increases his movement speed while transporting. <br>Active again to end it.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Transporting",
+						"Cost":"None",
+						"Cooldown": "18 / 17 / 16 / 15 / 14 seconds",
+						"Movement Speed": "6 / 12 / 18 / 24 / 30 %"
 					}
 				},
-				"":{
+				"Cloud of Bats":{
 					"prop":{
-						"Active": "",
+						"Active": "Walladin sending his bats in a target location to blind enemies, stealing their health and heal Walladin.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Health": "True: 15 / 25 / 35 / 45 / 55 (+5% Physical Power) per second",
+						"Heal": "50%",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Cloak of Bats":{
 					"prop":{
-						"Active": "",
+						"Active": "Walladin sending his bats to attack enemies front of him, affecting enemies by his bats, stealing their health to heal Walladin over a time. <br>If he is transporting, the transporting ends and he affecting all nearby enemies by his bats, stealing their health and healing Walladin.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Cone, Area",
+						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Health": "True: 15 / 20 / 25 / 30 / 35 (+5% Physical Power) per second",
+						"Heal": "50%",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Flame Power":{
 					"prop":{
-						"Active": "",
+						"Active": "Walladin sending out a flame that burn enemies hit, dealing physical damage over a time. <br>All nearby bats and the future bats will be affected by burn, dealing a bonus magic damage.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "55 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 300 / 400 / 500 / 600 / 700 (+60% Physical Power) over time",
+						"Burned Bats": "Magic: 30 / 55 / 80 / 105 / 130 (+30% Magic Power)",
+						"Duration": "5 seconds"
 					}
 				}
 			},
 			"skin" : {
 				"Cold Winter Walladin": {
 					"link": "walladin1"
+				},
+				"Batman": {
+					"link": "walladin2"
 				}
 			}
 		},
@@ -3471,50 +3526,50 @@
 			"name": "Yui",
 			"class": "assassin",
 			"title": "The Newborn Phoenix",
-			"desc": "",
+			"desc": "Yui lives in the city of Kingdom Port, friend to Melody and Liza. Always happy and playful like a child, but have a outstanding power to create fire and fight with her stave.",
 			"skill": {
-				"":{
+				"Playful Fire":{
 					"prop":{
-						"Active": "",
+						"Active": "Yui sending a ball through enemies in a line, then back again. Dealing magic damage both times it moves.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "55 size",
+						"Cost":"65 / 70 / 75 / 80 / 85 mana",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 40 / 65 / 90 / 115 / 140 (+35% Magic Power)"
 					}
 				},
-				"":{
+				"Burning Seekers":{
 					"prop":{
-						"Active": "",
+						"Active": "Yui creates three orbs that circulating her, after 1,5s they seek to three random enemies. Dealing magic damage each orb.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Projectile",
+						"Radius": "55 size",
+						"Cost":"50 mana",
+						"Cooldown":"16 / 15 / 14 / 13 / 12 seconds",
+						"Damage": "Magic: 40 / 65 / 90 / 115 / 140 (+40% Magic Power)"
 					}
 				},
-				"":{
+				"Blink of Fire":{
 					"prop":{
-						"Active": "",
+						"Active": "Yui teleport to a target location, sending a fire burst around her, dealing magic damage hit. <br>This skill can be active three times before the cooldown.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Teleport, Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Magic: 30 / 55 / 80 / 105 / 130 (+30% Magic Power)"
 					}
 				},
-				"":{
+				"Hot Fire":{
 					"prop":{
-						"Active": "",
+						"Active": "Yui sending a burst of fire around her, dealing magic damage hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "65 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 400 / 500 / 600 / 700 / 800 (+80% Magic Power)"
 					}
 				}
 			}
