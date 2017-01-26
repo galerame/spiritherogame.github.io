@@ -4963,58 +4963,6 @@
 		
 		
 		
-		"abobua": {
-			"name": "Abobua",
-			"class": "mage",
-			"title": "The Witch Doctor",
-			"desc": "",
-			"skill": {
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				}
-			}
-		},
 		"allegra": {
 			"name": "Allegra",
 			"class": "mage",
@@ -6925,6 +6873,64 @@
 			"skin" : {
 				"Vampire Mother Vladdina": {
 					"link": "vladdina1"
+				}
+			}
+		},
+		"willow": {
+			"name": "Willow",
+			"class": "mage",
+			"title": "The Witch Doctor",
+			"desc": "Willow lives in the swamp with Sasha, .",
+			"skill": {
+				"Angry Spirits":{
+					"prop":{
+						"Active": "Willow sending spirits through enemies in a line, dealing physical damage and stealing mana.",
+						"Passive": "His basic attacks and Angry Spirits deal a bonus physical damage by their maximum mana. The more mana your enemies have, the stronger your attacks become!",
+						"": "",
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "13 / 12 / 11 / 10 / 9 seconds",
+						"Damage": "Physical: 40 / 90 / 140 / 190 / 240 (+30% Magic Power) (+8% of Your Mana)",
+						"Mana": "35 / 40 / 45 / 50 / 55",
+						"Bonus": "8% Mana"
+					}
+				},
+				"Spirit Fire":{
+					"prop":{
+						"Active": "Willow start to channel, a burning fire on the ground start to fires fire at random enemies, dealing a % of your power. You can walk around it by using A or D. <br>Angry Spirits can be used and instead of in a line, the spirits split to all nearby enemies as projectiles. Ends if you get stunned.",
+						"": "",
+						"Ability": "Channeling",
+						"Radius": "70 size",
+						"Cost":"35 / 40 / 45 / 50 / 55 Mana",
+						"Cooldown":"18 seconds",
+						"Damage": "110 / 120 / 130 / 140 / 150 % (+8% of Your Mana)"
+					}
+				},
+				"Spitting Acid":{
+					"prop":{
+						"Active": "Willow spitting acid front of him, dealing physical damage to enemies hit and destroy their armor. Also creating a trail in the cone, dealing physical damage per seconds to enemies standing on it.",
+						"": "",
+						"Ability": "Cone",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 / 15 / 14 / 13 / 12 seconds",
+						"Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+30% Magic Power)",
+						"Armor": "- 20 / 30 / 40 / 50 / 60 %",
+						"Trail": "Physical: 15 / 20 / 25 / 30 / 35 (+15% Magic Power) per 0,5 seconds",
+						"Duration": "2,5 seconds"
+					}
+				},
+				"Spiritual Body":{
+					"prop":{
+						"Active": "Willow become spirit by him self, increases his magic protection and all physical attacks go straight through him.",
+						"": "",
+						"Ability": "Self",
+						"Cost":"90 mana",
+						"Cooldown":"90 seconds",
+						"Magic Protection": "10 / 20 / 30 / 40 / 50",
+						"Duration": "2,5 seconds"
+					}
 				}
 			}
 		}
