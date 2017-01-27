@@ -5074,8 +5074,8 @@
 						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"18 seconds",
-						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+65% Magic Power) over time"
-						"Paralyze": "1 seconds"
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+65% Magic Power) over time",
+						"Paralyze": "1 seconds",
 						"Duration": "5 seconds"
 					}
 				},
