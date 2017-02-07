@@ -264,7 +264,7 @@
 						"Cost": "60 / 65 / 70 / 75 / 80 mana",
 						"Cooldown": "12 seconds",
 						"Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+120% Physical Power)",
-						"Bonus Magic Damage": "100 (+4 per hero level = 180 at lvl 20)"
+						"Bonus": "Magic: 100 (+4 per hero level = 180 at lvl 20)"
 					}
 				},
 				"Magic Pulse":{
@@ -467,7 +467,7 @@
 						"Radius": "80 size",
 						"Cost":"70 mana",
 						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
-						"Bonus Physical Damage": "50 / 80 / 110 / 140 / 170 (+90% Physical Power)"
+						"Bonus": "Physical: 50 / 80 / 110 / 140 / 170 (+90% Physical Power)"
 					}
 				},
 				"Ass Kick":{
@@ -558,7 +558,7 @@
 						"Ability": "Buff",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
-						"Bonus Magic Damage": "60 / 110 / 160 / 210 / 260 (+60% Magic Power)",
+						"Bonus": "Magic: 60 / 110 / 160 / 210 / 260 (+60% Magic Power)",
 						"Stun": "1 seconds",
 						"Duration": "5 seconds"
 					}
@@ -593,7 +593,7 @@
 						"Cost":"20 mana (per seconds)",
 						"Cooldown":"10 seconds",
 						"Movement Speed": "12 / 15 / 18 / 21 / 24 %",
-						"Bonus Magic Damage": "10 / 40 / 70 / 100 / 130 (+100% Magic Power) (+2 per hero level = 40)",
+						"Bonus": "Magic: 10 / 40 / 70 / 100 / 130 (+100% Magic Power) (+2 per hero level = 40)",
 						"Heal": "20 health per 0,5 second."
 					}
 				},
@@ -627,7 +627,7 @@
 			"name": "Frank",
 			"class": "hunter",
 			"title": "The Alchemist",
-			"desc": "Frank own The Library Tower and got a own labb under his office where he experiments with the experimental rats, and other animals, He doesn't has experience by using magic, but his own working potions makes him more excited in fights with his crossbow.",
+			"desc": "Frank own the Library Tower and got a own labb under his office where he experiments with the experimental rats, and other animals, He doesn't has experience by using magic, but his own working potions makes him more excited in fights with his crossbow.",
 			"skill": {
 				"Poisen":{
 					"prop":{
@@ -761,7 +761,7 @@
 						"Cost": "60 / 65 / 70 / 75 / 80 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
 						"Damage": "Physical: 90 / 155 / 220 / 285 / 350 (+80% Physical Power)",
-						"Bonus Magic Damage": "Magic: 50 / 80 / 110 / 140 / 170"
+						"Bonus": "Magic: 50 / 80 / 110 / 140 / 170"
 					}
 				},
 				"Vault":{
@@ -783,7 +783,7 @@
 						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
-						"Burn": "Magic: 20 / 30 / 40 / 50 / 60 (+15 Magic Power)",
+						"Burn": "Magic: 20 / 30 / 40 / 50 / 60 (+15% Magic Power)",
 						"Ravens": "Magic: 15 / 25 / 35 / 45 / 55 (+20 Magic Power)",
 						"Duration": "5 seconds"
 					}
@@ -997,7 +997,7 @@
 						"Ability": "Projectile, On / Off",
 						"Cost": "14 mana (per arrow)",
 						"Cooldown": "None",
-						"Bonus Magic Damage": "Magic: 25 / 35 / 45 / 55 / 65 (+2 per hero level = 40)",
+						"Bonus": "Magic: 25 / 35 / 45 / 55 / 65 (+2 per hero level = 40)",
 						"Kills": "+2 Permanent Magic Bonus"
 					}
 				},
@@ -1022,7 +1022,7 @@
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"16 seconds",
 						"Invisible": "4 seconds",
-						"Bonus Damage": "True: 16 / 20 / 24 / 28 / 32 %",
+						"Bonus": "True: 16 / 20 / 24 / 28 / 32 %",
 						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds"
 						
 					}
@@ -1039,6 +1039,11 @@
 						"Duration": "5 seconds",
 						"Movement Speed": "-15%"
 					}
+				}
+			},
+			"skin" : {
+				"Dark Princess Raven": {
+					"link": "raven1"
 				}
 			}
 		},
@@ -1583,7 +1588,7 @@
 						"Radius": "50 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"10 seconds",
-						"Protection": "6 / 12 / 18 / 24 / 30 / 36 %",
+						"Protection": "12 / 18 / 24 / 30 / 36 %",
 						"Duration": "2,5 / 2,75 / 3 / 3,25 / 3,5 seconds"
 					}
 				},
@@ -1954,7 +1959,7 @@
 						"Damage": "Magic: 80 / 130 / 180 / 230 / 280 (+50% Magic Power)",
 						"Physical Power": "- 10 / 15 / 20 / 25 / 30 %",
 						"Duration": "3,5 seconds",
-						"Bonus": "50 / 75 / 100 / 125 / 150 (+2,5 per hero level = 50 at level 20)"
+						"Bonus": "Magic: 50 / 75 / 100 / 125 / 150 (+2,5 per hero level = 50 at level 20)"
 					}
 				},
 				"Strength":{
@@ -2003,6 +2008,9 @@
 			"skin" : {
 				"Grey Ent Wonder": {
 					"link": "grey1"
+				},
+				"Nature Power Grey": {
+					"link": "grey2"
 				}
 			}
 		},
@@ -2125,6 +2133,12 @@
 						"Duration": "3 seconds"
 					}
 				}
+			},
+			"skin" : {
+				"Young Soldier Pius": {
+					"link": "pius1"
+				}
+				
 			}
 		},
 		"rebecca": {
@@ -2390,7 +2404,7 @@
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
 						"Damage": "Physical: 35 / 55 / 75 / 95 / 115 (+40 Physical Power)",
-						"Bonus Damage": "Piercing: 45 / 70 / 95 / 120 / 145 (+50% Physical Power)"
+						"Bonus": "Piercing: 45 / 70 / 95 / 120 / 145 (+50% Physical Power)"
 					}
 				},
 				"Chilled Mist":{
@@ -2622,7 +2636,7 @@
 						"Cone of Fire": "Magic: 15 / 30 / 45 / 60 / 75 (+70% Magic Power)",
 						"Burn": "Magic: 15 / 20 / 25 / 30 / 35 (+7% Magic Power) (Per ,5 seconds)",
 						"Duration": "5 seconds",
-						"Bonus Magic Damage": "Magic: +10 / 15 / 20 / 25 / 30",
+						"Bonus": "Magic: +10 / 15 / 20 / 25 / 30",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+90% Physical Power)"
 					}
 				},
@@ -3255,6 +3269,12 @@
 						"Duration": "2,5 seconds"
 					}
 				}
+			},
+			"skin" : {
+				"Warrior of Balance Relani": {
+					"link": "relani1"
+				}
+				
 			}
 		},
 		"rexas": {
@@ -3758,8 +3778,11 @@
 				}
 			},
 			"skin" : {
-				"Alisha - Royal Pirate": {
+				"Royal Pirate Alisha": {
 					"link": "alisha1"
+				},
+				"Royal Honor Alisha": {
+					"link": "alisha2"
 				}
 			}
 		},
@@ -4393,6 +4416,11 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Lion": {
+					"link": "lee1"
+				}
 			}
 		},
 		"lerala": {
@@ -4477,7 +4505,7 @@
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+120% Physical Power)",
-						"Bonus Damage": "True: 5 / 10 / 15 / 20 / 25 (+1,5 per hero level = 30 at level 20)"
+						"Bonus": "True: 5 / 10 / 15 / 20 / 25 (+1,5 per hero level = 30 at level 20)"
 					}
 				},
 				"Convince":{
@@ -5118,104 +5146,140 @@
 		"anthea": {
 			"name": "Anthea",
 			"class": "mage",
-			"title": "Keeper of the Forest",
-			"desc": "",
+			"title": "The Forest Mage",
+			"desc": "Anthea lives in the city of Forest, using her magic to increases the living in the forest, as a gardener.",
 			"skill": {
-				"":{
+				"Roots":{
 					"prop":{
-						"Active": "",
+						"Active": "Anthea sending roots in a line, entangle enemies hit and dealing physical damage. The affected enemies takes physical damage from the roots per 0,25s.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 60 / 95 / 130 / 165 / 200 (+50% Magic Power)",
+						"Entangle": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Magic Power) per 0,25 seconds",
+						"Duration": "0,75 / 1 / 1,25 / 1,5 / 1,75 seconds"
 					}
 				},
-				"":{
+				"Sleeping Powder":{
 					"prop":{
-						"Active": "",
+						"Active": "Anthea creates a flower that spit out powder in the air, after 1,5s enemies hit fall asleep. Wake up after being hit.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Duration": "1,75 / 2 / 2,25 / 2,5 / 2,75 seconds"
 					}
 				},
-				"":{
+				"Tentacle":{
 					"prop":{
-						"Active": "",
+						"Active": "Anthea create a tentacle that attacking for you. Dealing physical damage hit and enemies running on this takes physical damage from this thorn. <br>Can be destroyed from basic attacks and protect from projectiles.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Lay",
+						"Radius": "45 size",
+						"Cost":"25 mana",
+						"Cooldown":"None",
+						"Damage": "Physical: 10 / 15 / 20 / 25 / 30 (+1,5 per hero level = 30 at level 20) per tentacle hit",
+						"Thorn": "Physical: 40 / 55 / 70 / 85 / 100 (+30% Magic Power)",
+						"Tentacle": "3",
+						"Duration": "8 seconds"
 					}
 				},
-				"":{
+				"Forest Orotection":{
 					"prop":{
-						"Active": "",
+						"Active": "Anthea creates a nature area, increases her allies protection and let her Tentacle get growth, increases their damage.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Protection": "20 / 25 / 30 / 35 / 40",
+						"Damage": "+ 10 / 15 / 20 / 25 / 30 Physical",
+						"Duration": "4 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Sunflower Anthea": {
+					"link": "anthea1"
+				},
+				"Magic Anthea": {
+					"link": "anthea2"
+				},
+				"Deep Forest Anthea": {
+					"link": "anthea3"
+				},
+				"Beauty Thorn Anthea": {
+					"link": "anthea4"
 				}
 			}
 		},
 		"bane": {
 			"name": "Bane",
 			"class": "mage",
-			"title": "The Expert of Death",
-			"desc": "",
+			"title": "The Expert of Illness",
+			"desc": "Bane lives in the library tower with the other wizards, reading all about diseases and necromancy.",
 			"skill": {
-				"":{
+				"Acid Splash":{
 					"prop":{
-						"Active": "",
+						"Active": "Bane launch a acid ball in a line, explode after hit and dealing physical damage to each enemy inside the splash and reduce their armor.",
+						"Passive": "Basic attack go right through enemies and affecting them by poison, dealing magic damage by a % of his magic power per second.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Projectile",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 seconds",
+						"Damage": "Physical: 80 / 140 / 200 / 260 / 320 (+60% Magic Power)",
+						"Armor": "- 20 / 35 / 50 / 65 / 80%"
 					}
 				},
-				"":{
+				"Poison Gas":{
 					"prop":{
-						"Active": "",
+						"Active": "Bane create a clode of poison gas in a target location, dealing magic damage per second.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Damage": "Magic: 22 / 34 / 46 / 58 / 70 (+30% Magic Power) per second",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Zombie Bomb":{
 					"prop":{
-						"Active": "",
+						"Active": "Bane summoning a zombie from the ground that explode before he reach up, dealing physical damage hit.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+80% Magic Power)"
 					}
 				},
-				"":{
+				"Poison Nova":{
 					"prop":{
-						"Active": "",
+						"Active": "Bane sending out instant poison in the area, affecting enemies by poison that dealing magic damage per second.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 300 / 350 / 400 / 450 / 500 (+50% Magic Power) over time",
+						"Duration": "3 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Wizard Lorde Bane": {
+					"link": "bane1"
+				},
+				"Zombie Bane": {
+					"link": "bane2"
+				},
+				"Lich Bane": {
+					"link": "bane3"
 				}
 			}
 		},
@@ -5223,50 +5287,52 @@
 			"name": "Billy",
 			"class": "mage",
 			"title": "The Destroyer",
-			"desc": "",
+			"desc": "Billy lives in the library tower with the other wizards, reading all about gravity and destruction.",
 			"skill": {
-				"":{
+				"Explosion":{
 					"prop":{
-						"Active": "",
+						"Active": "Billy creates an explosion in a target location, dealing physical damage hit.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "13 / 12 / 11 / 10 / 9 seconds",
+						"Damage": "Physical: 60 / 120 / 180 / 240 / 300 (+90% Magic Power)"
 					}
 				},
-				"":{
+				"Shield of Destruction":{
 					"prop":{
-						"Active": "",
+						"Active": "Billy create a shield on him or one allie, absorbing a % of all physical damage. After 3,5s it will detornate, dealing physical damage hit.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Target, Area",
 						"Radius": "15 size",
+						"Radius [Area]": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Damage": "Physical: 50 / 90 / 130 / 170 / 210 (+30% Absorbed Damage)",
+						"Absorbing": "20 / 35 / 50 / 65 / 80%"
 					}
 				},
-				"":{
+				"Vakuum":{
 					"prop":{
-						"Active": "",
+						"Active": "Billy creates a bubble that sucks all air to it, pull enemies to the mitt and all physical projectiles. After 2s the bubble will detornate, dealing physical damage hit.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+60% Magic Power)"
 					}
 				},
-				"":{
+				"Big Bang":{
 					"prop":{
-						"Active": "",
+						"Active": "Billy creates a explosion that detornate after 2,5s, dealing physical damage hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 300 / 350 / 400 / 450 / 500 (+50% Magic Power)"
 					}
 				}
 			}
@@ -5274,51 +5340,56 @@
 		"bones": {
 			"name": "Bones",
 			"class": "mage",
-			"title": "One Who Knows Pain",
-			"desc": "",
+			"title": "The Necromancer",
+			"desc": "Bones lives in the library tower with the other wizards, reading all about death and necromancy.",
 			"skill": {
-				"":{
+				"Teeth":{
 					"prop":{
-						"Active": "",
+						"Active": "Bones splitt his soul in pieces to create spiritual miciles in a cone, dealing magic damage hit each micile.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Cone, Projectile",
+						"Radius": "70 size",
+						"Cost":"40 / 50 / 60 / 70 / 80 health",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 40 / 65 / 90 / 115 / 140 (+70% Magic Power)",
+						"Miciles": "5 / 6 / 7 / 8 / 9"
 					}
 				},
-				"":{
+				"Skeletons":{
 					"prop":{
-						"Active": "",
+						"Active": "Bones summon skeletons that have health equal to 200 plus 20% of Bones's maximum health, and deal damage with basic attacks. The skeletons will attack the closest enemy when summoned and if you or an ally are hit by an enemy hero they will switch to that hero. The two last skeletons get bows. ",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Summoning",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 20 / 30 / 40 / 50 / 60 per hit",
+						"Skeletons": "2 / 2 / 3 / 3 / 4",
+						"Duration": "10 seconds"
 					}
 				},
-				"":{
+				"Life Drain":{
 					"prop":{
-						"Active": "",
+						"Active": "Bones beginning to drain life from an enemy, heal him but damage the enemy by lifesteal.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Target",
+						"Radius": "70 size",
+						"Cost":"80 / 90 / 100 / 110 / 120 mana",
+						"Cooldown":"4 / 3.75 / 3.5 / 3.25 / 3 seconds",
+						"Damage": "80 / 105 / 130 / 155 / 180 (+45% Magic Power)",
+						"Health": "60 / 65 / 70 / 75 / 80% of the damage done"
 					}
 				},
-				"":{
+				"Bone Armor":{
 					"prop":{
-						"Active": "",
+						"Active": "Bones creates a bone armor on him or an ally, creates a destructive armor with thorn.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Target, Shield",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Destructive Armor": "250 / 300 / 350 / 400 / 450",
+						"Thorn": "30 / 35 / 40 / 45 / 50%"
 					}
 				}
 			}
@@ -5326,51 +5397,60 @@
 		"dowyn": {
 			"name": "Dowyn",
 			"class": "mage",
-			"title": "Wizard on The Mountein",
-			"desc": "",
+			"title": "The Wizard on The Mountain",
+			"desc": "Dowyn lives on the mountain by him self, ",
 			"skill": {
-				"":{
+				"Cogwheel":{
 					"prop":{
-						"Active": "",
+						"Active": "Dowyn sending a cogwheel of ice that piercing through minions and small monsters. Dealing physical damage and chill enemies hit, double damage to minions.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Projectile",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "13 / 12 / 11 / 10 / 9 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+100% Magic Power)",
+						"Chill": "- 10 / 25 / 40 / 55 / 70 % [Attack Speed & Movement Speed]",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Thunder Cloud":{
 					"prop":{
-						"Active": "",
+						"Active": "Dowyn sending a cloud forward, hovering slowly and sending thunder to random enemies in the area, dealing magic damage each lightning.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "45 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 35 / 40 / 45 / 50 / 55 (+45% Magic Power)",
+						"Thunder": "10",
+						"Duration": "4,5 / 4,75 / 5 / 5,25 / 5,5 seconds"
+					}
+				},
+				"Falling Icicle":{
+					"prop":{
+						"Active": "Dowyn creates a icicles that become bigger, after 1,5s it fall at the target location, dealing physical damage and chill enemies.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+100% Magic Power)",
+						"Chill": "- 10 / 25 / 40 / 55 / 70 % [Attack Speed & Movement Speed]",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Lightning Bomb":{
 					"prop":{
-						"Active": "",
+						"Active": "Dowyn creates a lightning bomb from him, dealing magic damage to enemies hit, but give allies hit a Thunder Cloud around them as a buff that sending thunder to nearby enemies, dealing magic damage per lightning.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 35 / 40 / 45 / 50 / 55 (+200% Magic Power)",
+						"Buff": "Magic: 35 / 40 / 45 / 50 / 55 (+45% Magic Power)",
+						"Thunder": "10",
+						"Duration": "4,5 / 4,75 / 5 / 5,25 / 5,5 seconds"
 					}
 				}
 			}
@@ -5378,212 +5458,270 @@
 		"emiza": {
 			"name": "Emiza",
 			"class": "mage",
-			"title": "Snow Princess",
-			"desc": "",
+			"title": "The Snow Princess",
+			"desc": "Emiza is a princess in the city of Ice with her faithful friend Elise.",
 			"skill": {
-				"":{
+				"Step Jump":{
 					"prop":{
-						"Active": "",
+						"Active": "Emiza takes three steps forward then strike at her target location, dealing magic damage and chill on hit. This is only if she walks forward, increase her attack speed. <br>Emiza leaps back and creates a ice field on the location she was standing at, reduce enemies movement speed on the field. This is only if she walks backwards.",
+						"": "",
+						"Ability": "Dash, Leap",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "18 / 17 / 16 / 15 / 14 seconds",
+						"Damage": "Magic: 60 / 90 / 120 / 150 / 180 (+140% Magic Power)",
+						"Attack Speed": "15 / 20 / 25 / 30 / 35 %",
+						"Chill": "-25% [Attack Speed & Movement Speed]",
+						"Movement Speed": "- 20 / 25 / 30 / 35 / 40 %",
+						"Duration": "3 seconds"
+					}
+				},
+				"Crystal Mirror":{
+					"prop":{
+						"Active": "Emiza create a mirror around her that deflect a % of all incoming magic damage. Have a destructive armor agenst physical attacks.",
+						"Passive": "Every fourth basic attack, she launch three crystalls with only 60% of her power. <br>Every fifth basic attack on same enemy cause a bonus magic damage.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "16 / 15 / 14 / 13 / 12 seconds",
+						"Deflect": "20 / 30 / 40 / 50 / 60 %",
+						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100 at level 20)",
+						"Bonus": "40 (+4 per hero level = 180 at lvl 20)",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Snow Keeper":{
 					"prop":{
-						"Active": "",
+						"Active": "Emiza summon a snow keeper that show itself when enemies arrives that lasts in 90s. Paralyzed after arrives and chasing the random target, have health equal to 300 plus 30% of Emiza's maximum health, and deal damage with basic attacks. <br>If summoned on enemies, dealing physical damage hit and affecting them by chill. He start to throw snow balls.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 60 / 90 / 120 / 150 / 180 (+140% Magic Power)",
+						"Chill": "-25% [Attack Speed & Movement Speed]",
+						"Basic": "Physical: 40 / 50 / 60 / 70 / 80 (+10% Magic Power) per hit",
+						"Paralyzed": "1 seconds",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Full Crystal":{
 					"prop":{
-						"Active": "",
+						"Active": "Emiza become crystal ice, increases her power and get a destructive armor.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Power": "40 / 50 / 60 / 70 / 80",
+						"Destructive Armor": "250 / 300 / 350 / 400 / 450",
+						"Duration": "5 seconds"
 					}
 				}
+			},
+			"skin" : {
+				"Ice Cold Blonde Emiza": {
+					"link": "emiza1"
+				}
+				
 			}
 		},
 		"eric": {
 			"name": "Eric",
 			"class": "mage",
 			"title": "The Summoner",
-			"desc": "",
+			"desc": "Eric lives in the library tower with the other wizards, reading all about the four elements.",
 			"skill": {
-				"":{
+				"Power":{
 					"prop":{
-						"Active": "",
+						"Active": "Eric summon a fire elemental on a target location, dealing magic damage to enemies hit when it's arrived, then it throw fire balls at enemies in its sight. <br>If summoned on the water elemental both disappear and become fog that blind enemies, but just destroy each other if summoned on the air elemental. Disappear by turret attacks and area tactical that are magic.",
+						"Passive": "Eric get increased power and his fire elemental get double of your attack speed.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Radius": "25 size",
+						"Radius [Sight]": "50 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 seconds",
+						"Damage": "Magic: 60 / 120 / 180 / 240 / 300 (+60% Magic Power)",
+						"Power": "10 / 20 / 30 / 40 / 50 (+2,5 per hero level = 50 at level 20)",
+						"Basic": "Magic: 5 / 10 / 15 / 20 / 25 (+35% Magic Power) per hit",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Destruction":{
 					"prop":{
-						"Active": "",
+						"Active": "Eric summon a air elemental on a target location, pull enemies to the mit and dealing magic damage to nearby enemies per seconds. It chase enemies. <br>Doesn't arrive if summoned on the water elemental, but sendin a lightning shock that dealing magic damage to enemies on the water area.",
+						"Passive": "After using this ability, Eric start to sending lightning that bounce up to 5 enemies by his basic attack.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 5 / 10 / 15 / 20 / 25 (+35% Magic Power) per second",
+						"Lightning Shock": "Magic: 60 / 120 / 180 / 240 / 300 (+60% Magic Power)",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Tide":{
 					"prop":{
-						"Active": "",
+						"Active": "Eric summon a water elemental, deal damage with basic attacks and reduce their movement on the water area that suck enemies to it.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 30 / 35 / 40 / 45 / 50 (+10% Magic Power) per hit",
+						"Movement Speed": "-80%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Corruption":{
 					"prop":{
-						"Active": "",
+						"Active": "Eric corrupt his last summoning by earth element, make your fire elemental to magma and let it chase enemies with a higher damage. Your water elemental become clay and get a higher damage and enemies can't walk outside a stone wall around it. <br>Instead of earth element on the air elemental, it become a storm in a big area that do the same effect in the bigger area to all enemies under it.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self",
+						"Radius [Storm]": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage [Fire Elemental]": "Physical: 30 / 35 / 40 / 45 / 50 (+40% Magic Power) per hit",
+						"Damage [Water Elemental]": "Physical: 55 / 60 / 65 / 70 / 75 (+15% Magic Power) per hit",
+						"Duration [Fire Elemental]": "+3 seconds",
+						"Duration [Water Elemental]": "+1,5 seconds",
+						"Duration [Air Elemental]": "5 seconds"
 					}
 				}
+			},
+			"skin" : {
+				"Burning Magma Eric": {
+					"link": "eric1"
+				}
+				
 			}
 		},
 		"helani": {
 			"name": "Helani",
 			"class": "mage",
-			"title": "Shaman of the Storm",
-			"desc": "",
+			"title": "The Shaman of the Storm",
+			"desc": "Helani lives in the Temple of Spirit, is a shaman who can control the weather.",
 			"skill": {
-				"":{
+				"Fire Ball":{
 					"prop":{
-						"Active": "",
+						"Active": "Helani launch a fire ball in a target location, dealing magic damage and burn them.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+80% Magic Power)",
+						"Burn": "Magic: 20 / 30 / 40 / 50 / 60 (+15% Magic Power)",
+						"Duration": "3,5 seconds"
 					}
 				},
-				"":{
+				"Earthquake":{
 					"prop":{
-						"Active": "",
+						"Active": "Helani creates a earthquake in a target location, dealing physical damage per second and they can't move straight.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Magic Power) per 0,5s",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Lightning Strike":{
 					"prop":{
-						"Active": "",
+						"Active": "Helani sending a lightning from the sky at a target, can hit flying enemies. Paralize enemies and dealing magic damage hit that bounce up to 5 nearby enemies if not the enemy is flying.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Target",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 seconds",
+						"Damage": "Magic: 80 / 120 / 160 / 200 / 240 (+100% Magic Power)",
+						"Paralize": "1 seconds"
 					}
 				},
-				"":{
+				"Tornado":{
 					"prop":{
-						"Active": "",
+						"Active": "Helani creates a tornado in a target location, catch nearby enemies hit that silence their movement tactical that's not teleport and dealing physical damage per second. <br>Catched enemies can't be attacked, but in the end they throus to a random location.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "35 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 400 / 450 / 500 / 550 / 600 (+5% Magic Power) over time",
+						"Duration": "4 seconds"
 					}
 				}
 			},
 			"skin" : {
-				"Young Shaman Helani": {
+				"Full Armored Helani": {
 					"link": "helani1"
+				},
+				"Wind Power Helani": {
+					"link": "helani2"
+				},
+				"Bear Power Helani": {
+					"link": "helani3"
 				}
+				
 			}
 		},
 		"kaprisha": {
 			"name": "Kaprisha",
 			"class": "mage",
 			"title": "The Frost Mage",
-			"desc": "",
+			"desc": "Kaprisha lives in Winterfall with her brother Jack.",
 			"skill": {
-				"":{
+				"Frozen Orb":{
 					"prop":{
-						"Active": "",
+						"Active": "Kaprisha sending an orb that creating frost around it, chill nearby enemies and detonate after active again that freeze enemies hit and dealing magic damage. <br>Freezed enemies don't get chilled.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line, Projectile",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 60 / 110 / 160 / 210 / 260 (+65% Magic Power)",
+						"Freeze": "1,5 seconds",
+						"Chill": "-10% [Attack Speed & Movement Speed]",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Snow Powder":{
 					"prop":{
-						"Active": "",
+						"Active": "Kaprisha confuse all enemies hit in a target location, dealing magic damage. <br>Confusion doesn't work on those who already affected by chill",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+60% Magic Power)",
+						"Confusion": "1,5 seconds"
 					}
 				},
-				"":{
+				"Blizzard":{
 					"prop":{
-						"Active": "",
+						"Active": "Kaprisha create a blizzard on a target location, dealing physical damage and chill enemies hit.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Magic Power) per 0,5s",
+						"Chill": "- 40 / 50 / 60 / 70 / 80 % [Attack Speed & Movement Speed]",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Antarctica":{
 					"prop":{
-						"Active": "",
+						"Active": "Kaprisha lifts up on a cliff, beginning to channel to create a blizzard around her, dealing physical damage to enemies inside her sight and chill them.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Channel, Area",
+						"Radius": "70 size",
+						"Cost":"50 mana per second",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 50 / 60 / 70 / 80 / 90 (+5% Magic Power)",
+						"Chill": "-10% [Attack Speed & Movement Speed]"
 					}
 				}
 			}
@@ -5591,69 +5729,79 @@
 		"kida": {
 			"name": "Kida",
 			"class": "mage",
-			"title": "Human From Atlantis",
-			"desc": "",
+			"title": "The Water Mage",
+			"desc": "Kida lives in the Atlantic hidden in the sea, with an outstanding power by water magic she is both dangerous to have as opponent, but also a really good support!",
 			"skill": {
-				"":{
+				"Water Tail":{
 					"prop":{
-						"Active": "",
+						"Active": "Kida sending her circulating water to a random nearby enemy then start to bounce, dealing physical damage hit and stack the water by their blood. <br>Active again change its purpose. Instead of enemies it bouncing to allies, healing them and can use without cooldown after bouncing at enemies.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Projectile, Area, Target",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 60 / 90 / 120 / 150 / 180 (+50% Magic Power)",
+						"Stacks": "10",
+						"Heal": "30 / 35 / 40 / 45 / 50 (+10% Magic Power) per stack",
+						"Bounce": "5 (One Enemy/Ally at once)"
 					}
 				},
-				"":{
+				"Water Twin":{
 					"prop":{
-						"Active": "",
+						"Active": "Kida sending half of her circulating water to a ally, give armor until you are too far away and let your Water Tail strike from both you and your ally with only half of its damage. <br>Water Tail now heal both you and your ally after coming back with stacks.",
+						"Passive": "Kida get increased protection and Water Twin give half of it to your ally.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Shield, Target",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"60 mana",
+						"Cooldown":"18 seconds",
+						"Armor": "15 / 20 / 25 / 30 / 35",
+						"Protection": "12 / 18 / 24 / 30 / 36 % (+3 Armor per hero level = 60 at level 20)"
 					}
 				},
-				"":{
+				"Water Bubble":{
 					"prop":{
-						"Active": "",
+						"Active": "Kida sending water on a target location, creates a bubble in the area and catch enemies, but give protection to allies hit and protect them from crit.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Bubble": "1 / 1,25 / 1,5 / 1,75 / 2 seconds",
+						"Protection": "10 / 15 / 20 / 25 / 30",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Aquarium":{
 					"prop":{
-						"Active": "",
+						"Active": "Kida creates a big bubble around the place, enemies inside the bubble get their movement tactics silenced and can't crit. Water Tail get one bouncing tail more and double the stacks.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Duration": "3 seconds"
 					}
 				}
 			},
 			"skin" : {
-				"Dark Water Kida": {
+				"Princess Kida": {
 					"link": "kida1"
 				},
-				"Normal Water Girl Kida": {
+				"Sorceress Kida": {
 					"link": "kida2"
 				},
-				"Normal Water Girl Kida [Red]": {
+				"Water Dragon Kida": {
 					"link": "kida3"
 				},
-				"Water Queen Kida": {
+				"Dark Water Kida": {
 					"link": "kida4"
 				},
-				"Water Dragon Kida": {
+				"Water Queen Kida": {
 					"link": "kida5"
+				},
+				"Power of Atlantic": {
+					"link": "kida6"
 				}
 			}
 		},
@@ -5661,56 +5809,66 @@
 			"name": "Leila",
 			"class": "mage",
 			"title": "The Witch of Darkness",
-			"desc": "",
+			"desc": "Liela lives in the city of Peace, daughter by the royal family, and lives to love Lancel and waiting for the one day they can be together. She never show her self as a princess outside the castle, and by her power to control shadows she is not a female you want to fight!",
 			"skill": {
-				"":{
+				"Shadow Whip":{
 					"prop":{
-						"Active": "",
+						"Active": "Leila sending a shadow in a line, dealing magic damage hit and a debuff that strangles the victim.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "None",
-						"Damage": ""
+						"Damage": "Magic: 80 / 120 / 160 / 200 / 240 (+50% Magic Power)",
+						"Power": "- 12 / 18 / 24 / 30 / 36 %",
+						"Strangles": "Magic: 15 / 20 / 25 / 30 / 35 (+5% Magic Power) per second",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"A Hint of Shadow":{
 					"prop":{
-						"Active": "",
+						"Active": "Leila create a shadow bomb on a target location, dealing magic damage and blind enemies hit. Also reduce their protection while they blinded.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 60 / 120 / 180 / 240 / 300 (+60% Magic Power)",
+						"Protection": "- 12 / 18 / 24 / 30 / 36 %",
+						"Duration": "1,5 / 1,75 / 2 / 2,25 / 2,5 seconds"
 					}
 				},
-				"":{
+				"Shadow Mimic":{
 					"prop":{
-						"Active": "",
+						"Active": "Leila teleport to a target location inside your sight and in the opposite direction, let a shadow of you walk and attacks as you like a mirror. Disappear after a few seconds and not from attacks, the mimic have same health as you but deal no damage.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 / 17 / 16 / 15 / 14 seconds",
+						"Duration": "2,5 seconds"
 					}
 				},
-				"":{
+				"Darkness":{
 					"prop":{
-						"Active": "",
+						"Active": "Leile suround her self by darkness and get increased protection, increase the size of her basic attacks and let it piercing through enemies and blind them.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self",
+						"Size": "+5",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Protection": "10 / 20 / 30 / 40 / 50",
+						"Blind": "0,5 seconds",
+						"Duration": "4 seconds"
 					}
 				}
 			},
 			"skin" : {
 				"Desert Darkness Leila": {
 					"link": "leila1"
+				},
+				"Princess Leila": {
+					"link": "leila2"
 				}
 			}
 		},
@@ -5718,56 +5876,78 @@
 			"name": "Lilith",
 			"class": "mage",
 			"title": "The Current Mother of all Demons",
-			"desc": "",
+			"desc": "Lilith lives in the city of Peace, as a warlock and the current mother of all demons.",
 			"skill": {
-				"":{
+				"Fire Imp":{
 					"prop":{
-						"Active": "",
+						"Active": "Lilith affecting all enemies in a target location by burn, dealing true damage over a time.",
+						"Passive": "Lilith get an imp flying over her shoulder, sending fireballs after her basic attacks that dealing a % of your magic power. The imp has a chance to burn enemies hit, like as the crit chance.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "18 seconds",
+						"Damage": "True: 5 / 10 / 15 / 20 / 25 (+5% Magic Power)",
+						"Duration": "5 seconds",
+						"Fireballs": "Magic: 25 / 30 / 35 / 40 / 45 % Magic Power (+2,25 damage per hero level = 45 at level 20)",
+						"Burn": "True: 5 (+1 per hero level = 20 at level 20)",
+						"Chance": "10 / 12 / 14 / 16 / 18 %",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Devil's Snare":{
 					"prop":{
-						"Active": "",
+						"Active": "Lilith summon devil's snare in a target location, ensnare enemies hit then just reduce their movement speed who walking on the snare. <br>The active by Fire Imp makes this burn and dealing magic damage to enemies on the snare, but stop the slow affect.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Ensnare": "1,5 seconds",
+						"Movement Speed": "- 25 / 30 / 35 / 40 / 45 %",
+						"Damage": "Magic: 20 (+1,5 per hero level = 30 at level 20)",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Amplify Damage":{
 					"prop":{
-						"Active": "",
+						"Active": "Lilith debuff all enemies inside a target location, let them take more damage from all sorts of attacks.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "30 size",
+						"Cost":"60 mana",
+						"Cooldown":"18 / 17 / 16 / 15 / 14 seconds",
+						"Damage Taken": "20%",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Gate-Keeper":{
 					"prop":{
-						"Active": "",
+						"Active": "Lilith summon a demon giant with claus and wings, dealing magic damage in the target location then start to chais after nearby enemies, dealing physical damage hit and a bonus magic damage to nearby enemies.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "30 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 150 / 200 / 250 / 300 / 350 (+65% Magic Power)",
+						"Duration": "45 seconds",
+						"Gate-Keeper": "Stats",
+						"Health": "1000 / 1500 / 2000 / 2500 / 3000",
+						"Attack": "Physical: 50 / 75 / 100 / 125 / 150 (+15% Magic Power)",
+						"Burning Aura": "Magic: 10 / 15 / 20 / 25 / 30 (+10% Magic Power)",
+						"Protection": "30 / 40 / 50 / 60 / 70"
 					}
 				}
 			},
 			"skin" : {
-				"Mother Ruler Lilith": {
+				"Hateful Lilith": {
 					"link": "lilith1"
+				},
+				"Princess Lilith": {
+					"link": "lilith2"
+				},
+				"Underworld Lilith": {
+					"link": "lilith3"
 				}
 			}
 		},
@@ -5775,50 +5955,58 @@
 			"name": "Liza",
 			"class": "mage",
 			"title": "Little Sorceress",
-			"desc": "",
+			"desc": "Liza lives in the city of Kingdom Port, friend with Melody and Yui, and also a teacher by magic. She expert of gravity magic and dangerous to be as short!",
 			"skill": {
-				"":{
+				"Gravity Stones":{
 					"prop":{
-						"Active": "",
+						"Active": "Liza gets some rocks floating around her rod, can throw each stone one by one in a line, dealing physical damage to the first enemy hit and stunning them. <br>Stunning enemies from this stones, can only be stunned once every 10s.",
+						"Passive": "If an ally get hit from an enemy hero, her next basic attack stun the enemy. Just once every 10s.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Self, Projectile",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "16 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+100% Magic Power)",
+						"Stun": "2 seconds",
+						"Cooldown": "1,5 seconds",
+						"Duration": "6 seconds"
 					}
 				},
-				"":{
+				"Gravity":{
 					"prop":{
-						"Active": "",
+						"Active": "Liza pick up enemies inside a target location, silent their movement tactics.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Duration": "2,5 / 2,75 / 3 / 3,25 / 3,5 seconds"
 					}
 				},
-				"":{
+				"Meteorite":{
 					"prop":{
-						"Active": "",
+						"Active": "Liza sending a meteorite in a target location, dealing physical damage and heat the ground, dealing physical damage to enemies inside the area.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 80 / 130 / 180 / 230 / 280 (+50% Magic Power)",
+						"Heat": "Physical: 15 / 20 / 25 / 30 / 35 (+15% Magic Power) per 0,5 second",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Heavy Power":{
 					"prop":{
-						"Active": "",
+						"Active": "Liza creates a increadible power, making enemies realy heavy, reduce their movement speed and attack speed.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Movement Speed": "- 40 / 50 / 60 / 70 / 80 %",
+						"Attack Speed": "- 40 / 50 / 60 / 70 / 80 %",
+						"Duration": "4 seconds"
 					}
 				}
 			},
@@ -5834,48 +6022,56 @@
 			"title": "The Eagle Sorceress",
 			"desc": "",
 			"skill": {
-				"":{
+				"Magical Wings":{
 					"prop":{
-						"Active": "",
+						"Active": "Magi flaps her wings, gaining increased movement speed with no backpedal penalty, and sending forth 4 wing gusts in a line, each dealing magic damage to all enemies hit. Magi is immune to Root and Knockback effects while casting.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Line",
 						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cost":"80 / 85 / 90 / 95 / 100 mana",
+						"Cooldown": "10 seconds",
+						"Damage": "35 / 55 / 75 / 95 / 115 (+40% Magic Power)",
+						"Movement Speed": "25%",
+						"Gusts Spawned": "4",
+						"Firing Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Dispell Magic":{
 					"prop":{
-						"Active": "",
+						"Active": "Magi sending a lightning from her stave that hit both her allies and enemies, dealing magic damage and silence enemies, but shield allies from magic damage.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Area",
+						"Radius": "55 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 seconds",
+						"Damage": "40 / 80 / 120 / 160 / 200 (+60% Magic Power)",
+						"Bounce": "10 Enemies or Allies",
+						"Silence": "3 / 3,5 / 4 / 4,5 / 5 seconds",
+						"Shield Duration": "3 / 3,5 / 4 / 4,5 / 5 seconds"
+					}
+				},
+				"Pick Up":{
+					"prop":{
+						"Active": "Magi leap to a target and fly up with the target, then strike at the ground with the target, dealing physical damage and reduce their movement speed.",
+						"": "",
+						"Ability": "Target, Leap",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+5 per hero level = 100 at level 20)",
+						"Movement Speed": "-25%",
+						"Duration": "1,5 seconds"
 					}
 				},
-				"":{
+				"Magical Strike":{
 					"prop":{
-						"Active": "",
+						"Active": "Magi start to fly, can move around in the air, then strike in a target location, dealing magic damage.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Fly, Target Location",
+						"Radius": "25 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 250 / 300 / 350 / 400 / 450 (+80% Magic Power)"
 					}
 				}
 			},
@@ -5948,6 +6144,9 @@
 			"skin" : {
 				"Priest Master Malin": {
 					"link": "malin1"
+				},
+				"Desert Priest Malin": {
+					"link": "malin2"
 				}
 			}
 		},
@@ -6107,11 +6306,14 @@
 				}
 			},
 			"skin" : {
-				"Puppet Rogue": {
+				"Puppet Rogue Mia": {
 					"link": "mia1"
 				},
-				"Queen of Puppets": {
+				"Queen of Puppets Mia": {
 					"link": "mia2"
+				},
+				"Puppet Pirate Mia": {
+					"link": "mia3"
 				}
 			}
 		},
@@ -6321,6 +6523,14 @@
 						"": ""
 					}
 				}
+			},
+			"skin" : {
+				"Music Lover Samir": {
+					"link": "samir1"
+				},
+				"The Sixth Path Samir": {
+					"link": "samir2"
+				}
 			}
 		},
 		"sapphire": {
@@ -6424,6 +6634,14 @@
 						"Cooldown":"14 seconds",
 						"": ""
 					}
+				}
+			},
+			"skin" : {
+				"Troll Sasha": {
+					"link": "sasha1"
+				},
+				"Dark Shaman Sasha": {
+					"link": "sasha2"
 				}
 			}
 		},
@@ -6763,6 +6981,11 @@
 						"Magic Protection": "10 / 20 / 30 / 40 / 50",
 						"Duration": "2,5 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Voodoo Willow": {
+					"link": "willow1"
 				}
 			}
 		}
