@@ -1011,7 +1011,7 @@
 						"Cooldown":"13 / 14,25 / 15,5 / 16,75 / 18 seconds",
 						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+80% Magic Power)",
 						"Defence": "-20%",
-						"Duration": "3 / 3,5 / 4 / 4,5 / 5 seconds"
+						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
 				"Silent Leap":{
@@ -1492,7 +1492,7 @@
 			"name": "Asula",
 			"class": "tank",
 			"title": "Armored Princess",
-			"desc": "Princess Asula lives in the city of Kingdom Port, the oldest sister by Anni, Aenna and cousin to Diode from City of Mordune. Asula is inherited the throne, she is the captain by the military forces, side by side with Tána and they healer Malin. With her magical powers increases her tactics in the fights.",
+			"desc": "Princess Asula lives in the city of Kingdom Port, the oldest sister by Anni, Aenna and cousin to Diode from City of Mordune. Asula is inherited the throne, she is the captain by the military forces, side by side with Tána and their healer Malin. With her magical powers increases her tactics in the fights.",
 			"skill": {
 				"Sola Blade":{
 					"prop":{
@@ -1545,7 +1545,16 @@
 				}
 			},
 			"skin" : {
-				"Red Golden Princess Asula": {
+				"Golden Princess Asula": {
+					"link": "asula1"
+				},
+				"Red Armored Asula": {
+					"link": "asula1"
+				},
+				"Soldier Girl Asula": {
+					"link": "asula1"
+				},
+				"Legend Asula": {
 					"link": "asula1"
 				}
 			}
@@ -2093,17 +2102,17 @@
 						"Magic Damage": "30% of his Physical Power"
 					}
 				},
-				"Divine Shield":{
+				"Divine":{
 					"prop":{
-						"Active": "Pius creates a shield that deflect all incoming damage for a short duration. <br>Also get an aura that increases his and his allies Armor after the shield end for a longer duration.",
+						"Active": "Pius creates a five-point star circle of holy under him, shield and heal him and his allies who standing on this circle.",
 						"": "",
 						"Ability": "Shield, Buff, Area",
-						"Radius": "90 size",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"Divine Duration": "1,5 seconds",
-						"Armor": "10 / 15 / 20 / 25 / 30 (+1,5 per hero lever = 30 at level 20)",
-						"Duration": "10 seconds"
+						"Cooldown":"18 seconds",
+						"Heal": "80 / 140 / 200 / 260 / 320 (+5% Magic Power) over time",
+						"Deflect": "20 / 25 / 30 / 35 / 40 %",
+						"Duration": "4 seconds"
 					}
 				},
 				"Holy Light":{
@@ -2128,8 +2137,8 @@
 						"Radius": "60 size",
 						"Cost":"90 / 100 / 110 / 120 / mana",
 						"Cooldown":"90 seconds",
-						"Damage Debuff": "10 / 15 / 20 / 25 / 30%",
-						"Protection Debuff": "10 / 15 / 20 / 25 / 30%",
+						"Damage Debuff": "- 10 / 15 / 20 / 25 / 30 %",
+						"Protection Debuff": "- 10 / 15 / 20 / 25 / 30 %",
 						"Duration": "3 seconds"
 					}
 				}
@@ -2323,7 +2332,7 @@
 			"name": "Tank",
 			"class": "tank",
 			"title": "The Soul Stealer",
-			"desc": "",
+			"desc": "Tank lives in the city of Mordune, left hand to the king, and does horrible things for him.",
 			"skill": {
 				"Soul Breathe":{
 					"prop":{
@@ -2443,7 +2452,7 @@
 						"Radius": "110 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Physical: 400 / 500 / 600 / 700 / 800 (+60% Physical Power) (+60% Magical Power)"
+						"Damage": "Physical: 400 / 500 / 600 / 700 / 800 (+60% Physical Power) (+60% Magic Power)"
 					}
 				}
 			}
@@ -3265,7 +3274,7 @@
 						"Radius": "25 size",
 						"Cost":"90 / 95 / 100 / 105 / 110 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Magic: 120 / 150 / 180 / 210 / 240 (+35% Magical Power) (+35% Physical Power)",
+						"Damage": "Magic: 120 / 150 / 180 / 210 / 240 (+35% Magic Power) (+35% Physical Power)",
 						"Duration": "2,5 seconds"
 					}
 				}
@@ -3331,6 +3340,11 @@
 						"Cooldown":"90 seconds",
 						"Duration": "2,5 / 3 / 3,5 / 4 / 4,5"
 					}
+				}
+			},
+			"skin" : {
+				"Dark Joker Rexas": {
+					"link": "rexas1"
 				}
 			}
 		},
@@ -5135,6 +5149,9 @@
 				}
 			},
 			"skin" : {
+				"Stage Dressed Allegra": {
+					"link": "allegra3"
+				},
 				"Violin Player Allegra": {
 					"link": "allegra1"
 				},
@@ -5345,14 +5362,14 @@
 			"skill": {
 				"Teeth":{
 					"prop":{
-						"Active": "Bones splitt his soul in pieces to create spiritual miciles in a cone, dealing magic damage hit each micile.",
+						"Active": "Bones splitt his soul in pieces to create spiritual missiles in a cone, dealing magic damage hit each micile.",
 						"": "",
 						"Ability": "Cone, Projectile",
 						"Radius": "70 size",
 						"Cost":"40 / 50 / 60 / 70 / 80 health",
 						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
 						"Damage": "Magic: 40 / 65 / 90 / 115 / 140 (+70% Magic Power)",
-						"Miciles": "5 / 6 / 7 / 8 / 9"
+						"Missiles": "5 / 6 / 7 / 8 / 9"
 					}
 				},
 				"Skeletons":{
@@ -5641,16 +5658,16 @@
 						"Paralize": "1 seconds"
 					}
 				},
-				"Tornado":{
+				"Thunder Storm":{
 					"prop":{
-						"Active": "Helani creates a tornado in a target location, catch nearby enemies hit that silence their movement tactical that's not teleport and dealing physical damage per second. <br>Catched enemies can't be attacked, but in the end they throus to a random location.",
+						"Active": "Helani create a storm in a target location, striking enemies in the area every second that dealing magic damage per hit. <br>Lightning Strike strike all enemies iside this storm if Lightning Strike aim for an enemy inside it.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "35 size",
-						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cost":"100 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Physical: 400 / 450 / 500 / 550 / 600 (+5% Magic Power) over time",
-						"Duration": "4 seconds"
+						"Damage": "Magic: 100 / 120 / 140 / 160 / 180 (+50% Magical Power)",
+						"Duration": "5 seconds"
 					}
 				}
 			},
@@ -5724,6 +5741,11 @@
 						"Chill": "-10% [Attack Speed & Movement Speed]"
 					}
 				}
+			},
+			"skin" : {
+				"Desert Mage Kaprisha": {
+					"link": "kaprisha1"
+				}
 			}
 		},
 		"kida": {
@@ -5788,20 +5810,14 @@
 				"Princess Kida": {
 					"link": "kida1"
 				},
-				"Sorceress Kida": {
+				"Dragon Water Kida": {
 					"link": "kida2"
 				},
-				"Water Dragon Kida": {
+				"Dark Water Kida": {
 					"link": "kida3"
 				},
-				"Dark Water Kida": {
+				"Sea Queen Kida": {
 					"link": "kida4"
-				},
-				"Water Queen Kida": {
-					"link": "kida5"
-				},
-				"Power of Atlantic": {
-					"link": "kida6"
 				}
 			}
 		},
@@ -5954,7 +5970,7 @@
 		"liza": {
 			"name": "Liza",
 			"class": "mage",
-			"title": "Little Sorceress",
+			"title": "The Little Sorceress",
 			"desc": "Liza lives in the city of Kingdom Port, friend with Melody and Yui, and also a teacher by magic. She expert of gravity magic and dangerous to be as short!",
 			"skill": {
 				"Gravity Stones":{
@@ -6011,8 +6027,11 @@
 				}
 			},
 			"skin" : {
-				"Green Fairy Liza": {
+				"Emerald Liza": {
 					"link": "liza1"
+				},
+				"Ruby Liza": {
+					"link": "liza2"
 				}
 			}
 		},
@@ -6046,8 +6065,8 @@
 						"Cooldown":"16 seconds",
 						"Damage": "40 / 80 / 120 / 160 / 200 (+60% Magic Power)",
 						"Bounce": "10 Enemies or Allies",
-						"Silence": "3 / 3,5 / 4 / 4,5 / 5 seconds",
-						"Shield Duration": "3 / 3,5 / 4 / 4,5 / 5 seconds"
+						"Silence": "3 / 3,25 / 3,5 / 3,75 / 4 seconds",
+						"Shield Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
 				"Pick Up":{
@@ -6094,50 +6113,59 @@
 			"name": "Malin",
 			"class": "mage",
 			"title": "The Holy Priest",
-			"desc": "",
+			"desc": "Malin lives in the city of Kingdom Port, friend with Ania, Diana and Pius. Fighting side by side with Tána and Asula. She is a priest by healing tactics.",
 			"skill": {
-				"":{
+				"Divine Star":{
 					"prop":{
-						"Active": "",
+						"Active": "Malin sending a divine star in a line, heal allies hit, but dealing magic damage to enemies and reduce their protection.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 90 / 160 / 230 / 300 / 370 (85% Magic Power)",
+						"Heal": "50 / 95 / 140 / 185 / 230 (+55% Magic Power)",
+						"Protection": "- 10 / 15 / 20 / 25 / 30 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Power Word":{
 					"prop":{
-						"Active": "",
+						"Active": "Malin increases nearby allies power and healing them over time.",
+						"Passive:": "Divine Star, Power Word and Punnishment gives your allies hit a divine shield. <br>Divine Shield stop all sorts of effects the following duration and reflect a % of all incoming damage.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Power": "12 / 24 / 36 / 48 / 60",
+						"Heal": "80 / 140 / 200 / 260 / 320 (+5% Magic Power) over time",
+						"Duration": "4 seconds",
+						"Deflect": "25 / 30 / 35 / 40 / 45 %",
+						"Divine Shield": "2 seconds"
 					}
 				},
-				"":{
+				"Punnishment":{
 					"prop":{
-						"Active": "",
+						"Active": "Malin punish enemies in a target location, dealing magic damage and reduce their power.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 80 / 140 / 200 / 260 / 320 (85% Magic Power)",
+						"Power": "- 10 / 15 / 20 / 25 / 30 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Resurrection":{
 					"prop":{
-						"Active": "",
+						"Active": "Malin resurrect nearby allies who has died, increases their current health just 50%",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds"
 					}
 				}
 			},
@@ -6153,103 +6181,129 @@
 		"maze": {
 			"name": "Maze",
 			"class": "mage",
-			"title": "The Silver Blades",
-			"desc": "",
+			"title": "The Mage of Magnetism",
+			"desc": "Maze lives in the city of Mordune, fight for justice and expert to magnetism magic!",
 			"skill": {
-				"":{
+				"Pieces":{
 					"prop":{
-						"Active": "",
+						"Active": "Maze sending metal pieces in a line, dealing physical damage each enemy hit and double damage to minions and monsters. <br>Can be active again before 4s to take back the pieces, dealing physical damage to the enemies hit by Pieces again.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+120% Magic Power)",
+						"Second": "Physical: 40 / 60 / 80 / 100 / 120 (+5% Magic Power)"
 					}
 				},
-				"":{
+				"Spikes":{
 					"prop":{
-						"Active": "",
+						"Active": "Maze lay a spike trap in a target location, strike at enemies who walk over it but doesn't end until the time of this summoning ends, dealing physical damage each enemy hit and destroy their armor.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"40 mana",
+						"Cooldown":"10 seconds",
+						"Damage": "Physical: 90 / 150 / 210 / 270 / 330 (+15% Magic Power)",
+						"Armor": "- 40 / 50 / 60 / 70 / 80 %",
+						"Duration": "3 seconds",
+						"Lay Duration": "120 seconds"
 					}
 				},
-				"":{
+				"Schythe Shape":{
 					"prop":{
-						"Active": "",
+						"Active": "Maze teleport to a target location, start to strike with a schythe and dealing her basic damage in a cone for a short duration. <br>Maze start to fight in melee with a bonus power for a short duration, her first basic attack will destroy her targets armor. She can active this again to destroy her schythe, dealing physical damage to nearby enemies.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
+						"Radius [Area]": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown": "18 seconds",
+						"Power": "15 / 20 / 25 / 30 / 35 %",
+						"Armor": "- 20 / 25 / 30 / 35 / 40 %",
+						"Duration": "3 second",
+						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+75% Magic Power)",
+						"Duration [Schythe]": "4 seconds"
 					}
 				},
-				"":{
+				"Shape as Spears":{
 					"prop":{
-						"Active": "",
+						"Active": "Maze create four spears she can throw any time in a duration, dealing physical damage hit in a line.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 40 / 80 / 120 / 160 / 200 (+120% Magic Power) each spear",
+						"Spears": "4",
+						"Duration": "6 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Magneto Maze": {
+					"link": "maze1"
+				},
+				"Abbadon": {
+					"link": "maze1"
 				}
 			}
 		},
 		"melody": {
 			"name": "Melody",
 			"class": "mage",
-			"title": "The Engineer of Magic Stones",
-			"desc": "",
+			"title": "The Engineer",
+			"desc": "Melody lives in the city of Kingdom Port, as an engineer, she has built up her name after her parents died, sold every piece she does to get money and now she has her own work shop. She are friends with Liza and Yui, work as a enchantress for Mei and also is a pirate.",
 			"skill": {
-				"":{
+				"Lightning Turret":{
 					"prop":{
-						"Active": "",
+						"Active": "Melody lays down a lightning-fire turret with a secondary pass-through beam attack. <br>Places a Turret at target location. Turret attacks prioritize Melody's targets and enemies attacking Melody. Their Health increases with Melody's level and they shut down if he moves far away. Melody generates a Turret Kit every 24/23/22/21/20 seconds and can hold 1/1/2/2/3 Kit(s) at once.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Ability": "Turret",
+						"Radius": "70 size",
+						"Cost":"20 mana",
 						"Cooldown": "None",
-						"Damage": ""
+						"Maximum Turrets Placed": "1 / 1 / 2 / 2 / 3",
+						"Turret": "Stats",
+						"Health": "150 (+25 per hero level = 500 at level 20)",
+						"Damage": "Magic: 12 / 18 / 23 / 29 / 34 (+15% Magic Power)",
+						"Thunder Cannon": "Magic: 40 / 60 / 80 / 105 / 130 (+55% Magic Power) in a line every 16 seconds."
 					}
 				},
-				"":{
+				"Protective Force":{
 					"prop":{
-						"Active": "",
+						"Active": "Melody create a shield around the place she standing, deflect a % of all sorts of incoming damage against her and her allies inside the field. Stopping movement tactics that land against the field. This also increases the damage of her turrets.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Deflect": "15 / 20 / 25 / 30 / 35 %",
+						"Damage": "+ 5 / 10 / 15 / 20 / 25 % Magic Power",
+						"Duration": "4 seconds"
+					}
+				},
+				"Stun Crystal":{
+					"prop":{
+						"Active": "Melody throw a stone that explode in a target location, dealing magic damage and paralyze enemies hit.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+60% Magic Power)",
+						"Paralized": "1 seconds"
 					}
 				},
-				"":{
+				"Mass Enchanted Stone":{
 					"prop":{
-						"Active": "",
+						"Active": "Melody create a massive force, dealing magic damage to every enemy hit in a line.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line",
+						"Radius": "90 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 300 / 350 / 400 / 450 / 500 (+75% Magic Power)"
 					}
 				}
 			}
@@ -6258,50 +6312,61 @@
 			"name": "Mia",
 			"class": "mage",
 			"title": "The Puppet Master",
-			"desc": "",
+			"desc": "Mia lives in the city of Peace together with Rosie, doesn't care about her life or her sadness story by her dead parents. She joined the circus then she was young, met Rosie who played with dark magic and now they together in the big city. Mia is an expert of dancing with puppets that makes her dangerous by her sharp knives.",
 			"skill": {
-				"":{
+				"Strings":{
 					"prop":{
-						"Active": "",
+						"Active": "Mia take controll of the first enemy in a line, make you controll the target instead of Mia. <br>This skill will be canceled if the strings get hit by enemies attacks or if your allies attacking your target.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"40 mana",
+						"Cooldown": "10 seconds",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Mia's Trick":{
 					"prop":{
-						"Active": "",
+						"Active": "Mia set her controlled target in a box, for 1s swords impale the box and dealing physical damage to the target. <br>End Strings after using this on the target.",
+						"Passive": "Mia makes her enemies bleed after she succeeded a crit, dealing true damage over a time.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Target",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 100 / 160 / 220 / 280 / 340 (+65% Physical Power)",
+						"Bleed": "True: 15 / 20 / 25 / 30 / 35 (+5% Physical Power)",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Puppets":{
 					"prop":{
-						"Active": "",
+						"Active": "Mia summon her puppets that leaps to your last target hit by your basic attacks. If they get attacked by the target, they just leap back and wait 1,5s for the next attack. <br>After summoned, this have two alternatives, first of she can gain a shield by this puppets, ore she can let the puppets throw fan of knives, dealing physical damage nearby them.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self, Shield, Area",
+						"Radius [Puppets]": "70 size",
+						"Radius [Fan of Knives]": "25 size",
+						"Cost [Puppets]":"None",
+						"Cost [Second Use]":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown [Puppets]":"10 seconds",
+						"Cooldown [Shield]":"14 seconds",
+						"Cooldown [Fan of Knives]":"14 seconds",
+						"Damage": "Physical: 15 / 18 / 21 / 24 / 27 (+2 per hero level = 40 at level 20)",
+						"Puppets": "2",
+						"Duration [Puppets]": "10 seconds",
+						"Deflect": "20 / 25 / 30 / 35 / 40 %",
+						"Duration [Shield]": "3 seconds",
+						"Fan of Knives": "Physical: 60 / 100 / 140 / 180 / 220 (+45% Physical Power)"
 					}
 				},
-				"":{
+				"Death Prison":{
 					"prop":{
-						"Active": "",
+						"Active": "Mia catch the first enemy in the line in a darkness, the target will be stunned and harmless for 3s, dealing true damage after the end of this darkness.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line",
+						"Radius": "55 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "True: 250 / 300 / 350 / 400 / 450 (+35% Magic Power)"
 					}
 				}
 			},
@@ -6309,11 +6374,14 @@
 				"Puppet Rogue Mia": {
 					"link": "mia1"
 				},
+				"Puppet Pirate Mia": {
+					"link": "mia3"
+				},
 				"Queen of Puppets Mia": {
 					"link": "mia2"
 				},
-				"Puppet Pirate Mia": {
-					"link": "mia3"
+				"Magician Master Mia": {
+					"link": "mia2"
 				}
 			}
 		},
@@ -6321,51 +6389,64 @@
 			"name": "Riley",
 			"class": "mage",
 			"title": "Master of Arcane",
-			"desc": "",
+			"desc": "Riley lives in City of Mordune, engaged with Richard. Has always study arcane magic and is expert to all the formes from arcane and magic!",
 			"skill": {
-				"":{
+				"Magic Missiles":{
 					"prop":{
-						"Active": "",
+						"Active": "Riley sending some magic missiles in a target location, dealing magic damage each missile.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 5 / 10 / 15 / 20 / 25 (+5% Magic Power)",
+						"Missiles": "5 / 6 / 7 / 8 / 9 per launch",
+						"Launch": "3 times"
 					}
 				},
-				"":{
+				"Whirlwinds":{
 					"prop":{
-						"Active": "",
+						"Active": "Riley create a whirlwind in a target location, affecting enemies hit by a wind, dealing magic damage over time and doesn't stack but refreshed if enemies stay within the radius.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
+						"Damage": "Magic: 10 / 20 / 30 / 40 / 50 (+15% Magic Power) per 0,5 seconds",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Burning Beam":{
 					"prop":{
-						"Active": "",
+						"Active": "Riley start to channel, launch a magical beam that burns enemies hit by magic damage, dealing magic damage each 0,5s.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Channel, Line",
+						"Radius": "70 size",
+						"Cost":"5 mana per 0,5 seconds",
+						"Cooldown":"4,5 seconds",
+						"Damage": "Magic: 5 / 10 / 15 / 20 / 25 (+10% Magic Power) per 0,5 seconds"
 					}
 				},
-				"":{
+				"Time Stop":{
 					"prop":{
-						"Active": "",
+						"Active": "Riley creates a area that decreases the time, affecting all enemies and projectiles by slowness inside the area.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Projectile Speed": "80%",
+						"Movement Speed": "25 / 40 / 55 / 70 / 85 %",
+						"Duration": "4 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Master of Time Riley": {
+					"link": "riley1"
+				},
+				"Powerful Ray": {
+					"link": "riley2"
 				}
 			}
 		},
@@ -6373,103 +6454,139 @@
 			"name": "Rosie",
 			"class": "mage",
 			"title": "Playing With The Souls",
-			"desc": "",
+			"desc": "Rosie lives in the city of Peace, together with the puppet master Mia, brought up in the circus by playing with magic, learn to play with peoples minds by using dark magic.",
 			"skill": {
-				"":{
+				"Contrarwise":{
 					"prop":{
-						"Active": "",
+						"Active": "Rosie create a force in a target location, dealing magic damage and make enemies movie in the other direction. The direction buttons will be on the contrary.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+65% Magic Power)",
+						"Contrarwise": "2 / 2,25 / 2,5 / 2,75 / 3 seconds"
 					}
 				},
-				"":{
+				"Magical Counter":{
 					"prop":{
-						"Active": "",
+						"Active": "Rosie shields her allies in a target location, increases their movement speed. The shield delfect a % of all incoming magic, but also give a destructive armor.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100 at level 20)",
+						"Deflect": "20 / 25 / 30 / 35 / 40 %",
+						"Movement Speed": "6 / 12 / 18 / 24 / 30 %",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Mind Reading":{
 					"prop":{
-						"Active": "",
+						"Active": "Rosie make a contact with the first enemy or ally in a line, silent enemies and let her use one of their three abilitys that will cost her mana. <br>Hit an ally decrease their cooldown, increases their mana regenation and let you use one of their three abilities.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "70 size", 
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"10 seconds",
+						"Cooldown": "15 / 20 / 25 / 30 / 35 %",
+						"Mana": "25 / 50 / 75 / 100 / 125 %",
+						"Silence": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
-				"":{
+				"Dark Seeker":{
 					"prop":{
-						"Active": "",
+						"Active": "Rosie sending a magic of death seeking to your targeted enemy, eating the targets soul that dealing true damage over time.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Target, Target Location",
+						"Radius": "25 size",
+						"Cost":"90 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "True: 300 / 350 / 400 / 450 / 500 (+35% Magic Power)",
+						"Duration": "3 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Master Mind Rosie": {
+					"link": "rosie1"
+				},
+				"Circus Madam Rosie": {
+					"link": "rosie2"
+				},
+				"Joker Card Rosie": {
+					"link": "rosie3"
 				}
 			}
 		},
 		"sabrine": {
 			"name": "Sabrine",
 			"class": "mage",
-			"title": "Girl of Fear",
-			"desc": "",
+			"title": "The Girl of Fear",
+			"desc": "Sabrine lives in the Abandoned City, found as just a child helpless without parents, sister to Raven and can create fear just looking at them.",
 			"skill": {
-				"":{
+				"Little Banshee":{
 					"prop":{
-						"Active": "",
+						"Active": "Sabrine sending a mimic of her self in one direction, hit an enemy or active again makes this suprice enemies with a scream, dealing magic damage, reduce their protection and can't go stright.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Clone, Line",
+						"Radius": "70 size",
+						"Radius [Area]": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 100 / 150 / 200 / 250 / 300 (+100% Magic Power)",
+						"Protection": "- 20 / 25 / 30 / 35 / 40 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Shaking":{
 					"prop":{
-						"Active": "",
+						"Active": "Sabrine affecting all nearby enemies by fear.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Duration": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
 					}
 				},
-				"":{
+				"Fear of Illusion":{
 					"prop":{
-						"Active": "",
+						"Active": "Sabrine affecting all enemies in a target location by an illusion, dealing physical damage after 1,5s by icicles that are invisible by others.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Damage": "Physical: 60 / 90 / 120 / 150 / 180 (+50% Magic Power)",
+						"Duration": "1,5 seconds"
 					}
 				},
-				"":{
+				"Wierd":{
 					"prop":{
-						"Active": "",
+						"Active": "Sabrine creates a creature of illusion, dealing magic damage to all enemies inside the area.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "40 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 400 / 500 / 600 / 700 / 800 (+100% Magic Power)"
 					}
+				}
+			},
+			"skin" : {
+				"Circus Freak Sabirne": {
+					"link": "sabrine1"
+				},
+				"Death Wish Sabirne": {
+					"link": "sabrine2"
+				},
+				"Gothic Sabirne": {
+					"link": "sabrine3"
+				},
+				"Royal Sabirne": {
+					"link": "sabrine4"
 				}
 			}
 		},
@@ -6477,50 +6594,66 @@
 			"name": "Samir",
 			"class": "mage",
 			"title": "Egyptian Priest",
-			"desc": "",
+			"desc": "Samir lives in the city of Desert as a priest. As a teenage he get some skills in the battlefield by both Isis and Ra on his side, he is in love with Tora but she doesn't know, but he will do anything to protect her and his allies!",
 			"skill": {
-				"":{
+				"Power of Isis":{
 					"prop":{
-						"Active": "",
+						"Active": "Samir sending a fire ball in a line, dealing physical damage to the first enemy hit and stunning it.",
+						"Passive": "Samir charging up his staff, his next basic attack deal a bonus magic damage and reduce their protection. Every 10s.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Projectile",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Bonus": "Magic: 50 / 100 / 150 / 200 / 250 % Magic Power",
+						"Protection": "-15%",
+						"Damage": "Physical: 100 / 150 / 200 / 250 / 300 (+65% Magic Power)",
+						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
 					}
 				},
-				"":{
+				"Golden Star":{
 					"prop":{
-						"Active": "",
+						"Active": "Samir create a instant light in a target location, blind enemies and increases your allies protection.",
+						"Passive": "If Samir get fartal damage a light protect him that blind enemies for the same duration Golden Star blind. 10s cooldown.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
+						"Radius [Area]": "90 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Protection": "10 / 15 / 20 / 25 / 30 %",
+						"Blind": "0,5 / 0,75 / 1 / 1,25 / 1,5 seconds",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Red Sun":{
 					"prop":{
-						"Active": "",
+						"Active": "Samir sending a red light in a target location, dealing magic damage to enemies inside the light over time and reduce their power and protection.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 20 / 32 / 44 / 56 / 68 (+20% Magic Power) per second",
+						"Power": "-15%",
+						"Protection": "-15%",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Protection of Ra":{
 					"prop":{
-						"Active": "",
+						"Active": "Samir plants his staff at his target location for 5s. Allies within its radius take less damage. Any damage dealt within the radius charges up the staff. If Isis activates the staff again, it explodes, dealing damage to enemies inside and healing allies.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "40 size",
+						"Cost":"80 / 90 / 100 / 110 / 120 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 160 / 200 / 240 / 280 / 320 (+50% Magic Power)",
+						"Healing": "80 / 100 / 120 / 140 / 160 (+25% Magic Power)",
+						"Damage Reduction": "15%",
+						"Max Charge Dmg/Heal Scale": "1.5 / 2 / 2.5 / 3 / 3.5x",
+						"Max Charge": "800 / 1600 / 2400 / 3200 / 4000",
+						"Duration": "5 seconds"
 					}
 				}
 			},
@@ -6537,51 +6670,74 @@
 			"name": "Sapphire",
 			"class": "mage",
 			"title": "Master of Illusion",
-			"desc": "",
+			"desc": "Sapphire lives in the city of Peace, expert with illusion magic to fool enemies easily.",
 			"skill": {
-				"":{
+				"Magical Orb":{
 					"prop":{
-						"Active": "",
+						"Active": "Sapphire sending a orb in a line, dealing magic damage to the first enemy hit and silence him with a mark. <br>Active again let you catch your marked enemy with your mind, by a magical chain between your minds Sapphire dealing magic damage to your target and after 2s they get stunned if the target is staying inside the size of this magical binding.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Projectile, Target",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "60 / 100 / 140 / 180 / 220 (+65% Magic Power)",
+						"Silence": "2,5 / 2,75 / 3 / 2,25 / 3,5 seconds",
+						"Mark": "2,5 / 2,75 / 3 / 2,25 / 3,5 seconds",
+						"Damage [Binding]": "20 / 30 / 40 / 50 / 60 (+50% Ability Power) per seconds",
+						"Duration [Binding]": "2 seconds",
+						"Stun": "2 seconds"
 					}
 				},
-				"":{
+				"Rainbow":{
 					"prop":{
-						"Active": "",
+						"Active": "Sapphire launch an cone of magic that is rainbow colored over 3s. Dealing magic damage per .5s to enemies hit and be silenced, they also take 2% extra damage from magic damage that stack by this rainbow every .5s. <br>Sapphire is immune to Knockback while channeling.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Cone",
+						"Radius": "35 size",
+						"Cost":"60 / 70 / 80 / 90 / 100 mana",
+						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
+						"Damage": "Magic: 35 / 50 / 65 / 80 / 95 (+40% Magic Power) per 0.5 seconds",
+						"Stacks": "Max 12",
+						"Stack Duration": "3 seconds [renewed after hit by magic]",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Mirror Image":{
 					"prop":{
-						"Active": "",
+						"Active": "Sapphire create one mirror of her self after disappearing in ,5s. It randomly walk as you but other directions and do the same moves but only 25% of your damage. Can just disappear from silence effects.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Mirror": "1",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Banshee":{
 					"prop":{
-						"Active": "",
+						"Active": "Sapphire summoning a banshee from the spirit world, after 2s the Banshee will screem and create a damage to enemies inside the target location, dealing magic damage hit.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "40 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 350 / 400 / 450 / 500 / 550 (+45% Magic Power)"
 					}
+				}
+			},
+			"skin" : {
+				"White Illusion Sapphire": {
+					"link": "sapphire1"
+				},
+				"Fairy Sapphire": {
+					"link": "sapphire2"
+				},
+				"Illusion Master Sapphire": {
+					"link": "sapphire3"
+				},
+				"Dark Illusion Sapphire": {
+					"link": "sapphire4"
 				}
 			}
 		},
@@ -6589,50 +6745,55 @@
 			"name": "Sasha",
 			"class": "mage",
 			"title": "The Swamp Witch",
-			"desc": "",
+			"desc": "Sasha lives in the swamp with Willow, .",
 			"skill": {
-				"":{
+				"Mashrooms":{
 					"prop":{
-						"Active": "",
+						"Active": "Sasha create a invisible mashroom in a target location, explode by nearby enemies who walk near it, dealing magic damage hit and poison the targets by dealing true damage over time. <br>Poisoned enemies get reduce movement speed. The mashrooms lasts 120s.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Target Location, Lay",
+						"Radius": "15 size",
+						"Cost":"40 mana",
+						"Cooldown": "10 seconds",
+						"Damage": "Magic: 100 / 150 / 200 / 250 / 300 (+100% Magic Power)",
+						"Poison": "True: 12 / 24 / 36 / 48 / 60 (+15% Magic Power) per second",
+						"Movement Speed": "-25%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Woodoo Dolls":{
 					"prop":{
-						"Active": "",
+						"Active": "Sasha affect all enemies inside a target location by woodoo doll, reduce their protection and let silence their buff and debuffs tactics.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Protection": "-15%",
+						"Duration": "3 / 3,5 / 4 / 4,5 / 5 seconds"
 					}
 				},
-				"":{
+				"Swamp":{
 					"prop":{
-						"Active": "",
+						"Active": "Sasha create a swamp in a target location, reduce their movement speed who walking over it.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 seconds",
+						"Movement Speed": "- 25 / 40 / 55 / 70 / 85 %",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Crocodile":{
 					"prop":{
-						"Active": "",
+						"Active": "Sasha sending her pet to a target location, by crawling under ground, it target one random enemy inside the target location, dealing physical damage.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "35 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 400 / 500 / 600 / 700 / 800 (+65% Magic Power)"
 					}
 				}
 			},
@@ -6642,6 +6803,12 @@
 				},
 				"Dark Shaman Sasha": {
 					"link": "sasha2"
+				},
+				"Blind Death Sasha": {
+					"link": "sasha3"
+				},
+				"School Witch Sasha": {
+					"link": "sasha4"
 				}
 			}
 		},
@@ -6649,56 +6816,71 @@
 			"name": "Selene",
 			"class": "mage",
 			"title": "The Night Stalker",
-			"desc": "",
+			"desc": "Selene lives in the city of Mordune, ",
 			"skill": {
-				"":{
+				"Touch of The Night":{
 					"prop":{
-						"Active": "",
+						"Active": "Selene sending dark magic in a line, similar to an Goddess arm, dealing magic damage and stealing their mana. A % of your mana increases this damage by magic.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10",
+						"Damage": "60 / 100 / 140 / 180 / 220 (+65% Magic Power) (+8% Mana)",
+						"Mana": "-10%"
 					}
 				},
-				"":{
+				"Mana Burn":{
 					"prop":{
-						"Active": "",
+						"Active": "Selene create a shield that give her a destructive armor by a % of her mana.",
+						"Passive": "Selene get increased mana.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Shield",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Mana": "50 / 100 / 150 / 200 / 250 (+7,5 per hero level = 150 at level 20)",
+						"Destructive Armor": "20 / 45 / 70 / 95 / 120 %",
+						"Duration": "6 seconds"
 					}
 				},
-				"":{
+				"Destroyers":{
 					"prop":{
-						"Active": "",
+						"Active": "Selene sending some destroyers in a target location, dealing magic damage over a time and reduce their movement speed, attack speed and silent their movement tactics and taxes accordingly teleport.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 22 / 34 / 46 / 58 / 70 (+5% Magic Power) (+8% Mana) per second",
+						"Movement Speed": "-25%",
+						"Attack Speed": "-25%",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Nightwalker":{
 					"prop":{
-						"Active": "",
+						"Active": "Selene sending the nightwalker in a target location, dealing magic damage hit and let the nightwalker start to attack random enemies with a bonus magic damage but start with the targets who attacking you.",
+						"Passive": "Selene get a nightwalker by her side, attacking with basic attacks then you does, dealing a % of your magic power and also increases Selene magic power by standing beside her.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "25 size",
+						"Radius [Attack]": "70 size",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"20 seconds",
+						"Damage": "Magic: 80 / 160 / 240 / 320 / 400 (+35% Magic Power) (+8% Mana)",
+						"Bonus": "10 / 20 / 30 / 40 / 50",
+						"Duration": "5 seconds",
+						"Magic Power": "20 / 25 / 30 / 35 / 40 (+2 per hero level = 40 at level 20)",
+						"Basic": "Magic: 5 / 10 / 15 / 20 / 25 (+10% Mana) per hit"
 					}
 				}
 			},
 			"skin" : {
-				"Halloween Selene": {
+				"Queen of Darkness Selene": {
 					"link": "selene1"
+				},
+				"Halloween Selene": {
+					"link": "selene2"
 				}
 			}
 		},
@@ -6706,166 +6888,203 @@
 			"name": "Talon",
 			"class": "mage",
 			"title": "The Dragon Master",
-			"desc": "",
+			"desc": "Talon lives in the library tower with the other wizards, reading all about lightning and dragons.",
 			"skill": {
-				"":{
+				"Lightning Ray":{
 					"prop":{
-						"Active": "",
+						"Active": "Talon sending a lightning from his hand, dealing magic damage to enemies hit and paralyze them. <br>Can't paralyze after 10s if they already get paralyzed from Talon.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 80 / 120 / 160 / 200 / 240 (+75% Magic Power)",
+						"Paralyzed": "1 seconds"
 					}
 				},
-				"":{
+				"Lightning":{
 					"prop":{
-						"Active": "",
+						"Active": "Talon create lightning in a target location, dealing magic damage to enemies hit and paralyze them. Can be launched three times before the cooldown. <br>Can't paralyze after 10s if they already get paralyzed from Talon.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+40% Magic Power)",
+						"Paralyzed": "1 seconds"
 					}
 				},
-				"":{
+				"Lightning Barrage":{
 					"prop":{
-						"Active": "",
+						"Active": "Talon create lightning in a target location, increases all damage from lightning hit by you and your allies inside the barrage and dealing magic damage per second to enemies inside it.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "60 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 5 / 7 / 9 / 11 / 13 (+5% Magic Power) per 0,5s",
+						"Bonus": "50%",
+						"Duration": "8 seconds"
 					}
 				},
-				"":{
+				"Dragon Form":{
 					"prop":{
-						"Active": "",
+						"Active": "Talon become a walking dragon that sending lightning around it, dealing magic damage to nearby enemies per second. <br>Talon become melee and get increased protection and can start to tank with incredible damage.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Self, Area",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"100 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+35% Magic Power) per 0,5s",
+						"Protection": "60 / 75 / 90 / 105 / 120",
+						"Duration": "10 seconds"
 					}
 				}
 			}
 		},
-		"talutha": {
-			"name": "Talutha",
+		"talutah": {
+			"name": "Talutah",
 			"class": "mage",
 			"title": "Mage of Blood Rituals",
-			"desc": "",
+			"desc": "Talutah lives in the Swamp as a GOD of life!",
 			"skill": {
-				"":{
+				"Lamp of Life":{
 					"prop":{
-						"Active": "",
+						"Active": "Talutah start to absorbing health from nearby enemies, and divides it to heal your allies.",
+						"Passive": "Talutah holding the lamp of life, she heal her allies per second like a low regenation and absorbing damage from enemies but decreases her enemies protection and healing effects.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Aura, Area",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "18",
+						"Regenation": "50 / 100 / 150 / 200 / 250 %",
+						"Deflect": "15%",
+						"Protection": "-15%",
+						"Healing": "-50%",
+						"Health": "True: 5 / 10 / 15 / 20 / 25 (+5% Magic Power) per seconds",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Blood Pool":{
 					"prop":{
-						"Active": "",
+						"Active": "Talutah creates a pool of blood in a target location, reduce their movement speed and absorbing their health per .5s.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Health": "True: 22 / 34 / 46 / 58 / 70 (+30% Magic Power) per second",
+						"Movement Speed": "-25%",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Splash":{
 					"prop":{
-						"Active": "",
+						"Active": "Talutah create a explosion of blood magic, dealing physical damage to enemies hit. <br>Kill minions creates a red ghost that seeking enemy heroes, drain they health and reduce their movement speed. If no heroes nearby, they stay by your side over 10s.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 60 / 120 / 180 / 240 / 300 (+120% Magic Power)",
+						"Drain": "Magic: 22 / 34 / 46 / 58 / 70 (+30% Magic Power) per second",
+						"Movement Speed": "-25%",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Dead Area":{
 					"prop":{
-						"Active": "",
+						"Active": "Talutah don't let her enemies run away from death, dead people will guard around a target location, enemies can't go through them and Talutah absorbing a % of their health over time and then heal your allies by a % of all absorbed health.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "40 size",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Health": "15 / 20 / 25 / 30 / 35 %",
+						"Heal": "50%",
+						"Duration": "4 seconds"
 					}
 				}
 			},
 			"skin" : {
-				"Death Talutha": {
-					"link": "talutha1"
+				"Death Talutah": {
+					"link": "talutah1"
 				},
-				"Infection Brain Talutha": {
-					"link": "talutha2"
+				"Infection Brain Talutah": {
+					"link": "talutah2"
 				},
-				"Red Beauty Talutha": {
-					"link": "talutha3"
+				"Red Beauty Talutah": {
+					"link": "talutah3"
 				}
 			}
 		},
 		"titania": {
 			"name": "Titania",
 			"class": "mage",
-			"title": "The Burning Phoenix",
-			"desc": "",
+			"title": "The Fire Mage",
+			"desc": "Titania lives in the city of Mordune, ",
 			"skill": {
-				"":{
+				"Blaze":{
 					"prop":{
-						"Active": "",
+						"Active": "Titania create a blast in a target location, dealing magic damage hit and affecting them by her passive.",
+						"Passive": "Enemies hit by Titanias attacks burn, dealing magic damage over time.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 60 / 120 / 180 / 240 / 300 (+95% Magic Power)",
+						"Burn": "Magic: 70 / 90 / 110 / 130 / 150 (+5% Magic Power) (+10 per hero level = 100 at level 20) over time",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Fire Flower":{
 					"prop":{
-						"Active": "",
+						"Active": "Titania create a flower in a target location that buffs allies and burst out fire, dealing magic damage per burst. <br>The flower buff your allies weapons with fire, increases their basic attacks by a magic damage.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 50 / 90 / 130 / 170 / 210 (+35% Magic Power)",
+						"Bonus": "Magic: 20 / 30 / 40 / 50 / 60 (+30% Magic Power)",
+						"Bursts": "3",
+						"Duration": "5 seconds"
+					}
+				},
+				"Fire Blast":{
+					"prop":{
+						"Active": "Titania create a circle that will burst up fire after 2,5s, dealing magic damage hit.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 / 15 / 14 / 13 / 12 seconds",
+						"Damage": "Magic: 90 / 140 / 190 / 240 / 290 (+120% Magic Power)"
+					}
+				},
+				"Tornado of Fire":{
+					"prop":{
+						"Active": "Titania create a tornado of fire in a target location, dealing magic damage per seconds.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 100 / 200 / 300 / 400 / 500 (+30% Magic Power)",
+						"Duration": "5 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Sunfire Titania": {
+					"link": "titania1"
 				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
+				"Dragon Heart Titania": {
+					"link": "titania3"
 				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
+				"Princess Titania": {
+					"link": "titania4"
 				}
 			}
 		},
@@ -6873,50 +7092,59 @@
 			"name": "Vladdina",
 			"class": "mage",
 			"title": "The Blood Sucking Vampire",
-			"desc": "",
+			"desc": "Vladdina is a vampire that lives with her brothers in the Abandoned Castle. She controlling blood as it was her!",
 			"skill": {
-				"":{
+				"Vampiric Blood":{
 					"prop":{
-						"Active": "",
+						"Active": "Vladdina do a instant damage to enemies affected by her blood, dealing physical damage and heal her for a % of the damage dealt.",
+						"Passive": "Vladdina affects enemies with her basic attacks, dealing 2% of their maximum health as magic damage over time. <br>Her basic attacks divides to two nearby enemies with half power.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Target",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "16 seconds",
+						"Damage": "Physical: 80 / 100 / 120 / 140 / 160 (+60% Magic Power)",
+						"Heal": "30%",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Scream":{
 					"prop":{
-						"Active": "",
+						"Active": "Vladdina create a sound voice in a line, dealing physical damage hit and confuse enemies. <br>Active again over 2,5s she teleport to the last enemy hit and bite the target, dealing physical damage and healing her.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 70 / 130 / 190 / 250 / 310 (+45% Magic Power)",
+						"Confusion": "2,5 seconds",
+						"Second Damage": "Physical: 100 / 115 / 130 / 145 / 160 % Magic Power",
+						"Heal": "30%"
 					}
 				},
-				"":{
+				"Bat Focus":{
 					"prop":{
-						"Active": "",
+						"Active": "Vladdina become a bat, increases her movement speed and dispel all crowd controll used on her.",
+						"Passive": "Now, Vladdina doesn't get slowed by attacking and get resistance from crowd controlling.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Crowd Resistance": "15%",
+						"Movement Speed": "12 / 15 / 18 / 21 / 24 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Bat Rage":{
 					"prop":{
-						"Active": "",
+						"Active": "Vladdina call on her bats that circulating her, dealing physical damage to all nearby enemies.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "40 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 40 / 50 / 60 / 70 / 80 (+15% Magic Power) per seconds",
+						"Duration": "8 seconds"
 					}
 				}
 			},
