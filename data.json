@@ -5891,7 +5891,7 @@
 		"lilith": {
 			"name": "Lilith",
 			"class": "mage",
-			"title": "The Current Mother of all Demons",
+			"title": "The Demons Mother",
 			"desc": "Lilith lives in the city of Peace, as a warlock and the current mother of all demons.",
 			"skill": {
 				"Fire Imp":{
@@ -5970,7 +5970,7 @@
 		"liza": {
 			"name": "Liza",
 			"class": "mage",
-			"title": "The Little Sorceress",
+			"title": "The Sorceress of Gravity",
 			"desc": "Liza lives in the city of Kingdom Port, friend with Melody and Yui, and also a teacher by magic. She expert of gravity magic and dangerous to be as short!",
 			"skill": {
 				"Gravity Stones":{
@@ -6453,7 +6453,7 @@
 		"rosie": {
 			"name": "Rosie",
 			"class": "mage",
-			"title": "Playing With The Souls",
+			"title": "The Soul Player",
 			"desc": "Rosie lives in the city of Peace, together with the puppet master Mia, brought up in the circus by playing with magic, learn to play with peoples minds by using dark magic.",
 			"skill": {
 				"Contrarwise":{
@@ -6887,7 +6887,7 @@
 		"talon": {
 			"name": "Talon",
 			"class": "mage",
-			"title": "The Dragon Master",
+			"title": "The Lightning Mage",
 			"desc": "Talon lives in the library tower with the other wizards, reading all about lightning and dragons.",
 			"skill": {
 				"Lightning Ray":{
