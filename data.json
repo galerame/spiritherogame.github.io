@@ -511,7 +511,7 @@
 			"title": "The Beast Hunter",
 			"desc": "Dwarlin lives in Winterfall, friend to Storm but always start a fight with Tumblr. His axes got a enchantment to create shock pulses that he has learned to use, also created a habit to overloading the magical force that make him impossible to fight against!",
 			"skill": {
-				"Duble Axes":{
+				"Double Axes":{
 					"prop":{
 						"Active": "Dwarlin throw both of his axes, piercing through enemies in a line, dealing physical damage.",
 						"Passive": "The third hit at an enemy target create a wound that causing them to bleed and slow they movement speed.",
@@ -553,7 +553,7 @@
 				},
 				"Overpowered":{
 					"prop":{
-						"Active": "Dwarlin starts to spark over his whole body, his basic attacks and Duble Axes get a bonus magic damage and stunning his targets. <br>Stun effect can only effect the same enemy once per 2,5 seconds.",
+						"Active": "Dwarlin starts to spark over his whole body, his basic attacks and Double Axes get a bonus magic damage and stunning his targets. <br>Stun effect can only effect the same enemy once per 2,5 seconds.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
@@ -1549,13 +1549,13 @@
 					"link": "asula1"
 				},
 				"Red Armored Asula": {
-					"link": "asula1"
+					"link": "asula2"
 				},
 				"Soldier Girl Asula": {
-					"link": "asula1"
+					"link": "asula3"
 				},
 				"Legend Asula": {
-					"link": "asula1"
+					"link": "asula4"
 				}
 			}
 		},
@@ -3694,48 +3694,52 @@
 			"title": "The Dragon Slayer",
 			"desc": "",
 			"skill": {
-				"":{
+				"Dragon Slice":{
 					"prop":{
-						"Active": "",
+						"Active": "Alex strike with his axe and create a slice in the wind, dealing physical damage to enemies hit in a line.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"None",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 80 / 120 / 160 / 200 / 240 (+100% Physical Power)"
 					}
 				},
-				"":{
+				"Battle Cry":{
 					"prop":{
-						"Active": "",
+						"Active": "Alex get physical power and ignore crowd controls to the head for a short duration. In active all crowd controls on him will disappear and save him.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self",
+						"Cost":"None",
+						"Cooldown":"18 seconds",
+						"Physical Power": "14 / 28 / 32 / 46 / 50 (+1,5 per hero level = 30 at level 20)",
+						"Duration": "4,25 / 4,5 / 4,75 / 5 / 5,25 seconds"
 					}
 				},
-				"":{
+				"Destructive Slash":{
 					"prop":{
-						"Active": "",
+						"Active": "Alex destroy everything with his axe, dealing physical damage and destroy their armor in a cone.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Cone",
+						"Radius": "35 size",
+						"Cost":"None",
+						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
+						"Damage": "Physical: 50 / 110 / 170 / 230 / 290 (+60% Physical Power)",
+						"Armor": "- 16 / 32 / 48 / 64 / 80 %",
+						"Duration": "4,25 / 4,5 / 4,75 / 5 / 5,25 seconds"
 					}
 				},
-				"":{
+				"Will Power":{
 					"prop":{
-						"Active": "",
+						"Active": "Alex strike a powerfull force front of him, dealing physical damage hit in a line.",
+						"Passive": "Alex get power by fighting, give him a red stack from 0-100 and with full power he can use Will Power. Last 10 seconds, then lose 10 stack per second.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line",
+						"Radius": "100 size",
+						"Cost":"None",
+						"Cooldown":"90 seconds",
+						"Power": "1% per stack (get 10 stack per attack)",
+						"Damage": "Physical: 340 / 460 / 580 / 700 / 820 (+120% Physical Power)"
 					}
 				}
 			}
@@ -3746,48 +3750,62 @@
 			"title": "Umbrella Dualist",
 			"desc": "",
 			"skill": {
-				"":{
+				"Piercing Magic":{
 					"prop":{
-						"Active": "",
+						"Active": "Alisha sending a magical force in a line, dealing magic damage hit.",
+						"Passive": "Alisha get stacks by attacking, stack Piercing Magic for her next shot.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "10 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+80% Physical Power)",
+						"Stack": "10",
+						"Stacks": "100",
+						"Stack Damage": "4"
 					}
 				},
-				"":{
+				"Burst of Speed":{
 					"prop":{
-						"Active": "",
+						"Active": "Alisha gain speed power, increases her attack speed and movement speed for a short duration.",
+						"Passive": "Alisha has a chance to get a burst of half of this speed by get hit from a enemy attack.",
+						"": "",
+						"Ability": "Self",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Attack Speed": "15 / 20 / 25 / 30 / 35 %",
+						"Movement Speed": "15 / 20 / 25 / 30 / 35 %",
+						"Duration": "4,25 / 4,5 / 4,75 / 5 / 5,25 seconds",
+						"Dual Chance": "30%"
+					}
+				},
+				"Counter Magic":{
+					"prop":{
+						"Active": "Alisha absorb the next spell with magic damage at her, also a ground target that save your allies. If absorb any spell, she get full stack to Piercing Magic.",
+						"Passive": "Alisha has a chance to send enemies up to the sky by magic after get hit by a spell (non-channeling with damage per second), remove the harm agains you from that spell and dealing magic damage to the enemy.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 / 14 / 13 / 13 / 12 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+80% Physical Power)",
+						"Counter Chance": "25%",
+						"Duration": "1,25 seconds",
+						"Shield": "2,25 seconds"
 					}
 				},
-				"":{
+				"Dual Strike":{
 					"prop":{
-						"Active": "",
+						"Active": "Alisha can dash whenever she wants, give her a bonus physical power to her next basic attack that mark your target and let you pierce through a % of it's armor for a short duration.",
+						"Passive": "Instead of cooldown, she get stacks to do this dash, 1 stack for every 5 seconds with a maximum of 2 stacks.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Dash",
+						"Radius": "55 size",
+						"Cost":"None",
+						"Cooldown":"None",
+						"Physical Power": "120 / 150 / 180 / 210 / 240 %",
+						"Armor Penetration": "30%",
+						"Duration": "3 seconds"
 					}
 				}
 			},
@@ -3797,6 +3815,9 @@
 				},
 				"Royal Honor Alisha": {
 					"link": "alisha2"
+				},
+				"Beach Alisha": {
+					"link": "alisha3"
 				}
 			}
 		},
@@ -3806,49 +3827,61 @@
 			"title": "The Golden Cleric",
 			"desc": "",
 			"skill": {
-				"":{
+				"Golden Mace":{
 					"prop":{
-						"Active": "",
+						"Active": "Ania start to charge up her mace with holy power, then strike, she dealing magic damage hit by the charged amount and with full charge she also destroy their armor.<br>half her movement speed and stop her to do other things with her mace while she sharging.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line (Mace)",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 100 / 160 / 220 / 280 / 340 (+100% Physical Power)",
+						"Armor": "-35%",
+						"Duration": "3,25 / 3,5 / 3,75 / 4 / 4,25 seconds",
+						"Charge Duration": "3 seconds at full power"
 					}
 				},
-				"":{
+				"Shield of Divine":{
 					"prop":{
-						"Active": "",
+						"Active": "Ania dash forward with a divine shield around her, knock back enemies hit and dealing physical damage. Also silence their shield tactics and Ania get invulnerable while dashing.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Dash",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+60% Physical Power)",
+						"Silence": "4,25 / 4,5 / 4,75 / 5 / 5,25 seconds"
 					}
 				},
-				"":{
+				"Challenge":{
 					"prop":{
-						"Active": "",
+						"Active": "Ania taunt one target and create a shield between them that let you and your target ignore all effects from outside. Ania also ignore a % of her targets damage and her target will take more damage from your mace.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Target",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Reduction": "15 / 20 / 25 / 30 / 35%",
+						"Taken": "15 / 20 / 25 / 30 / 35%",
+						"Taunt": "3,25 / 3,5 / 3,75 / 4 / 4,25 seconds"
 					}
 				},
-				"":{
+				"Mace of The Goddess":{
 					"prop":{
-						"Active": "",
+						"Active": "Ania get healp from the GOD to strike all enemies in a target location, dealing physical damage hit and stunning them.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Radius": "35 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 350 / 400 / 450 / 500 / 550 (+100% Physical Power)",
+						"Stun": "0,75 / 1 / 1,25 / 1,5 / 1,75 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Dark Ania": {
+					"link": "ania1"
 				}
 			}
 		},
@@ -3858,48 +3891,52 @@
 			"title": "The Beak of A Phoenix",
 			"desc": "",
 			"skill": {
-				"":{
+				"Piercing Beak":{
 					"prop":{
-						"Active": "",
+						"Active": "Beatrix dash forward and impale enemies hit, dealing piercing damage hit and reduce their speed.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Dash",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 seconds",
+						"Damage": "Piercing: 70 / 110 / 150 / 190 / 230 (+60% Physical Power)",
+						"Speed": "- 25 / 30 / 35 / 40 / 45%"
 					}
 				},
-				"":{
+				"Burning Kisses":{
 					"prop":{
-						"Active": "",
+						"Active": "Beatrix dealing a bonus magic damage to her next three basic attacks that burn her target, increases her attack speed between her three next strikes and her size between her enemy. Last 4s.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self",
+						"Radius": "+5 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Bonus": "Magic: 15 / 30 / 45 / 60 / 75 (+1.2 per Physical Power)",
+						"Burn": "Magic: 12 / 17 / 22 / 27 / 32 (+40% Magic Power) per 0.5s",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Sweep":{
 					"prop":{
-						"Active": "",
+						"Active": "Beatrix spin one turn, dealing physical damage to nearby enemies and knock them back.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+75% Physical Power)"
 					}
 				},
-				"":{
+				"Phoenix Nest":{
 					"prop":{
-						"Active": "",
+						"Active": "Beatrix leap to a target location and create a protective area arount the location, dealing physical damage hit and stop enemies to get out.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Leap",
+						"Radius": "40 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 200 / 325 / 450 / 575 / 700 (+100% Physical Power)",
+						"Duration": "3,5 seconds"
 					}
 				}
 			}
@@ -3910,49 +3947,57 @@
 			"title": "The Fearless Blade",
 			"desc": "",
 			"skill": {
-				"":{
+				"Piercing Blade":{
 					"prop":{
-						"Active": "",
+						"Active": "Blake strike with her blade front of her, dealing physical damage to enemies in a small line.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "45 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 100 / 150 / 200 / 250 / 300 (+150% Physical Power)"
 					}
 				},
-				"":{
+				"Blood Thirsty":{
 					"prop":{
-						"Active": "",
+						"Active": "Blake lick her sword and gain all of her stacks and heal her self.",
+						"Passive": "A % of all damage dealt, stacking your sword with a maximum of 300 health.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Life Steal": "6,6 / 13,2 / 19,8 / 26,4 / 33%"
 					}
 				},
-				"":{
+				"Sweeping Blade":{
 					"prop":{
-						"Active": "",
+						"Active": "Blake dash to the nearest enemy, dealing physical damage and silence them. For a short duration, she get a bonus physical power for her next basic attack. Can be active on same target just once every 10s.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Dash",
+						"Radius": "8 size",
+						"Cost":"70 mana",
+						"Cooldown":"None",
+						"Damage": "Physical: 60 / 70 / 80 / 90 / 100 (+60% Physical Power)",
+						"Bonus": "25%",
+						"Duration": "4 seconds",
+						"Silence": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
 					}
 				},
-				"":{
+				"Last Breath":{
 					"prop":{
-						"Active": "",
+						"Active": "Blake strike her sword three times in a cone, dealing physical damage to all enemies hit. While she attacking, she can charge forward or backward by just moving around.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Cone",
+						"Radius": "40 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 100 / 150 / 200 / 250 / 300 (+120% Physical Power) per hit (3 hits)"
 					}
+				}
+			},
+			"skin" : {
+				"Blademaster Blake": {
+					"link": "blake1"
 				}
 			}
 		},
@@ -3962,48 +4007,51 @@
 			"title": "The Last Valkyria",
 			"desc": "",
 			"skill": {
-				"":{
+				"Javelin Toss":{
 					"prop":{
-						"Active": "",
+						"Active": "Brynhildr throwing her spear in a line, dealing piercing damage to the first enemy hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Projectile",
+						"Radius": "90 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Piercing: 90 / 155 / 220 / 285 / 350 (80% Physical Power)"
 					}
 				},
-				"":{
+				"Stomp":{
 					"prop":{
-						"Active": "",
+						"Active": "Brynhildr creates an earth shaking from her energy then she stomp, dealing physical damage and stunning enemies nearby her.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+60% Physical Power)",
+						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
 					}
 				},
-				"":{
+				"Valkyrie Jump":{
 					"prop":{
-						"Active": "",
+						"Active": "Brynhildr leaps to a target location, dealing physical damage hit and reduce their armor.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Leap",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 50 / 100 / 150 / 200 / 250 (+50% Physical Power)",
+						"Armor": "-35%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Goddess of Valkyrie":{
 					"prop":{
-						"Active": "",
+						"Active": "Brynhildr gain armor and magic resist for a long duration. She will ignore armor penetration against her. ",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Protection": "20 / 35 / 50 / 65 / 80",
+						"Duration": "6 seconds"
 					}
 				}
 			},
@@ -4016,106 +4064,62 @@
 				}
 			}
 		},
-		"caity": {
-			"name": "Caity",
-			"class": "fighter",
-			"title": "Earth Keeper",
-			"desc": "",
-			"skill": {
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				}
-			}
-		},
 		"clain": {
 			"name": "Clain",
 			"class": "fighter",
 			"title": "The United Ally",
 			"desc": "",
 			"skill": {
-				"":{
+				"Eclipse Scythe":{
 					"prop":{
-						"Active": "",
+						"Active": "Clain throw his scythe in a target location, dealing physical damage and reduce their movement speed. <br>Active again let you teleport to the scythe the last 2,5s, dealing physical damage a second time to enemies around you. Attacking makes the scythe came back to Clain.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+60% Physical Power)",
+						"Second": "Physical: 50 / 90 / 130 / 170 / 210 (+40% Physical Power)",
+						"Movement Speed": "- 25%",
+						"Duration": "3,5 seconds"
 					}
 				},
-				"":{
+				"Caltrops":{
 					"prop":{
-						"Active": "",
+						"Active": "Clain throwing caltrops on the ground, dealing physical damage per caltrops hit and reduce their movement speed.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 30 / 55 / 80 / 105 / 130 (+40% Physical Power)",
+						"Movement Speed": "- 80%",
+						"Slow Time": "0,5s",
+						"Caltrops": "15",
+						"Duration": "10 seconds"
+					}
+				},
+				"Energy Protection":{
+					"prop":{
+						"Active": "Clain create a shield by chi energy, shield you and your allies by a destructive armor.",
+						"": "",
+						"Ability": "Shield, Area",
+						"Radius": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Destructive Armor": "170 / 220 / 270 / 320 / 370 (+50% Magic Power)",
+						"Duration": "2,5 / 2,75 / 3 / 3,25 / 3,5 seconds"
+					}
+				},
+				"United":{
+					"prop":{
+						"Active": "Clain channels for 3s, shielding the target allied hero for up to 5s. <br>Upon completing the channel, Clain teleport to the target ally's location.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Shield": "250 / 400 / 550 / 700 / 850 (+130 Magic Power)"
 					}
 				}
 			}
@@ -4126,48 +4130,120 @@
 			"title": "Snake Queen",
 			"desc": "",
 			"skill": {
-				"":{
+				"Snake Bite":{
 					"prop":{
-						"Active": "",
+						"Active": "Defena sending three of her snakes from her arm in a line, bite the first enemy hit and dealing physical damage. Defena poison her enemy hit that dealing damage by their maximum health over 8s. <br>The poison is like a mark, marked enemy will take more damage from your sword.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "13 / 12 / 11 / 10 / 9 seconds",
+						"Damage": "Physical: 40 / 65 / 90 / 115 / 140 (+55% Physical Power)",
+						"Maximum Health": "12 / 15 / 18 / 21 / 24 %",
+						"Additional Damage": "10 / 15 / 20 / 25 / 30 %"
 					}
 				},
-				"":{
+				"The Eyes":{
 					"prop":{
-						"Active": "",
+						"Active": "Defena makes all enemies into stones, they get a destructive armor, if the armor destroys, they take a true physical damage. <br>Only works when enemies are looking at your way.",
+						"": "",
+						"Ability": "Cone",
+						"Radius": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Destructive Armor": "250",
+						"Damage": "True: 100 / 140 / 180 / 220 / 270 (+50% Physical Power)",
+						"Duration": "3 seconds"
+					}
+				},
+				"Serpents":{
+					"prop":{
+						"Active": "Defena summons serpents on the ground that reduce their movement speed. Snake Bite will entangle enemies in the serpents.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Movement Speed": "25 / 30 / 35 / 40 / 45 %",
+						"Ensnare": "1,5 seconds",
+						"Duration": "6 seconds"
+					}
+				},
+				"Basilisk":{
+					"prop":{
+						"Active": "Defena sending her Basilisk to a target location, after 1,5s one random enemy inside the area get inside a mouth, dealing physical damage to the target after 1,5s. Kill the target heal Defena a % of her maximum health. <br>The target inside the mouth are silenced to do anything.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "30 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 220 / 280 / 340 / 400 / 460 (+55% Physical Damage)",
+						"Heal": "25 / 40 / 55 / 65 / 80 %"
+					}
+				}
+			},
+			"skin" : {
+				"Poisen Defena": {
+					"link": "defena1"
+				}
+			}
+		},
+		"dhaven": {
+			"name": "Dhaven",
+			"class": "fighter",
+			"title": "Smiting Dwarf",
+			"desc": "",
+			"skill": {
+				"Smash":{
+					"prop":{
+						"Active": "Dhaven strike with his hammer, dealing physical damage in a line and smash enemies up to the air",
+						"": "",
+						"Ability": "Line",
+						"Radius": "55 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 seconds",
+						"Damage": "Physical: 60 / 120 / 180 / 240 / 300 (+60% Physical Power)"
+					}
+				},
+				"Golden Power":{
+					"prop":{
+						"Active": "Dhaven heal him and nearby enemies instant, then give him increased armor for a short duration.",
+						"Passive": "Dhaven get increased armor.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Heal": "50 / 100 / 150 / 200 / 250 (+50% Magic Power)",
+						"Armor": "15 / 20 / 25 / 30 / 35",
+						"Duration": "4 seconds",
+						"Increased Armor": "2 / 4 / 6 / 8 / 10 (+1 per hero level = 20 at level 20)"
+					}
+				},
+				"Smite":{
+					"prop":{
+						"Active": "Dhaven smite all enemies inside a target location, dealing magic damage and stunning them.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Damage": "Magic: 60 / 120 / 180 / 240 / 300 (+60% Physical Power)",
+						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
+					}
+				},
+				"Avatar":{
+					"prop":{
+						"Active": "Dhaven get big and stronger, increases his stats.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Power": "20 / 35 / 50 / 65 / 80",
+						"Protection": "20 / 25 / 30 / 35 / 40",
+						"Health": "150 / 200 / 250 / 300 / 350",
+						"Duration": "6 seconds"
 					}
 				}
 			}
@@ -4178,48 +4254,58 @@
 			"title": "Paladin of Justice",
 			"desc": "",
 			"skill": {
-				"":{
+				"Holy Power":{
 					"prop":{
-						"Active": "",
+						"Active": "Hánet strike with his hammer and burst magic in a cone, dealing magic damage hit and reduce their attack speed.",
+						"Passive": "Hánet overpowering his hammer by holy magic while out of combat. His first basic attack hit reduce the targets protection. <br>10s out of combat.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Cone",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 seconds",
+						"Damage": "Magic: 60 / 120 / 180 / 240 / 300 (+100% Physical Power)",
+						"Attack Speed": "- 10 / 25 / 40 / 55 / 70 %",
+						"Protection": "- 30%",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Name":{
 					"prop":{
-						"Active": "",
+						"Active": "Hánet leap to a target location, dealing magic damage and reduce their power. After Hánet leap, he gain a destructive armor.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Leap",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+60% Physical Power)",
+						"Power": "- 10 / 15 / 20 / 25 / 30 %",
+						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100 at level 20)",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Blunt Away":{
 					"prop":{
-						"Active": "",
+						"Active": "Hánet strike with his hammer, knock enemies back and dealing physical damage and reduce their movement speed. <br>In right time this strike stop the effects from leap and dash attacks.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Cone",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 seconds",
+						"Damage": "Physical: 50 / 100 / 150 / 200 / 250 (+55% Physical Power)",
+						"Movement Speed": "- 10 / 25 / 40 / 55 / 70 %",
+						"Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Spinning Hammer":{
 					"prop":{
-						"Active": "",
+						"Active": "Hánet start to spinning around while he can move, dealing physical damage every 0,4s. <br>While Hánet is spinning, he ignore all sorts of harm and effects from abilities and basic attacks.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Channel, Area",
+						"Radius": "25 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 20 / 40 / 60 / 80 / 100 (+45% Physical Power)",
+						"Duration": "4 seconds"
 					}
 				}
 			}
@@ -4230,48 +4316,100 @@
 			"title": "The Shapshifter",
 			"desc": "",
 			"skill": {
-				"":{
+				"Natural Punnishment / Feathers / Headbutt / Scratch":{
 					"prop":{
-						"Active": "",
+						"Active [Natural Punnishment]": "Hawk sending a magical energy through enemies in a line, dealing magic damage and reduce their protection and power.",
+						"Active [Feathers]": "Werebird sending a cone of feather, dealing piercing damage.",
+						"Active [Headbutt]": "Hedgehog dash forward, dealing physical damage and stun enemies hit.",
+						"Active [Scratch]": "Puma strike as a ninja, dash forward and dealing physical damage hit. Reduce their movement speed and make them bleed over time.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line / Cone / Dash / Dash",
+						"Radius": "70 size / 35 size / 55 size / 55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 80 / 130 / 180 / 230 / 280 (+50% Magic Power)",
+						"Protection": "- 10 / 15 / 20 / 25 / 30%",
+						"Power": "- 10 / 15 / 20 / 25 / 30%",
+						"Duration": "4 seconds",
+						"Feather": "Piercing: 60 / 100 / 140 / 180 / 220 (+60% Physical Power)",
+						"Headbutt": "Physical: 80 / 130 / 180 / 230 / 280 (+75% Physical Power)",
+						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds",
+						"Scratch": "Physical: 80 / 140 / 200 / 260 / 320 (+50% Physical Power)",
+						"Movement Speed": "- 18 / 22 / 26 / 30 / 34 %",
+						"Bleed": "15 / 20 / 25 / 30 / 35 (+35% Magic Power)",
+						"Bleed Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Natural Protection / Sound Wave / Rest / Stealth":{
 					"prop":{
-						"Active": "",
+						"Active [Natural Protection]": "Hawk give thorn to allies or him in a target location, dealing physical damage to attacking enemies.",
+						"Active [Sound Wave]": "Werebird create a sound wave in a line, reduce their protection and they get confused.",
+						"Active [Rest]": "Hedgehog start to sleep, heal him self and double his thorn thile he sleep.",
+						"Active [Stealth]": "Puma go to stealth mode.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Target Location / Line / Self / Self",
+						"Radius": "25 size / 55 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Thorn": "30%",
+						"Attacker": "Physical: 5 / 10 / 15 / 20 / 25 (+5% Physical Power) (+10% Magic Power)",
+						"Duration": "5 seconds",
+						"Sound Wave": "Physical: 70 / 130 / 190 / 250 / 310 (+25% Physical Power) (+25% Magic Power)",
+						"Protection": "- 30%",
+						"Confusion": "2,5 seconds",
+						"Rest": "Restore: 30 / 50 / 70 / 90 / 110 (+25% Magic Power) Health",
+						"Rest Duration": "4 seconds",
+						"Stealth": "4 seconds"
+					}
+				},
+				"Thorn Traps / Gust / Spykes / Leap":{
+					"prop":{
+						"Active [Thorn Traps]": "Hawk set thorn traps in a target location, roots incoming enemies and dealing physical damage over time. Last 90s",
+						"Active [Gust]": "Werebird sending a gust in a line, dealing physical damage and sending them to the sky. The gust creates a trail that increases movement speed to you and your allies who walk in it.",
+						"Active [Spykes]": "Hedgehog sending spykes away from you, dealing physical damage to nearby enemies.",
+						"Active [Leap]": "Puma leaps to a target location, dealing physical damage hit.",
+						"": "",
+						"Ability": "Trap, Target Location / Line / Area / Leap",
+						"Radius": "15 size / 70 size / 35 size / 25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Damage": "Physical: 25 / 40 / 55 / 70 / 85 (+30% Physical Power)",
+						"Root": "2 seconds",
+						"Gust": "Physical: 60 / 105 / 150 / 195 / 240 (+50% Physical Power)",
+						"Movement Speed": "30 / 35 / 40 / 45 / 50%",
+						"Duration": "5 seconds",
+						"Spykes": "Physical: 60 / 95 / 130 / 165 / 200 (+30% Armor) (+20% Physical Power)",
+						"Leap": "Physical: 70 / 120 / 170 / 220 / 270 (+90% Physical Power)"
+					}
+				},
+				"Shapeshifting":{
+					"prop":{
+						"Active": "Active first time let Hawk choose his shape from the first three tactics, <br>The shaipe last 4 seconds.",
+						"Werebird": "Werebird get increased physical power.",
+						"Hedgehog": "Hedgehog get increased protection and thorn.",
+						"Puma": "Puma get increased attack speed, movement speed and crit chance but less protection.",
+						"Active [Fly]": "Werebird start to fly and landing in a target location, dealing physical damage. End the shaip of being a werebird after the strike.",
+						"Active [Rolls]": "Hedgehog start to rolls, knock enemies back and stun the first enemy hero hit with an increased movement speed, dealing physical damage in the end. End the shaip of being a hedgehog after the strike.",
+						"Active [Targeting Strike]": "Puma start to targeting one enemy, then strike and dealing physical damage hit and reduce their movement speed. End the shaip of being a puma after the strike.",
+						"": "",
+						"Ability": "Fly, Target Location / Rolls / Target",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Physical Power": "8 / 16 / 24 / 32 / 40",
+						"Protection": "10 / 18 / 26 / 34 / 42",
+						"Thorn": "30%",
+						"Attack Speed": "10 / 16 / 22 / 28 / 34 %",
+						"Movement Speed": "6 / 12 / 18 / 24 / 30 %",
+						"Crit Chance": "15 / 20 / 25 / 30 / 35 %",
+						"Less Protection": "- 10 / 18 / 26 / 34 / 42 %",
+						"Fly": "Physical: 200 / 275 / 350 / 425 / 500 (+100% Physcial Power)",
+						"Rolls": "Physical: 300 / 400 / 500 / 600 / 700 (+60% Physical Power)",
+						"Bonus Speed": "18 / 24 / 30 / 36 / 42 %",
+						"Rolls Duration": "4 seconds",
+						"Targeting Strike": "Physical: 230 / 295 / 360 / 425 / 490 (+120% Physical Power)",
+						"Movement Speed Debuff": "- 25 / 40 / 55 / 70 / 85 %",
+						"Duration": "2,5 seconds"
 					}
 				}
 			}
@@ -4282,48 +4420,57 @@
 			"title": "Man of Snow Day",
 			"desc": "",
 			"skill": {
-				"":{
+				"Blade Pieces":{
 					"prop":{
-						"Active": "",
+						"Active": "Jack fires icicles in a cone, dealing physical damage and destroy their armor. This icicles mark enemies.",
+						"Passive": "Jack mark his enemies touched by his sword, after 8 hits, he freeze his enemy for 2s. Marked for 10s and remake the time after a new hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Cone",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+60% Physical Power)",
+						"Armor": "- 10 / 15 / 20 / 25 / 30 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Ice Statue":{
 					"prop":{
-						"Active": "",
+						"Active": "Jack become a statue of ice, healing him self per second and give him a destructive armor. Destroy his armor this healing process ends. <br>Active again let Jack jump away in stealth mode but let the destructive ice stay till it destroys.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Self, Leap, Stealth",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Heal": "30 / 50 / 70 / 90 / 110 (+25% Magic Power)",
+						"Destructive Armor": "150 / 200 / 250 / 300 / 350",
+						"Stealth": "3 seconds",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Frost":{
 					"prop":{
-						"Active": "",
+						"Active": "Jack create blizzard around him, dealing physical damage per 0,5 seconds to nearby enemies. <br>Chill enemies and mark them every second.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self, Area",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Magic Power) per 0,5s",
+						"Chill": "- 40 / 50 / 60 / 70 / 80 % [Attack Speed & Movement Speed]",
+						"Duration": "5 seconds"
 					}
 				},
-				"":{
+				"Frozen Nova":{
 					"prop":{
-						"Active": "",
+						"Active": "Jack burst a nova from him, dealing physical damage and freeze all enemies hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 250 / 300 / 350 / 400 / 450 (+50% Physical Power)",
+						"Freeze": "2,5 seconds"
 					}
 				}
 			}
@@ -4334,49 +4481,77 @@
 			"title": "The Dragon Spirit",
 			"desc": "",
 			"skill": {
-				"":{
+				"Dash":{
 					"prop":{
-						"Active": "",
+						"Active": "Kaliyah strike with her great sword, dealing physical damage to enemies hit. After she dashes, she get increased power.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Dash",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 80 / 130 / 180 / 230 / 280 (+75% Physical Power)",
+						"Power": "10 / 15 / 20 / 25 / 30 (+2 per hero level = 40 at level 20)",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Dragon Strength":{
 					"prop":{
-						"Active": "",
+						"Active": "Kaliyah get increased power, magic protection, and start to reduce enemies movement speed by a piercing wind that also dealing physical damage hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self, Line",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Power": "15 / 20 / 25 / 30 / 35 %",
+						"Magic Protection": "10 / 20 / 30 / 40 / 50",
+						"Damage": "Physical: 25 / 40 / 55 / 70 / 85 (+25% Physical Power) per wind blade",
+						"Movement Speed": "- 10 / 15 / 20 / 25 / 30 %",
+						"Duration": "2,5 seconds",
+						"Buff Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Dragon Claw":{
 					"prop":{
-						"Active": "",
+						"Active": "Kaliyah strike in a target location with a spiritual dragon claw, dealing physical damage and steal their power, magic protection and reduce their movement speed.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+75% Physical Power)",
+						"Power": "- 10 / 15 / 20 / 25 / 30 %",
+						"Magic Protection": "20 / 25 / 30 / 35 / 40 %",
+						"Movement Speed": "- 10 / 15 / 20 / 25 / 30 %",
+						"Duration": "2,5 seconds",
+						"Steal Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Scale of a Dragon":{
 					"prop":{
-						"Active": "",
+						"Active": "Kaliyah get a scale that increases her armor and reduce attackers power who not have ammunition like arrows or magic. Attackers also take an amount of damage from her thorn.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Armor": "30 / 40 / 50 / 60 / 70",
+						"Power": "- 15% power per attack (max 75% less = 5 attacks)",
+						"Thorn": "30% (+70% of her Armor)",
+						"Duration": "6 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Red Dragon Kaliyah": {
+					"link": "kaliyah1"
+				},
+				"Gold Dragon Kaliyah": {
+					"link": "kaliyah2"
+				},
+				"Power Dragon Kaliyah": {
+					"link": "kaliyah3"
+				},
+				"Silver Dragon Kaliyah": {
+					"link": "kaliyah4"
 				}
 			}
 		},
@@ -4386,53 +4561,65 @@
 			"title": "The Fighting Monk",
 			"desc": "",
 			"skill": {
-				"":{
+				"Exploding Palm":{
 					"prop":{
-						"Active": "",
+						"Active": "Lee strike with his palms that marking enemies hit front of him, dealing physical damage over time by bleeding from inside. <br>If the targets dies with this mark, they explode and dealing physical damage to nearby enemies.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "40 size",
+						"Radius [Explosion]": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "10 / 9 / 8 / 7 / 6 seconds",
+						"Bleed": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Physical Power) per second",
+						"Duration": "10 seconds",
+						"Explosion": "Physical: 90 / 150 / 210 / 270 / 330 (+75% Magic Power)"
 					}
 				},
-				"":{
+				"Sweeping Kick":{
 					"prop":{
-						"Active": "",
+						"Active": "Lee knock enemies back and reduce their speed, but buff him self, increases his speed and give him a dodge chance.",
+						"Passive": "Lee get a dodge cance, every time he dodge, he get some speed boost.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area, Buff",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Speed Reduce": "- 25 / 30 / 35 / 40 / 45 %",
+						"Duration": "2,5 seconds",
+						"Speed Buff": "15 / 20 / 25 / 30 / 35 %",
+						"Dodge Chance": "15 / 20 / 25 / 30 / 35 %",
+						"Buff Duration": "2,5 seconds",
+						"Dodge": "25%",
+						"Speed Boost": "12 / 15 / 18 / 21 / 24 %",
+						"Boost Duration": "3 seconds"
 					}
 				},
-				"":{
+				"Dashing Strike":{
 					"prop":{
-						"Active": "",
+						"Active": "Lee dash forward then strike with his staff in a target location, dealing physical damage.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Dash, Target Location",
+						"Radius": "55 size",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+60% Physical Power)"
 					}
 				},
-				"":{
+				"Seven Sided Strike":{
 					"prop":{
-						"Active": "",
+						"Active": "Lee launch seven strikes at random heroes nearby you, dealing physical damage per strike and ignoring all harm and effects from enemies while striking.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 40 / 50 / 60 / 70 / 80 (+120% Physical Power)"
 					}
 				}
 			},
 			"skin" : {
-				"Lion": {
+				"Lee Lion": {
 					"link": "lee1"
 				}
 			}
@@ -4443,48 +4630,53 @@
 			"title": "Angel of Light",
 			"desc": "",
 			"skill": {
-				"":{
+				"Holy Flame":{
 					"prop":{
-						"Active": "",
+						"Active": "Lerala crate a circle that healing you and your allies, dealing magic damage to enemies inside the circle and give Lerala a buff. <br>Lerala buff by a bonus magic damage of flames.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "10 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "15 seconds",
+						"Heal": "10 / 20 / 30 / 40 / 50 (+60% Magic Power) per second",
+						"Damage": "Magic: 15 / 25 / 35 / 45 / 55 (+60% Magic Power) per second",
+						"Flame Power": "Magic: 10 / 25 / 40 / 55 / 70 (+45% Magic Power)",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Angel Shield":{
 					"prop":{
-						"Active": "",
+						"Active": "Lerala creates a shield for her self that absorbing a % of all incoming damage.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self, Shield",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 seconds",
+						"Absorbing": "20 / 30 / 40 / 50 / 60 %",
+						"Duration": "2,5 / 2,75 / 3 / 3,25 / 3,5 seconds"
 					}
 				},
-				"":{
+				"Whipped Light":{
 					"prop":{
-						"Active": "",
+						"Active": "Lerala throw a light spear in a line that blind in hit (0,5s), dealing physical damage and ensnare enemies hit and the enemies nearby the targets. <br>Whipped enemies get their dash and leap silenced.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Radius [Whipped]": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 / 17 / 16 / 15 / 14 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+60% Physical Power)",
+						"Whipped": "2,5 / 2,75 / 3 / 3,25 / 3,5 seconds"
 					}
 				},
-				"":{
+				"Flash Light":{
 					"prop":{
-						"Active": "",
+						"Active": "Lerala blind all enemies around her with a light in a flash. <br>The sight will come back slowly.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"100 mana",
+						"Cooldown":"90 seconds",
+						"Blind": "1 / 2 / 3 / 4 / 5 seconds"
 					}
 				}
 			},
@@ -4500,6 +4692,9 @@
 				},
 				"Military Human Lerala": {
 					"link": "lerala4"
+				},
+				"Last War Lerala": {
+					"link": "lerala5"
 				}
 			}
 		},
@@ -4511,8 +4706,8 @@
 			"skill": {
 				"Deadly Weapon":{
 					"prop":{
-						"Active": "Shoot with his gun, piercing through enemies in a line and dealing physical damage hit.",
-						"Passive": "His basic attacks dealing an extra true damage.",
+						"Active": "Mikael Shoot with his gun, piercing through enemies in a line and dealing physical damage hit.",
+						"Passive": "His basic attacks dealing an extra true damage by poison.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
@@ -4524,7 +4719,7 @@
 				},
 				"Convince":{
 					"prop":{
-						"Active": "Shout, increase his and his allies movement speed and attack speed for a short duration.",
+						"Active": "Mikael shout, increase his and his allies movement speed and attack speed for a short duration.",
 						"": "",
 						"Ability": "Area, Buff",
 						"Radius": "60 size",
@@ -4535,20 +4730,20 @@
 						"Duration": "4 seconds"
 					}
 				},
-				"Pirate Blades":{
+				"Exploding Barrels":{
 					"prop":{
-						"Active": "He throws four swords in all four directions, dealing physical damage to all enemies they hit through.",
+						"Active": "Mikael lay a barrel in a target location, after 2,5s it will explode, dealing physical damage and can lay up to 3 barrel in same time before the cooldown. <br>Double the damage if they are close to each other.",
 						"": "",
 						"Ability": "Area",
 						"Radius": "55 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cost":"30 / 35 / 40 / 45 / 50 mana",
 						"Cooldown":"14 seconds",
-						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+90% Physical Power)"
+						"Damage": "Physical: 40 / 60 / 80 / 100 / 120 (+90% Physical Power)"
 					}
 				},
 				"Immortal":{
 					"prop":{
-						"Active": "He become a skeleton for a short duration, start to ignore bleeding affects and other over time like poison, immune from crowd controlls, but ignoring buffs from friendly tactics the following seconds.",
+						"Active": "Mikael become a skeleton for a short duration, start to ignore bleeding affects and other over time like poison, immune from crowd controls, but ignoring buffs from friendly tactics the following seconds.",
 						"Passive": "After his death, he resurrect to life again with only 30% of his maximum health. Happen every 90s.",
 						"": "",
 						"Ability": "Self",
@@ -4570,48 +4765,53 @@
 			"title": "The Half Demon",
 			"desc": "",
 			"skill": {
-				"":{
+				"Charge":{
 					"prop":{
-						"Active": "",
+						"Active": "Neo charging up his attack, after 2,5s he will be full charged for a charge attack, dealing physical damage to enemies hit in a line.",
+						"Passive": "Neo get power by attacking, stacking up to 10 times.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Dash",
+						"Radius": "15-55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 seconds",
+						"Damage": "Physical: 40 / 70 / 100 / 130 / 160 (+90% Physical Power)",
+						"Full Damage": "Physical: 100 / 140 / 180 / 220 / 260 (+90% Physical Power)",
+						"Power": "5 / 6 / 7 / 8 / 9 per stack = 50 / 60 / 70 / 80 / 90 Physical Power"
 					}
 				},
-				"":{
+				"Demon Skin":{
 					"prop":{
-						"Active": "",
+						"Active": "Neo decreases his power to increase attack speed and become imune to head crowd controll effects.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Power": "- 20 / 24 / 28 / 32 / 36 %",
+						"Attack Speed": "22 / 28 / 34 / 40 / 46 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Demon Wings":{
 					"prop":{
-						"Active": "",
+						"Active": "Neo leap to a target location, dealing physical damage and can be used twice before the cooldown after 2,5 seconds.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Leap",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (60% Physical Power)"
 					}
 				},
-				"":{
+				"Form as a Demon":{
 					"prop":{
-						"Active": "",
+						"Active": "Neo become a full charged demon, increase his power and magic protection.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Power": "24 / 48 / 72 / 96 / 120 %",
+						"Magic Protection": "20 / 25 / 30 / 35 / 40",
+						"Duration": "6 seconds"
 					}
 				}
 			},
@@ -4627,48 +4827,57 @@
 			"title": "Fighter From The Volcano",
 			"desc": "",
 			"skill": {
-				"":{
+				"Lava Cracks":{
 					"prop":{
-						"Active": "",
+						"Active": "Pheola create a crack in a line, dealing physical damage and reduce their movement speed. <br>After 1,5s lava i coming up, dealing physical damage a second time. Enemies hit by the lava will take more damage from Pheola's sword.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 50 / 100 / 150 / 200 / 250 (+50% Physical Power)",
+						"Second": "Physical: 50 / 100 / 150 / 200 / 250 (+50% Physical Power)",
+						"Movement Speed": "- 15 / 18 / 21 / 24 / 27 %",
+						"Damage Taken": "20%",
+						"Duration": "2,5 seconds"
 					}
 				},
-				"":{
+				"Wings of Flames":{
 					"prop":{
-						"Active": "",
+						"Active": "Pheola leap to a target location, creates the effect from Lava Cracks in the area but the half of its damage (non-damage taken). <br>After Pheola leap, she gain fire power on her sword, dealing a bonus magic damage.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Leap",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"16 / 15 / 14 / 13 / 12 seconds",
+						"Fire Power": "Magic: 10 / 20 / 30 / 40 / 50 (+45% Magic Power)",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Wall of Volcano":{
 					"prop":{
-						"Active": "",
+						"Active": "Pheola creates a wall around her with 8 pieces of stone, stop enemies to run from her circle but can be destroyed. <br>A hot area inside the wall are dealing magic damage per seconds.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 12 / 24 / 36 / 48 / 60 (+5% Magic Power) per second",
+						"Duration": "6 seconds"
 					}
 				},
-				"":{
+				"Eruption":{
 					"prop":{
-						"Active": "",
+						"Active": "Pheola creates a eruption, creates fire from the sky, dealing physical damage inside small target locations around the area.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "120 size",
+						"Radius [Fire Balls]": "15 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 80 / 100 / 120 / 140 / 160 (+25% Magic Power) per ball",
+						"Fire Balls": "20 / 24 / 28 / 32 / 36",
+						"Duration": "6 seconds"
 					}
 				}
 			},
@@ -4684,54 +4893,70 @@
 			"title": "Angel of War",
 			"desc": "",
 			"skill": {
-				"":{
+				"To the Battlefield":{
 					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Active": "Leonora dash forward, dealing physical damage to enemies hit, increases her attack speed after dahses.",
+						"Passive": "Every third attack by her swords create a wind blade, dealing physical damage in a cone.",
+						"Ability": "Dash, Buff",
+						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 80 / 130 / 180 / 230 / 280 (+75% Physical Power)",
+						"Attack Speed": "10 / 16 / 22 / 28 / 34 %",
+						"Duration": "4 seconds",
+						"Wind Blade": "Physical: 15 / 25 / 35 / 45 / 55 (+45% Physical Power)"
 					}
 				},
-				"":{
+				"Angel Power":{
 					"prop":{
-						"Active": "",
+						"Active": "Leonora increases her attack speed and her attacks doesn't slow her down.",
+						"": "",
+						"Ability": "Self",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Attack Speed": "15 / 20 / 25 / 30 / 35 %",
+						"Duration": "4 seconds"
+					}
+				},
+				"Reign of Swords":{
+					"prop":{
+						"Active": "Leonora sending swords in a target location, dealing physical damage and reduce their physical power.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+75% Physical Power)",
+						"Physical Power": "- 25 / 30 / 35 / 40 / 45 %",
+						"Duration": "4 seconds"
+					}
+				},
+				"Sight of War":{
+					"prop":{
+						"Active": "Leonora start to fly with no count down, the landing place will deal physical damage to enemies hit. <br>While flying her passive doesn't work.",
+						"Passive": "Leonora has a chance to throw a sword at a random target (Not counted as a projectile) dealing physical damage per strike.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Damage": "Physical: 225 / 275 / 325 / 375 / 425 (+75% Physcial Power)",
+						"Random Strike": "Physical: 125 / 175 / 225 / 275 / 325 (+20% Physcial Power)"
 					}
 				}
 			},
 			"skin" : {
-				"Human Princess Leonora": {
+				"Princess Warrior Leonora": {
 					"link": "leonora1"
+				},
+				"Dark Warrior Leonora": {
+					"link": "leonora2"
+				},
+				"Blacksmith Daughter Leonora": {
+					"link": "leonora3"
+				},
+				"Mega Leonora": {
+					"link": "leonora4"
 				}
 			}
 		},
@@ -4741,48 +4966,60 @@
 			"title": "The Soul Reaper",
 			"desc": "",
 			"skill": {
-				"":{
+				"Soul Seekers":{
 					"prop":{
-						"Active": "",
+						"Active": "Reikon creates three swords that now seeking the strongest enemies, dealing magic damage each blade and destroy their magic protection.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Summoning, Projectiles",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "12 seconds",
+						"Damage": "Magic: 25 / 35 / 45 / 55 / 65 (+60% Magic Power)",
+						"Magic Protection": "- 12 per blade",
+						"Duration": "10 seconds",
+						"Summoning Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Spirit Burner":{
 					"prop":{
-						"Active": "",
+						"Active": "Reikon create a spiritual circle that burn enemies spirit, dealing magic damage per second and stealing their magic protection. <br>The circle is following Reikon.",
+						"Passive": "A % of his magic protection increases his magic power",
+						"": "",
+						"Ability": "Area",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"22 seconds",
+						"Damage": "Magic: 12 / 24 / 36 / 48 / 60 (+5% Magic Power) per 1,5 second",
+						"Magic Protection": "5% per second (max 45%)",
+						"Duration": "8 seconds",
+						"Stealed Duration": "12 seconds",
+						"Magic Power": "45%"
+					}
+				},
+				"Soul Power":{
+					"prop":{
+						"Active": "Reikon start to attack his enemies soul direcly, instead of armor he attacking their magic protection, increase his attacks by a % of his magic power.",
+						"Passive": "Reikon destroy their magic protection by his swords.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Magic Protection": "- 2 / 3 / 4 / 5 / 6 per attack",
+						"Destroyed": "12 seconds",
+						"Magic Power": "20 / 30 / 40 / 50 / 60 %",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Shunpo":{
 					"prop":{
-						"Active": "",
+						"Active": "Reikon teleport to a target location, dealing magic damage hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Teleport, Target Location",
+						"Radius": "25 size",
+						"Cost":"100 mana",
+						"Cooldown":"2s seconds",
+						"Damage": "Magic: 80 / 100 / 120 / 140 / 160 (+80% Magic Power)"
 					}
 				}
 			}
@@ -4793,48 +5030,58 @@
 			"title": "The Storm Bringer",
 			"desc": "",
 			"skill": {
-				"":{
+				"Lightning Smash":{
 					"prop":{
-						"Active": "",
+						"Active": "Storm next basic attack stun the target hit, dealing bonus magic damage and create a chain of lightning up to 5 enemies. If they run out from the chain radius, they get stunned, dealing a bonus magic damage. <br>Chained enemies also take a bonus magic damage over time.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Attack",
+						"Radius [Chain]": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 seconds",
+						"Damage": "Magic: 60 / 120 / 180 / 240 / 300 (+60% Magic Power)",
+						"Second": "Magic: 40 / 70 / 100 / 130 / 160 (+40% Magic Power)",
+						"Stun": "1,25 / 1,5 / 1,75 / 2 / 2,25",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Totem":{
 					"prop":{
-						"Active": "",
+						"Active": "Storm lay a totem in a target location, increases health regen, magic power, magic resist and skill damage to you and your allies. Every 4s the totem is sending a lightning at a random enemy, dealing magic damage and stun for 0,5s. <br>The totem is like a ward and can be layd three times. The fourth destroy the first. Can only be destroyed by silence/dispell effects.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Ward",
+						"Radius": "70 size",
+						"Cost":"40 mana",
+						"Cooldown":"10 seconds",
+						"Damage": "Magic: 40 / 80 / 120 / 160 / 200 (+25% Magic Power)",
+						"Health Regen": "0,5 / 1 / 1,5 / 2 / 2,5",
+						"Magic Power": "5 / 10 / 15 / 20 / 25",
+						"Magic Protection": "5 / 10 / 15 / 20 / 25",
+						"Skill Damage": "10 / 15 / 20 / 25 / 30 %",
+						"Last": "90 seconds"
 					}
 				},
-				"":{
+				"Storm Orbs":{
 					"prop":{
-						"Active": "",
+						"Active": "Storm creates three storm orbs that circulating you, dealing magic damage to the first enemy hit by this orbs. <br>Dissapear after hit an enemy.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Self, Projectiles",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Damage": "Magic: 35 / 50 / 65 / 80 / 95 (+50% Magic Power)"
 					}
 				},
-				"":{
+				"Totem Power":{
 					"prop":{
-						"Active": "",
+						"Active": "Storm buffs her totems to increase their effects, and in active, nearby enemies get feared from the totems. (Start to raign over the totems)",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Self, Buff",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Bonus": "100 / 150 / 200 / 250 / 300 % (Non-skill damage)",
+						"Fear": "1,5 seconds",
+						"Duration": "5 seconds"
 					}
 				}
 			}
@@ -4845,48 +5092,64 @@
 			"title": "The Lovers",
 			"desc": "",
 			"skill": {
-				"":{
+				"Impale / Halberd Slice":{
 					"prop":{
-						"Active": "",
+						"Active [Impale]": "Sýzygos dash forward, dealing physical damage and reduce their armor.",
+						"Active [Halberd Slice]": "Gynaíka slice in a cone, dealing physical damage hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Dash / Cone",
+						"Radius": "55 size / 35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "14 seconds",
+						"Impale": "Physical: 50 / 100 / 150 / 200 / 250 (+90% Physical Power)",
+						"Armor": "- 25%",
+						"Duration": "2,5 seconds",
+						"Halberd Slice": "Physical: 70 / 120 / 170 / 220 / 270 (+90% Physical Power)"
 					}
 				},
-				"":{
+				"Crescent / Ray of Light":{
 					"prop":{
-						"Active": "",
+						"Active [Crescent]": "Sýzygos sweep around one time and dealing physical damage hit and reduce their armor.",
+						"Active [Ray of Light]": "Gynaíka creates light from the sun, heal you and your allies over 6s.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area / Area",
+						"Radius": "35 size / 70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown": "14 seconds / 18 seconds",
+						"Crescent": "Physical: 50 / 100 / 150 / 200 / 250 (+90% Physical Power)",
+						"Armor": "- 25%",
+						"Duration": "2,5 seconds",
+						"Ray of Light": "Heal: 20 / 30 / 40 / 50 / 60 (+60% Magic Power) per seconds"
 					}
 				},
-				"":{
+				"Targeting Location / Magical Field":{
 					"prop":{
-						"Active": "",
+						"Active [Targeting Location]": "Sýzygos leap to a target location, dealing physical damage hit.",
+						"Active [Magical Field]": "Gynaíka creates a magical field that pull up enemies into the sky, dealing magic damage twice.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Target Location / Target Location",
+						"Radius": "25 size / 25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown": "14 seconds / 15 seconds",
+						"Targeting Location": "Physical: 50 / 100 / 150 / 200 / 250 (+90% Physical Power)",
+						"Magical Field": "Magic: 60 / 90 / 120 / 150 / 180 (+65% Magic Power)",
+						"Sky Duration": "2,5 seconds"
 					}
 				},
-				"":{
+				"Switch Lover":{
 					"prop":{
-						"Active": "",
+						"Active": "You switch lover and get some difference stats. <br>If Impale and Halberd Slice are in cooldown, then you switch next time they both will do a strike together, dealing physical damage and reduce their attack speed and movement speed. Just once every 50s.",
+						"Sýzygos": "Sýzygos get increased physical power.",
+						"Gynaíka": "Gynaíka get increased magic power and health regen.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Switch",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown": "1 seconds",
+						"Physical Power": "10 / 15 / 20 / 25 / 30 (+2 per hero level = 40 at level 20)",
+						"Magic Power": "20 / 25 / 30 / 35 / 40 (+3 per hero level = 60 at level 20)",
+						"Health Regen": "0,5 / 1 / 1,5 / 2 / 2,5 (+0,25 per hero level = 5 at level 20)",
+						"Damage": "Physical: 40 / 80 / 120 / 160 / 200 (+40% Physical Power)",
+						"Speed": "- 25%"
 					}
 				}
 			}
@@ -4897,48 +5160,63 @@
 			"title": "Elementalic Kung Fu Fighter",
 			"desc": "",
 			"skill": {
-				"":{
+				"Frozen Fury":{
 					"prop":{
-						"Active": "",
+						"Active": "Tora change fighting mode, freeze her hands into two icicles, increases her attack speed in this mode and destroy enemies armor per attack. Get a boost in the beginning of this use. <br>Fire Claws passive is now frozen blue fire that chill enemies on hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Self, Buff",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "10 seconds",
+						"Start Bonus": "12 / 15 / 18 / 21 / 24 %",
+						"Bonus Duration": "3,5 seconds",
+						"Attack Speed": "6 / 9 / 12 / 15 / 18 % (+0,25 per hero level = 5 at level 20)",
+						"Armor": "5% per hit",
+						"Duration": "4 seconds (per destroyed armor)",
+						"Chill": "10 / 15 / 20 / 25 / 30 %"
 					}
 				},
-				"":{
+				"Stone Skin":{
 					"prop":{
-						"Active": "",
+						"Active": "Tora change fighting mode, get a stone skin that gives her a bonus armor and increases her physical power but decreases her attack speed. Her first hit at the same target will stun the target. Only every 10s. <br>In the start at use, she gain a destructive armor.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self, Buff",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Destructive Armor": "50 / 100 / 150 / 200 / 250",
+						"Armor": "5 / 10 / 15 / 20 / 25 (+0,5 per hero level = 10 at level 20)",
+						"Physical Power": "10 / 15 / 20 / 25 / 30 (+1,5 per hero level = 30 at level 20)",
+						"Attack Speed": "- 6 / 9 / 12 / 15 / 18 %"
 					}
 				},
-				"":{
+				"Fire Claws":{
 					"prop":{
-						"Active": "",
+						"Active": "Tora change fighting mode, get fire power and let her basic attacks deal a bonus magic damage from her magic power.",
+						"Passive": "Every fifth basic attack creates a fire blade forward, dealing magic damage to all enemies hit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Self, Buff",
+						"Radius [Fire Blade]": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"12 seconds",
+						"Bonus": "Magic: 30 / 50 / 70 / 90 / 110 (65% Magic Power)",
+						"Fire Blade": "Magic: 30 / 50 / 70 / 90 / 110 (65% Magic Power)"
 					}
 				},
-				"":{
+				"Elementalic Force":{
 					"prop":{
-						"Active": "",
+						"Active [Frozen Fury]": "Tora start to launch icicles forward, dealing physical damage per frozen sting hit with a bonus attack speed.",
+						"Active [Stone Skin]": "Tora strike the ground with one earth fist, creates a earth wave forward, dealing physical damage hit and sending enemies to the sky and stunning them.",
+						"Active [Fire Claws]": "Tora do a sweep kick with her fire power, dealing magic damage to all enemies hit in a line.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Line",
+						"Radius": "55 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Frozen Stings": "Physical 30 / 50 / 70 / 90 / 110 (90% Physical Power)",
+						"Attack Speed": "30 / 50 / 70 / 90 / 110 %",
+						"Stings": "10",
+						"Earth Strike": "Physical: 225 / 300 / 375 / 450 / 525 (+65% Physical Power)",
+						"Stun": "2 seconds",
+						"Fire Kick": "Magic: 225 / 300 / 375 / 450 / 525 (+65% Magic Power)"
 					}
 				}
 			}
@@ -4949,48 +5227,57 @@
 			"title": "Vampiric Swordsman",
 			"desc": "",
 			"skill": {
-				"":{
+				"Blood Moon":{
 					"prop":{
-						"Active": "",
+						"Active": "Vlad launch a magical force with a % of his own blood as a blade, dealing magic damage to enemies hit in a line.",
+						"Passive": "His basic attacks heal him for a % of the damage done to the enemy.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"40 / 50 / 60 / 70 / 80 health",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 75 / 130 / 185 / 240 / 295 (+95% Physical Power)",
+						"Heal": "8 / 10 / 12 / 14 / 16 % (+0,25 per hero level = 5 at level 20)"
 					}
 				},
-				"":{
+				"Crust":{
 					"prop":{
-						"Active": "",
+						"Active": "Vlad defend him self by his own blood, create a destructive armor.",
+						"Passive": "A % of your missing health increases the health regen to Vlad.",
+						"": "",
+						"Ability": "Self, Shield",
+						"Cost":"40 health",
+						"Cooldown":"18 seconds",
+						"Destructive Armor": "90 / 150 / 210 / 270 / 330 (+65% Physical Power)",
+						"Health Regen": "12%"
+					}
+				},
+				"Blood Mark":{
+					"prop":{
+						"Active": "All marked enemies will heal Vlad and destroy the bubbles, dealing an extra true magic damage and heal him.",
+						"Passive": "Vlad marking his enemies now, enemies hit by his attacks stack a blood bubble that dealing true magic damage over time. Can stack up to 5 bubbles.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cost":"None",
+						"Cooldown":"15 seconds",
+						"Bubble": "True: 4 / 6 / 8 / 10 / 12 (+0,25 per hero level = 5 at level 20) per bubble",
+						"Destroy": "True: 72 / 108 / 144 / 180 / 216 (+65% Magic Power)",
+						"Heal": "25 / 40 / 55 / 70 / 85 (+40% Magic Power) per bubble",
+						"Duration": "10 seconds"
 					}
 				},
-				"":{
+				"Tear Cracks":{
 					"prop":{
-						"Active": "",
+						"Active": "Vlad create a ritual under him by open cracks on the ground with his sword, start to absorbing a % health from nearby enemies inside the area, healing Vlad insane.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
-					}
-				},
-				"":{
-					"prop":{
-						"Active": "",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Area",
+						"Radius": "35 size",
+						"Cost":"100 / 120 / 140 / 160 / 180 health",
+						"Cooldown":"90 seconds",
+						"Health": "15 / 20 / 25 / 30 / 35 %",
+						"Heal": "50%",
+						"Duration": "4 seconds"
 					}
 				}
 			},
@@ -5015,48 +5302,57 @@
 			"title": "Demon Wolf Bodysuits",
 			"desc": "",
 			"skill": {
-				"":{
+				"Fetch":{
 					"prop":{
-						"Active": "",
+						"Active": "Wolvern sending his two demon dogs in a line, stay at the first enemy hit and dealing physical damage per second. <br>Targeted enemy get their movement speed reduced.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "10 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Damage": ""
+						"Cooldown": "15 seconds",
+						"Damage": "Physical: 10 / 15 / 20 / 25 / 30 (+15% Physical Power) per dog bite",
+						"Movement Speed": "25%",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Burning Ritual":{
 					"prop":{
-						"Active": "",
+						"Active": "Wolvern mark his enemies by a fire nova from him, catch his enemies by a demon prison that burn enemies. <br>Catched enemies can't be effected or attacked by outside the prison and they can't teleport away.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Area",
+						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"18 seconds",
+						"Burn": "Magic: 60 / 95 / 130 / 165 / 200 (+95% Magic Power) over time",
+						"Duration": "2 seconds"
 					}
 				},
-				"":{
+				"Whip of Fire":{
 					"prop":{
-						"Active": "",
+						"Active": "Wolvern catch the first enemy in a line, burn the target over time and dealing magic damage. This Whip doesn't end by a maximum range. <br>Active again and Wolvern pull the target to him, but end the connecting.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Ability": "Line",
+						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Cooldown":"15 seconds",
+						"Burn": "Magic: 60 / 95 / 130 / 165 / 200 (+50% Magic Power) over time",
+						"Duration": "4 seconds"
 					}
 				},
-				"":{
+				"Your Hell":{
 					"prop":{
-						"Active": "",
+						"Active": "Wolvern let his dogs go, they get bigger and stronger and start to attacking random enemies. <br>After killed, they just came back to you small.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"": ""
+						"Ability": "Summoning",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Duration": "10 seconds (or to they dire)",
+						"Hellhounds": "Stats",
+						"Health": "400 / 550 / 700 / 850 / 1000",
+						"Attack": "Physical: 30 / 45 / 60 / 75 / 90 (+25% Magic Power)",
+						"Protection": "10 / 20 / 30 / 40 / 50"
+						
 					}
 				}
 			},
@@ -5891,7 +6187,7 @@
 		"lilith": {
 			"name": "Lilith",
 			"class": "mage",
-			"title": "The Demons Mother",
+			"title": "The Demon Mother",
 			"desc": "Lilith lives in the city of Peace, as a warlock and the current mother of all demons.",
 			"skill": {
 				"Fire Imp":{
@@ -6210,9 +6506,9 @@
 						"Lay Duration": "120 seconds"
 					}
 				},
-				"Schythe Shape":{
+				"Scythe Shape":{
 					"prop":{
-						"Active": "Maze teleport to a target location, start to strike with a schythe and dealing her basic damage in a cone for a short duration. <br>Maze start to fight in melee with a bonus power for a short duration, her first basic attack will destroy her targets armor. She can active this again to destroy her schythe, dealing physical damage to nearby enemies.",
+						"Active": "Maze teleport to a target location, start to strike with a scythe and dealing her basic damage in a cone for a short duration. <br>Maze start to fight in melee with a bonus power for a short duration, her first basic attack will destroy her targets armor. She can active this again to destroy her scythe, dealing physical damage to nearby enemies.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "25 size",
@@ -6223,7 +6519,7 @@
 						"Armor": "- 20 / 25 / 30 / 35 / 40 %",
 						"Duration": "3 second",
 						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+75% Magic Power)",
-						"Duration [Schythe]": "4 seconds"
+						"Duration [Scythe]": "4 seconds"
 					}
 				},
 				"Shape as Spears":{
@@ -6245,7 +6541,7 @@
 					"link": "maze1"
 				},
 				"Abbadon": {
-					"link": "maze1"
+					"link": "maze2"
 				}
 			}
 		},
