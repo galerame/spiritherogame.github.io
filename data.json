@@ -3629,6 +3629,61 @@
 				}
 			}
 		},
+		"vulpes": {
+			"name": "Vulpes",
+			"class": "assassin",
+			"title": "The Fox Girl",
+			"desc": "Vulpes is a fox with a fantastic strength and power to transform into a human girl, she lives in a forest and the squirrels are her family.",
+			"skill": {
+				"Flying Squirrel":{
+					"prop":{
+						"Active": "Vulpes jump to three enemies inside a cone front of her, dealing physical damage and stun them for 1 second. Hit same target dealing 50% less damage. <br>Double damage against minions and let her strike minions without counting her jumps. Increase her Attack and Movement Speed by 10% per Monster hit for 10 seconds.",
+						"": "",
+						"Radius": "40 size",
+						"Ability": "Cone, Leap, Target",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 90 / 120 / 150 / 180 / 210 (+60% Physical Power)"
+					}
+				},
+				"Scratch":{
+					"prop":{
+						"Active": "Vulpes strike her closest enemy with one strike, dealing physical damage and let it bleed.",
+						"": "",
+						"Ability": "Target",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Damage": "Physical: 100 (+100% Physical Power)",
+						"Bleed": "12 / 16 / 20 / 24 / 28 (+5% Physical Power) per second",
+						"Duration": "10 seconds"
+					}
+				},
+				"Several Acorns":{
+					"prop":{
+						"Active": "Vulpes throw a several of arcorns at a target location, slowing enemies hit and dealing physical damage.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 / 15 / 14 / 13 / 12 seconds",
+						"Health": "Physical: 80 / 120 / 160 / 200 / 240 (+90% Physical Power)",
+						"Movement Speed": "-25%",
+						"Duration": "5 seconds"
+					}
+				},
+				"Quick Anger":{
+					"prop":{
+						"Active": "Vulpes strike five enemies or just five times at enemy heroes, dealing physical damage each hit and ignoring all harm and effects from enemies while striking.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 100 / 150 / 200 / 250 / 300 (+120% Physical Power) <br>Dealing 50% less damage to same target."
+					}
+				}
+			}
+		},
 		"yui": {
 			"name": "Yui",
 			"class": "assassin",
@@ -5302,7 +5357,7 @@
 		"wolvern": {
 			"name": "Wolvern",
 			"class": "fighter",
-			"title": "Demon Wolf Bodysuits",
+			"title": "The Fighting Warlock",
 			"desc": "",
 			"skill": {
 				"Fetch":{
