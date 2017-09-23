@@ -82,7 +82,15 @@
 	"conquest": {
 			"name": "Conquest",
 			"class": "maps",
-			"desc": "In Conquest, two teams of five players fight off in a three-laned map with turrets and a big jungle. Conquest is about a fight between the city of Mordune and Kingdom Port, then each of them sending troops to the mitt between the Valkyrie river called Conquest!"
+			"desc": "In Conquest, two teams of five players fight off in a three-laned map with turrets and a big jungle. Conquest is about a fight between the city of Mordune and Kingdom Port, then each of them sending troops to the mitt between the Valkyrie river called Conquest!",
+			"skin" : {
+				"Blue Dragon": {
+					"link": "dragon1"
+				},
+				"The Beholder": {
+					"link": "beholder"
+				}
+			}
 		},
 	"arena": {
 			"name": "Arena",
@@ -92,7 +100,12 @@
 	"3v3": {
 			"name": "3v3",
 			"class": "maps",
-			"desc": "In 3v3, two teams of three players fight off in a two-laned map with turrets and a small jungle. 3v3 is about two teams with three heroes each team inside the dark forest."
+			"desc": "In 3v3, two teams of three players fight off in a two-laned map with turrets and a small jungle. 3v3 is about two teams with three heroes each team inside the dark forest.",
+			"skin" : {
+				"Green Dragon": {
+					"link": "dragon2"
+				}
+			}
 		},
 	"one_path": {
 			"name": "One Path",
@@ -102,7 +115,12 @@
 	"angels_demons": {
 			"name": "Uranus",
 			"class": "maps",
-			"desc": "In Uranus, two teams of five players fight off in a three-laned map with turrets and a jungle in the city. Uranus is a war between angels and demons up in the city of sky named Uranus built from the hight archangels."
+			"desc": "In Uranus, two teams of five players fight off in a three-laned map with turrets and a jungle in the city. Uranus is a war between angels and demons up in the city of sky named Uranus built from the hight archangels.",
+			"skin" : {
+				"Thunder Dragon": {
+					"link": "dragon4"
+				}
+			}
 		},
 	"thebridge": {
 			"name": "Bridge in to the Mountain",
@@ -112,7 +130,12 @@
 	"zombiecity": {
 			"name": "Zombie City",
 			"class": "maps",
-			"desc": "In Zombie City, two teams of five players collecting points by surviving zombie waves. With abilities like leap can jump to the roof on the houses."
+			"desc": "In Zombie City, two teams of five players collecting points by surviving zombie waves. With abilities like leap can jump to the roof on the houses.",
+			"skin" : {
+				"Zombies": {
+					"link": "zombie"
+				}
+			}
 		},
 	"tempel": {
 			"name": "Tempel of Spirits",
@@ -122,7 +145,12 @@
 	"4v4_volcano": {
 			"name": "4v4_Volcano",
 			"class": "maps",
-			"desc": "In 4v4 Volcano, two teams of four players fight off in a two-laned with turrets and some reign of fire."
+			"desc": "In 4v4 Volcano, two teams of four players fight off in a two-laned with turrets and some reign of fire.",
+			"skin" : {
+				"Red Dragon": {
+					"link": "dragon3"
+				}
+			}
 		},
 		
 		
