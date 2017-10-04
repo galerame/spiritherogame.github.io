@@ -5108,6 +5108,11 @@
 						"Damage": "Magic: 80 / 100 / 120 / 140 / 160 (+80% Magic Power)"
 					}
 				}
+			},
+			"skin" : {
+				"The Soul Kid": {
+					"link": "reikon1"
+				}
 			}
 		},
 		"storm": {
