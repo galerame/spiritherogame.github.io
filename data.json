@@ -1070,8 +1070,11 @@
 				}
 			},
 			"skin" : {
-				"Dark Princess Raven": {
+				"Elven Warrior Raven": {
 					"link": "raven1"
+				},
+				"Darkness Queen Raven": {
+					"link": "raven2"
 				}
 			}
 		},
