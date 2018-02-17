@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="list.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+		<script src="list.js"></script>
+		<script id="template" type="text/x-handlebars-template">
+			{{#each hero}}
+					<a href="hero.html#{{@key}}" class="hero {{class}}">
+					<img src="images/hero/small/{{class}}/{{@key}}.jpg"></img>
+					<figcaption>{{name}}
+					{{#if title}}
+						<div>{{title}}</div>
+					{{/if}}
+					</figcaption>
+					</a>
+			{{/each}}
+		</script>
+		
+		<title>Spirit</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div class="fade"></div>
+				<img src="images/header/index.jpg"></img>
+			</div>
+			<div id="menu">
+				<a onclick="filter('hunter')">Hunter</a>
+				<a onclick="filter('assassin')">Assasin</a>
+				<a onclick="filter('fighter')">Fighter</a>
+				<a onclick="filter('tank')">Tank</a>
+				<a onclick="filter('mage')">Mage</a>
+				<a onclick="filter('support')">Support</a>
+				<a onclick="filter('maps')">Maps</a>
+<<<<<<< HEAD
+				<a onclick="filter('tags')">Tags</a>
+=======
+>>>>>>> d838a65a16664d1d42605bf5cf2a8f83865fc935
+				<a href="./"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;</a>
+			</div>
+			<div id="content">
+			</div>
+		</div>
+	</body>
+</html>
