@@ -155,6 +155,69 @@
 		
 		
 		
+		
+		
+		
+	"healer_adora": {
+			"name": "Adora",
+			"class": "tags",
+			"title": "Angel of Love"
+		},
+	"healer_aria": {
+			"name": "Aria",
+			"class": "tags",
+			"title": "The Winged Archer"
+		},
+	"healer_asula": {
+			"name": "Asula",
+			"class": "tags",
+			"title": "Armored Princess"
+		},
+	"healer_kida": {
+			"name": "Kida",
+			"class": "tags",
+			"title": "The Water Mage"
+		},
+	"healer_lerala": {
+			"name": "Lerala",
+			"class": "tags",
+			"title": "Angel of Light"
+		},
+	"healer_malin": {
+			"name": "Malin",
+			"class": "tags",
+			"title": "The Holy Priest"
+		},
+	"healer_oone": {
+		},
+	"healer_pius": {
+			"name": "Pius",
+			"class": "tags",
+			"title": "Fighter for Justice"
+		},
+	"healer_samir": {
+			"name": "Samir",
+			"class": "tags",
+			"title": "Egyptian Priest"
+		},
+	"healer_storm": {
+			"name": "Storm",
+			"class": "tags",
+			"title": "The Storm Bringer"
+		},
+	"healer_sygy": {
+			"name": "Sýzygos & Gynaíka",
+			"class": "tags",
+			"title": "The Lovers"
+		},
+	"healer_talutah": {
+			"name": "Talutah",
+			"class": "tags",
+			"title": "Mage of Blood Rituals"
+		},
+		
+		
+		
 
 		"anni": {
 			"name": "Anni",
@@ -4277,66 +4340,6 @@
 				}
 			}
 		},
-		"dhaven": {
-			"name": "Dhaven",
-			"class": "fighter",
-			"title": "Smiting Dwarf",
-			"desc": "",
-			"skill": {
-				"Smash":{
-					"prop":{
-						"Active": "Dhaven strike with his hammer, dealing physical damage in a line and smash enemies up to the air",
-						"": "",
-						"Ability": "Line",
-						"Radius": "55 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "14 seconds",
-						"Damage": "Physical: 60 / 120 / 180 / 240 / 300 (+60% Physical Power)"
-					}
-				},
-				"Golden Power":{
-					"prop":{
-						"Active": "Dhaven heal him and nearby enemies instant, then give him increased armor for a short duration.",
-						"Passive": "Dhaven get increased armor.",
-						"": "",
-						"Ability": "Area",
-						"Radius": "35 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"15 seconds",
-						"Heal": "50 / 100 / 150 / 200 / 250 (+50% Magic Power)",
-						"Armor": "15 / 20 / 25 / 30 / 35",
-						"Duration": "4 seconds",
-						"Increased Armor": "2 / 4 / 6 / 8 / 10 (+1 per hero level = 20 at level 20)"
-					}
-				},
-				"Smite":{
-					"prop":{
-						"Active": "Dhaven smite all enemies inside a target location, dealing magic damage and stunning them.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"Damage": "Magic: 60 / 120 / 180 / 240 / 300 (+60% Physical Power)",
-						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
-					}
-				},
-				"Avatar":{
-					"prop":{
-						"Active": "Dhaven get big and stronger, increases his stats.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "15 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"Power": "20 / 35 / 50 / 65 / 80",
-						"Protection": "20 / 25 / 30 / 35 / 40",
-						"Health": "150 / 200 / 250 / 300 / 350",
-						"Duration": "6 seconds"
-					}
-				}
-			}
-		},
 		"hanet": {
 			"name": "Hánet",
 			"class": "fighter",
@@ -4785,67 +4788,6 @@
 				"Last War Lerala": {
 					"link": "lerala5"
 				}
-			}
-		},
-		"mikael": {
-			"name": "Mikael",
-			"class": "fighter",
-			"title": "The Pirate",
-			"desc": "He lives in the ocean, is originally from Kingdom Port, but turned into a pirate like his dad. He has found a deadly fruit that makes him immortal, let him rise after death. With the help of his deadly gun and his poisonous blade, there is no one who has a match against him.",
-			"skill": {
-				"Deadly Weapon":{
-					"prop":{
-						"Active": "Mikael Shoot with his gun, piercing through enemies in a line and dealing physical damage hit.",
-						"Passive": "His basic attacks dealing an extra true damage by poison.",
-						"": "",
-						"Ability": "Line",
-						"Radius": "70 size",
-						"Cost": "70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "12 / 11 / 10 / 9 / 8",
-						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+120% Physical Power)",
-						"Bonus": "True: 5 / 10 / 15 / 20 / 25 (+1,5 per hero level = 30 at level 20)"
-					}
-				},
-				"Convince":{
-					"prop":{
-						"Active": "Mikael shout, increase his and his allies movement speed and attack speed for a short duration.",
-						"": "",
-						"Ability": "Area, Buff",
-						"Radius": "60 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"15 seconds",
-						"Movement Speed": "6 / 12 / 18 / 24 / 30 %",
-						"Attack Speed": "10 / 16 / 22 / 28 / 34 %",
-						"Duration": "4 seconds"
-					}
-				},
-				"Exploding Barrels":{
-					"prop":{
-						"Active": "Mikael lay a barrel in a target location, after 2,5s it will explode, dealing physical damage and can lay up to 3 barrel in same time before the cooldown. <br>Double the damage if they are close to each other.",
-						"": "",
-						"Ability": "Area",
-						"Radius": "55 size",
-						"Cost":"30 / 35 / 40 / 45 / 50 mana",
-						"Cooldown":"14 seconds",
-						"Damage": "Physical: 40 / 60 / 80 / 100 / 120 (+90% Physical Power)"
-					}
-				},
-				"Immortal":{
-					"prop":{
-						"Active": "Mikael become a skeleton for a short duration, start to ignore bleeding affects and other over time like poison, immune from crowd controls, but ignoring buffs from friendly tactics the following seconds.",
-						"Passive": "After his death, he resurrect to life again with only 30% of his maximum health. Happen every 90s.",
-						"": "",
-						"Ability": "Self",
-						"Cost":"90 mana",
-						"Cooldown":"18 / 19 / 20 / 21 / 22 seconds",
-						"Duration": "2 / 2,5 / 3 / 3,5 / 4 seconds"
-					}
-				}
-			},	
-			"skin" : {
-				"Black Beard": {
-					"link": "mikael1"
-			    }
 			}
 		},
 		"neo": {
@@ -5454,6 +5396,65 @@
 			"skin" : {
 				"Pet Pirate Wolvern": {
 					"link": "wolvern1"
+				}
+			}
+		},
+		"von_cane": {
+			"name": "Von Cane",
+			"class": "fighter",
+			"title": "The Smiting Dwarf",
+			"desc": "",
+			"skill": {
+				"Smash":{
+					"prop":{
+						"Active": "Von Cane strike with his hammer at the ground, creating a trail of stone and lava that dealing physical damage instant in a line. The end of the trail, send enemies on the location up to the air by lava as a gaiser. <br>Enemies on the trail takes an extra magic damage per second.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "55 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 seconds",
+						"Physical Damage": "Physical: 60 / 120 / 180 / 240 / 300 (+60% Physical Power)",
+						"Magic Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+15% Physical Power)"
+					}
+				},
+				"Armor of Magma":{
+					"prop":{
+						"Active": "Von Cane increase his armor by magma, burning enemies who is hitting him from close combat. <br>In active, increase his Armor.",
+						"Passive": "Standing still in 0,5s will create a circle of lava under him that dealing an extra magic damage per second to enemies in close combat.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Damage": "Magic: 20 / 25 / 30 / 35 / 40 (+15% Physical Power)",
+						"Armor": "15 / 20 / 25 / 30 / 35",
+						"Duration": "4 seconds",
+						"Magic": "Magic: 5 / 10 / 15 / 20 / 25 (+5% Physical Power)"
+					}
+				},
+				"Lava Gaiser":{
+					"prop":{
+						"Active": "Von Cane damage all enemies inside a target location, dealing magic damage and sending them up to the air that stunning them.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 seconds",
+						"Damage": "Magic: 60 / 120 / 180 / 240 / 300 (+60% Physical Power)",
+						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
+					}
+				},
+				"Lava Destruction":{
+					"prop":{
+						"Active": "Von Cane create a destruction on the ground by lava, dealing physical damage per second to all enemies inside the area.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "35 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 100 / 200 / 300 / 400 / 500 (+30% Physical Power) over time",
+						"Duration": "6 seconds"
+					}
 				}
 			}
 		},
