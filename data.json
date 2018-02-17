@@ -5302,7 +5302,7 @@
 		"wolvern": {
 			"name": "Wolvern",
 			"class": "fighter",
-			"title": "Demon Wolf Bodysuits",
+			"title": "The Fighting Warlock",
 			"desc": "",
 			"skill": {
 				"Fetch":{
@@ -5385,80 +5385,7 @@
 		
 		
 		
-		"allegra": {
-			"name": "Allegra",
-			"class": "mage",
-			"title": "The Music Witch",
-			"desc": "Allegra lives in the city of Kingdom Port, with her rich family. She loves music and play with her instrument, using her magic by notes and sound waves to paralyze her enemies and give protection to her allies.",
-			"skill": {
-				"Notes":{
-					"prop":{
-						"Active": "Allegra sending notes in a long cone, dealing magic damage to enemies hit, but buff allies. Buffed allies get increased physical power and armor.",
-						"Passive": "Every time she use abilities, her next basic attack piercing through enemies and dealing a bonus magic damage.",
-						"": "",
-						"Ability": "Cone",
-						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "None",
-						"Bonus": "Magic: 25 (+2 per hero level = 40 at level 20)",
-						"Damage": "Physical: 70 / 130 / 190 / 250 / 310 (+45% Magic Power)",
-						"Physical Power": "15 / 20 / 25 / 30 / 35",
-						"Armor": "10 / 20 / 30 / 40 / 50",
-						"Duration": "3,5 seconds"
-					}
-				},
-				"Stumble":{
-					"prop":{
-						"Active": "Allegra playing a rong note, paralyze nearby enemies and make their ears bleed, dealing physical damage over time.",
-						"": "",
-						"Ability": "Area",
-						"Radius": "35 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"18 seconds",
-						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+65% Magic Power) over time",
-						"Paralyze": "1 seconds",
-						"Duration": "5 seconds"
-					}
-				},
-				"Defencive Rush":{
-					"prop":{
-						"Active": "Allegra slide in a line, the end of the line she uses a high note to create a destructive shield to you and your allies in the area. Also dealing physical damage hit to enemies.",
-						"Passive": "Basic attacks creates a destructive armor to you and your nearby allies.",
-						"": "",
-						"Ability": "Dash",
-						"Radius": "55 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"16 seconds",
-						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100 at level 20)",
-						"Damage": "Physical: 50 / 100 / 150 / 200 / 250 (+50% Magic Power)"
-					}
-				},
-				"Music of Beauty":{
-					"prop":{
-						"Active": "Allegra start to chunnel, playing music while moving. Increases her allies power and protection.",
-						"": "",
-						"Ability": "Channeling, Area",
-						"Radius": "70 size",
-						"Cost":"90 / 100 / 110 / 120 / 130 mana",
-						"Cooldown":"90 seconds",
-						"Power": "25 / 30 / 35 / 40 / 45",
-						"Protection": "15 / 20 / 25 / 30 / 35 %",
-						"Duration": "5 seconds"
-					}
-				}
-			},
-			"skin" : {
-				"Stage Dressed Allegra": {
-					"link": "allegra3"
-				},
-				"Violin Player Allegra": {
-					"link": "allegra1"
-				},
-				"Skeleton Rock Allegra": {
-					"link": "allegra2"
-				}
-			}
-		},
+
 		"anthea": {
 			"name": "Anthea",
 			"class": "mage",
@@ -5983,143 +5910,6 @@
 				
 			}
 		},
-		"kaprisha": {
-			"name": "Kaprisha",
-			"class": "mage",
-			"title": "The Frost Mage",
-			"desc": "Kaprisha lives in Winterfall with her brother Jack.",
-			"skill": {
-				"Frozen Orb":{
-					"prop":{
-						"Active": "Kaprisha sending an orb that creating frost around it, chill nearby enemies and detonate after active again that freeze enemies hit and dealing magic damage. <br>Freezed enemies don't get chilled.",
-						"": "",
-						"Ability": "Line, Projectile",
-						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
-						"Damage": "Magic: 60 / 110 / 160 / 210 / 260 (+65% Magic Power)",
-						"Freeze": "1,5 seconds",
-						"Chill": "-10% [Attack Speed & Movement Speed]",
-						"Duration": "3 seconds"
-					}
-				},
-				"Snow Powder":{
-					"prop":{
-						"Active": "Kaprisha confuse all enemies hit in a target location, dealing magic damage. <br>Confusion doesn't work on those who already affected by chill",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+60% Magic Power)",
-						"Confusion": "1,5 seconds"
-					}
-				},
-				"Blizzard":{
-					"prop":{
-						"Active": "Kaprisha create a blizzard on a target location, dealing physical damage and chill enemies hit.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "35 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"18 seconds",
-						"Damage": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Magic Power) per 0,5s",
-						"Chill": "- 40 / 50 / 60 / 70 / 80 % [Attack Speed & Movement Speed]",
-						"Duration": "5 seconds"
-					}
-				},
-				"Antarctica":{
-					"prop":{
-						"Active": "Kaprisha lifts up on a cliff, beginning to channel to create a blizzard around her, dealing physical damage to enemies inside her sight and chill them.",
-						"": "",
-						"Ability": "Channel, Area",
-						"Radius": "70 size",
-						"Cost":"50 mana per second",
-						"Cooldown":"90 seconds",
-						"Damage": "Physical: 50 / 60 / 70 / 80 / 90 (+5% Magic Power)",
-						"Chill": "-10% [Attack Speed & Movement Speed]"
-					}
-				}
-			},
-			"skin" : {
-				"Desert Mage Kaprisha": {
-					"link": "kaprisha1"
-				}
-			}
-		},
-		"kida": {
-			"name": "Kida",
-			"class": "mage",
-			"title": "The Water Mage",
-			"desc": "Kida lives in the Atlantic hidden in the sea, with an outstanding power by water magic she is both dangerous to have as opponent, but also a really good support!",
-			"skill": {
-				"Water Tail":{
-					"prop":{
-						"Active": "Kida sending her circulating water to a random nearby enemy then start to bounce, dealing physical damage hit and stack the water by their blood. <br>Active again change its purpose. Instead of enemies it bouncing to allies, healing them and can use without cooldown after bouncing at enemies.",
-						"": "",
-						"Ability": "Projectile, Area, Target",
-						"Radius": "55 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
-						"Damage": "Physical: 60 / 90 / 120 / 150 / 180 (+50% Magic Power)",
-						"Stacks": "10",
-						"Heal": "30 / 35 / 40 / 45 / 50 (+10% Magic Power) per stack",
-						"Bounce": "5 (One Enemy/Ally at once)"
-					}
-				},
-				"Water Twin":{
-					"prop":{
-						"Active": "Kida sending half of her circulating water to a ally, give armor until you are too far away and let your Water Tail strike from both you and your ally with only half of its damage. <br>Water Tail now heal both you and your ally after coming back with stacks.",
-						"Passive": "Kida get increased protection and Water Twin give half of it to your ally.",
-						"": "",
-						"Ability": "Shield, Target",
-						"Radius": "15 size",
-						"Cost":"60 mana",
-						"Cooldown":"18 seconds",
-						"Armor": "15 / 20 / 25 / 30 / 35",
-						"Protection": "12 / 18 / 24 / 30 / 36 % (+3 Armor per hero level = 60 at level 20)"
-					}
-				},
-				"Water Bubble":{
-					"prop":{
-						"Active": "Kida sending water on a target location, creates a bubble in the area and catch enemies, but give protection to allies hit and protect them from crit.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"16 seconds",
-						"Bubble": "1 / 1,25 / 1,5 / 1,75 / 2 seconds",
-						"Protection": "10 / 15 / 20 / 25 / 30",
-						"Duration": "3 seconds"
-					}
-				},
-				"Aquarium":{
-					"prop":{
-						"Active": "Kida creates a big bubble around the place, enemies inside the bubble get their movement tactics silenced and can't crit. Water Tail get one bouncing tail more and double the stacks.",
-						"": "",
-						"Ability": "Area",
-						"Radius": "70 size",
-						"Cost":"90 / 100 / 110 / 120 / 130 mana",
-						"Cooldown":"90 seconds",
-						"Duration": "3 seconds"
-					}
-				}
-			},
-			"skin" : {
-				"Princess Kida": {
-					"link": "kida1"
-				},
-				"Dragon Water Kida": {
-					"link": "kida2"
-				},
-				"Dark Water Kida": {
-					"link": "kida3"
-				},
-				"Sea Queen Kida": {
-					"link": "kida4"
-				}
-			}
-		},
 		"leila": {
 			"name": "Leila",
 			"class": "mage",
@@ -6266,74 +6056,6 @@
 				}
 			}
 		},
-		"liza": {
-			"name": "Liza",
-			"class": "mage",
-			"title": "The Sorceress of Gravity",
-			"desc": "Liza lives in the city of Kingdom Port, friend with Melody and Yui, and also a teacher by magic. She expert of gravity magic and dangerous to be as short!",
-			"skill": {
-				"Gravity Stones":{
-					"prop":{
-						"Active": "Liza gets some rocks floating around her rod, can throw each stone one by one in a line, dealing physical damage to the first enemy hit and stunning them. <br>Stunning enemies from this stones, can only be stunned once every 10s.",
-						"Passive": "If an ally get hit from an enemy hero, her next basic attack stun the enemy. Just once every 10s.",
-						"": "",
-						"Ability": "Self, Projectile",
-						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "16 seconds",
-						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+100% Magic Power)",
-						"Stun": "2 seconds",
-						"Cooldown": "1,5 seconds",
-						"Duration": "6 seconds"
-					}
-				},
-				"Gravity":{
-					"prop":{
-						"Active": "Liza pick up enemies inside a target location, silent their movement tactics.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"18 seconds",
-						"Duration": "2,5 / 2,75 / 3 / 3,25 / 3,5 seconds"
-					}
-				},
-				"Meteorite":{
-					"prop":{
-						"Active": "Liza sending a meteorite in a target location, dealing physical damage and heat the ground, dealing physical damage to enemies inside the area.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "30 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"Damage": "Physical: 80 / 130 / 180 / 230 / 280 (+50% Magic Power)",
-						"Heat": "Physical: 15 / 20 / 25 / 30 / 35 (+15% Magic Power) per 0,5 second",
-						"Duration": "3 seconds"
-					}
-				},
-				"Heavy Power":{
-					"prop":{
-						"Active": "Liza creates a increadible power, making enemies realy heavy, reduce their movement speed and attack speed.",
-						"": "",
-						"Ability": "Area",
-						"Radius": "70 size",
-						"Cost":"90 / 100 / 110 / 120 / 130 mana",
-						"Cooldown":"90 seconds",
-						"Movement Speed": "- 40 / 50 / 60 / 70 / 80 %",
-						"Attack Speed": "- 40 / 50 / 60 / 70 / 80 %",
-						"Duration": "4 seconds"
-					}
-				}
-			},
-			"skin" : {
-				"Emerald Liza": {
-					"link": "liza1"
-				},
-				"Ruby Liza": {
-					"link": "liza2"
-				}
-			}
-		},
 		"magi": {
 			"name": "Magi",
 			"class": "mage",
@@ -6405,75 +6127,6 @@
 				},
 				"Pink Feather Magi": {
 					"link": "magi4"
-				}
-			}
-		},
-		"malin": {
-			"name": "Malin",
-			"class": "mage",
-			"title": "The Holy Priest",
-			"desc": "Malin lives in the city of Kingdom Port, friend with Ania, Diana and Pius. Fighting side by side with Tána and Asula. She is a priest by healing tactics.",
-			"skill": {
-				"Divine Star":{
-					"prop":{
-						"Active": "Malin sending a divine star in a line, heal allies hit, but dealing magic damage to enemies and reduce their protection.",
-						"": "",
-						"Ability": "Line",
-						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
-						"Damage": "Magic: 90 / 160 / 230 / 300 / 370 (85% Magic Power)",
-						"Heal": "50 / 95 / 140 / 185 / 230 (+55% Magic Power)",
-						"Protection": "- 10 / 15 / 20 / 25 / 30 %",
-						"Duration": "4 seconds"
-					}
-				},
-				"Power Word":{
-					"prop":{
-						"Active": "Malin increases nearby allies power and healing them over time.",
-						"Passive:": "Divine Star, Power Word and Punnishment gives your allies hit a divine shield. <br>Divine Shield stop all sorts of effects the following duration and reflect a % of all incoming damage.",
-						"": "",
-						"Ability": "Area",
-						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"18 seconds",
-						"Power": "12 / 24 / 36 / 48 / 60",
-						"Heal": "80 / 140 / 200 / 260 / 320 (+5% Magic Power) over time",
-						"Duration": "4 seconds",
-						"Deflect": "25 / 30 / 35 / 40 / 45 %",
-						"Divine Shield": "2 seconds"
-					}
-				},
-				"Punnishment":{
-					"prop":{
-						"Active": "Malin punish enemies in a target location, dealing magic damage and reduce their power.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
-						"Damage": "Magic: 80 / 140 / 200 / 260 / 320 (85% Magic Power)",
-						"Power": "- 10 / 15 / 20 / 25 / 30 %",
-						"Duration": "4 seconds"
-					}
-				},
-				"Resurrection":{
-					"prop":{
-						"Active": "Malin resurrect nearby allies who has died, increases their current health just 50%",
-						"": "",
-						"Ability": "Area",
-						"Radius": "70 size",
-						"Cost":"90 / 100 / 110 / 120 / 130 mana",
-						"Cooldown":"90 seconds"
-					}
-				}
-			},
-			"skin" : {
-				"Priest Master Malin": {
-					"link": "malin1"
-				},
-				"Desert Priest Malin": {
-					"link": "malin2"
 				}
 			}
 		},
@@ -6556,7 +6209,7 @@
 			"skill": {
 				"Lightning Turret":{
 					"prop":{
-						"Active": "Melody lays down a lightning-fire turret with a secondary pass-through beam attack. <br>Places a Turret at target location. Turret attacks prioritize Melody's targets and enemies attacking Melody. Their Health increases with Melody's level and they shut down if he moves far away. Melody generates a Turret Kit every 24/23/22/21/20 seconds and can hold 1/1/2/2/3 Kit(s) at once.",
+						"Active": "Melody lays down a lightning-fire turret with a secondary pass-through beam attack. <br>Places a Turret at target location. Turret attacks prioritize Melody's targets and enemies attacking Melody. Their Health increases with Melody's level and they shut down if she moves far away. Melody generates a Turret Kit every 24/23/22/21/20 seconds and can hold 1/1/2/2/3 Kit(s) at once.",
 						"": "",
 						"Ability": "Turret",
 						"Radius": "70 size",
@@ -6749,76 +6402,6 @@
 				}
 			}
 		},
-		"rosie": {
-			"name": "Rosie",
-			"class": "mage",
-			"title": "The Soul Player",
-			"desc": "Rosie lives in the city of Peace, together with the puppet master Mia, brought up in the circus by playing with magic, learn to play with peoples minds by using dark magic.",
-			"skill": {
-				"Contrarwise":{
-					"prop":{
-						"Active": "Rosie create a force in a target location, dealing magic damage and make enemies movie in the other direction. The direction buttons will be on the contrary.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "14 seconds",
-						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+65% Magic Power)",
-						"Contrarwise": "2 / 2,25 / 2,5 / 2,75 / 3 seconds"
-					}
-				},
-				"Magical Counter":{
-					"prop":{
-						"Active": "Rosie shields her allies in a target location, increases their movement speed. The shield delfect a % of all incoming magic, but also give a destructive armor.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"18 seconds",
-						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100 at level 20)",
-						"Deflect": "20 / 25 / 30 / 35 / 40 %",
-						"Movement Speed": "6 / 12 / 18 / 24 / 30 %",
-						"Duration": "5 seconds"
-					}
-				},
-				"Mind Reading":{
-					"prop":{
-						"Active": "Rosie make a contact with the first enemy or ally in a line, silent enemies and let her use one of their three abilitys that will cost her mana. <br>Hit an ally decrease their cooldown, increases their mana regenation and let you use one of their three abilities.",
-						"": "",
-						"Ability": "Line",
-						"Radius": "70 size", 
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"10 seconds",
-						"Cooldown": "15 / 20 / 25 / 30 / 35 %",
-						"Mana": "25 / 50 / 75 / 100 / 125 %",
-						"Silence": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
-					}
-				},
-				"Dark Seeker":{
-					"prop":{
-						"Active": "Rosie sending a magic of death seeking to your targeted enemy, eating the targets soul that dealing true damage over time.",
-						"": "",
-						"Ability": "Target, Target Location",
-						"Radius": "25 size",
-						"Cost":"90 mana",
-						"Cooldown":"90 seconds",
-						"Damage": "True: 300 / 350 / 400 / 450 / 500 (+35% Magic Power)",
-						"Duration": "3 seconds"
-					}
-				}
-			},
-			"skin" : {
-				"Master Mind Rosie": {
-					"link": "rosie1"
-				},
-				"Circus Madam Rosie": {
-					"link": "rosie2"
-				},
-				"Joker Card Rosie": {
-					"link": "rosie3"
-				}
-			}
-		},
 		"sabrine": {
 			"name": "Sabrine",
 			"class": "mage",
@@ -6927,15 +6510,15 @@
 				},
 				"Red Sun":{
 					"prop":{
-						"Active": "Samir sending a red light in a target location, dealing magic damage to enemies inside the light over time and reduce their power and protection.",
+						"Active": "Samir sending a red light in a target location, dealing magic damage to enemies inside the light over time and reduce their power and movement speed.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"18 seconds",
 						"Damage": "Magic: 20 / 32 / 44 / 56 / 68 (+20% Magic Power) per second",
-						"Power": "-15%",
-						"Protection": "-15%",
+						"Power": "- 15/30/45/60/75 %",
+						"Movement Speed": "- 15/30/45/60/75 %",
 						"Duration": "4 seconds"
 					}
 				},
@@ -7241,82 +6824,6 @@
 				}
 			}
 		},
-		"talutah": {
-			"name": "Talutah",
-			"class": "mage",
-			"title": "Mage of Blood Rituals",
-			"desc": "Talutah lives in the Swamp as a GOD of life!",
-			"skill": {
-				"Lamp of Life":{
-					"prop":{
-						"Active": "Talutah start to absorbing health from nearby enemies, and divides it to heal your allies.",
-						"Passive": "Talutah holding the lamp of life, she heal her allies per second like a low regenation and absorbing damage from enemies but decreases her enemies protection and healing effects.",
-						"": "",
-						"Ability": "Aura, Area",
-						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "18",
-						"Regenation": "50 / 100 / 150 / 200 / 250 %",
-						"Deflect": "15%",
-						"Protection": "-15%",
-						"Healing": "-50%",
-						"Health": "True: 5 / 10 / 15 / 20 / 25 (+5% Magic Power) per seconds",
-						"Duration": "5 seconds"
-					}
-				},
-				"Blood Pool":{
-					"prop":{
-						"Active": "Talutah creates a pool of blood in a target location, reduce their movement speed and absorbing their health per .5s.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "35 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"Health": "True: 22 / 34 / 46 / 58 / 70 (+30% Magic Power) per second",
-						"Movement Speed": "-25%",
-						"Duration": "5 seconds"
-					}
-				},
-				"Splash":{
-					"prop":{
-						"Active": "Talutah create a explosion of blood magic, dealing physical damage to enemies hit. <br>Kill minions creates a red ghost that seeking enemy heroes, drain they health and reduce their movement speed. If no heroes nearby, they stay by your side over 10s.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
-						"Damage": "Physical: 60 / 120 / 180 / 240 / 300 (+120% Magic Power)",
-						"Drain": "Magic: 22 / 34 / 46 / 58 / 70 (+30% Magic Power) per second",
-						"Movement Speed": "-25%",
-						"Duration": "5 seconds"
-					}
-				},
-				"Dead Area":{
-					"prop":{
-						"Active": "Talutah don't let her enemies run away from death, dead people will guard around a target location, enemies can't go through them and Talutah absorbing a % of their health over time and then heal your allies by a % of all absorbed health.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "40 size",
-						"Cost":"100 / 110 / 120 / 130 / 140 mana",
-						"Cooldown":"90 seconds",
-						"Health": "15 / 20 / 25 / 30 / 35 %",
-						"Heal": "50%",
-						"Duration": "4 seconds"
-					}
-				}
-			},
-			"skin" : {
-				"Death Talutah": {
-					"link": "talutah1"
-				},
-				"Infection Brain Talutah": {
-					"link": "talutah2"
-				},
-				"Red Beauty Talutah": {
-					"link": "talutah3"
-				}
-			}
-		},
 		"titania": {
 			"name": "Titania",
 			"class": "mage",
@@ -7513,6 +7020,593 @@
 			"skin" : {
 				"Voodoo Willow": {
 					"link": "willow1"
+				}
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		"adora": {
+			"name": "Adora",
+			"class": "support",
+			"title": "Angel of Love",
+			"desc": "Adora is an angel in a low level of angels, not visible to the high angels, but she fight for the love in the human world! Her special power is the music from her Harp, by charm her enemies in to their death.",
+			"skill": {
+				"Sound of Harp":{
+					"prop":{
+						"Active": "Adora create bolts of magic to enemies close to you from her Harp, dealing magic damage and reduce their power.",
+						"Passive": "Every damage dealt to an enemy heal you and your allies by a % of the damage dealt. (shared)",
+						"": "",
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8",
+						"Damage": "Magic: 70 / 130 / 190 / 250 / 310 (+45% Magic Power)",
+						"Power": "- 15 / 20 / 25 / 30 / 35 %",
+						"Duration": "3,5 seconds",
+						"Heal": "60% (+10% per 100 Magic Power) (+0,2% per hero level = 4% at level 20)"
+					}
+				},
+				"Celerity":{
+					"prop":{
+						"Active": "Adora increase her and her allies Attack Speed in 4 seconds. <br>Adora also double the effect of her Aura under the duration in aktive.",
+						"Passive": "Adora get a aura that increase you and your allies movement speed.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Attack Speed": "+ 16 / 24 / 32 / 40 / 48 %",
+						"Aura": "+ 8 / 13 / 18 / 23 / 28 % (+8% per 100 Magic Power) (+0,2% per hero level = 4% at level 20)",
+						"Duration": "4 seconds"
+					}
+				},
+				"Charm":{
+					"prop":{
+						"Active": "Adora sending a wave of beautiful music, charm enemies hit and reduce their protection.",
+						"Passive": "Adora charm enemies hit by her basic attacks every 7 seconds by half of the duration and reduce half of their protection.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Protection": "- 10 / 15 / 20 / 25 / 30 %",
+						"Duration": "1 / 1.25 / 1.5 / 1.75 / 2 seconds"
+					}
+				},
+				"Ashamed":{
+					"prop":{
+						"Active": "Adora stun enemies hit by the power of her Harp, forced to dance and taking more damage from magic the following duration.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "15 / 25 / 35 / 45 / 55 %",
+						"Stun": "1,5 seconds",
+						"Duration": "3 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Swan Prince Adora": {
+					"link": "adora1"
+				},
+				"Soldier Adora": {
+					"link": "adora2"
+				},
+				"Sad Skeleton Adora": {
+					"link": "adora3"
+				}
+			}
+		},		
+		"allegra": {
+			"name": "Allegra",
+			"class": "support",
+			"title": "The Music Witch",
+			"desc": "Allegra lives in the city of Kingdom Port, with her rich family. She loves music and play with her instrument, using her magic by notes and sound waves to paralyze her enemies and give protection to her allies.",
+			"skill": {
+				"Notes":{
+					"prop":{
+						"Active": "Allegra sending notes in a long cone, dealing magic damage to enemies hit, but buff allies. Buffed allies get increased physical power and armor.",
+						"Passive": "Every time she use abilities, her next basic attack piercing through enemies and dealing a bonus magic damage.",
+						"": "",
+						"Ability": "Cone",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "None",
+						"Bonus": "Magic: 25 (+2 per hero level = 40 at level 20)",
+						"Damage": "Physical: 70 / 130 / 190 / 250 / 310 (+45% Magic Power)",
+						"Physical Power": "15 / 20 / 25 / 30 / 35",
+						"Armor": "10 / 20 / 30 / 40 / 50",
+						"Duration": "3,5 seconds"
+					}
+				},
+				"Stumble":{
+					"prop":{
+						"Active": "Allegra playing a rong note, paralyze nearby enemies and make their ears bleed, dealing physical damage over time.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+65% Magic Power) over time",
+						"Paralyze": "1 seconds",
+						"Duration": "5 seconds"
+					}
+				},
+				"Defencive Rush":{
+					"prop":{
+						"Active": "Allegra slide in a line, the end of the line she uses a high note to create a destructive shield to you and your allies in the area. Also dealing physical damage hit to enemies.",
+						"Passive": "Basic attacks creates a destructive armor to you and your nearby allies.",
+						"": "",
+						"Ability": "Dash",
+						"Radius": "55 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 seconds",
+						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100 at level 20)",
+						"Damage": "Physical: 50 / 100 / 150 / 200 / 250 (+50% Magic Power)"
+					}
+				},
+				"Music of Beauty":{
+					"prop":{
+						"Active": "Allegra start to chunnel, playing music while moving. Increases her allies power and protection.",
+						"": "",
+						"Ability": "Channeling, Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Power": "25 / 30 / 35 / 40 / 45",
+						"Protection": "15 / 20 / 25 / 30 / 35 %",
+						"Duration": "5 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Stage Dressed Allegra": {
+					"link": "allegra3"
+				},
+				"Violin Player Allegra": {
+					"link": "allegra1"
+				},
+				"Skeleton Rock Allegra": {
+					"link": "allegra2"
+				}
+			}
+		},
+		"kaprisha": {
+			"name": "Kaprisha",
+			"class": "support",
+			"title": "The Frost Mage",
+			"desc": "Kaprisha lives in Winterfall with her brother Jack.",
+			"skill": {
+				"Frozen Orb":{
+					"prop":{
+						"Active": "Kaprisha sending an orb that creating frost around it, chill nearby enemies and detonate after active again that freeze enemies hit and dealing magic damage. <br>Freezed enemies don't get chilled.",
+						"": "",
+						"Ability": "Line, Projectile",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Magic: 60 / 110 / 160 / 210 / 260 (+65% Magic Power)",
+						"Freeze": "1,5 seconds",
+						"Chill": "-10% [Attack Speed & Movement Speed]",
+						"Duration": "3 seconds"
+					}
+				},
+				"Snow Powder":{
+					"prop":{
+						"Active": "Kaprisha confuse all enemies hit in a target location, dealing magic damage. <br>Confusion doesn't work on those who already affected by chill",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+60% Magic Power)",
+						"Confusion": "1,5 seconds"
+					}
+				},
+				"Blizzard":{
+					"prop":{
+						"Active": "Kaprisha create a blizzard on a target location, dealing physical damage and chill enemies hit.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Damage": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Magic Power) per 0,5s",
+						"Chill": "- 40 / 50 / 60 / 70 / 80 % [Attack Speed & Movement Speed]",
+						"Duration": "5 seconds"
+					}
+				},
+				"Antarctica":{
+					"prop":{
+						"Active": "Kaprisha lifts up on a cliff, beginning to channel to create a blizzard around her, dealing physical damage to enemies inside her sight and chill them.",
+						"": "",
+						"Ability": "Channel, Area",
+						"Radius": "70 size",
+						"Cost":"50 mana per second",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 50 / 60 / 70 / 80 / 90 (+5% Magic Power)",
+						"Chill": "-10% [Attack Speed & Movement Speed]"
+					}
+				}
+			},
+			"skin" : {
+				"Desert Mage Kaprisha": {
+					"link": "kaprisha1"
+				}
+			}
+		},
+		"kida": {
+			"name": "Kida",
+			"class": "support",
+			"title": "The Water Mage",
+			"desc": "Kida lives in the Atlantic hidden in the sea, with an outstanding power by water magic she is both dangerous to have as opponent, but also a really good support!",
+			"skill": {
+				"Water Tail":{
+					"prop":{
+						"Active": "Kida sending her circulating water to a random nearby enemy then start to bounce, dealing physical damage hit and stack the water by their blood. <br>Active again change its purpose. Instead of enemies it bouncing to allies, healing them and can use without cooldown after bouncing at enemies.",
+						"": "",
+						"Ability": "Projectile, Area, Target",
+						"Radius": "55 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 60 / 90 / 120 / 150 / 180 (+50% Magic Power)",
+						"Stacks": "10",
+						"Heal": "30 / 35 / 40 / 45 / 50 (+10% Magic Power) per stack",
+						"Bounce": "5 (One Enemy/Ally at once)"
+					}
+				},
+				"Water Twin":{
+					"prop":{
+						"Active": "Kida sending half of her circulating water to a ally, give armor until you are too far away and let your Water Tail strike from both you and your ally with only half of its damage. <br>Water Tail now heal both you and your ally after coming back with stacks.",
+						"Passive": "Kida get increased protection and Water Twin give half of it to your ally.",
+						"": "",
+						"Ability": "Shield, Target",
+						"Radius": "15 size",
+						"Cost":"60 mana",
+						"Cooldown":"18 seconds",
+						"Armor": "15 / 20 / 25 / 30 / 35",
+						"Protection": "12 / 18 / 24 / 30 / 36 % (+3 Armor per hero level = 60 at level 20)"
+					}
+				},
+				"Water Bubble":{
+					"prop":{
+						"Active": "Kida sending water on a target location, creates a bubble in the area and catch enemies, but give protection to allies hit and protect them from crit.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 seconds",
+						"Bubble": "1 / 1,25 / 1,5 / 1,75 / 2 seconds",
+						"Protection": "10 / 15 / 20 / 25 / 30",
+						"Duration": "3 seconds"
+					}
+				},
+				"Aquarium":{
+					"prop":{
+						"Active": "Kida creates a big bubble around the place, enemies inside the bubble get their movement tactics silenced and can't crit. Water Tail get one bouncing tail more and double the stacks.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Duration": "3 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Princess Kida": {
+					"link": "kida1"
+				},
+				"Dragon Water Kida": {
+					"link": "kida2"
+				},
+				"Dark Water Kida": {
+					"link": "kida3"
+				},
+				"Sea Queen Kida": {
+					"link": "kida4"
+				}
+			}
+		},
+		"liza": {
+			"name": "Liza",
+			"class": "support",
+			"title": "The Sorceress of Gravity",
+			"desc": "Liza lives in the city of Kingdom Port, friend with Melody and Yui, and also a teacher by magic. She expert of gravity magic and dangerous to be as short!",
+			"skill": {
+				"Gravity Stones":{
+					"prop":{
+						"Active": "Liza gets some rocks floating around her rod, can throw each stone one by one in a line, dealing physical damage to the first enemy hit and stunning them. <br>Stunning enemies from this stones, can only be stunned once every 10s.",
+						"Passive": "If an ally get hit from an enemy hero, her next basic attack stun the enemy. Just once every 10s.",
+						"": "",
+						"Ability": "Self, Projectile",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "16 seconds",
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+100% Magic Power)",
+						"Stun": "2 seconds",
+						"Cooldown": "1,5 seconds",
+						"Duration": "6 seconds"
+					}
+				},
+				"Gravity":{
+					"prop":{
+						"Active": "Liza pick up enemies inside a target location, silent their movement tactics.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Duration": "2,5 / 2,75 / 3 / 3,25 / 3,5 seconds"
+					}
+				},
+				"Meteorite":{
+					"prop":{
+						"Active": "Liza sending a meteorite in a target location, dealing physical damage and heat the ground, dealing physical damage to enemies inside the area.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "30 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Damage": "Physical: 80 / 130 / 180 / 230 / 280 (+50% Magic Power)",
+						"Heat": "Physical: 15 / 20 / 25 / 30 / 35 (+15% Magic Power) per 0,5 second",
+						"Duration": "3 seconds"
+					}
+				},
+				"Heavy Power":{
+					"prop":{
+						"Active": "Liza creates a increadible power, making enemies realy heavy, reduce their movement speed and attack speed.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Movement Speed": "- 40 / 50 / 60 / 70 / 80 %",
+						"Attack Speed": "- 40 / 50 / 60 / 70 / 80 %",
+						"Duration": "4 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Emerald Liza": {
+					"link": "liza1"
+				},
+				"Ruby Liza": {
+					"link": "liza2"
+				}
+			}
+		},
+		"malin": {
+			"name": "Malin",
+			"class": "support",
+			"title": "The Holy Priest",
+			"desc": "Malin lives in the city of Kingdom Port, friend with Ania, Diana and Pius. Fighting side by side with Tána and Asula. She is a priest by healing tactics.",
+			"skill": {
+				"Divine Star":{
+					"prop":{
+						"Active": "Malin sending a divine star in a line, heal allies hit, but dealing magic damage to enemies and reduce their protection.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 90 / 160 / 230 / 300 / 370 (85% Magic Power)",
+						"Heal": "50 / 95 / 140 / 185 / 230 (+55% Magic Power)",
+						"Protection": "- 10 / 15 / 20 / 25 / 30 %",
+						"Duration": "4 seconds"
+					}
+				},
+				"Power Word":{
+					"prop":{
+						"Active": "Malin increases nearby allies power and healing them over time.",
+						"Passive:": "Divine Star, Power Word and Punnishment gives your allies hit a divine shield. <br>Divine Shield stop all sorts of effects the following duration and reflect a % of all incoming damage.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Power": "12 / 24 / 36 / 48 / 60",
+						"Heal": "80 / 140 / 200 / 260 / 320 (+5% Magic Power) over time",
+						"Duration": "4 seconds",
+						"Deflect": "25 / 30 / 35 / 40 / 45 %",
+						"Divine Shield": "2 seconds"
+					}
+				},
+				"Punnishment":{
+					"prop":{
+						"Active": "Malin punish enemies in a target location, dealing magic damage and reduce their power.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 80 / 140 / 200 / 260 / 320 (85% Magic Power)",
+						"Power": "- 10 / 15 / 20 / 25 / 30 %",
+						"Duration": "4 seconds"
+					}
+				},
+				"Resurrection":{
+					"prop":{
+						"Active": "Malin resurrect nearby allies who has died, increases their current health just 50%",
+						"": "",
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Priest Master Malin": {
+					"link": "malin1"
+				},
+				"Desert Priest Malin": {
+					"link": "malin2"
+				}
+			}
+		},
+		"rosie": {
+			"name": "Rosie",
+			"class": "support",
+			"title": "The Soul Player",
+			"desc": "Rosie lives in the city of Peace, together with the puppet master Mia, brought up in the circus by playing with magic, learn to play with peoples minds by using dark magic.",
+			"skill": {
+				"Contrarwise":{
+					"prop":{
+						"Active": "Rosie create a force in a target location, dealing magic damage and make enemies movie in the other direction. The direction buttons will be on the contrary.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+65% Magic Power)",
+						"Contrarwise": "2 / 2,25 / 2,5 / 2,75 / 3 seconds"
+					}
+				},
+				"Magical Counter":{
+					"prop":{
+						"Active": "Rosie shields her allies in a target location, increases their movement speed. The shield delfect a % of all incoming magic, but also give a destructive armor.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100 at level 20)",
+						"Deflect": "20 / 25 / 30 / 35 / 40 %",
+						"Movement Speed": "6 / 12 / 18 / 24 / 30 %",
+						"Duration": "5 seconds"
+					}
+				},
+				"Mind Reading":{
+					"prop":{
+						"Active": "Rosie make a contact with the first enemy or ally hit, silent enemies and let her use one of their three abilitys that will cost her mana. (That is not a weapon skill) <br>Hit an ally decrease their cooldown, increases their mana regenation and let you use one of their three abilities. (That is not a weapon skill)",
+						"": "",
+						"Ability": "Line",
+						"Radius": "70 size", 
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"10 seconds",
+						"Cooldown Reduction": "15 / 20 / 25 / 30 / 35 %",
+						"Mana": "25 / 50 / 75 / 100 / 125 %",
+						"Silence": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
+					}
+				},
+				"Dark Seeker":{
+					"prop":{
+						"Active": "Rosie sending a magic of death seeking to your targeted enemy, eating the targets soul that dealing true damage over time.",
+						"": "",
+						"Ability": "Target, Target Location",
+						"Radius": "25 size",
+						"Cost":"90 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "True: 300 / 350 / 400 / 450 / 500 (+35% Magic Power)",
+						"Duration": "3 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Master Mind Rosie": {
+					"link": "rosie1"
+				},
+				"Circus Madam Rosie": {
+					"link": "rosie2"
+				},
+				"Joker Card Rosie": {
+					"link": "rosie3"
+				}
+			}
+		},
+		"talutah": {
+			"name": "Talutah",
+			"class": "support",
+			"title": "Mage of Blood Rituals",
+			"desc": "Talutah lives in the Swamp as a GOD of life!",
+			"skill": {
+				"Lamp of Life":{
+					"prop":{
+						"Active": "Talutah start to absorbing health from nearby enemies, and divides it to heal your allies.",
+						"Passive": "Talutah holding the lamp of life, she heal her allies per second like a low regenation and absorbing damage from enemies but decreases her enemies protection and healing effects.",
+						"": "",
+						"Ability": "Aura, Area",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "18",
+						"Regenation": "50 / 100 / 150 / 200 / 250 %",
+						"Deflect": "15%",
+						"Protection": "-15%",
+						"Healing": "-50%",
+						"Health": "True: 5 / 10 / 15 / 20 / 25 (+5% Magic Power) per seconds",
+						"Duration": "5 seconds"
+					}
+				},
+				"Blood Pool":{
+					"prop":{
+						"Active": "Talutah creates a pool of blood in a target location, reduce their movement speed and absorbing their health per .5s.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Health": "True: 22 / 34 / 46 / 58 / 70 (+30% Magic Power) per second",
+						"Movement Speed": "-25%",
+						"Duration": "5 seconds"
+					}
+				},
+				"Splash":{
+					"prop":{
+						"Active": "Talutah create a explosion of blood magic, dealing physical damage to enemies hit. <br>Kill minions creates a red ghost that seeking enemy heroes, drain they health and reduce their movement speed. If no heroes nearby, they stay by your side over 10s.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"12 / 11 / 10 / 9 / 8 seconds",
+						"Damage": "Physical: 60 / 120 / 180 / 240 / 300 (+120% Magic Power)",
+						"Drain": "Magic: 22 / 34 / 46 / 58 / 70 (+30% Magic Power) per second",
+						"Movement Speed": "-25%",
+						"Duration": "5 seconds"
+					}
+				},
+				"Dead Area":{
+					"prop":{
+						"Active": "Talutah don't let her enemies run away from death, dead people will guard around a target location, enemies can't go through them and Talutah absorbing a % of their health over time and then heal your allies by a % of all absorbed health.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "40 size",
+						"Cost":"100 / 110 / 120 / 130 / 140 mana",
+						"Cooldown":"90 seconds",
+						"Health": "15 / 20 / 25 / 30 / 35 %",
+						"Heal": "50%",
+						"Duration": "4 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Death Talutah": {
+					"link": "talutah1"
+				},
+				"Infection Brain Talutah": {
+					"link": "talutah2"
+				},
+				"Red Beauty Talutah": {
+					"link": "talutah3"
 				}
 			}
 		}
