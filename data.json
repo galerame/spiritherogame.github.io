@@ -82,7 +82,15 @@
 	"conquest": {
 			"name": "Conquest",
 			"class": "maps",
-			"desc": "In Conquest, two teams of five players fight off in a three-laned map with turrets and a big jungle. Conquest is about a fight between the city of Mordune and Kingdom Port, then each of them sending troops to the mitt between the Valkyrie river called Conquest!"
+			"desc": "In Conquest, two teams of five players fight off in a three-laned map with turrets and a big jungle. Conquest is about a fight between the city of Mordune and Kingdom Port, then each of them sending troops to the mitt between the Valkyrie river called Conquest!",
+			"skin" : {
+				"Blue Dragon": {
+					"link": "dragon1"
+				},
+				"The Beholder": {
+					"link": "beholder"
+				}
+			}
 		},
 	"arena": {
 			"name": "Arena",
@@ -92,7 +100,12 @@
 	"3v3": {
 			"name": "3v3",
 			"class": "maps",
-			"desc": "In 3v3, two teams of three players fight off in a two-laned map with turrets and a small jungle. 3v3 is about two teams with three heroes each team inside the dark forest."
+			"desc": "In 3v3, two teams of three players fight off in a two-laned map with turrets and a small jungle. 3v3 is about two teams with three heroes each team inside the dark forest.",
+			"skin" : {
+				"Green Dragon": {
+					"link": "dragon2"
+				}
+			}
 		},
 	"one_path": {
 			"name": "One Path",
@@ -102,7 +115,12 @@
 	"angels_demons": {
 			"name": "Uranus",
 			"class": "maps",
-			"desc": "In Uranus, two teams of five players fight off in a three-laned map with turrets and a jungle in the city. Uranus is a war between angels and demons up in the city of sky named Uranus built from the hight archangels."
+			"desc": "In Uranus, two teams of five players fight off in a three-laned map with turrets and a jungle in the city. Uranus is a war between angels and demons up in the city of sky named Uranus built from the hight archangels.",
+			"skin" : {
+				"Thunder Dragon": {
+					"link": "dragon4"
+				}
+			}
 		},
 	"thebridge": {
 			"name": "Bridge in to the Mountain",
@@ -112,7 +130,12 @@
 	"zombiecity": {
 			"name": "Zombie City",
 			"class": "maps",
-			"desc": "In Zombie City, two teams of five players collecting points by surviving zombie waves. With abilities like leap can jump to the roof on the houses."
+			"desc": "In Zombie City, two teams of five players collecting points by surviving zombie waves. With abilities like leap can jump to the roof on the houses.",
+			"skin" : {
+				"Zombies": {
+					"link": "zombie"
+				}
+			}
 		},
 	"tempel": {
 			"name": "Tempel of Spirits",
@@ -122,7 +145,12 @@
 	"4v4_volcano": {
 			"name": "4v4_Volcano",
 			"class": "maps",
-			"desc": "In 4v4 Volcano, two teams of four players fight off in a two-laned with turrets and some reign of fire."
+			"desc": "In 4v4 Volcano, two teams of four players fight off in a two-laned with turrets and some reign of fire.",
+			"skin" : {
+				"Red Dragon": {
+					"link": "dragon3"
+				}
+			}
 		},
 		
 		
@@ -1042,8 +1070,11 @@
 				}
 			},
 			"skin" : {
-				"Dark Princess Raven": {
+				"Elven Warrior Raven": {
 					"link": "raven1"
+				},
+				"Darkness Queen Raven": {
+					"link": "raven2"
 				}
 			}
 		},
@@ -1973,8 +2004,8 @@
 				},
 				"Strength":{
 					"prop":{
-						"Active": "Grey Wonder increases his physical power and armor, half to neaby allies.",
-						"Passive": "Grey Wonder get increased armor and a % of his armor increases armor to neaby allies.",
+						"Active": "Grey Wonder increases his physical power and armor, half to nearby allies.",
+						"Passive": "Grey Wonder get increased armor and a % of his armor increases armor to nearby allies.",
 						"": "",
 						"Ability": "Self, Aura",
 						"Radius": "70 size",
@@ -3629,6 +3660,61 @@
 				}
 			}
 		},
+		"vulpes": {
+			"name": "Vulpes",
+			"class": "assassin",
+			"title": "The Fox Girl",
+			"desc": "Vulpes is a fox with a fantastic strength and power to transform into a human girl, she lives in a forest and the squirrels are her family.",
+			"skill": {
+				"Flying Squirrel":{
+					"prop":{
+						"Active": "Vulpes jump to three enemies inside a cone front of her, dealing physical damage and stun them for 1 second. Hit same target dealing 50% less damage. <br>Double damage against minions and let her strike minions without counting her jumps. Increase her Attack and Movement Speed by 10% per Monster hit for 10 seconds.",
+						"": "",
+						"Ability": "Cone, Leap, Target",
+						"Radius": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 90 / 120 / 150 / 180 / 210 (+60% Physical Power)"
+					}
+				},
+				"Scratch":{
+					"prop":{
+						"Active": "Vulpes strike her closest enemy with one strike, dealing physical damage and let it bleed.",
+						"": "",
+						"Ability": "Target",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Damage": "Physical: 100 (+100% Physical Power)",
+						"Bleed": "12 / 16 / 20 / 24 / 28 (+5% Physical Power) per second",
+						"Duration": "10 seconds"
+					}
+				},
+				"Several Acorns":{
+					"prop":{
+						"Active": "Vulpes throw a several of arcorns at a target location, slowing enemies hit and dealing physical damage.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 / 15 / 14 / 13 / 12 seconds",
+						"Health": "Physical: 80 / 120 / 160 / 200 / 240 (+90% Physical Power)",
+						"Movement Speed": "-25%",
+						"Duration": "5 seconds"
+					}
+				},
+				"Quick Anger":{
+					"prop":{
+						"Active": "Vulpes strike five enemies or just five times at enemy heroes, dealing physical damage each hit and ignoring all harm and effects from enemies while striking.",
+						"": "",
+						"Ability": "Target, Area",
+						"Radius": "70 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 100 / 150 / 200 / 250 / 300 (+120% Physical Power) <br>Dealing 50% less damage to same target."
+					}
+				}
+			}
+		},
 		"yui": {
 			"name": "Yui",
 			"class": "assassin",
@@ -3932,7 +4018,7 @@
 				},
 				"Phoenix Nest":{
 					"prop":{
-						"Active": "Beatrix leap to a target location and create a protective area arount the location, dealing physical damage hit and stop enemies to get out.",
+						"Active": "Beatrix leap to a target location and create a protective area around the location, dealing physical damage hit and stop enemies to get out.",
 						"": "",
 						"Ability": "Leap",
 						"Radius": "40 size",
@@ -4272,7 +4358,7 @@
 						"Duration": "3 seconds"
 					}
 				},
-				"Name":{
+				"Leap of Justice":{
 					"prop":{
 						"Active": "Hánet leap to a target location, dealing magic damage and reduce their power. After Hánet leap, he gain a destructive armor.",
 						"": "",
@@ -4387,13 +4473,13 @@
 				},
 				"Shapeshifting":{
 					"prop":{
-						"Active": "Active first time let Hawk choose his shape from the first three tactics, <br>The shaipe last 4 seconds.",
+						"Active": "Active first time let Hawk choose his shape from the first three tactics, <br>The shape last 4 seconds.",
 						"Werebird": "Werebird get increased physical power.",
 						"Hedgehog": "Hedgehog get increased protection and thorn.",
 						"Puma": "Puma get increased attack speed, movement speed and crit chance but less protection.",
-						"Active [Fly]": "Werebird start to fly and landing in a target location, dealing physical damage. End the shaip of being a werebird after the strike.",
-						"Active [Rolls]": "Hedgehog start to rolls, knock enemies back and stun the first enemy hero hit with an increased movement speed, dealing physical damage in the end. End the shaip of being a hedgehog after the strike.",
-						"Active [Targeting Strike]": "Puma start to targeting one enemy, then strike and dealing physical damage hit and reduce their movement speed. End the shaip of being a puma after the strike.",
+						"Active [Fly]": "Werebird start to fly and landing in a target location, dealing physical damage. End the shape of being a werebird after the strike.",
+						"Active [Rolls]": "Hedgehog start to rolls, knock enemies back and stun the first enemy hero hit with an increased movement speed, dealing physical damage in the end. End the shape of being a hedgehog after the strike.",
+						"Active [Targeting Strike]": "Puma start to targeting one enemy, then strike and dealing physical damage hit and reduce their movement speed. End the shape of being a puma after the strike.",
 						"": "",
 						"Ability": "Fly, Target Location / Rolls / Target",
 						"Radius": "15 size",
@@ -4439,7 +4525,7 @@
 				},
 				"Ice Statue":{
 					"prop":{
-						"Active": "Jack become a statue of ice, healing him self per second and give him a destructive armor. Destroy his armor this healing process ends. <br>Active again let Jack jump away in stealth mode but let the destructive ice stay till it destroys.",
+						"Active": "Jack become a statue of ice, healing him self per second and give him a destructive armor. Destroy his armor this healing process ends. <br>Active again let Jack jump away in stealth mode but let the destructive ice stay till it destroys or ends.",
 						"": "",
 						"Ability": "Self, Leap, Stealth",
 						"Radius": "15 size",
@@ -4898,7 +4984,7 @@
 			"skill": {
 				"To the Battlefield":{
 					"prop":{
-						"Active": "Leonora dash forward, dealing physical damage to enemies hit, increases her attack speed after dahses.",
+						"Active": "Leonora dash forward, dealing physical damage to enemies hit, increases her attack speed after dashes.",
 						"Passive": "Every third attack by her swords create a wind blade, dealing physical damage in a cone.",
 						"Ability": "Dash, Buff",
 						"Radius": "55 size",
@@ -4923,28 +5009,29 @@
 				},
 				"Reign of Swords":{
 					"prop":{
-						"Active": "Leonora sending swords in a target location, dealing physical damage and reduce their physical power.",
+						"Active": "Leonora sending swords in a target location, dealing physical damage and reduce their movement speed.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
 						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+75% Physical Power)",
-						"Physical Power": "- 25 / 30 / 35 / 40 / 45 %",
-						"Duration": "4 seconds"
+						"Movement Speed": "- 80%",
+						"Duration": "1,5 seconds"
 					}
 				},
 				"Sight of War":{
 					"prop":{
 						"Active": "Leonora start to fly with no count down, the landing place will deal physical damage to enemies hit. <br>While flying her passive doesn't work.",
-						"Passive": "Leonora has a chance to throw a sword at a random target (Not counted as a projectile) dealing physical damage per strike.",
+						"Passive": "Leonora has a chance to throw a sword at a random target (Not counted as a projectile) dealing physical damage per strike and slow their movement speed.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Damage": "Physical: 225 / 275 / 325 / 375 / 425 (+75% Physcial Power)",
-						"Random Strike": "Physical: 125 / 175 / 225 / 275 / 325 (+20% Physcial Power)"
+						"Random Strike": "Physical: 125 / 175 / 225 / 275 / 325 (+20% Physcial Power)",
+						"Movement Speed": "- 80% over 1,5 seconds"
 					}
 				}
 			},
@@ -5024,6 +5111,11 @@
 						"Cooldown":"2s seconds",
 						"Damage": "Magic: 80 / 100 / 120 / 140 / 160 (+80% Magic Power)"
 					}
+				}
+			},
+			"skin" : {
+				"The Soul Kid": {
+					"link": "reikon1"
 				}
 			}
 		},
@@ -5385,7 +5477,6 @@
 		
 		
 		
-
 		"anthea": {
 			"name": "Anthea",
 			"class": "mage",
@@ -6510,15 +6601,15 @@
 				},
 				"Red Sun":{
 					"prop":{
-						"Active": "Samir sending a red light in a target location, dealing magic damage to enemies inside the light over time and reduce their power and movement speed.",
+						"Active": "Samir sending a red light in a target location, dealing magic damage to enemies inside the light over time and reduce their power and protection.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "40 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"18 seconds",
 						"Damage": "Magic: 20 / 32 / 44 / 56 / 68 (+20% Magic Power) per second",
-						"Power": "- 15/30/45/60/75 %",
-						"Movement Speed": "- 15/30/45/60/75 %",
+						"Power": "-15%",
+						"Protection": "-15%",
 						"Duration": "4 seconds"
 					}
 				},
@@ -6763,6 +6854,64 @@
 				},
 				"Halloween Selene": {
 					"link": "selene2"
+				}
+			}
+		},
+		"semara": {
+			"name": "Semara",
+			"class": "mage",
+			"title": "The Youngest Witch",
+			"desc": "Semara lives in the city of Peace, knows Rosie as her big sister but don't talk to each other. She learned herself using magic with her wand she took from her mother who was sick and died after Semara run away. Semara struggling in the streets, but can take care of her self.",
+			"skill": {
+				"Bolt of Magic":{
+					"prop":{
+						"Active": "Semara sending a bolt of magic in a line, dealing magic damage to the first enemy hit and destroy their resistance to magic. <br>Killing a unit gives back the mana you used.",
+						"": "",
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+90% Magic Power)",
+						"Resistance": "- 15/20/25/30/35%"
+					}
+				},
+				"Owl Vision":{
+					"prop":{
+						"Active": "Semara let her Owl sit on a tree or wall to check for enemies, finding an enemy it will warn you with it's sound, but if you send her owl on an enemy, their vision become half of it's sight. <br>Lay on a tree or a wall let her use Owl Vision without pay mana and the owl will sit till you use it again.",
+						"": "",
+						"Ability": "Lay, Target",
+						"Radius": "45/50/55/60/65 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"16 seconds",
+						"Vision": "-25/30/35/40/45 size",
+						"Duration": "2,5/2,5/2,5/2,5/3 seconds"
+					}
+				},
+				"Numb":{
+					"prop":{
+						"Active": "Semara sending a bolt of magic in a line, dealing magic damage to the first enemy and paralyze them.",
+						"": "",
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+90% Magic Power)",
+						"Movement Speed": "-25%",
+						"Attack Speed": "-25%",
+						"Duration": "5 seconds"
+					}
+				},
+				"Havoc":{
+					"prop":{
+						"Active": "Semara sending a bolt of magic that will explode on the first enemy hit or till the end of it's line, dealing magic damage to all enemies inside an area.",
+						"": "",
+						"Ability": "Projectile, Target Location",
+						"Projectile Radius": "70 size",
+						"Location Radius": "45 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 300 / 350 / 400 / 450 / 500 (+50% Magic Power)"
+					}
 				}
 			}
 		},
