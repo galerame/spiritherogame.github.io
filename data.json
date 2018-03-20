@@ -224,6 +224,7 @@
 			"class": "hunter",
 			"title": "The Friend of Animals",
 			"desc": "Anni lives in the city of Kingdom Port, royal and the youngest sister to Asula and Aenna. While Asula forced into the military, Anni stayed by her love for the animals in the nature. She borrowed two guns from the pirates, and got her animals by her side then she must go serious!",
+			"comment": "Comment: Anni is not built to defeat her opponents with strong abilities, her abilities are built to stop the enemy's movements, or to lower their armor while she making invisibility useless to her and her friends. While she can increase her damage, attack speed and movement speed for a while to enhance her Hunter class. Because of her Ult, she may be a easy choice to beat up a team.",
 			"skill": {
 				"Polecats":{
 					"prop":{
@@ -285,6 +286,7 @@
 			"class": "hunter",
 			"title": "The Winged Archer",
 			"desc": "Aria is an angel of light with healing tactics, younger sister to Oone that is the leader of the military by the light angels. Aria fighting for the humans to create balance, with her bow and wings she can cause much damage, but with her healing skills she can also treat the wounded!",
+			"comment": "Comment: Aria is the only Hunter who can both heal her friends while damaging enemies. She's Hybrid, who needs Magic power to both her healing and to deal more damage with her abilities. She has both a good defense, supporting her friends and doing good damage on the battlefield. Because of her Ult, she can poke her opponent because of her strength. Aria is also good choice if you want to be a good teammate in the game.",
 			"skill": {
 				"Light Arrow":{
 					"prop":{
@@ -344,6 +346,7 @@
 			"class": "hunter",
 			"title": "The Bladed Magician",
 			"desc": "Blade lives in the city of Peace with a ruth childhood by standing up against her rival, Katana. They both parents died then they were young, then they struggled to live in the big city. She got an experience by using her magic to bend her blades around, with that tactic she create pain by magical power from being hit by her blades, but her Movements aren't like Katanas. By her tactics, she make her enemies confused by binding them together with magical force.",
+			"comment": "Comment: Blade is difficult to play just because her build to just increase her Attack Speed and Critical Chance. Because of her extraordinary magic damage per seventh strike, she doesn't need an extra damage, just balanced with her attack speed and critical damage. Hunted helps you keep your enemies in place, but then you need to throw your blades on several enemies at the same time. She's a hard choice, but after she got her Ult, nothing becomes impossible!",
 			"skill": {
 				"Forced Blades":{
 					"prop":{
@@ -407,6 +410,7 @@
 			"class": "hunter",
 			"title": "Huntress of The Moon",
 			"desc": "Chantrea is an elven princess in City of Forest, leader in the hunt, younger sister to Spiro who rather choose his magic in front of the royal duty. Her wisest guide is Grey Wonder who learned her the moon energy, letting her arrows seek to enemies.",
+			"comment": "Comment: Chantrea is built to take out her enemies with just her arrows. Because of her passive, she can miss her targets and yet dealing a % of her physical power to the closest enemy you missed. Her passive can also let you play with Magic Power to kill your enemies by critting. But the easiest way to play her is with Physical Power and just let her Moon Strike stun your targets you wanna kill, but also play with Crit Chance to increase her damage like all other Hunters. Because of her ult, she can make a last hit on an enemy from a very long distance. Select Chantrea for her extraordinary movements and easy way of playing because of her extraordinary passive.",
 			"skill": {
 				"Moon Strike":{
 					"prop":{
@@ -462,6 +466,9 @@
 			"skin" : {
 				"Cherry Blossom Chantrea": {
 					"link": "chantrea1"
+				},
+				"Wolf Mother Chantrea": {
+					"link": "chantrea2"
 				}
 			}
 		},
@@ -470,17 +477,18 @@
 			"class": "hunter",
 			"title": "The Insect Queen",
 			"desc": "Cicada lives in the dark forest, living as a forest keeper that hate humans. Kokong enemies and fly around to look for new enemies. Because of her insect eyes she is an incredible killing machine with her arrows!",
+			"comment": "Comment: Cicada is a human insect that can capture her enemies with a spider's cocoon that reduces their armor that allows you to make a huge damage to your enemy. Because of her traps, you show who determines on your lane. Cicada is thus built with her spider web to play with people's movements, and because of her Ult, she can easily escape from injury while continuing to do huge damage!",
 			"skill": {
-				"Kokong Arrow":{
+				"Cocoon Arrow":{
 					"prop":{
-						"Active": "Cicada launch an arrow in a line, kokong the first enemy hit and dealing physical damage.",
+						"Active": "Cicada launch an arrow in a line, cocoon the first enemy hit and decrease their armor.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 seconds",
-						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+120% Physical Power)",
-						"Kokong": "1,2 / 1,4 / 1,6 / 1,8 / 2 seconds"
+						"Armor": "- 20 / 30 / 40 / 50 / 60 %",
+						"Cocoon": "1,2 / 1,4 / 1,6 / 1,8 / 2 seconds"
 					}
 				},
 				"Hunting Insect":{
@@ -527,13 +535,22 @@
 						"Duration": "3 seconds"
 					}
 				}
+			},
+			"skin" : {
+				"Elven Cicada": {
+					"link": "cicada1"
+				},
+				"Fairy Cicada": {
+					"link": "cicada2"
+				}
 			}
 		},
 		"clear": {
 			"name": "Clear",
 			"class": "hunter",
 			"title": "The Bloody Cowboy",
-			"desc": "Clear is a cowboy in City of Desert, doesn't have family or siblings. She works alone and always been alone and have always trying to hunting down the rogue broders Razor and Rexas! She is the best fighter with a whip by her movements and strength, letting her whip destroy her opponents ribs and letting they bleed.",
+			"desc": "Clear is a cowboy in City of Desert, doesn't have family or siblings. She works alone and always been alone and have always trying to hunting down the rogue brothers Razor and Rexas! She is the best Hunter with a whip by her movements and strength, letting her whip destroy her opponents ribs and letting they bleed.",
+			"comment": "Comment: Clear is a bounty Hunter dressed like a cowboy, fighting with a whip which hits the first enemy in front of you in a line, not so far from throwing or shooting. Anyway, she is a strong Hunter which is built on her abilities to destroy her opponents. She can both cause bleeding damage that lets the enemies take more damage from your whip while damaging 2% extra damage to the same enemies by a mark (stacking). She is a moving character that can both capture her enemy for 1.5 seconds while she has the time to jump to another angle, or jump to a tower or tree that gives her a bonus damage to her next attack. She got a increadible escape ability that can also make the last hit to kill your enemies, and because of her Ult, she becomes dangerous to be close when she both destroys their movements and gives them a high bleeding damage! She is hard to be good with, but can be a damn opponent!",
 			"skill": {
 				"Bloody Whip":{
 					"prop":{
@@ -601,6 +618,7 @@
 			"class": "hunter",
 			"title": "The Beast Hunter",
 			"desc": "Dwarlin lives in Winterfall, friend to Storm but always start a fight with Tumblr. His axes got a enchantment to create shock pulses that he has learned to use, also created a habit to overloading the magical force that make him impossible to fight against!",
+			"comment": "Comment: Yes, had to create a typical dwarf with two axes! He is built to deal increadible damage with his first ability while at the same time destroying the enemy's movement speed every third basic attack with a bleeding damage, that also makes him dangerous when you choose to stay until you hardly can't escape with anxiety! He can also lay traps to stop his enemies, and because of his Ult, hes attacks become increadible by a increased magic damage. By playing with Magic Power, hes bleeding effects and Chock Axe will be his deadly weapons, also his Ult. Dwarlin is a easy champion, and can also play in two different ways, an easy choice, and a funny Hunter!",
 			"skill": {
 				"Double Axes":{
 					"prop":{
@@ -649,7 +667,7 @@
 						"Ability": "Buff",
 						"Cost":"100 / 110 / 120 / 130 / 140 mana",
 						"Cooldown":"90 seconds",
-						"Bonus": "Magic: 60 / 110 / 160 / 210 / 260 (+60% Magic Power)",
+						"Bonus": "Magic: 30 / 40 / 50 / 60 / 70 (+60% Magic Power)",
 						"Stun": "1 seconds",
 						"Duration": "5 seconds"
 					}
@@ -661,6 +679,7 @@
 			"class": "hunter",
 			"title": "The Humanized Fairy",
 			"desc": "Elany is a fairy in the magical forest. Learned how to create herself bigger to fight for the elves. Her experience by fairy magic and fighting with an elven bow make her a big threat!",
+			"comment": "Comment: Elany is a very special Hunter, instead of playing with her basic attacks, she is built with an ability you will send away all the time to damage your enemy (Fireflies). Because of her passive, she gets back mana. She also has the best ability to escape, turning into a little fairy and ignoring all kind of damage. While she's transformed, she pays mana per second, but also gets an increased movement speed. But then will not be able to do any ability or attack while she is transformed. Her Ult gives her abilities an empowered ability, like Ten more flaming bolts to your Fireflies, or starts to heal in fairy form, or create a prisoner by her Blossom. You can just use one empowered ability! Elany may be said to be an OP Hunter in her own lane, but feel free to play her and hope she's awesome for you!",
 			"skill": {
 				"Fireflies":{
 					"prop":{
@@ -669,7 +688,7 @@
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
-						"Cost": "40 / 45 / 50 / 60 / 65 mana",
+						"Cost": "40 / 45 / 50 / 55 / 60 mana",
 						"Cooldown": "None",
 						"Damage": "Magic: 10 / 40 / 70 / 100 / 130 (+100% Magic Power) (+2 per hero level = 40)"
 					}
@@ -677,7 +696,7 @@
 				"Become a Fairy":{
 					"prop":{
 						"Active": "Elany become a small fairy, increases her movement speed and ignoring all sorts of harm and effects. While she is a fairy, she can't attack or use skills.",
-						"Passive": "Elanys basic attacks get a bonus magic damage.",
+						"Passive": "Elanys basic attacks get a bonus magic damage. And killing minions or monsters, she get mana.",
 						"Empowered": "Elany starts to heal in fairy form.",
 						"": "",
 						"Ability": "Buff",
@@ -685,6 +704,7 @@
 						"Cooldown":"10 seconds",
 						"Movement Speed": "12 / 15 / 18 / 21 / 24 %",
 						"Bonus": "Magic: 10 / 40 / 70 / 100 / 130 (+100% Magic Power) (+2 per hero level = 40)",
+						"Mana": "Mana: 2 / 4 / 6 / 8 / 10 (+0.5 per hero level = 10)",
 						"Heal": "20 health per 0,5 second."
 					}
 				},
@@ -712,6 +732,11 @@
 						"Magic Power": "20 / 35 / 50 / 65 / 80 (+2 per level = 40 at level 20)"
 					}
 				}
+			},
+			"skin" : {
+				"Fairy Queen Elany": {
+					"link": "elany1"
+				}
 			}
 		},
 		"frank": {
@@ -719,6 +744,7 @@
 			"class": "hunter",
 			"title": "The Alchemist",
 			"desc": "Frank own the Library Tower and got a own labb under his office where he experiments with the experimental rats, and other animals, He doesn't has experience by using magic, but his own working potions makes him more excited in fights with his crossbow.",
+			"comment": "Comment: Frank, an Alchemist with a crossbow, playing as a Hunter with no mana cost on any of his abilities. He can both poison his enemies that damage in True damage over time. Can cast randomly debuffs on enemies like Confusion, Contrarwise, Charm or Mesmerize. He can also Heal himself by a Elixir that also remove Toxic and debuffs, and gives him a % protection from harm. His Ult let him damage every enemies inside a location by a bottle with Nitroglycerin. Frank is also easy to play, not the greatest Hunter, but can stand on his lane longest because of no mana cost and can heal himself. And because of his Passive on his Ult, that let him get invisible if he out of combat, he become a great killer.",
 			"skill": {
 				"Poisen":{
 					"prop":{
@@ -732,34 +758,31 @@
 						"Duration": "Over 6 seconds"
 					}
 				},
-				"Potions":{
+				"Magic Potion":{
 					"prop":{
-						"Active": "Frank throw a potion at a target location, randomly affects enemies by Confusion, Contrarwise, Charm or Mesmerize over a duration. All enemies get randomly affects, but monsters just get confused and decreased Armor. <br>Active again he switch potion to give allies in a target location mana and magic protection.",
+						"Active": "Frank throw a potion at a target location, randomly affects enemies by Confusion, Contrarwise, Charm or Mesmerize over a duration. All enemies get randomly affects, but monsters just get confused and decreased Armor.",
 						"": "",
-						"Ability": "Target Location, Debuff/Buff",
+						"Ability": "Target Location, Debuff",
 						"Radius": "35 size",
 						"Cost":"None",
 						"Cooldown":"14 seconds",
-						"Mana": "80 / 100 / 120 / 140 / 160",
-						"Magic Protection": "10 / 20 / 30 / 40 / 50",
-						"Duration": "3 seconds",
 						"Armor": "-30%",
-						"Affected": "1,5 / 1,75 / 2 / 2,25 / 2,5 seconds"
+						"Duration": "1,5 / 1,75 / 2 / 2,25 / 2,5 seconds"
 					}
 				},
-				"Drink":{
+				"Elixir":{
 					"prop":{
-						"Active": "Frank drink a potion, increases his power and attack speed over a time.",
+						"Active": "Frank drink a potion, healing him instant and gives him a % protection from harm. <br>He also remove all affects on him like Toxic or other debuffs.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"None",
 						"Cooldown":"16 seconds",
-						"Power": "20 / 30 / 40 / 50 / 60",
-						"Attack Speed": "15 / 20 / 25 / 30 / 35 %",
+						"Heal": "Instant 50 / 95 / 140 / 185 / 230 (+35% Magic Power)",
+						"Protection": "15 / 20 / 25 / 30 / 35 %",
 						"Duration": "4 seconds"
 					}
 				},
-				"Explosive Bottle":{
+				"Nitroglycerin":{
 					"prop":{
 						"Active": "Frank throw a potion at a target location, blast the area and dealing physical damage to all enemies hit.",
 						"Passive": "Frank go in stealth mode after 5 seconds if out of combat.",
@@ -778,6 +801,7 @@
 			"class": "hunter",
 			"title": "The Longest Sight",
 			"desc": "Lancel lives in the small villages outside the city of Peace, with a ruth life he struggled and helped the poor people by taking from the rich. With his great long bow and easy movable body he got the longest distance in fights!",
+			"comment": "Comment: Lancel has the longest sight and range with his abilities. With both Multi Shot, Slide and Chain Arrow, he can deal damage to all enemies in front of him in a cone (except those who stand behind other enemies) while at the same time reaching his enemies with an increased attack speed and finally catching an enemy who will no longer be able to use their escape abilities, as well as reduced movement speed while they are stuck. Because of his passive, his range will be increased and no enemy will be able to escape from him. His Ult let him deal damage or kill enemies in a target location from a long distance away, but also get interrupted from taking harm in this stance. Lancel is an incredible Hunter and get full Physical Damage to his abilities, a great choice if you want to rule every sight on the map!",
 			"skill": {
 				"Multi Shot":{
 					"prop":{
@@ -842,6 +866,7 @@
 			"class": "hunter",
 			"title": "The Eye of A Phoenix",
 			"desc": "Leo lives in City of Mordune together with Fenrir, leader of the offencive squad in the military. With her fire power as magic, her Bow tactics are incredibly dangerous to the enemies in fights.",
+			"comment": "Comment: Leo is one of the five Fire user! She got an incredible balance by her damage dealt to enemies that is affected by her Fire Ravens! Because of her Fire Bolt that just hit the first enemy hit, the damage dealt is incredibly strong, and her escape (Vault) is incredible too by both vault away and strike the target location she was standing to deal damage to enemies that was close to her! Her Ult let her launch a fire that piercing though enemies in a quite far line with the bonus magic damage to enemies affected by her Fire Ravens. Leo is just an ordinary fire user without debuffs, either do you like her, or not!",
 			"skill": {
 				"Fire Bolt":{
 					"prop":{
@@ -881,7 +906,7 @@
 				},
 				"Phoenix Fire":{
 					"prop":{
-						"Active": "Leo turns on the bow to the sides, sending a burning wave of wings that flying through enemies in a line, dealing physical damage to all enemies hit. Reaches quite far.",
+						"Active": "Leo turns on the bow to the sides, sending a burning wave of wings that flying through enemies in a line, dealing physical damage to all enemies hit and the bonus Magic damage Fire Bolt have to affected enemies by Fire Ravens. Phoenix Fire Reaches quite far.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "240",
@@ -902,41 +927,44 @@
 			"class": "hunter",
 			"title": "The Life Eater",
 			"desc": "Lucifer is a vampire and lives with his brothers and sister in the Abandoned Castle, he ain't just skilled with his bow and hunting skills, he also can taking life and create pain against his enemies. With both healing himself and dealing incredible damage, he became a dangerous vampire!",
+			"comment": "Comment: Lucifer is a Vampire who paying health by using his abilities, but because of his Arrow Vein, he drain life from his targets and also heal himself every fourth strike at the same target. Because of his Passive, he gain 1% Attack Speed per missing health, that makes worth the risk of taking his life to increase his Physical Power! Lucifer is also a Hybrid Hunter who also can teleport in to the battlefield and fight without loosing health by the hands of his enemies! Because of his Ult, he can catch an whoul enemy team and gain a PentaKill easier, but of course hard to get that opportunity!",
 			"skill": {
-				"Bloody Hell":{
+				"Arrow Vein":{
 					"prop":{
-						"Active": "Lucifer launch a magical arrow in a line, dealing magic damage with a bonus damage of they current health and healing him self by a % of it.",
-						"Passive": "Enemies hit by your arrows cause a blood drop with a maximum of 5 blood drops. Each blood drop let Bloody Hell deal a bonus magic damage to the affected enemy and heal himself by the half amount of the bonus magic damage.",
+						"Active": "Lucifer launch a bloody arrow in a line, affecting enemies by your veins and start to drain their health and heal you self over a time. The veins destoyrs by a limit between Lucifer and the affected enemies.",
+						"Passive": "Enemies hit by Lucifers arrows cause a blood drop, if you hit up to 3 blood drops, the fourth arrow cause a bonus magic damage by a % of their maximum health and heal you a % of it.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
-						"Cost": "40 / 50 / 60 / 70 / 80 health",
+						"Cost": "60 health",
 						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
-						"Blood Drop": "Magic: 40 (+2 per hero level = 80 at level 20)",
-						"Damage": "Physical: 40 / 65 / 90 / 115 / 140 (+50% Physical Power) (+50% Magic Power)",
-						"Current Health": "20%",
-						"Heal": "15%"
+						"Blood Drop": "Maximum Health: 4 / 6 / 8 / 10 / 12%",
+						"Heal": "50%",
+						"Damage": "Magic: 80 / 105 / 130 / 155 / 180 (+45% Magic Power)",
+						"Drain": "60 / 65 / 70 / 75 / 80%",
+						"Duration": "Over 4 seconds"
 					}
 				},
-				"Banish Life":{
+				"Blink of Darkness":{
 					"prop":{
-						"Active": "Lucifer taking out health from enemies at a target location, dealing true magic damage from a % of they maximum health.",
+						"Active": "Lucifer blink in a flash to a target location, creates some pixis that irritate enemies around you by the affect of fear. Affected enemies will take an bonus magic damage from Lucifer's first arrow hit.",
 						"": "",
-						"Ability": "Target Location",
+						"Ability": "Target Location / Teleport",
 						"Radius": "25 size",
-						"Cost":"90 / 95 / 100 / 105 / 110 mana",
+						"Cost":"60 health",
 						"Cooldown":"16 seconds",
-						"Health": "True: 16 / 20 / 24 / 28 / 32 %"
+						"Bonus Damage": "Magic: 80 / 130 / 180 / 230 / 280 (+75% Magic Power)",
+						"Duration": "1.25 / 1.5 / 1.75 / 2 / 2.25 seconds"
 					}
 				},
 				"Physical Pain":{
 					"prop":{
 						"Active": "Lucifer take a % of his own health, to increase his physical power for a short duration.",
+						"Passive": "Lucifer's Attack Speed is increased by 1% for each 1% of missing Health.",
 						"": "",
 						"Ability": "Buff",
-						"Cost":"0 mana",
+						"Health": "- 20%",
 						"Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
-						"Health": "- 12 / 16 / 20 / 24 / 28 %",
 						"Physical Power": "15 / 24 / 33 / 42 / 51 %",
 						"Duration": "4 seconds"
 					}
@@ -947,7 +975,7 @@
 						"": "",
 						"Ability": "Line",
 						"Radius": "60 size",
-						"Cost":"140 mana",
+						"Cost":"140 health",
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 100 / 160 / 220 / 280 / 340 (+100% Physical Power) (+100% Magic Power)",
 						"Health": "True: 16 / 20 / 24 / 28 / 32 % (Over time)",
@@ -961,6 +989,7 @@
 			"class": "hunter",
 			"title": "The Ice Cold Pirate",
 			"desc": "Mei is a pirate living in Kingdom Port, took over her father's place by became captain of the pirates. She got the best enchantress with her with name Melody, and have always trying to catch the sea queen Ashera. Because of her ice magic, she can freeze her enemies, create incredible walls of ice and freeze the water as well, letting her walk on the sea as if she own it!",
+			"comment": "Comment: Mei is a Hunter with frost abilities, by chilling and freeze her enemies makes it easier for her to kill them. Because of her Spitting Crystal, she role the lane, and Frozen Wall can stop your enemy from escaping while you can freeze your target with Freeze. Because of her Ult, she can freeze the whoul enemy team, but by doing less damage to freezed enemies makes her more balanced, but of course, by critting a frozen enemy makes her strong for being a Hunter! Imagine meeting Mei and Kaprisha together! xD",
 			"skill": {
 				"Spitting Crystal":{
 					"prop":{
@@ -1024,16 +1053,18 @@
 			"class": "hunter",
 			"title": "The Deserted Bounty Hunter",
 			"desc": "Phia lives in the City of Desert as a bounty hunter, playing as a bandit self but lives to catch all the other bandits. Do always race by catching the bandits before the cowboy, Clear arrives. With her bola, bombs and her special crossbow she is prepared for fighting!",
+			"comment": "Comment: Phia will be built fully with just pure damage, because of her Sentry and Three Arrows, she doesn't need any attack speed. Her attacks from both her Sentries and Three Arrows will take down their HP faster an a balanced enemy with Attack Speed. Phia is a good pusher / farmer and also the best to defend her lane. Because of her Ult, she gives her enemies an ultimatum, to choose either run away from the bomb, and then let her continue shooting you, or die out of the bomb! She is good at chasing, because of her Bola Bomb, can stand and fight with fast attacks because of her Three Arrows, but because of her Sentry, it's hard to be fought by enemies! You play Phia if you like to stand put and fight!",
 			"skill": {
 				"Bola Bomb":{
 					"prop":{
 						"Active": "Phia throwing a bola at the first enemy hit in a line. Affecting enemies by slowness before its detonate, dealing physical damage to all enemies at the targeted area after it detonate.",
 						"": "",
-						"Ability": "Projectile",
+						"Ability": "Projectile / Area",
 						"Radius": "70 size",
+						"Detonate Radius": "15 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "10 seconds",
-						"Damage": "Physical: 70 / 100 / 130 / 160 / 190 (+90% Physical Power)",
+						"Damage": "Physical: 60 / 110 / 160 / 210 / 260 (+90% Physical Power)",
 						"Movement Speed": "- 16 / 32 / 48 / 64 / 80 %",
 						"Detonation": "2 seconds"
 					}
@@ -1080,6 +1111,7 @@
 			"class": "hunter",
 			"title": "The Silent Sniper",
 			"desc": "Raven lives in the Abandoned City, found as just a child helpless without parents, was raised by the vampire Lucifer, now lives with her ravens as her name as well, and taking care of Sabrine as if she was her little sister. She fighting in silence and the last thing you hear is just a sound from a crow before you get hit by her arrow!",
+			"comment": "Comment: The raven will probably not be the most popular to play, nor the most popular to fight against when it happens, because she has no ability that deal instant damage or other great things, but instead she has a form of active / unactive ability which allows her to pay a small amount of mana to make a slightly stronger basic attack. This attack can be permanently stronger after farming minions with it activated! She may not have an ability that causes an instant damage, but instead she silences the enemy's abilities, even with Chantrea's White Tiger interrupting. With Silent Leap she can jump away or kill her enemy before they even understand what happened. Her Ult is an increadible ability against a whole enemy team, because of its long duration and that their movement deteriorates really well. Raven is simply good when she farm a lot, and because of her Silence it becomes difficult for enemies to deal with her. Simply an iritational slug xD",
 			"skill": {
 				"Black Arrow":{
 					"prop":{
@@ -1094,15 +1126,14 @@
 				},
 				"Silence":{
 					"prop":{
-						"Active": "Raven cause a magical force at a target location, silence and dealing magic damage that destroying their defences.",
+						"Active": "Raven cause a magical force at a target location, marking them by silence and reduce their protection.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"13 / 14,25 / 15,5 / 16,75 / 18 seconds",
-						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+80% Magic Power)",
-						"Defence": "-20%",
-						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
+						"Protection": "- 12 / 24 / 36 / 48 / 60 %",
+						"Silence": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
 				"Silent Leap":{
@@ -1121,6 +1152,7 @@
 				"Ravens":{
 					"prop":{
 						"Active": "Raven summoning her friends that targeting enemies, dealing physical damage over a duration. <br>Affected enemies can't go stright and have their movement speed reduced.",
+						"Passive": "Raven's first attack on an enemy target get affected by a raven, dealing quarter of the damage from Ravens, but just over 2.5 seconds and only their movement speed is lowered, they can still go straight.",
 						"": "",
 						"Ability": "Area",
 						"Radius": "70 size",
@@ -1133,11 +1165,14 @@
 				}
 			},
 			"skin" : {
+				"Silent Rogue Raven": {
+					"link": "raven4"
+				},
 				"Elven Warrior Raven": {
-					"link": "raven1"
+					"link": "raven5"
 				},
 				"Darkness Queen Raven": {
-					"link": "raven2"
+					"link": "raven6"
 				}
 			}
 		},
@@ -1146,42 +1181,42 @@
 			"class": "hunter",
 			"title": "The Arcane Archer",
 			"desc": "Richard lives in City of Mordune, engaged with Riley. Has always study arcane magic and is known as the true user of arcane archery!",
+			"comment": "Comment: Richard is an extraordinary Hunter who can deal 100% of his basic damage as True damage! After one hit by his Arcane Bolts, his Arcane Shift let him deal that much damage, but he can also kill one Hero with just his Arcane Bolts because of its damage to one target. Richard is also a good pusher. But his abilities cost too much mana, and his Ult that take 12% of his mana by creating a great arrow that piercing though everything, with no cooldown. Richard is also someone that needs mana, but have it easy to kill his enemies, if they one by one. He has no talet against many enemies, because Arcane Bolts hit random enemies and also is his only damaging ability.",
 			"skill": {
 				"Arcane Bolts":{
 					"prop":{
-						"Active": "Richard fires five bolts at random targets inside a cone, dealing physical damage from each bolt and your next basic attack hit against choose targets piercing through a % of they armor as True damage. The bolts also can crit.",
+						"Active": "Richard fires five bolts at random targets inside a cone, dealing magic damage from each bolt and your next basic attack hit against the targeted by Arcane Bolts piercing through a % of they armor as True damage. The damage is doubled against minions.",
 						"Passive": "Hit enemies with basic attacks decreases the cooldown of Arcane Bolts by 0,5 seconds.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "70 size",
-						"Cost": "60 / 65 / 70 / 75 / 80 mana",
+						"Cost": "85 mana",
 						"Cooldown": "12 seconds",
-						"Damage": "Physical: 20 / 30 / 40 / 50 / 60 (+20% Physical Power) each bolt",
-						"Armor": "True: 10% each bolt = 50% maximum"
+						"Damage": "Magic: 40 / 60 / 80 / 100 / 120 (+5% Physical Power) (+15% Magic Power) each bolt",
+						"Armor": "True: 50%"
 					}
 				},
 				"Arcane Prison":{
 					"prop":{
-						"Active": "Richard sending three arcane pixies that ensnare the first enemy hit by a prison, dealing magic damage.",
-						"Item": "Create a shield that deflect the first magical tactic on you, increases your mana and your Magic Power as well.",
+						"Active": "Richard sending three arcane pixies that ensnare the first enemy hit by a prison, dealing magic damage over the duration.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cost":"50 / 60 / 70 / 80 / 90 mana",
 						"Cooldown":"13 / 12 / 11 / 10 / 9 seconds",
-						"Damage": "Magic: 80 / 100 / 120 / 140 / 160 (+40% Magic Power) (+1% bonus mana)",
+						"Damage": "Magic: 80 / 100 / 120 / 140 / 160 (+60% Magic Power) (+1% bonus mana) over time",
 						"Duration": "1 seconds"
 					}
 				},
-				"Teleport":{
+				"Arcane Shift":{
 					"prop":{
-						"Active": "Richard teleport to a target location, silence enemies in the targeted area and dealing magic damage to them. <br>Reduction 50% cooldown for Arcane Bolts.",
+						"Active": "Richard teleport to a target location, silence nearby enemies and let his next basic attack piercing through a % of they armor as True damage. Over 5 seconds, he can jump back to the place he teleported. <br>Reduction 50% cooldown for Arcane Bolts.",
 						"": "",
 						"Ability": "Teleport",
 						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cost":"90 mana",
 						"Cooldown":"12 seconds",
-						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+20% Physical Power) (+20% Magic Power)",
+						"Armor": "True: 50%",
 						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds"
 					}
 				},
@@ -1193,7 +1228,7 @@
 						"Radius": "90 size",
 						"Cost":"12% mana",
 						"Cooldown":"None",
-						"Damage": "Physical: 100 / 145 / 190 / 235 / 280 (+20% Physical Power) (+20% Magic Power)"
+						"Damage": "Physical: 100 / 145 / 190 / 235 / 280 (+20% Physical Power) (+35% Magic Power)"
 					}
 				}
 			},
@@ -1206,70 +1241,12 @@
 				}
 			}
 		},
-		"rogue": {
-			"name": "Rogue",
-			"class": "hunter",
-			"title": "The Tracker",
-			"desc": "Rogue came from a small village near the big forest, her parents was killed by bandits that started her life. She was starting to train young, using her bow and a strong boomerang, then used it to do revansh against the bandits, she found them and did the revansh then started to live in the wild and stop bandits for killing innocent people.",
-			"skill": {
-				"Boomerang":{
-					"prop":{
-						"Active": "Rogue throw a boomerang like a half moon, stunning enemies hit and dealing physical damage. <br>Active twice, she throw the boomerang in a straight line instead, dealing half of the damage, but teleport to its end if active again while it is thrown. Double damage to minions and monsters.",
-						"": "",
-						"Ability": "Projectile",
-						"Radius": "70 size",
-						"Cost": "70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "12 seconds",
-						"Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+120% Physical Power)",
-						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
-					}
-				},
-				"Tracking":{
-					"prop":{
-						"Active": "Rogue play a sound from her flute, increases her and her allies attack speed for a long duration.",
-						"Passive": "Now you see footsteps from enemies 5 seconds behind and you also hear nearby enemies footsteps and can see a red arrow at what direction you hearing them.",
-						"": "",
-						"Ability": "Area",
-						"Radius": "35 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"Attack Speed": "10 / 16 / 22 / 28 / 34 %",
-						"Duration:": "6 seconds"
-					}
-				},
-				"Hunting Experience":{
-					"prop":{
-						"Active": "Rogue leap at a target location, dealing physical damage to all enemies hit, decreases their defence for a short duration. <br>Bow: Rogue launch arrows at a target location, slowing their movement speed and dealing physical damage to enemies hit.",
-						"": "",
-						"Ability": "Leap / Target Location",
-						"Radius": "25 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"15 seconds",
-						"Damage": "80 / 140 / 210 / 270 / 340 (+80 Physical Power)",
-						"Defence": "- 10 / 15 / 20 / 25 / 30 %",
-						"Movement Speed": "-25%",
-						"Duration": "3 seconds"
-					}
-				},
-				"Bow":{
-					"prop":{
-						"Active": "Rogue switch to her bow, increases her Armor Penetration while she holding her bow. <br>While she has her dagger, increases her crit damage with a bloody effect and increases her crit chance for every time she not critting.",
-						"": "",
-						"Ability": "Switch Stance",
-						"Cost":"None",
-						"Cooldown":"None",
-						"Armor Penetration": "12 / 14 / 16 / 18 / 20 %",
-						"Crit Chance": "+ 12 / 13 / 14 / 15 / 16 % per miss",
-						"Crit Damage": "40 / 80 / 120 / 160 / 200 %"
-					}
-				}
-			}
-		},
 		"simin": {
 			"name": "Simin",
 			"class": "hunter",
 			"title": "The Demon Hunter",
 			"desc": "Simin lives in Mordune, always fighting side by side with Diode and Tigra, But often in search after demons and vampire like a phantom, while Diode and Tigra stay in the kingdom for the protection in the military and the royal family.",
+			"comment": "Comment: Simin deal the most damage between all of the Hunters, just because of her Piercing damage! She will never be afraid of Tanks, and because of her Toxin, they can't escape from both her sight and their death! She is similar to Elany and Mei by her active on Quicksilver that launch a arrow at a target location, and her Spitting Arrow with a cone behind enemies, but instead of the chill affect, Simin is build with her Toxic and not the same gameplay as Elany because the cost and damage, so she can't use it as often as Elany. Simin Toxic her enemies by her attacks and let her stop invisibility and let her see the affected enemies behind walls. Her Ult is used to send away enemies on the wall to make the apsoluta high damage! But may happen to save them escape or maybe send them closer to your teammates, or even to your turret that can destroy them!",
 			"skill": {
 				"Piercing Arrow":{
 					"prop":{
@@ -1285,14 +1262,14 @@
 				"Quicksilver":{
 					"prop":{
 						"Active": "Simin launch an arrow at a target location, dealing physical damage to all enemies hit. <br>Can't fires in a short range, but have increased sight.",
-						"Passive": "Basic attacks from Simins arrows effecting your enemies with a poison from toxic silver, dealing physical damage over time. <br>Effected enemies can't become invisible and let you see them in a longer range.",
+						"Passive": "Basic attacks from Simins arrows affecting your enemies with a poison from toxic silver, dealing true damage over time and can stack up to 6 times. <br>Effected enemies can't become invisible from you and let you see them behind things.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"None",
-						"Toxic": "Physical: 25 / 28 / 31 / 34 / 37 (+15% Physical Power)",
-						"Duration": "5 seconds",
+						"Toxic": "True: 1 / 2 / 3 / 4 / 5 (+0.01% Physical Power) per second",
+						"Duration": "6 seconds",
 						"Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+60% Physical Power)"
 					}
 				},
@@ -1310,7 +1287,7 @@
 				},
 				"Awesome Arrow":{
 					"prop":{
-						"Active": "Simin launch a great arrow in a line, the first enemy hit get pushed back, dealing physical damage to the target and an other damage to all enemies the pushed enemy hit and also knock them back too. <br>If the target hit a wall, turret or a tree they be stunned.",
+						"Active": "Simin launch a great arrow in a line, the first enemy hit get pushed back, dealing physical damage to the target and an other damage to all enemies the pushed enemy hit and also knock them back too (Do not active Toxic on the target). <br>If the target hit a wall, turret or a tree they be stunned.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
@@ -1328,16 +1305,16 @@
 			"class": "hunter",
 			"title": "The Bounty Hunter",
 			"desc": "Snow lives in Winterfall, lives to catch all bounties like a ninja. He is a dangerous hunter with many names to hide himself from other bounty hunters, do everything for gold, fighting is his life.",
+			"comment": "Comment: Snow is a Bounty Hunter who can let one enemy take an incredible damage from his Bounty Bomb that detonates after 1.5 seconds, because of its chance to crit, his ability can do more damage an the others. And get hit by his Stars, they have no chance to escape, or if they do, they have a chance to die by the bleeding damage if they unlucky. Snow maybe can't use his Jump whenever he wants, he need to jump over something to get the bonus movement speed and attack speed, that makes him incredible to hunt enemies in the jungle. His Ult is like the same, he need a tree, wall or turret that let him stand up on the top and sending his Stars or Bounty Bomb at a target location with a stronger affect, after he jump to a target location that let him both use his Ult to run away, or come closer to his enemies. Snow is also a good Hunter, but need some stuff to gain his opportunity to kill his enemies!",
 			"skill": {
 				"Bounty Bomb":{
 					"prop":{
-						"Active": "Snow fires an arrow at the first enemy hit, detonate after 1,5 seconds after hit an enemy, dealing physical damage and can crit. <br>In crit, the detonate dealing true damage.",
+						"Active": "Snow next basic attack stack on the enemy target hit, detonate after 1,5 seconds and dealing physical damage just to the target. The Bounty Bomb has same chance to crit as his ordinary arrows.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "9 seconds",
-						"Damage": "Physical: 120 / 140 / 160 / 180 / 200 (+120% Physical Power)",
 						"Detonate Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+90% Physical Power)"
 					}
 				},
@@ -1370,11 +1347,12 @@
 				},
 				"Tactical Stance":{
 					"prop":{
-						"Active": "Snow targeting a nearby tree, turret, building or other high things, ignoring all harming or effects and let your Stars fire at a Target Location, Bounty Bomb also hit a Target Location, detonate and dealing half of its physical damage as true damage to all enemies in the targeted area. <br>Leaves make you jump to a targeted location.",
+						"Active": "Snow targeting a nearby tree, turret, building or other high things, ignoring all harming or affects and let your Stars fire at a Target Location, Bounty Bomb also hit a Target Location, detonate and dealing half of its physical damage as true damage to all enemies in the targeted area. <br>Leaves make you jump to a targeted location.",
 						"Passive": "Snow get increased crit damage.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
+						"Range": "85 size",
 						"Cost":"None",
 						"Cooldown":"14 seconds",
 						"Duration": "3,5 seconds",
@@ -1389,6 +1367,7 @@
 			"class": "hunter",
 			"title": "The Spirit Seeker",
 			"desc": "Spiro is a elven who lives in City of Forest, big brother to Chantrea, but chose the spiritual power front of the royal duty. Chantrea got the moon power, but Spiro developed a spiritual power from the inner him created by spiritual energy from the nature.",
+			"comment": "Comment: Spiro is one of the few who can use Spirit Power! With his amazing Shooting Vault that lets him jump aside while damaging all enemies in a target location and decreasing their movement speed, he allows both to avoid the enemy's anger while at the same time stopping them from escaping His anger! With Spirit Seeker, nobody can come close to him without finding out, and after being hit by a Spirit Seeker, they will not have any chance! With his arrows stabbing his enemies can make an extreme damage that can determine who will be alive! Because of his Ult, he can both hurt the Fighters who are close to him, while shooting them farther away, and at the same time he has an increadible Life Steal! Spiro is an extraordinary Hunter who has incredible tactics! Like him, or Hate him!",
 			"skill": {
 				"Shooting Vault":{
 					"prop":{
@@ -1455,6 +1434,7 @@
 			"class": "hunter",
 			"title": "The Shielded Huntress",
 			"desc": "Tumblr lives in Winterfall, loving then Dwarlin always pick a fight against her, sees him like a little brother of his size. She's like a great viking, with her tactics with her shield and spear she is incredible in fights!",
+			"comment": "Comment: Tumblr is the only perfect tanky Hunter with a shield that can block projectiles from her front, in same time can walk backwards as fast as forward! Because of her Four Spears, she deal increadible damage with a extraordinary armor penetration with an bonus attack speed while throwing her four next basic attacks! She can also throw her spear at a target location that slow her enemies and in same time can pick the spear back up to decrease the cooldown by her skill Targeted Area! Her Ult supporting her teamates and her self with an incradible movement speed. Tumblr is an extraordinary Hunter if you like to play more tanky and supporting her teamates with also a strong damage, but not the best!",
 			"skill": {
 				"Four Spears":{
 					"prop":{
@@ -1504,6 +1484,92 @@
 						"Attack Speed": "20 / 25 / 30 / 35 / 40 %",
 						"Duration": "8 seconds"
 					}
+				}
+			}
+		},
+		"rhian": {
+			"name": "Rhian",
+			"class": "hunter",
+			"title": "The Witch Hunter",
+			"desc": "",
+			"comment": "Comment: Rhian is a hard Hunter who is built with her bullets, while she can switch to melee for 5 seconds after a fast and unpleasant teleport. She increases both her movement speed by hitting her enemies with her bullets, and also reduces her enemies movement speed by her bullets. She is very moving, both standing a bit from her enemies and vaulting between the sides, and suddenly stands behind you and begins with a fierce battle! She is very special, and new! But read through her carefully and then choose your choice!",
+			"skill": {
+				"Cone of Bullets":{
+					"prop":{
+						"Active": "Rhian start shooting bullets in a cone till you cancel it by walking. Damaging enemies per bullet wave and slow enemies down by it hits. <br>",
+						"Electric Claws": "Rhian charge forward and dealing damage to enemies she go through.",
+						"Passive": "Every fifth bullet Rhian shooting is slowing her target down.",
+						"": "",
+						"Ability": "Cone",
+						"Radius":"50 Size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "15 / 14 / 13 / 12 / 11 seconds",
+						"Damage": "Physical: 12 / 14 / 16 / 18 / 20 (+100% Physical Power)",
+						"Movement Speed": "-80%",
+						"Duration": "1,4 seconds",
+						"EC - Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+100% Physical Power)"
+					}
+				},
+				"Quick Reload":{
+					"prop":{
+						"Active": "Rhian increase her attack speed for a short duration and no longer slow her movements by shooting. <br>While in Quick Reload, she can vault a meter away to any direction.",
+						"Bullet Power": "Rhian stop shooting bullets in a cone, but instead vault forward and shoot every enemy in an area around you.",
+						"Electric Claws": "Rhian strike every enemy in an area around you.",
+						"Passive": "Every hit on an enemy increases her movement speed.",
+						"": "",
+						"Ability": "Buff",
+						"Cost":"60 mana",
+						"Cooldown":"15 seconds",
+						"Attack Speed": "25 / 30 / 35 / 40 / 45 %",
+						"Movement Speed": "30 / 35 / 40 / 45 / 50 %",
+						"Movement Duration": "2 seconds",
+						"Duration": "3 seconds",
+						"BP - Ability": "Area",
+						"BP - Radius":"50 Size",
+						"BP - Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"BP - Cooldown":"15 / 14 / 13 / 12 / 11 seconds",
+						"Damage": "90 / 140 / 190 / 240 / 290 (+100% Physical Power)"
+					}
+				},
+				"Swap Stance":{
+					"prop":{
+						"Active": "Rhian teleport to a nearby target location and start to fight in melee stance with electric claws with 5 seconds to teleport again before swaping to her guns. Rhian get increased Crit Damage. <br>Instead of slowing her enemies by every fifth hit, they stun from the first hit by your claws with an 10 seconds cooldown on same enemy.",
+						"Bullet Power": "Rhian cancel Cone of Bullets, but instead start shooting at a target location by shooting up by a double damage of Cone of Bullets, but half of the slow affect.",
+						"Passive": "Get fartal damage let you teleport away and get invisible with doubled movement speed over 2 seconds. 90 seconds cooldown.",
+						"": "",
+						"Ability": "Teleport, Weapon Swap",
+						"Radius": "55 size",
+						"Cost":"60 mana",
+						"Cooldown":"15 seconds",
+						"Crit Damage": "Physical: 50 / 100 / 150 / 200 / 250 %",
+						"BP - Ability": "Target Location",
+						"BP - Radius":"25 Size",
+						"BP - Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"BP - Cooldown":"15 / 14 / 13 / 12 / 11 seconds"
+					}
+				},
+				"Weapon Power":{
+					"prop":{
+						"Active": "",
+						"Bullet Power": "Rhian fires shots in the target direction for 3 seconds, dealing damage to the first enemy they collide with. The damage is quadrupled against enemy minions.",
+						"Electric Claws": "Rhian catch every enemies by a lightning chain, stop their escape tactics and your attacks is halved per enemy, but also an bonus magic damage per hit to each enemy.",
+						"": "",
+						"BP - Ability": "Line",
+						"BP - Radius":"80 Size",
+						"BP - Cost":"100 mana",
+						"BP - Cooldown":"90 seconds",
+						"BP - Damage": "Physical: 20 / 25 / 30 / 35 / 40 (20% Physical Power)",
+						"EC - Ability": "Buff / Area",
+						"EC - Radius":"40 Size",
+						"EC - Cost":"100 mana",
+						"EC - Cooldown":"90 seconds",
+						"EC - Damage": "Magic: 40 / 55 / 70 / 85 / 100 (80% Magic Power)"
+					}
+				}
+			},
+			"skin" : {
+				"Fancy Rhian": {
+					"link": "rhian1"
 				}
 			}
 		},
@@ -3439,6 +3505,65 @@
 			"skin" : {
 				"Dark Joker Rexas": {
 					"link": "rexas1"
+				}
+			}
+		},
+		"rogue": {
+			"name": "Rogue",
+			"class": "assassin",
+			"title": "The Tracker",
+			"desc": "Rogue came from a small village near the big forest, her parents was killed by bandits that started her life. She was starting to train young, using her bow and a strong boomerang, then used it to do revansh against the bandits, she found them and did the revansh then started to live in the wild and stop bandits for killing innocent people.",
+			"skill": {
+				"Boomerang":{
+					"prop":{
+						"Active": "Rogue throw a boomerang like a half moon, stunning enemies hit and dealing physical damage. <br>Active twice, she throw the boomerang in a straight line instead, dealing half of the damage, but teleport to its end if active again while it is thrown. Double damage to minions and monsters.",
+						"": "",
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost": "70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 seconds",
+						"Damage": "Physical: 90 / 140 / 190 / 240 / 290 (+120% Physical Power)",
+						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
+					}
+				},
+				"Tracking":{
+					"prop":{
+						"Active": "Rogue play a sound from her flute, increases her and her allies attack speed for a long duration.",
+						"Passive": "Now you see footsteps from enemies 5 seconds behind and you also hear nearby enemies footsteps and can see a red arrow at what direction you hearing them.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"14 seconds",
+						"Attack Speed": "10 / 16 / 22 / 28 / 34 %",
+						"Duration:": "6 seconds"
+					}
+				},
+				"Hunting Experience":{
+					"prop":{
+						"Active": "Rogue leap at a target location, dealing physical damage to all enemies hit, decreases their defence for a short duration. <br>Bow: Rogue launch arrows at a target location, slowing their movement speed and dealing physical damage to enemies hit.",
+						"": "",
+						"Ability": "Leap / Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Damage": "80 / 140 / 210 / 270 / 340 (+80 Physical Power)",
+						"Defence": "- 10 / 15 / 20 / 25 / 30 %",
+						"Movement Speed": "-25%",
+						"Duration": "3 seconds"
+					}
+				},
+				"Bow":{
+					"prop":{
+						"Active": "Rogue switch to her bow, increases her Armor Penetration while she holding her bow. <br>While she has her dagger, increases her crit damage with a bloody effect and increases her crit chance for every time she not critting.",
+						"": "",
+						"Ability": "Switch Stance",
+						"Cost":"None",
+						"Cooldown":"None",
+						"Armor Penetration": "12 / 14 / 16 / 18 / 20 %",
+						"Crit Chance": "+ 12 / 13 / 14 / 15 / 16 % per miss",
+						"Crit Damage": "40 / 80 / 120 / 160 / 200 %"
+					}
 				}
 			}
 		},
@@ -6491,6 +6616,9 @@
 				},
 				"Powerful Ray": {
 					"link": "riley2"
+				},
+				"Queen Riley": {
+					"link": "riley3"
 				}
 			}
 		},
@@ -6550,17 +6678,20 @@
 				}
 			},
 			"skin" : {
-				"Circus Freak Sabirne": {
+				"Circus Freak Sabrine": {
 					"link": "sabrine1"
 				},
-				"Death Wish Sabirne": {
+				"Death Wish Sabrine": {
 					"link": "sabrine2"
 				},
-				"Gothic Sabirne": {
+				"Gothic Sabrine": {
 					"link": "sabrine3"
 				},
-				"Royal Sabirne": {
+				"Royal Sabrine": {
 					"link": "sabrine4"
+				},
+				"Blessed Sabrine": {
+					"link": "sabrine5"
 				}
 			}
 		},
