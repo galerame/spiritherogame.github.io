@@ -932,7 +932,7 @@
 				"Arrow Vein":{
 					"prop":{
 						"Active": "Lucifer launch a bloody arrow in a line, affecting enemies by your veins and start to drain their health and heal you self over a time. The veins destoyrs by a limit between Lucifer and the affected enemies.",
-						"Passive": "Enemies hit by Lucifers arrows cause a blood drop, if you hit up to 3 blood drops, the fourth arrow cause a bonus magic damage by a % of their maximum health and heal you a % of it.",
+						"Passive": "Enemies hit by Lucifers arrows cause a blood drop, if you hit up to 3 blood drops, the fourth arrow cause a bonus magic damage by a % of their maximum health and heal you a % of it. <br>If Lucifer kill an enemy, they drop an health globe that heals you by pick it up.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
@@ -940,6 +940,7 @@
 						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
 						"Blood Drop": "Maximum Health: 4 / 6 / 8 / 10 / 12%",
 						"Heal": "50%",
+						"Health Globe": "50 / 100 / 150 / 200 / 250 (+50% Magic Power)",
 						"Damage": "Magic: 80 / 105 / 130 / 155 / 180 (+45% Magic Power)",
 						"Drain": "60 / 65 / 70 / 75 / 80%",
 						"Duration": "Over 4 seconds"
@@ -1716,6 +1717,9 @@
 				},
 				"Legend Asula": {
 					"link": "asula4"
+				},
+				"Blue Raven Asula": {
+					"link": "asula5"
 				}
 			}
 		},
@@ -2561,12 +2565,14 @@
 		"aenna": {
 			"name": "Aenna",
 			"class": "assassin",
-			"title": "The Blooded Bandit",
+			"title": "The Cold Ice Bandit",
 			"desc": "Aenna lives in the city of Kingdom Port, older sister to Anni but younger sister to Asula. After she become a teenager, she runned away and lived her own life in the big city, became the blooded bandit. With her water power she got some usefull to her fighting stile and creates mirrors to fool her enemies before they execution.",
+			"comment": "Comment: Aenna is like a regular assassin to jump in and kill her enemy as fast as she can, but that who makes her special are her mist and mirrors. That she can become invisible after half a second when she stops fighting, and if they try to escape she always gets on their back. She can create mirrors that she can travel between and simply fool her enemies. She show who determines on the lane or the jungle. She doesen't have so many abilities that dealing instant damage, but her tactics is more like to play with her enemies, but because of her two blades, her fourth attack can really determine her kills!",
 			"skill": {
 				"Second Blade":{
 					"prop":{
 						"Active": "Aenna throw her second blade at the first enemy hit in a line, for 3,5s her next basic attack agenst that enemy is increased with piercing damage, and also she can teleport behind the target by activate this again.",
+						"Passive": "After landing three basic attacks, Aenna's next attack within 4 seconds strikes with her both blades, dealing 60% physical power each blade which applies on-hit effects and can critically strike.",
 						"": "",
 						"Ability": "Projectile, Teleport",
 						"Radius": "70 size",
@@ -2590,7 +2596,7 @@
 				},
 				"Mirror of Ice":{
 					"prop":{
-						"Active": "Aenna creates a mirror of ice in a target location that she can get inside and move to other placed mirrors nearby the targeted by A or D. Active this inside the mirror creates a decoy by your self, get hit by a enemy it explode and catch nearby enemies by a water prison that dealing physical damage per ,25s. <br>From the mirror, she can throw her Second Blade.",
+						"Active": "Aenna creates a mirror of ice in a target location that she can get inside and move to other placed mirrors nearby the targeted by the moving buttons (A or D). The mirrors can't be placed too close, and you'll see a connection that shows if it's too far away or not. Active this inside the mirror creates a decoy by your self, get hit by a enemy it explode and catch nearby enemies by a water prison that dealing physical damage per ,25s. <br>From the mirror, she can throw her Second Blade.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "70 size",
@@ -2615,6 +2621,14 @@
 						"Damage": "Physical: 400 / 500 / 600 / 700 / 800 (+60% Physical Power) (+60% Magic Power)"
 					}
 				}
+			},
+			"skin" : {
+				"Blood Bandit Aenna": {
+					"link": "aenna1"
+				},
+				"Silver Blade Aenna": {
+					"link": "aenna2"
+				}
 			}
 		},
 		"albin": {
@@ -2622,55 +2636,67 @@
 			"class": "assassin",
 			"title": "The Spirit Hunter",
 			"desc": "Albin lives in the land of spooky, but came from the city of Peace. He trying to search for answer about spirits and the world between us and they. To survive he fight in silence, snipe enemies with his crossbow and hunting down enemies with his haunted spears and his main weapon.",
+			"comment": "Comment: Albin is one of the few who can use Spirit Power! He is built to throw his three spears that make piercing damage at a target location, though as a projectile. He can send away an arrow that slows and deal a high amount of piercing damage with an over time true damage by blood damage. That makes him really dangerous is his shield of spirits that dealing true damage per .25 seconds that also healing him a % of the damage, and also protecting him by a % of all sorts of damage. His Ult is built with his three spears he must first have thrown on the ground (at least one spear), that make a huge damage to the enemies near the spears. He may not be able to jump to enemies, but his way of playing can do a lot when he chooses to fight. To first send away his arrow to slow his enemy and afterwords chase with his spears. It's also hard to stand close to him with the kind of damage you get back while healing himself out of the damage spirits do. Albin is simply very hard Assassin, but really good if you know how to play him.",
 			"skill": {
 				"Arrow Shot":{
 					"prop":{
-						"Active": "Albin launch an arrow from his crossbow on his back, dealing piercing damage to the first enemy hit.",
+						"Active": "Albin launch an arrow from his crossbow at the first enemy hit, dealing piercing damage and affecting them with slow by a blood damage over time. Arrow Shot can critical strike.",
 						"": "",
 						"Ability": "Projectile",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
-						"Damage": "Piercing: 50 / 120 / 190 / 260 / 330 (+40% Physical Power)"
+						"Damage": "Piercing: 20 / 45 / 70 / 95 / 120 (+100% Physical Power)",
+						"Blood Damage": "True: 45 / 90 / 135 / 180 / 225 (+5% Physical Power) over time",
+						"Movement Speed": "- 80%",
+						"Duration": "2.5 seconds"
 					}
 				},
 				"Protecting Spirits":{
 					"prop":{
-						"Active": "Albin call for spirits to protect him, stealing health from enemies around him and protect a % of all incoming damage and ignoring armor penetration like piercing damage.",
+						"Active": "Albin call for spirits to protect him, stealing health from enemies around him and protect a % of all incoming damage. <br>While Protecting Spirits is active, Albin ignores armor penetration like piercing damage, critical hits, and head affects like stun.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "15 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Health": "True: 5 / 10 / 15 / 20 / 25 (per ,25s) (+15% Magic Power)",
+						"Health": "True: 1 / 2.5 / 3 / 4.5 / 5 (per ,25s) (+1% Physical Power)",
 						"Protection": "15 / 20 / 25 / 30 / 35 %",
 						"Duration": "5 seconds"
 					}
 				},
 				"Haunted Spear":{
 					"prop":{
-						"Active": "Albin throw a haunted spear in a target location, dealing piercing damage to all enemies hit. He can throw up to three spears that stay on the ground till you become too far away or pick it up to throw it again. <br>Nearby a spear can let you vault to it by press W twice.",
+						"Active": "Albin throw a haunted spear in a target location, dealing piercing damage to the one hit by the projectile. He can throw up to three spears that stay on the ground to you become too far away that start a 4 seconds countdoun before it dissapear. You can also pick it up if you right click when standing on it. <br>Nearby a spear can let you vault to it by press W twice (or other direction buttons like A, S, D).",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
+						"Ability": "Target Location, Projectile",
+						"Radius": "5 size",
+						"Vault Radius": "25 size",
 						"Cost":"22,5 mana",
 						"Cooldown":"None",
-						"Damage": "Piercing: 35 / 40 / 45 / 55 / 65 (+35% Physical Power)"
+						"Damage": "Piercing: 35 / 40 / 45 / 55 / 65 (+35% Physical Power)",
+						"Spear":"3"
 					}
 				},
 				"Haunt":{
 					"prop":{
-						"Active": "Albin call for the spirits inside his haunted spear, dealing physical damage to all enemies hit around the spears and reduce they movement speed. Dispelling all summonings and decoys. The damage is stealing health that sends to you.",
+						"Active": "Albin call for the spirits inside his Haunted Spear, dealing physical damage to all enemies hit around the spears and reduce they movement speed. Dispelling all summonings and decoys. The damage is stealing health that sends back to you.",
 						"": "",
 						"Ability": "Active",
-						"Radius": "35 size",
+						"Radius": "90 size",
+						"Spear Radius": "35 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: 150 / 250 / 350 / 450 / 550 (+140% Physical Power)",
 						"Life Steal": "25%",
-						"Movement Speed": "-50%",
+						"Movement Speed": "- 80%",
 						"Duration": "2,5 seconds"
 					}
+				}
+			},
+			"skin" : {
+				"Wild Spirit Albin": {
+					"link": "albin1"
 				}
 			}
 		},
@@ -2679,10 +2705,11 @@
 			"class": "assassin",
 			"title": "The Sea Queen",
 			"desc": "Ashera lives in the ocean, call her self the sea queen! Many pirates have tried to find her and kill her, but she is to clever. Because of her four arms she fighting with four blades, and can manipulate the enemy's mind.",
+			"comment": "Comment: Ashera is the one who will get the highest permanent movement speed in the end, and also an ordinary Assassin who just dealing high damage with her four blades. Winds to her enemy target to afterwards deal high damage with her blades and her other tactics. Because of her Screech, their protection will decrease and they will get paralized, that let Ashera to a superior. Her Ult makes her invulnerable to die, and create a high damage to enemies that standing close to her! Ashera is as you can see, a sea monster who is a easy Assassin to kill your enemies with. Because of her movement speed, no one can't outrun her! She can't use Boots, but instead she can buy two gloves.",
 			"skill": {
 				"Winds":{
 					"prop":{
-						"Active": "Ashera winds in a line, dealing physical damage to all enemies by her swords. For 4s she ignoring slow effects [non-chill].",
+						"Active": "Ashera winds in a line, to the first enemy hit and dealing physical damage. Over 4 seconds she ignoring slow effects and roots [non-chill].",
 						"Passive": "Ashera have increased movement speed.",
 						"": "",
 						"Ability": "Dash (Like a snake)",
@@ -2690,7 +2717,7 @@
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "16 seconds",
 						"Damage": "Physical: 80 / 140 / 200 / 260 / 320 (+100% Physical Power)",
-						"Movement Speed": "6 / 9 / 12 / 15 / 18 % (+0,25 per hero level = 5 at level 20)"
+						"Movement Speed": "6 / 9 / 12 / 15 / 18 % (+2,75 per hero level = 55 at level 20)"
 					}
 				},
 				"Screech":{
@@ -2716,7 +2743,7 @@
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
 						"Damage": "Physical: 40 / 80 / 140 / 200 / 260 (+120% Physical Power)",
-						"Movement Speed": "6 / 9 / 12 / 15 / 18 % (+0,25 per hero level = 5 at level 20)"
+						"Movement Speed": "6 / 9 / 12 / 15 / 18 %"
 					}
 				},
 				"Four Bladed Whirlwind":{
@@ -2739,6 +2766,7 @@
 			"class": "assassin",
 			"title": "Master of Katana",
 			"desc": "Chin lives in the city of Peace, lives silently by him self, no one have ever seen his face and they call him the Ninja Demon. He is brother to Hana without she even know. In the childhood he saved her many times from to be killed, but she was always unconscious to know that he has done for her. He always runs on Blakes footsteps like they was rivals and she is the only one who know his face. He's a master with Katana but not cold blooded like Blake.",
+			"comment": "Comment: Chin is best with movements, charge in a line while slice every enemy near his path. With three excellent strikes at random targets he can fast harm three enemies at time or lie ahead against one enemy. In low health he can become invisible by a smoke bomb and get movement speed, can also give him an opportunity to strike back after the cooldowns! His Ult can let an enemy run to its death after the deadly strike by a blood over time damage. Chin is an excellent assassin build with crit, damage and life steal to be in perfect shape!",
 			"skill": {
 				"Chargin Katana":{
 					"prop":{
@@ -2764,7 +2792,7 @@
 				},
 				"Three Strikes":{
 					"prop":{
-						"Active": "Chin strikes three basic attacks to random enemies in a cone.",
+						"Active": "Chin strikes three basic attacks to random enemies in a cone. [Only 20% of the damage at same target twice/triply]",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "40 size",
@@ -2784,6 +2812,11 @@
 						"Damage": "True: 228 / 342 / 456 / 570 / 684 Over 5 seconds."
 					}
 				}
+			},
+			"skin" : {
+				"Red Ninja Chin": {
+					"link": "chin1"
+				}
 			}
 		},
 		"diablo": {
@@ -2791,6 +2824,7 @@
 			"class": "assassin",
 			"title": "The Demon Child",
 			"desc": "Diablo lives in the city of Desert, alone with only his shadows as family. He renaim himself Diablo, because of the people call him the demon child. Defena told him to find himself, so he found Lilith in the city of peace who become his first friend. Now he just traveling with his two swords.",
+			"comment": "Comment: Diablo burns enemies with magic damage and deal bonus magic damage to burned enemies with his basic attacks. Can leap to a target location to deal increadible damage in an area, create a mark around the area to burn enemies, or send a demon shadow that bite one enemy in a line to slow their movement speed that also deal bonus damage against burned enemies. His Ult is increadible strong that send all of his four demon shadows to deal damage to all enemies in a target location, and if it kill one Hero, he can also do this again with half of its damage up to 5 times of Hero kills! Diablo is the child of the devil and an increadible assassin with a good teamwork with an fire Hero like Leo, Beatrix, Fenrir, Helani, Lilith and Titania who can burn enemies!",
 			"skill": {
 				"Inferno":{
 					"prop":{
@@ -2853,6 +2887,7 @@
 			"class": "assassin",
 			"title": "Keeper of the Nature",
 			"desc": "Drya lives in the forest, she is a keeper of the nature and catch every single enemy that harm the forest and are a danger to the animals. She don't accept humans except Brynhildr and Caity that are a friend to the nature. A human have never seen her true form, she only show her self as a reindeer. Once Anni took a look on her eyes and understood who it was, while Drya accept her just because her friendly to the animals.",
+			"comment": "Comment: Drya is horrible that can run through walls and trees by an ability to transform into a Spiritual Reindeer with an increased movement speed, that let her fast begin attacking with her roots to slow enemies down in same time they are taking damage every 2.5 seconds. Every crit she succeed with increases her attack speed and by a Touch of Nature, her next basic attack deal a bonus magic damage that can kill enemies. Because of her Ult, they will take even more damage from roots per second that also reduce their movement speed in the big area. Drya is an excellent assassin that can run very fast in to lanes and do much damage and effects to stop enemies to escape, but because of her low Health, she have to be fast!",
 			"skill": {
 				"Angry Roots":{
 					"prop":{
@@ -2861,7 +2896,7 @@
 						"Ability": "Line",
 						"Radius": "55 size",
 						"Cost":"40 mana",
-						"Cooldown": "2,5 seconds",
+						"Cooldown": "2.5 seconds",
 						"Damage": "Physical: 40 / 55 / 70 / 85 / 100 (+40% Physical Power)",
 						"Movement Speed": "-25%",
 						"Duration": "1,5 seconds"
@@ -2927,11 +2962,71 @@
 				}
 			}
 		},
+		"fade5": {
+			"name": "Fade",
+			"class": "assassin",
+			"title": "The Reaper of Death",
+			"desc": "Fade was born in the old city that now is just ruins, he came back from the dead to finally finish his fate.",
+			"comment": "Comment: Fade is created from the Halloween to create fear in the game, playing as a GOD to choose who will live or not. Fade dealing damage with his scythe, healing him self, and pay health to create black dust to deal physical damage per second to enemies. He can become immortal to damage and effects, but decreases his own damage, but dealing physical damage per second to enemies close to him. Because of his Ult, he became a great leader in a team fight!",
+			"skill": {
+				"Harvests":{
+					"prop":{
+						"Active": "Fade cut everything in his way with his scythe, dealing physical damage and a % of the damage dealt heals him.",
+						"": "",
+						"Ability": "Cone",
+						"Radius": "35 size",
+						"Cost":"None",
+						"Cooldown": "13 / 12 / 11 / 10 / 9 seconds",
+						"Damage": "Physical: 90 / 150 / 190 / 250 / 290 (+120% Physical Power)",
+						"Health": "50%"
+					}
+				},
+				"Black Dust":{
+					"prop":{
+						"Active": "Fade strike with his scythe at the ground, create a black dust in the area that dealing physical damage per second to enemies who standing on it. ",
+						"": "",
+						"Ability": "Line",
+						"Radius": "55 size",
+						"Cost":"20 Health",
+						"Cooldown":"2,5 seconds",
+						"Damage": "Physical: 15 / 20 / 25 / 30 / 35 (+20% Physical Power) per second",
+						"Duration": "5 seconds"
+					}
+				},
+				"Fade":{
+					"prop":{
+						"Active": "Fade create mist around him and start to ignore damage and effects, but not invisible. Instead he start to taking damage from his own mist per second, but dealing physical damage to nearby enemies per second and healing him. <br>Fade deal 50% less damage from his other abilities and attacks in this state.",
+						"": "",
+						"Ability": "Active, Area",
+						"Radius": "35 size",
+						"Cost":"10 Health per second",
+						"Cooldown":"None",
+						"Damage": "Physical: 5 / 6 / 7 / 8 / 9 (+2% Physical Power) per second",
+						"Health": "15%"
+					}
+				},
+				"Graveyard":{
+					"prop":{
+						"Active": "Fade create a graveyard around the place, decreases enemies Armor and Healing abilities inside this graveyard. <br>Fade inside this graveyard increases his Defence and Attack.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "70 size",
+						"Cost":"100 Health",
+						"Cooldown":"90 seconds",
+						"Armor": "- 10 / 20 / 30 / 40 / 50 %",
+						"Healing Abilities": "- 10 / 20 / 30 / 40 / 50 %",
+						"Defence": "+ 10 / 20 / 30 / 40 / 50 %",
+						"Attack": "+ 10 / 20 / 30 / 40 / 50 %"
+					}
+				}
+			}
+		},
 		"hana": {
 			"name": "Hana",
 			"class": "assassin",
 			"title": "The Pink Samurai",
 			"desc": "Hana lives in the city of Peace, alone in a rich house with the only sakura tree in the city by a family who know her parents. Her parents died in a fire then she was young, now she have been training under the sakura tree and become the pink samurai! She and Lotus are rivals and without knowing she is a younger sister to Chin. With a power to controlling sakura leaves like small pinked blades makes her to a dangerous samurai!",
+			"comment": "Comment: Like Raven, Hana active her sakura blades to deal a bonus piercing damage that cost mana per second, but also can pay more mana to sending blades in a line that also dealing piercing damage, that also is a combination with her Ult that let one of the three blades catch the first enemy hit and deal an incredible piercing damage. Hana can also catch enemies inside an area, and she also can teleport by her Shunpo to the back of an enemy. Hana is not the most powerful assassin, but because of her surrounding blades, she can teleport in to the enemy and do huges damage with both her katana and the end of the surrounding blades. All of her attacks is Piercing Damage, that let her ignore her enemies Armor, but yes, her attacks does not deal the same damage anyway as the others. But if you see hers proficiency, you can also see she an excellent assassin's who can jungle really easy.",
 			"skill": {
 				"Sakura Blades":{
 					"prop":{
@@ -2939,12 +3034,12 @@
 						"": "",
 						"Ability": "Self, Line",
 						"Radius [Line]": "55 size",
-						"Cost":"None",
-						"Cost [Line]":"70 / 75 / 80 / 85 / 90",
+						"Cost":"4 per second",
+						"Cost [Line]":"40",
 						"Cooldown": "14 seconds",
 						"Cooldown [Line]": "None",
-						"Damage": "Piercing: 60 / 90 / 120 / 150 / 180 (+40% Physical Power)",
-						"Sakura Blades": "Piercing: 25 / 35 / 45 / 55 / 65 (+10% Physical Power)",
+						"Damage": "Piercing: 40 / 55 / 70 / 85 / 100 (+25% Physical Power)",
+						"Sakura Blades": "Piercing: 15 / 20 / 25 / 30 / 35 (+5% Physical Power)",
 						"Duration": "4 seconds",
 						"Times": "3 Max"
 					}
@@ -3008,10 +3103,11 @@
 			"class": "assassin",
 			"title": "The Shadow",
 			"desc": "Katana lives in the city of Peace with a ruth childhood. Her parents died then she was young, but she was never alone because of her only friend, Blade. Blade was looking up to Katana because of her skilled movements. Katana is an excellent rogue because of her shadow tactics. They both struggled to live in the big city, and whatever happened, they had each other.",
+			"comment": "Comment: Katana have the power to create mimics of her self by the power of shadow! Can switch between the mimics and create a mimic on a target location while both are spinning one turn and dealing damage with their blades, make enemies bleed and reduce their movement speed. She also can throw one of her blades that bounce between 10 enemies and silence their abilities, in same time can teleport to the blade and came close to the last enemy hit. Her Ult create two powerful mimics that also deal a % of your damage. Katana also is an amazing assassin that will be hard too fight against and understand.",
 			"skill": {
 				"Bouncing Dagger":{
 					"prop":{
-						"Active": "Katana throw her dagger in a line, to the first enemy hit it start to bounce. Dealing physical damage and silence enemies hit, active again, she teleport to the enemy the bouncing dagger is on, and in same time drop a dagger on the ground before she teleport, like a ward without sight.",
+						"Active": "Katana throw her dagger in a line, to the first enemy hit it start to bounce. Dealing physical damage and silence enemies hit, active again, she teleport to the enemy the bouncing dagger is on. <br>Can only bounce at same enemy once.",
 						"": "",
 						"Ability": "Projectile, Teleport",
 						"Radius": "70 size",
@@ -3022,39 +3118,42 @@
 						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds"
 					}
 				},
-				"Escape Plan":{
+				"Funny Play":{
 					"prop":{
-						"Active": "Katana teleport to an allied, ward or her dagger on the ground. Can be used on her wolves.",
+						"Active": "Katana create mimics of herself randomly placed over a big area that just running around, if they get hit, they just disappear. While they are running, you are inside one of the mimics and can move between them by the buttons A or D. By active this again let you run by your self from the mimic you are and become your real body.",
 						"": "",
-						"Ability": "Target",
-						"Radius": "90 size",
+						"Ability": "Area",
+						"Radius": "55 size",
 						"Cost":"60 mana",
-						"Cooldown":"15 / 13 / 11 / 9 / 7 seconds"
+						"Cooldown":"18 seconds",
+						"Mimics":"5",
+						"Duration": "3 seconds"
 					}
 				},
-				"Shadow Stab":{
+				"Shadow Dance":{
 					"prop":{
-						"Active": "Katana teleport to one enemy, stab their back and dealing physical damage and silent them. Let her crit next attack and for a short time you can teleport back.",
+						"Active": "Katana spin one turn and dealing damage to all enemies around her with an mimic placed at a target location that do the same and deal the same damage. In same time you can switch place with the mimic by double click instead of one click on use. <br>The mimic can't be placed too close to you.",
 						"": "",
-						"Ability": "Target",
-						"Radius": "90 size",
+						"Ability": "Target Location",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"15 seconds",
-						"Damage": "Physical: 90 / 145 / 200 / 255 / 310 (+120% Physical Power)",
-						"Silence": "1,25 / 1,5 / 1,75 / 2 / 2,25 seconds",
-						"Duration": "4 seconds"
+						"Damage": "Physical: 60 / 100 / 140 / 180 / 220 (+80% Physical Power) [each]",
+						"Blood Damage": "True: 2 / 2.5 / 3 / 3.5 / 4 (+2% Physical Power) [per .25 seconds]",
+						"Movement Speed": "- 20 / 35 / 50 / 65 / 80 %",
+						"Duration": "2.5 seconds"
 					}
 				},
 				"Mimetic Shadows":{
 					"prop":{
-						"Active": "Katana creates shadows that mimetic her, strike nearby enemies with Shadow Stab or Bouncing Dagger, but just dealing 25% of all the damage. When they disappear, daggers throws nearby them, dealing physical damage hit. <br>They go through allies, can't take damage from enemies but disappears from [Mind] Crowd Controls.",
+						"Active": "Katana creates shadows that mimetic her, strike nearby enemies with Shadow Dance or Bouncing Dagger if you do it, but just dealing 15% of all the damage. When they disappear, daggers throws nearby them, dealing physical damage hit. <br>They go through allies, can't take damage from enemies but disappears from [Mind] Crowd Controls.",
 						"": "",
 						"Ability": "Self, Summoning",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
 						"Damage": "Physical: (10 / 15 / 20 / 25 / 30 % Physical Power)",
 						"Trap": "Physical: 40 / 60 / 80 / 100 / 120 (+90% Physical Power)",
-						"Shadows": "2 / 3 / 4 / 5 / 6",
+						"Shadows": "2",
 						"Duration": "6 seconds"
 					}
 				}
@@ -3076,6 +3175,7 @@
 			"class": "assassin",
 			"title": "Angel of Power",
 			"desc": "Leanish is an angel of power, defeating her enemies with her speed and creates lightning from her own hands. She also a black sheep of all the angels, because of the power she gain.",
+			"comment": "Comment: Leanish is an angel who can unleash incredible damage from her lightning that can both stun in a cone, or deal double in a line. She can also ensnare enemies for a short second by a lightning prison. She can also dash and dealing damage to enemies in the sides from her wings. Her Ult let her damage every single enemy in an area around her in a flash. Leanish is an hybrid with high damage and high crowd control.",
 			"skill": {
 				"Lightning Bolts":{
 					"prop":{
@@ -3086,7 +3186,7 @@
 						"Radius [Line]": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 seconds",
-						"Damage": "Phyical: 50 / 100 / 150 / 200 / 250 (+50% Physical Power)",
+						"Damage": "Phyical: 50 / 100 / 150 / 200 / 250 (+50% Magic Power)",
 						"Stun": "1 seconds"
 					}
 				},
@@ -3136,10 +3236,11 @@
 			"class": "assassin",
 			"title": "The Moon Phantom",
 			"desc": "She lives everywere, walking under the moonlight, taking shelter in caves, but sometimes she takes a few drinks in a bar. People who sees her talking about the moon phantom. She is not a dangerous person, but they who bothering her have said something for the last time.",
+			"comment": "Comment: Lotus specialty is to spin around with her swords, and to silence enemies movements by pulling her enemies with a big chain, or send blades of wind in a line that creates a whirlwind in the end of the line and let Lotus teleport to the middle of the whirlwind to attack enemies she gets in her wind! To pull enemies to her, or catch enemies inside a whirlwind, gives her the opportunity to strike with her twin swords by spinning around, and because of her Ult she also throws a flurry of blades by spinning. She can be hard to play, but also scary to be against!",
 			"skill": {
 				"Bladed Wind":{
 					"prop":{
-						"Active": "Creates two wind blades in a line, dealing physical damage hit. <br>In the end of the line, it become a piercing whirlwind. Dealing physical damage hit per seconds and silence their movement tactics. Active again Móna teleport to middle of the whirlwind.",
+						"Active": "Creates two wind blades in a line, dealing physical damage hit. <br>In the end of the line, it become a piercing whirlwind. Dealing physical damage hit per seconds and silence their movement tactics. Active again Lotus teleport to middle of the whirlwind.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
@@ -3205,6 +3306,7 @@
 			"class": "assassin",
 			"title": "Masked Wind Bringer",
 			"desc": "Maria lives in the city of Mordune, throughout her life she has been living in a lie, made people trust her just to fix the information and continue living in her lie, with no idea of who she is, she has now been working on the same project, to be closer to the royal family to stop the war! Tigra is their right hand, and the true one to be a friend with just to fulfill her mission. With her power of creating piercing winds with her bladed wind fans, makes her to a dangerous rouge.",
+			"comment": "Comment: Maria have a great piercing damage in her attacks, both a passive to her basic attacks and her actives. Over 6 secons her attacks become winds in a cone, and over 4 seconds her enemies taking a wind damage per second, in same time can slow her enemies in a target location that also deal a massive piercing damage. She can also teleport to a place and deal damage in an area, and her Ult is a real deal with both piercing damage and in a big line. Surely the strongest we can come up with. If you love to spam attacks, she will be your love!",
 			"skill": {
 				"Piercing Air":{
 					"prop":{
@@ -3217,7 +3319,7 @@
 						"Cooldown": "18 seconds",
 						"Damage": "Piercing: 20 / 30 / 40 / 50 / 60 (+20% Physical Power)",
 						"Duration": "6 seconds",
-						"Damage [Passive]": "Piercing: 15 / 20 / 25 / 30 / 35 (+15% Physical Power) per second",
+						"Damage [Passive]": "Piercing: 5 / 10 / 15 / 20 / 25 (+5% Physical Power) per second",
 						"Duration [Passive]": "4 seconds"
 					}
 				},
@@ -3255,7 +3357,7 @@
 						"Cooldown":"90 seconds",
 						"Damage": "Piercing: 240 / 320 / 400 / 480 / 560 (+100% Physical Power)",
 						"Movement Speed": "- 80%",
-						"Trail": "Piercing: 15 / 20 / 25 / 30 / 35 (+55% Physical Power) per second",
+						"Trail": "Piercing: 5 / 10 / 15 / 20 / 25 (+20% Physical Power) per second",
 						"Duration": "4 seconds"
 					}
 				}
@@ -3266,6 +3368,7 @@
 			"class": "assassin",
 			"title": "The Ninja of Japan",
 			"desc": "Minae lives in the city of peace, loving to fight and show her potential. Uses enchanting scrolls to get weapons to kill her opponents.",
+			"comment": "Comment: Minae is a scroll user who can summon witch weapon she wants to dash to her enemies and increases her physical power for a short time, lay traps and jump to the sky for 2,5 seconds to deal damage to random enemies from ten blades in that short time. Her Ult let her deal hughe amount of damage in a target location instant. Minae is a funny ninja with less Armor but hughe damage with two blades who can kill enemies very easy.",
 			"skill": {
 				"Enchanted Weapon":{
 					"prop":{
@@ -3316,6 +3419,14 @@
 						"Damage": "Piercing: 225 / 350 / 475 / 600 / 725 (+20% Physical Power)"
 					}
 				}
+			},
+			"skin" : {
+				"Wild Minae": {
+					"link": "minae1"
+				},
+				"Fashion Minae": {
+					"link": "minae2"
+				}
 			}
 		},
 		"razor": {
@@ -3323,6 +3434,7 @@
 			"class": "assassin",
 			"title": "Sand Brother of Shadow",
 			"desc": "Razor lives in the city of Desert with his brother Rexas, they have always been the black sheep in the city and never catch by Clear the cowboy. They are called the rogue brothers! Razor is expert to use Kusarigama and makes him dangerous.",
+			"comment": "Comment: Razor is build to make his enemies bleed, catch his enemy and deal hughe damage. He can create a living shadow that can strike as him or replace each other that can be a greate escape. Because of a hughe piercing damage and bleeding damage his build make him increadible as an Assassin. His Ult do't do better with an incredible reduction in movement speed in hit of his Kusarigama. Razor is a incradible Desert Ninja, like or hate him!",
 			"skill": {
 				"Kusarigama":{
 					"prop":{
@@ -3334,7 +3446,7 @@
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "16 seconds",
 						"Damage": "Physical: 75 / 120 / 165 / 210 / 255 (+90% Physical Power)",
-						"Bleed": "Physical: 15 / 25 / 35 / 45 / 55 (+5% Physical Power) per second",
+						"Bleed": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Physical Power) per second",
 						"Duration": "3 seconds"
 					}
 				},
@@ -3349,30 +3461,26 @@
 						"Damage": "Piercing: 100 / 140 / 180 / 220 / 260 (+40% Physical Power)"
 					}
 				},
-				"Crushing Chain":{
+				"Living Shadow":{
 					"prop":{
-						"Active": "Razor throw his two Kusarigama and let it slice through enemies, dealing physical damage and reduce their movement speed.",
-						"": "",
-						"Ability": "Line",
-						"Radius": "80 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"18 / 17 / 16 / 15 / 14 seconds",
-						"Damage": "Physical: 70 / 105 / 140 / 175 / 210 (+90% Physical Power)",
-						"Movement Speed": "- 20 / 25 / 30 / 35 / 40 %",
-						"Duration": "2,5 seconds"
-					}
-				},
-				"?":{
-					"prop":{
-						"Active": "Razor catch all enemies around him by summoned Kusarigama, dealing physical damage and silence their movement tactics.",
+						"Active": "Razor create a mimic of him self in a target location who is standing still. Kusarigama can hit the same and deal 50% extra, same with Slice close to the mimic. <br>If you active this again, Razor swift places with the mimic.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"Damage": "Physical: 220 / 340 / 460 / 580 / 700 (+100% Physical Power)",
-						"Silence": "4 seconds",
-						"Duration": "1,5 seconds"
+						"Cost":"40 / 35 / 30 / 25 / 20 mana",
+						"Cooldown":"22 / 20 / 18 / 16 / 14 seconds",
+						"Duration": "5 seconds"
+					}
+				},
+				"Crushing Chain":{
+					"prop":{
+						"Active": "Razor strike with both of his Kusarigama in a line, dealing physical damage and decreases their movement speed while they are affected by his passive with a double effect.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "90 size",
+						"Cost":"100 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 175 / 275 / 375 / 475 / 575 (+110% Physical Power)",
+						"Movement Speed": "- 45%"
 					}
 				}
 			},
@@ -3387,6 +3495,7 @@
 			"class": "assassin",
 			"title": "The Blinded Angel",
 			"desc": "Relani is an angel of balance, she made a mistake and got her eyes off by an high archangel. By her blindness she have learned to analyze enemies by their energy flowing in their body. With her magical forces she punishment evil enemies.",
+			"comment": "Comment: Relani can both deal hughe magic damage and decreases their protection and power, or jump to a target location, deal physical damage and create a shield that deflect a % of all damage. Relani can also protect her self from projectiles, and deal a hughe magic damage to enemies she deflected from, that makes her to an anti-mage. Her Ult let her fly to the sky and hit enemies in three target locations by punnishment. Relani is an Angel of balance, play her and feel hated!",
 			"skill": {
 				"Orb of Punishment":{
 					"prop":{
@@ -3450,61 +3559,69 @@
 			"name": "Rexas",
 			"class": "assassin",
 			"title": "The Sneaky Rogue",
-			"desc": "Rexas lives in the city of Desert with his brother Razor, they have always been the black sheep in the city and never catch by Clear the cowboy. They are called the rogue brothers! Rexas is expert in the silently sneaky way to assassinate from behind that makes him dangerous!",
+			"desc": "Rexas lives in the city of Desert with his brother Razor, they have always been the black sheep in the city and never catch by Clear the cowboy. They are called the rogue brothers! Rexas is expert in the silently sneaky way to assassinate from behind that makes him dangerous! Rexas is also in love with Katana.",
+			"comment": "Comment: Rexas is the best killer who fighting on the back of enemies, because of his crit chance and crit damage. He can also decrease their movements and make them bleed from his blade while he hunting them. Rexas can blind enemies by a smoke bomb, jump behind enemies in close combat and increases his movement speed to both escape or more aggressive in battle. His Ult follows by a item he get at the spawn that he can throw at the ground, and let him teleport to it wherever he is. Rexas is the perfect choice if you just want to stand in the back of your enemies and kill them fast without taking any damage from your targets weapon.",
 			"skill": {
 				"Blind Spot":{
 					"prop":{
-						"Active": "Rexas dash to the first enemy in a line, cutting their throut and make them bleed.",
-						"Passive": "Rexas get increased crit chance. 100% crit chance against their back each for every 10s that silent enemies.",
+						"Active": "Rexas throw his blade at the first enemy hit in a line, decreases their mobement speed in a bleeding affect. <br>Bleeding enemies taking 30% extra damage from Rexas blade.",
+						"Passive": "Rexas get increased crit chance against the back of the enemies. The first crit every 10s silence the enemy for 1,5 seconds.",
 						"": "",
-						"Ability": "Dash",
+						"Ability": "Line",
 						"Radius": "55 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "16 seconds",
-						"Crit Chance": "10 / 20 / 30 / 40 / 50 %",
-						"Bleed": "Physical: 15 / 25 / 35 / 45 / 55 (+5% Physical Power) per second",
-						"Duration": "5 seconds"
+						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
+						"Damage": "Physical: 75 / 95 / 115 / 155 / 195 (+90 Physical Power)",
+						"Bleed": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Physical Power) per second",
+						"Duration": "5 seconds",
+						"Movement Speed": "- 80%",
+						"Crit Chance": "25 / 30 / 35 / 40 / 45 %",
+						"Silence": "1,5 seconds"
 					}
 				},
-				"Smooth":{
+				"Smoke Bomb":{
 					"prop":{
-						"Active": "Rexas go inside the stealth mode, become invisible after 1,5s with no harm.",
-						"Passive": "Rexas get increased crit damage.",
+						"Active": "Rexas throw a smoke bomb at a target location, blind enemies and can be seen by you and your allies.",
 						"": "",
-						"Ability": "Stealth",
-						"Radius": "55 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"16 seconds",
-						"Crit Damage": "40 / 80 / 120 / 160 / 200 (+7,5 per hero level = 150 at lvl 20)"
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"40 mana",
+						"Cooldown":"16 / 15 / 14 / 13 / 12 seconds",
+						"Duration": "2.5 seconds"
 					}
 				},
 				"Rabbit":{
 					"prop":{
-						"Active": "Rexas jump over his standing target, to get behind your target.",
-						"Passive": "Rexas get increased movement speed. <br>For every 10s you jumping, you rolls faster and dodge ranged attacks.",
+						"Active": "Rexas jump over his standing target, to get behind your target. Increases his movement speed over 4s.",
+						"Passive": "Rexas get increased crit damage.",
 						"": "",
 						"Ability": "Leap, Target",
 						"Radius": "15 size",
 						"Cost":"None",
 						"Cooldown":"3,5 seconds",
-						"Movement Speed": "6 / 10 / 14 / 18 / 22 % (+0,2% per hero level = 4% at level 20)"
+						"Movement Speed": "+ 25 / 35 / 45 / 55 / 65 %",
+						"Crit Damage": "40 / 80 / 120 / 160 / 200 (+7,5 per hero level = 150 at lvl 20)"
 					}
 				},
-				"Smoke Bomb":{
+				"Mark of Teleport":{
 					"prop":{
-						"Active": "Rexas throw a smoke bomb and blind all enemies inside the smoke.",
+						"Active": "Rexas throw a blade he gain every time he arrive to his spawn. Let him teleport between every thrown blade on the ground.",
 						"": "",
-						"Ability": "Area",
-						"Radius": "70 size",
-						"Cost":"90 mana",
-						"Cooldown":"90 seconds",
-						"Duration": "2,5 / 3 / 3,5 / 4 / 4,5"
+						"Ability": "Teleport, Item",
+						"Radius": "200000 size",
+						"Cost":"100 mana",
+						"Cooldown":"20 seconds",
+						"Items": "1/1",
+						"Blades on Ground": "5"
 					}
 				}
 			},
 			"skin" : {
 				"Dark Joker Rexas": {
 					"link": "rexas1"
+			},
+				"Yellow Flash Rexas": {
+					"link": "rexas2"
 				}
 			}
 		},
@@ -3513,6 +3630,7 @@
 			"class": "assassin",
 			"title": "The Tracker",
 			"desc": "Rogue came from a small village near the big forest, her parents was killed by bandits that started her life. She was starting to train young, using her bow and a strong boomerang, then used it to do revansh against the bandits, she found them and did the revansh then started to live in the wild and stop bandits for killing innocent people.",
+			"comment": "Comment: Rogue is a perfect choice to hunt your enemies, because of her tracking, she can see her enemies footsteps five seconds from behind. Rogue can increases the attack speed of her and her allies, stun enemies with her boomerang or deal double damage. She can both be in close combat, jump to her targets and decreases their Armor or battle in distance with her Bow. Rogue is a perfect Jungler and supporting your allies in battles. Can both play as a Assassin, or as a Hunter, the only similar is that she is a killing machine!",
 			"skill": {
 				"Boomerang":{
 					"prop":{
@@ -3572,6 +3690,7 @@
 			"class": "assassin",
 			"title": "The Blade Master",
 			"desc": "Sarah lives in the city of Kingdom Port, daughter to a blacksmith and have always been good with blades. Her mother died sick and they don't have much money, so she became a phantom to get money for killing people.",
+			"comment": "Comment: Sarah can magnetic force with her blades and can let them circulating her after hitting her enemies, after dash forward and destroy her enemies Armor, the circulating blades can be dangerous and went back to you and deal physical damage to the enemies each blades. She can put her two blades together and throw it like a chakram, and teleport to it if active again. Sarah's Ult let her throw her blades in all directions while she become invisible, after, the blades went back to you and hit all the enemies it passes through. As you can see, she is a very special fighter and all you hope is to hit with all her blades that you don't have any clue if you do!",
 			"skill": {
 				"Boomerang Blade":{
 					"prop":{
@@ -3637,6 +3756,7 @@
 			"class": "assassin",
 			"title": "The Succubus",
 			"desc": "Suki is a Succubus from the underground, lives to make men as her slaves. Now she lives in the city of piece, using dark magic to kill her enemies. Also she is an dangerous woman!",
+			"comment": "Comment: Suki is the most beautiful fighter in this game and can both catch an enemy inside a dark prison, leap to a target location, and killing a unit heal her and let her leap again, dealing magic damage with dark magic that reduce their protection. Her Ult let her charm every single enemy in her area, and the first enemy hit by your hand, create a hughe magic damage that is her love kiss! Suki is a Succubus with huge magic damage and her nails is not that mercy. Love her, or hate her.",
 			"skill": {
 				"Beauty Step":{
 					"prop":{
@@ -3717,6 +3837,7 @@
 			"class": "assassin",
 			"title": "The Killing Assassin",
 			"desc": "Tigra lives in the city of Mordune, doing importend errands for the King. She was picked up by the king when she was little, was growing as an assassin in his order. Maria, who believe that they are friends, are suspicious, Tigra understand her better than she thinks. She is fighting with blades like three nails each hand, with a smooth body makes her dangerous in close combat!",
+			"comment": "Comment: Tigra can lay traps that stunning her enemies with a bonus magic damage, an ordinary strike that make her enemies to bleed, but her special build, is her Tiger Strike. Her attacks create a energy point for her that let her five strike deal a extra % of their maximum health as true damage and stunning the target. Same after her silence jump, that mark her enemies by this energy point that expier after a hit from every attack hit. Her Ult stun every single enemy in a target location that go from stun to slowed over a time. Tigra got many stuns, and because of her energy points, she build with Attack Speed to kill her enemies faster by taking their maximum health as true damage! Tigra is an anti-Tank! She ignore how much Armor you have, she kill you anyway!",
 			"skill": {
 				"Tiger Strike":{
 					"prop":{
@@ -3788,6 +3909,7 @@
 			"class": "assassin",
 			"title": "The Bat Master",
 			"desc": "Walladin is a vampire that lives with his brothers and sister in the Abandoned Castle. He controlling all the bats and get power from them, the more blood they suck, the more power he get.",
+			"comment": "Comment: Walladin is a Vampire and is expert using bats in battle. He can transform into bats and transporting, sending bats to enemies that stealing their health and healing Walladin. They can also blind enemies and because of his Ult, they all become burned bats and increases the damage by a extra magic damage. Walladin is a perfect fighter that never looses his health and always stop his enemies with his bats by blindness.",
 			"skill": {
 				"Transporting":{
 					"prop":{
@@ -3853,6 +3975,7 @@
 			"class": "assassin",
 			"title": "The Fox Girl",
 			"desc": "Vulpes is a fox with a fantastic strength and power to transform into a human girl, she lives in a forest and the squirrels are her family.",
+			"comment": "Comment: Vulpes is like a squierrel, jumping on enemies and dealing damage, stunning, and increases her attack and movement speed. She can make her enemies bleed, or throwing acorns to slow enemies movement speed. Vulpes is just a funny fox girl who's not taking shit from anyone!",
 			"skill": {
 				"Flying Squirrel":{
 					"prop":{
@@ -3908,6 +4031,7 @@
 			"class": "assassin",
 			"title": "The Newborn Phoenix",
 			"desc": "Yui lives in the city of Kingdom Port, friend to Melody and Liza. Always happy and playful like a child, but have a outstanding power to create fire and fight with her stave.",
+			"comment": "Comment: Yui is one of the five Fire user! Yui is a playful girl with fire who can throw a orb at enemies in a line that also went back to her with same damage back. Yui can also create other orbs that seeking to random enemies and dealing magic damage. Yui can also teleport and dealing magic damage three times at target location with her playful blink of fire. By creating a hughe magic damage by a fire burst increases her amount of killing! Yui maby don't burn her enemies, but playing with magic power increases also her attack power. Yui is a easy play, or hard to be against!.",
 			"skill": {
 				"Playful Fire":{
 					"prop":{
@@ -3937,7 +4061,7 @@
 						"": "",
 						"Ability": "Teleport, Area",
 						"Radius": "35 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cost":"40 mana",
 						"Cooldown":"15 seconds",
 						"Damage": "Magic: 30 / 55 / 80 / 105 / 130 (+30% Magic Power)"
 					}
@@ -3952,6 +4076,76 @@
 						"Cooldown":"90 seconds",
 						"Damage": "Magic: 400 / 500 / 600 / 700 / 800 (+80% Magic Power)"
 					}
+				}
+			}
+		},
+		"raizel": {
+			"name": "Raizel",
+			"class": "assassin",
+			"title": "The Bladed Witch",
+			"desc": "",
+			"comment": "Comment: Raizel can decreases her enemies armor and movement speed and sending they in to the air. Freeze enemies inside a target location instant, and increases her speed by teleporting to her throwed weapon. Her Ultimate activates after sending enemies up to the air, that let her teleport up and strike them like a flying dragon. Raizel can throw her weapon and let it spinn while dancing for you that makes her a little bit funnies, deal with it!",
+			"skill": {
+				"Wind Blow":{
+					"prop":{
+						"Active": "Raizel sending a wind blow in a line that decreases their armor and movement speed. Dealing piercing damage. In the end of the blow, all enemies hit in that target location blown up to the sky, let your ultimate activate on them.",
+						"": "",
+						"Ability [Blow]": "Line",
+						"Radius [Blow]": "70 size",
+						"Ability [Sky]": "Target Location",
+						"Radius [Sky]": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "14 seconds",
+						"Damage": "Piercing: 20 / 45 / 70 / 95 / 120 (+35% Physical Power)",
+						"Armor": "- 25 / 35 / 45 / 55 / 65 %",
+						"Movement Speed": "- 25 / 35 / 45 / 55 / 65 %",
+						"Duration": "3 seconds"
+					}
+				},
+				"Crystal Creation":{
+					"prop":{
+						"Active": "Raizel create a crystal at a target location that freeze all enemies inside. Dealing magic damage. <br>They are taking 35% less damage from all sorts of damage while freezed.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"15 seconds",
+						"Damage": "Magic: 40 / 65 / 90 / 115 / 140 (+40% Magic Power)",
+						"Duration": "3 seconds"
+					}
+				},
+				"Moon Slice":{
+					"prop":{
+						"Active": "Raizel throw her blade in a line, that will spinning around at the end of the line, but doing nothing before you teleport to it or attacking. <br>Teleporting to the blade let her strike enemies around the area and dealing physical damage. Increasing her Attack Speed and Movement Speed over a time.",
+						"": "",
+						"Ability": "Line, Teleport",
+						"Radius": "25 size",
+						"Cost [Throw]":"None",
+						"Cost [Teleport]":"40 mana",
+						"Cooldown":"10 / 9.5 / 9 / 8.5 / 8 seconds",
+						"Damage": "Physical: 30 / 55 / 80 / 105 / 130 (+100% Physical Power)",
+						"Speed Boost": "+ 15 / 25 / 35 / 45 / 55 %",
+						"Duration": "3.5 seconds"
+					}
+				},
+				"Dragon Strike":{
+					"prop":{
+						"Active": "Raizel teleport up to the sky, start to striking all enemies hit by Wind Blow. Dealing physical damage and follow them down to the ground.",
+						"": "",
+						"Ability": "Active",
+						"Radius": "90 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 200 / 250 / 300 / 350 / 400 (+100% Physical Power)"
+					}
+				}
+			},
+			"skin" : {
+				"Purple Star Raizel": {
+					"link": "raizel1"
+				},
+				"Green Leaf Raizel": {
+					"link": "raizel2"
 				}
 			}
 		},
@@ -4338,6 +4532,15 @@
 				},
 				"Desert Valkyrie Brynhildr": {
 					"link": "brynhildr2"
+				},
+				"Winter Norse Brynhildr": {
+					"link": "brynhildr6"
+				},
+				"Golden Norse Brynhildr": {
+					"link": "brynhildr7"
+				},
+				"Young Brynhildr": {
+					"link": "brynhildr8"
 				}
 			}
 		},
@@ -4838,6 +5041,12 @@
 			"skin" : {
 				"Lee Lion": {
 					"link": "lee1"
+				},
+				"Young Lee": {
+					"link": "lee2"
+				},
+				"Prehistoric Lizard Lee": {
+					"link": "lee3"
 				}
 			}
 		},
