@@ -3228,6 +3228,9 @@
 			"skin" : {
 				"Lightning Sorceress Leanish": {
 					"link": "leanish1"
+				},
+				"Princess Leanish": {
+					"link": "leanish2"
 				}
 			}
 		},
@@ -4665,6 +4668,9 @@
 			"skin" : {
 				"Poisen Defena": {
 					"link": "defena1"
+				},
+				"Beauty Defena": {
+					"link": "defena2"
 				}
 			}
 		},
@@ -6479,6 +6485,9 @@
 				},
 				"Underworld Lilith": {
 					"link": "lilith3"
+				},
+				"Lord Lilith": {
+					"link": "lilith4"
 				}
 			}
 		},
@@ -6901,82 +6910,6 @@
 				},
 				"Blessed Sabrine": {
 					"link": "sabrine5"
-				}
-			}
-		},
-		"samir": {
-			"name": "Samir",
-			"class": "mage",
-			"title": "Egyptian Priest",
-			"desc": "Samir lives in the city of Desert as a priest. As a teenage he get some skills in the battlefield by both Isis and Ra on his side, he is in love with Tora but she doesn't know, but he will do anything to protect her and his allies!",
-			"skill": {
-				"Power of Isis":{
-					"prop":{
-						"Active": "Samir sending a fire ball in a line, dealing physical damage to the first enemy hit and stunning it.",
-						"Passive": "Samir charging up his staff, his next basic attack deal a bonus magic damage and reduce their protection. Every 10s.",
-						"": "",
-						"Ability": "Projectile",
-						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
-						"Bonus": "Magic: 50 / 100 / 150 / 200 / 250 % Magic Power",
-						"Protection": "-15%",
-						"Damage": "Physical: 100 / 150 / 200 / 250 / 300 (+65% Magic Power)",
-						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
-					}
-				},
-				"Golden Star":{
-					"prop":{
-						"Active": "Samir create a instant light in a target location, blind enemies and increases your allies protection.",
-						"Passive": "If Samir get fartal damage a light protect him that blind enemies for the same duration Golden Star blind. 10s cooldown.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
-						"Radius [Area]": "90 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"18 seconds",
-						"Protection": "10 / 15 / 20 / 25 / 30 %",
-						"Blind": "0,5 / 0,75 / 1 / 1,25 / 1,5 seconds",
-						"Duration": "4 seconds"
-					}
-				},
-				"Red Sun":{
-					"prop":{
-						"Active": "Samir sending a red light in a target location, dealing magic damage to enemies inside the light over time and reduce their power and protection.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "40 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"18 seconds",
-						"Damage": "Magic: 20 / 32 / 44 / 56 / 68 (+20% Magic Power) per second",
-						"Power": "-15%",
-						"Protection": "-15%",
-						"Duration": "4 seconds"
-					}
-				},
-				"Protection of Ra":{
-					"prop":{
-						"Active": "Samir plants his staff at his target location for 5s. Allies within its radius take less damage. Any damage dealt within the radius charges up the staff. If Isis activates the staff again, it explodes, dealing damage to enemies inside and healing allies.",
-						"": "",
-						"Ability": "Target Location",
-						"Radius": "40 size",
-						"Cost":"80 / 90 / 100 / 110 / 120 mana",
-						"Cooldown":"90 seconds",
-						"Damage": "Magic: 160 / 200 / 240 / 280 / 320 (+50% Magic Power)",
-						"Healing": "80 / 100 / 120 / 140 / 160 (+25% Magic Power)",
-						"Damage Reduction": "15%",
-						"Max Charge Dmg/Heal Scale": "1.5 / 2 / 2.5 / 3 / 3.5x",
-						"Max Charge": "800 / 1600 / 2400 / 3200 / 4000",
-						"Duration": "5 seconds"
-					}
-				}
-			},
-			"skin" : {
-				"Music Lover Samir": {
-					"link": "samir1"
-				},
-				"The Sixth Path Samir": {
-					"link": "samir2"
 				}
 			}
 		},
@@ -7513,6 +7446,74 @@
 				}
 			}
 		},
+		"fanny": {
+			"name": "Fanny",
+			"class": "mage",
+			"title": "The BABOOM",
+			"desc": "",
+			"comment": "Comment: Fanny is a playful water mage who love to make everything explode by magical atoms she create in the water like her own nukes. By laying water bombs everywere on the field, stopping enemies for moving, and to pull her water bombs back to her to sending it back to enemies in a cone, makes her increadible. Her Ult increases the damage of her water bombs that makes her insane! You will not love her if she is on your lane! Just deal with it!",
+			"skill": {
+				"Water Bomb":{
+					"prop":{
+						"Active": "Fanny create a water orb on a target location, explode after hit by an enemy. Dealing physical damage to enemies nearby, but 50% extra to the enemy who hit the orb. <br>Fanny can create up to three orbs (one orb per 10 seconds) and can't be placed on each other.",
+						"": "",
+						"Ability": "Target Location, Projectile",
+						"Radius": "35 size",
+						"Cost":"NONE",
+						"Cooldown":"NONE",
+						"Damage": "Physical: 20 / 40 / 60 / 80 / 100 (+20% Magic Power)",
+						"Duration": "60 seconds"
+					}
+				},
+				"Slimy Gummy":{
+					"prop":{
+						"Active": "Fanny create water on the ground that is like gummy, decreases enemies movement speed while walking over it. If they reaches to 100% of their movement speed, they become ensared.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Movement Speed": "- 15% per 1 / 0.80 / 0.65 / 0.40 / 0.25 seconds",
+						"Ensnare": "2.25 / 2.40 / 2.65 / 2.80 / 3 seconds",
+						"Duration": "3 seconds"
+					}
+				},
+				"Magnetic Force":{
+					"prop":{
+						"Active": "Fanny pull all of her placed orbs back to her, active again send them away in a cone to detornate on enemies hit.",
+						"": "",
+						"Ability": "Cone",
+						"Radius [Magnetic]": "70 / 80 / 90 / 100 / 110 size",
+						"Radius [Cone]": "40 / 50 / 60 / 70 / 80 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "20 / 18 / 16 / 14 / 12 seconds"
+					}
+				},
+				"Nuke":{
+					"prop":{
+						"Active": "Fanny increases the size of the orbs and massive the damage over 10 seconds. <br>The orbs stacking half of the time while Nuke is active.",
+						"": "",
+						"Ability": "Active, Aura, Projectile",
+						"Radius": "90 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Increased Damage": "Physical: 20 / 40 / 60 / 80 / 100 (+20% Magic Power)",
+						"Duration": "10 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Winter Cold Fanny": {
+					"link": "fanny1"
+				},
+				"Element Master Fanny": {
+					"link": "fanny2"
+				},
+				"Atlantic Fanny": {
+					"link": "fanny3"
+				}
+			}
+		},
 		
 		
 		
@@ -7537,6 +7538,7 @@
 			"class": "support",
 			"title": "Angel of Love",
 			"desc": "Adora is an angel in a low level of angels, not visible to the high angels, but she fight for the love in the human world! Her special power is the music from her Harp, by charm her enemies in to their death.",
+			"comment": "Comment: Adora deal magic damage and reduce their power and can charm and reduce their protection. She also heal you and your allies, shared by her damage dealt to enemies and can increase you and your allies attack pseed and movement speed. Her Ult stun all enemies the sound passes through! Adora is a perfect support if you want to buff your allies and in same time fight with increadible damage by her Harp.",
 			"skill": {
 				"Sound of Harp":{
 					"prop":{
@@ -7550,7 +7552,7 @@
 						"Damage": "Magic: 70 / 130 / 190 / 250 / 310 (+45% Magic Power)",
 						"Power": "- 15 / 20 / 25 / 30 / 35 %",
 						"Duration": "3,5 seconds",
-						"Heal": "60% (+10% per 100 Magic Power) (+0,2% per hero level = 4% at level 20)"
+						"Heal": "10% (+10% per shared Hero) (+10% per 100 Magic Power) (+0,2% per hero level = 4% at level 20)"
 					}
 				},
 				"Celerity":{
@@ -7605,12 +7607,73 @@
 					"link": "adora3"
 				}
 			}
-		},		
+		},
+		"alaina": {
+			"name": "Alaina",
+			"class": "support",
+			"title": "The Void Creator",
+			"desc": "",
+			"comment": "Comment: Alaina is more as a Mage with outstanding forces. By the void, she sending her enemies through the ground, changes their direction and both decreases their speed maximal and can speed up your allies. Her Dark Portal is perfect to sending everyone away over a second and dealing massive magic damage. Her Ult deal both massive damage and decreases their speed and magic power. Alaina is a outstanding support who decreases their speed without any cold, but more to stop where they go like Rosie. Enemies catch by her Void, let them know their screwed!",
+			"skill": {
+				"Infinite Fall":{
+					"prop":{
+						"Active": "Alaina open a portal to the void on the ground, let enemies fall down and teleport up to the sky and fall to the ground. Decreases their speed.",
+						"": "",
+						"Ability": "Target Location [rectangle]",
+						"Radius": "20 size",
+						"Cost":"40 mana",
+						"Cooldown": "15 seconds",
+						"Speed Debuff": "- 20 / 35 / 50 / 65 / 80 %",
+						"Duration": "3,5 seconds"
+					}
+				},
+				"Dark Portal":{
+					"prop":{
+						"Active": "Alaina create a orb that sucking all enemies to it, after 1.5 seconds they teleport in to the void, taking instant magic damage and teleport back after 1.5 seconds.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "35 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 100 / 155 / 210 / 265 / 320 (+20% Magic Power)"
+					}
+				},
+				"Bridge of Infinite":{
+					"prop":{
+						"Active": "Alaina create a bridge between the void and this world, a wall that changes their direction. Decreases their movement speed, but increase the movement speed to you and your allies by walking through the wall.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Cost":"40 mana",
+						"Cooldown":"14 seconds",
+						"Speed Debuff": "- 20 / 35 / 50 / 65 / 80 %",
+						"Speed Bonus": "+ 40 / 50/ 60 / 70 / 80 %",
+						"Duration": "3,5 seconds"
+					}
+				},
+				"Crushing Void":{
+					"prop":{
+						"Active": "Alaina creates a massive force between the worlds which opens cracks, but looks like it's a giant beam. Dealing magic damage to all enemies it passes though and decreases their Attack Speed, Movement Speed and Magic Power.",
+						"": "",
+						"Ability": "Line",
+						"Radius": "120 size",
+						"Cost":"100 / 110 / 120 / 130 /140 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 200 / 325 / 450 / 575 / 700 (+20% Magic Power)",
+						"Attack Speed": "- 40 / 50 / 60 / 70 / 80%",
+						"Movement Speed": "- 40 / 50 / 60 / 70 / 80%",
+						"Magic Power": "- 40%",
+						"Duration": "3,5 seconds"
+					}
+				}
+			}
+		},
 		"allegra": {
 			"name": "Allegra",
 			"class": "support",
 			"title": "The Music Witch",
 			"desc": "Allegra lives in the city of Kingdom Port, with her rich family. She loves music and play with her instrument, using her magic by notes and sound waves to paralyze her enemies and give protection to her allies.",
+			"comment": "Comment: Allegra can both dealing damage and buff your allies by Armor and Physical Power. She more in close combat who create destructive armor by her attacking and same time while dashing to her allies. She can paralyze and make enemies bleed around her that also makes her to a close combat support. Her attacks get a bonus magic damage by using her abilities. Her Ult let her playing music to increase your allies protection and power! Allegra is like Adora instead of healing and movement speed, she build up their power and protection!",
 			"skill": {
 				"Notes":{
 					"prop":{
@@ -7685,6 +7748,7 @@
 			"class": "support",
 			"title": "The Frost Mage",
 			"desc": "Kaprisha lives in Winterfall with her brother Jack.",
+			"comment": "Comment: Kaprisha is one of the most Area creation by snow and blizzard that can be a pain in the ass. Her ablitities chill and freeze enemies, can also confuse enemies and deal magic damage both instant and per second. Her Ult create a Antarctica by standing still and chilling every enemy inside her area. Her skin is amazing by change from snow and blizzard to sand! Kaprisha is the best snow user who can chill and in same time deal hughe magic and physical damage!",
 			"skill": {
 				"Frozen Orb":{
 					"prop":{
@@ -7749,6 +7813,7 @@
 			"class": "support",
 			"title": "The Water Mage",
 			"desc": "Kida lives in the Atlantic hidden in the sea, with an outstanding power by water magic she is both dangerous to have as opponent, but also a really good support!",
+			"comment": "Comment: Kida is build with her water tail that she sending away to bounce enemies, and heal allies by red water from all the blood enemies losing. She can also create Armor on a ally and in same time sending a tail from that ally too that duble the affect of her Water Tail. She can stun enemies in a target location by a bubble that also give protection to your allies. Her Ult silence movement tactical and stop crit from enemies in a big area. Water Tail also become increadible. Kida is a mage who can both heal and create Armor and Protection to her allies!",
 			"skill": {
 				"Water Tail":{
 					"prop":{
@@ -7822,6 +7887,7 @@
 			"class": "support",
 			"title": "The Sorceress of Gravity",
 			"desc": "Liza lives in the city of Kingdom Port, friend with Melody and Yui, and also a teacher by magic. She expert of gravity magic and dangerous to be as short!",
+			"comment": "Comment: Liza get increadible stones that floating with her, stun enemies and can stun an extra time if your allies get hit by an enemy, just by hitting with her basic attack, enemies is taking huge physical damage. Liza can also put enemies in to the air by gravity magic, and she can also sending a stone from the sky that burn the ground and dealing physical damage over time to enemies standing on it, that also is increadible by stunning enemies or because of her Ult, she decreases the speed of all enemies in the area. Liza maby counter her self by sending enemies to the sky while she got a abilitiy that dealing damage on the ground, but in good strategi they both can be in a good handle at the right time.",
 			"skill": {
 				"Gravity Stones":{
 					"prop":{
@@ -7890,35 +7956,32 @@
 			"class": "support",
 			"title": "The Holy Priest",
 			"desc": "Malin lives in the city of Kingdom Port, friend with Ania, Diana and Pius. Fighting side by side with Tána and Asula. She is a priest by healing tactics.",
+			"comment": "Comment: Malin is build to heal a small amount to her allies, but make a big difference at the enemies by punnish and deal high magic damage that decreases their power. She can also create a shield on just her allies that both increases their power and absorbing a % of all sorts of damage. Her Ult make her who she is, resurrection your dead allies with 50% of their health! She maby not is the best support, because of the small things she can do, but because of her punnishment, she deal more damage an you can think of by being a healer.",
 			"skill": {
-				"Divine Star":{
+				"Heal":{
 					"prop":{
-						"Active": "Malin sending a divine star in a line, heal allies hit, but dealing magic damage to enemies and reduce their protection.",
-						"": "",
-						"Ability": "Line",
-						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
-						"Damage": "Magic: 90 / 160 / 230 / 300 / 370 (85% Magic Power)",
-						"Heal": "50 / 95 / 140 / 185 / 230 (+55% Magic Power)",
-						"Protection": "- 10 / 15 / 20 / 25 / 30 %",
-						"Duration": "4 seconds"
-					}
-				},
-				"Power Word":{
-					"prop":{
-						"Active": "Malin increases nearby allies power and healing them over time.",
-						"Passive:": "Divine Star, Power Word and Punnishment gives your allies hit a divine shield. <br>Divine Shield stop all sorts of effects the following duration and reflect a % of all incoming damage.",
+						"Active": "Malin heal her allies with an small amount.",
+						"Passive": "Malin increases the health regen to her allies.",
 						"": "",
 						"Ability": "Area",
-						"Radius": "70 size",
+						"Radius": "40 size",
+						"Cost":"20 mana",
+						"Cooldown": "2.5 seconds",
+						"Heal": "13 / 26 / 39 / 52 / 65 (+20% Magic Power)",
+						"Health Regen": "50 / 100 / 150 / 200 / 250 % (+10% per 100 Magic Power)"
+					}
+				},
+				"GOD's Protection":{
+					"prop":{
+						"Active": "Malin create a Divine shiled only on your allies in a target location, that both give power and absorbing all sorts of damage.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"18 seconds",
 						"Power": "12 / 24 / 36 / 48 / 60",
-						"Heal": "80 / 140 / 200 / 260 / 320 (+5% Magic Power) over time",
-						"Duration": "4 seconds",
 						"Deflect": "25 / 30 / 35 / 40 / 45 %",
-						"Divine Shield": "2 seconds"
+						"Divine Shield": "4 seconds"
 					}
 				},
 				"Punnishment":{
@@ -7959,10 +8022,11 @@
 			"class": "support",
 			"title": "The Soul Player",
 			"desc": "Rosie lives in the city of Peace, together with the puppet master Mia, brought up in the circus by playing with magic, learn to play with peoples minds by using dark magic.",
+			"comment": "Comment: Rosie is expert to play with others souls, make enemies go in the opposite direction, silence and get back mana. She can contract with an ally and decreases their cooldown and increases their speed, mana and both gain and give a shield, or contract with an enemy and silence it. In the contact, Rosie copy one abilitie of their that she can use by her own mana. Her Ult create huge true damage over time after the death seeker hit an enemy. Rosie is the only Hero who can do what ever she want with others abilities and movements!",
 			"skill": {
 				"Contrarwise":{
 					"prop":{
-						"Active": "Rosie create a force in a target location, dealing magic damage and make enemies movie in the other direction. The direction buttons will be on the contrary.",
+						"Active": "Rosie create a force in a target location, dealing magic damage and make enemies move in the other direction. The direction buttons will be on the contrary.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "25 size",
@@ -7972,30 +8036,31 @@
 						"Contrarwise": "2 / 2,25 / 2,5 / 2,75 / 3 seconds"
 					}
 				},
-				"Magical Counter":{
+				"Mist of Silence":{
 					"prop":{
-						"Active": "Rosie shields her allies in a target location, increases their movement speed. The shield delfect a % of all incoming magic, but also give a destructive armor.",
+						"Active": "Rosie create a mist of magic at a target location, silence all enemies inside the mist. Both their movement tactical and magical abilities. Allies and Rosie inside this mist get mana per second.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"18 seconds",
-						"Destructive Armor": "50 / 100 / 150 / 200 / 250 (+5 per hero level = 100 at level 20)",
-						"Deflect": "20 / 25 / 30 / 35 / 40 %",
-						"Movement Speed": "6 / 12 / 18 / 24 / 30 %",
-						"Duration": "5 seconds"
+						"Mana": "1.5 / 2 / 2.5 / 3 / 3.5 (per 0.25 second)",
+						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
-				"Mind Reading":{
+				"Soul Contract":{
 					"prop":{
-						"Active": "Rosie make a contact with the first enemy or ally hit, silent enemies and let her use one of their three abilitys that will cost her mana. (That is not a weapon skill) <br>Hit an ally decrease their cooldown, increases their mana regenation and let you use one of their three abilities. (That is not a weapon skill)",
+						"Active": "Rosie contact with the first enemy hit in a line, silent the enemy and reduce their movement speed and make enemies move in the other direction. If Rosie hit an ally, she decreases their cooldown and mana regen, increases their speed and give a shield to both her and her ally that deflect a % of all sorts of damage. Rosie copy one of her ally or enemy three abilities that she can use by her own mana. (That is not a weapon skill). <br>Hit an enemy have a durasion by the time of the silence.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size", 
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"10 seconds",
+						"Cost":"40 mana",
+						"Cooldown":"15 seconds",
 						"Cooldown Reduction": "15 / 20 / 25 / 30 / 35 %",
-						"Mana": "25 / 50 / 75 / 100 / 125 %",
+						"Mana": "50 / 100 / 150 / 200 / 250 %",
+						"Deflect": "20 / 25 / 30 / 35 / 40 %",
+						"Movement Speed": "+ 6 / 12 / 18 / 24 / 30 %",
+						"Movement Speed": "- 6 / 12 / 18 / 24 / 30 %",
 						"Silence": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
@@ -8007,7 +8072,7 @@
 						"Radius": "25 size",
 						"Cost":"90 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "True: 300 / 350 / 400 / 450 / 500 (+35% Magic Power)",
+						"Damage": "True: 150 / 200 / 250 / 300 / 350 (+35% Magic Power)",
 						"Duration": "3 seconds"
 					}
 				}
@@ -8024,11 +8089,89 @@
 				}
 			}
 		},
+		"samir": {
+			"name": "Samir",
+			"class": "support",
+			"title": "Egyptian Priest",
+			"desc": "Samir lives in the city of Desert as a priest. As a teenage he get some skills in the battlefield by both Isis and Ra on his side, he is in love with Tora but she doesn't know, but he will do anything to protect her and his allies!",
+			"comment": "Comment: Samir can blind enemies, increases his allies protection, heal and reduce his enemies protection and power! His magic damage is huge, by a stunning strike at the first enemy hit, or red light that dealing magic damage per second. His Ult protect his allies in a area that also stacking to the next active that dealing damage to enemies and healing your allies. Samir is a mixture of both injury, buffing and debuffing enemies! Because of his Blindness, he become hard to be killed.",
+			"skill": {
+				"Power of Isis":{
+					"prop":{
+						"Active": "Samir sending a fire ball in a line, dealing physical damage to the first enemy hit and stunning them.",
+						"Passive": "Samir charging up his staff, his next basic attack deal a bonus magic damage and reduce their protection. Every 10s.",
+						"": "",
+						"Ability": "Projectile",
+						"Radius": "70 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
+						"Bonus": "Magic: 50 / 100 / 150 / 200 / 250 % Magic Power",
+						"Protection": "-15%",
+						"Damage": "Physical: 100 / 150 / 200 / 250 / 300 (+65% Magic Power)",
+						"Stun": "1 / 1,25 / 1,5 / 1,75 / 2 seconds"
+					}
+				},
+				"Golden Star":{
+					"prop":{
+						"Active": "Samir create a instant light in a target location, blind enemies and increases your allies protection.",
+						"Passive": "If Samir get fartal damage a light protect him that blind enemies for the same duration Golden Star blind. 10s cooldown.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "25 size",
+						"Radius [Area]": "90 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Protection": "10 / 15 / 20 / 25 / 30 %",
+						"Blind": "0,5 / 0,75 / 1 / 1,25 / 1,5 seconds",
+						"Duration": "4 seconds"
+					}
+				},
+				"Red Sun":{
+					"prop":{
+						"Active": "Samir sending a red light in a target location, dealing magic damage to enemies inside the light over time and reduce their power and protection.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 20 / 32 / 44 / 56 / 68 (+20% Magic Power) per second",
+						"Power": "-15%",
+						"Protection": "-15%",
+						"Duration": "4 seconds"
+					}
+				},
+				"Protection of Ra":{
+					"prop":{
+						"Active": "Samir plants his staff at his target location for 5s. Allies within its radius take less damage. Any damage dealt within the radius charges up the staff. If Samir activates the staff again, it explodes, dealing damage to enemies inside and healing allies.",
+						"": "",
+						"Ability": "Target Location",
+						"Radius": "40 size",
+						"Cost":"80 / 90 / 100 / 110 / 120 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Magic: 160 / 200 / 240 / 280 / 320 (+50% Magic Power)",
+						"Healing": "80 / 100 / 120 / 140 / 160 (+25% Magic Power)",
+						"Damage Reduction": "15%",
+						"Max Charge Dmg/Heal Scale": "1.5 / 2 / 2.5 / 3 / 3.5x",
+						"Max Charge": "800 / 1600 / 2400 / 3200 / 4000",
+						"Duration": "5 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Music Lover Samir": {
+					"link": "samir1"
+				},
+				"The Sixth Path Samir": {
+					"link": "samir2"
+				}
+			}
+		},
 		"talutah": {
 			"name": "Talutah",
 			"class": "support",
 			"title": "Mage of Blood Rituals",
 			"desc": "Talutah lives in the Swamp as a GOD of life!",
+			"comment": "Comment: Talutah carrying the lamp of life that let her choose to debuff enemies or buff allies every second she close to them. She also a blood mage that can dealing True damage to enemies over time in a target location that also reduce their movement speed, or dealing instant physical damage to enemies that also create red ghosts from killing minions that seeking to enemy heroes. Dealing magic damage per second and reduce their movement speed. Her Ult stop her enemies to walk over a dead circle that absrobring their health and in the end, it heal your allies by a % of all stealed health. Talutah is a perfect hero that debuff and buff, taking health per second and heal from it while she just need to be close. And the fear of your enemies to be close to the minions, or her self. Love or hate her! Your choice!",
 			"skill": {
 				"Lamp of Life":{
 					"prop":{
