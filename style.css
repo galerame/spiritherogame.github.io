@@ -22,7 +22,7 @@ body {
 	top: -80px;
 }
 #menu > a {
-	width: 105px;
+	width: 115px;
 	background: #000;
 	border: 1px solid #333;
 	text-align: center;
@@ -40,10 +40,14 @@ body {
 	transform: scale(1.1);
 }
 
+.worldmap {
+	height: 665px;
+	float: middle;
+}
+
 .itemset {
 	height: 600px;
 	float: middle;
-	margin: 0 0 0 0;
 }
 
 .city {
