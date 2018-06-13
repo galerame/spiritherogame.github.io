@@ -41,13 +41,11 @@ body {
 }
 
 .worldmap {
-	height: 665px;
-	float: middle;
+	width: 100%;
 }
 
 .itemset {
-	height: 600px;
-	float: middle;
+	width: 100%;
 }
 
 .city {
