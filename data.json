@@ -1,84 +1,5 @@
 {
 	"hero": {
-	"sandals": {
-			"name": "Sandals",
-			"class": "item",
-			"desc": "+6% Movement Speed"
-		},
-	"lightness": {
-			"name": "Boots of Lightness",
-			"class": "item",
-			"desc": "+15% Movement Speed <br>Active: Get +8% Movement Speed for 6 seconds and ignore slow affects. [Cooldown: 60 seconds]"
-		},
-	"ninja_boots": {
-			"name": "Ninja Boots",
-			"class": "item",
-			"desc": "+15% Movement Speed <br>Active: Blink at a target location. [Cooldown: 60 seconds]"
-		},
-	"leather_boots": {
-			"name": "Leather Boots",
-			"class": "item",
-			"desc": "+15% Movement Speed, +10 Armor, +150 Health, +15 Physical Power <br>Active: Knock back a nearby enemy front of you and stun they for 0,5 seconds. [Cooldown: 60 seconds]"
-		},
-	"iron": {
-			"name": "Boots of Iron",
-			"class": "item",
-			"desc": "+15% Movement Speed, +20 Armor <br>Passive: 10% Protection to all sorts of damage against you."
-		},
-	"nymph": {
-			"name": "Nymph Boots",
-			"class": "item",
-			"desc": "+15% Movement Speed, +25 Magic Protection, +20 Magic Power, +20% Crowd Control <br>Active: Remove all Crowd Control on you and make you invulnerable agenst it for 2,5 seconds. [Cooldown: 60 seconds]"
-		},
-	"wizardy": {
-			"name": "Wizard Boots",
-			"class": "item",
-			"desc": "+15% Movement Speed, +25 Magic Power, +15 Magic Penetration <br>Passive: 10% Cooldown Reduction to Abilitys and actives from items."
-		},
-	"gloves": {
-			"name": "Gloves",
-			"class": "item",
-			"desc": "+6% Attack Speed"
-		},
-	"gloves_power": {
-			"name": "Gloves of Power",
-			"class": "item",
-			"desc": "+10% Attack Speed, +20 Physical Power, +5 Armor Penetration <br>Active: +15% Attack Speed for 4 seconds. [Cooldown: 60 seconds]"
-		},
-	"gloves_vital": {
-			"name": "Gloves of Vital",
-			"class": "item",
-			"desc": "+10% Attack Speed, +15% Crit Chance, +30 Crit Damage"
-		},
-	"military": {
-			"name": "Gloves of Military",
-			"class": "item",
-			"desc": "+10% Attack Speed, +10 Armor, +100 Health, +15 Physical Power <br>Passive: Hitting enemies with basic attack, increases +2 Physical Power with a maximum of 20 stacks last 5 seconds."
-		},
-	"iron_gloves": {
-			"name": "Iron Gloves",
-			"class": "item",
-			"desc": "+10% Attack Speed, +20 Armor, +20 Physical Power <br>Passive: 10% Protection to all sorts of damage agenst you."
-		},
-	"nymph_gloves": {
-			"name": "Nymph Gloves",
-			"class": "item",
-			"desc": "+10% Attack Speed, +25 Magic Protection, +20 Magic Power <br>Passive: 10% Cooldown Reduction to Abilitys and actives from items."
-		},
-	"wizardy_gloves": {
-			"name": "Wizardy Gloves",
-			"class": "item",
-			"desc": "+10% Attack Speed, +25 Magic Power, +15 Magic Penetration <br>Passive: Every tenth ability use, increases your next basic attack by 200% damage as magic."
-		},
-	"frozen_gloves": {
-			"name": "Frozen Gloves",
-			"class": "item",
-			"desc": "+10% Attack Speed, +12 Magic Protection, +12 Armor, +12 Physical Power, +12 Magic Power <br>Passive: Basic attacks now slow enemies by 6% over 1 second."
-		},
-		
-		
-		
-		
 	"conquest": {
 			"name": "Conquest",
 			"class": "maps",
@@ -1587,7 +1508,8 @@
 			"name": "Anders",
 			"class": "tank",
 			"title": "The Spirit Torturer",
-			"desc": "Anders lives in Mordune, right hand to the king and working to get the truth from the criminals. He's a perfect spirit user, creating spiritual weapons to catch or pierce enemies body just to hurt or torture enemies.",
+			"desc": "Anders lives in Mordune, right hand to the king and working to get the truth from the criminals.",
+			"comment": "Comment: Anders is one of the few who can use Spirit Power! Anders is also a tank with shield and a great armor. His abilities let him deal magic damage to his targets and reduce their power and defence. He can use three diferent moves by his spiritual hammer with same affects and damage. Anders can chain his enemy and reduce their movement speed, in same time can create a circulating area around him that also reduce their attack pseed and dealing magic damage per second. His Ult catches all enemies in his sight, and pull them to him after 2.5 seconds. Anders is a perfect choice in the team as a tank who can both play solo top, or support in the bot lane. Anders do both great damage and debuff his enemies extremely much. He also is a pain in the ass to have against, hard at top lane too because of his defence and damage.",
 			"skill": {
 				"Spirit Hammer":{
 					"prop":{
@@ -1607,17 +1529,17 @@
 						"Duration": "3 / 3,25 / 3,5 / 3,75 / 4 seconds"
 					}
 				},
-				"Spirit Swords":{
+				"Criculating Slaughter":{
 					"prop":{
-						"Active": "At a target location, Anders creates four spiritual swords that strike all at once, dealing magic damage and reduce their movement speed.",
+						"Active": "Anders create circulating weapons around him, enemies inside this area takes magic damage per second and have their attack speed reduced.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "25 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"14 seconds",
-						"Damage": "Magic: 100 / 155 / 210 / 265 / 320 (+50% Magic Power)",
-						"Movement Speed": "-25%",
-						"Duration": "2,5 seconds"
+						"Cooldown":"18 seconds",
+						"Damage": "Magic: 10 / 15 / 20 / 25 / 30 (+5% Magic Power) per second",
+						"Attack Speed": "- 15 / 20 / 25 / 30 / 35 %",
+						"Duration": "6 seconds"
 					}
 				},
 				"Chained":{
@@ -1647,13 +1569,19 @@
 						"Size": "120"
 					}
 				}
+			},
+			"skin" : {
+				"Lich King Anders": {
+					"link": "anders1"
+				}
 			}
 		},
 		"asula": {
 			"name": "Asula",
 			"class": "tank",
 			"title": "Armored Princess",
-			"desc": "Princess Asula lives in the city of Kingdom Port, the oldest sister by Anni, Aenna and cousin to Diode from City of Mordune. Asula is inherited the throne, she is the captain by the military forces, side by side with Tána and their healer Malin. With her magical powers increases her tactics in the fights.",
+			"desc": "Princess Asula lives in the city of Kingdom Port, the oldest sister to Anni, Aenna, Fanny and cousin to Diode from City of Mordune. Asula is inherited the throne, she is the captain by the military forces, side by side with Tána and their healer Malin.",
+			"comment": "Comment: Princess Asula is also a tank with shield and a great armor. She can use a magical energy from her sword that can strike enemies in a line, and in same time dash the the last enemy hit and stun every enemy hit. She can change stance by using her magical shield to defend her allies brom behnd and sending back projectiles from enemy abilities. She can also increases the power and attack pseed to her allies. Her Ult let her heal all allieses around her and increases their protection against magic damage. Asula is a perfect choice in the team as a tank who playing support in the bot lane. She is build to protect at least one ally who is standing behind her. About other allies who is in close combat just need her buff, and because of her stun, enemies will never escape her!",
 			"skill": {
 				"Sola Blade":{
 					"prop":{
@@ -1669,20 +1597,20 @@
 				},
 				"Calling to War":{
 					"prop":{
-						"Active": "Asula increases her and her allies physical and magic power for a short duration.",
+						"Active": "Asula increases her and her allies power and attack speed for a short duration.",
 						"": "",
 						"Ability": "Buff, Area",
 						"Radius": "70 size",
 						"Cost":"60 mana",
 						"Cooldown":"18 seconds",
-						"Bonus Physical Power": "15 / 20 / 25 / 30 / 35",
-						"Bonus Magic Power": "20 / 25 / 30 / 35 / 40",
+						"Bonus Power": "15 / 20 / 25 / 30 / 35",
+						"Bonus Attack Speed": "20 / 25 / 30 / 35 / 40 %",
 						"Duration": "4 seconds"
 					}
 				},
 				"Magical Mirror":{
 					"prop":{
-						"Active": "Asula creates a magical mirror on her shield, creates a destructive armor front of her which also stops the attacks to get through. <br>Ability projectiles that hit the mirror, sends back.",
+						"Active": "Asula creates a magical mirror on her shield, creates a destructive armor front of her which also stops the attacks to get through. In this stance, Asula can't use her weapon, but projectiles from abilities that hit the mirror, sends back.",
 						"": "",
 						"Ability": "Shield",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
@@ -1727,17 +1655,22 @@
 			"name": "Diana",
 			"class": "tank",
 			"title": "Cleric of The Sun",
-			"desc": "Diana lives in the holy church in City of Kingdom Port, best friend to Ania, Pius and Malin. She also is a cleric that believes in the goddess of the sun, blinding enemies and burning them with her spear by holy magic.",
+			"desc": "Diana lives in the holy church in City of Kingdom Port, best friend to Ania, Pius and Malin. She also is a cleric that believes in the goddess of the sun.",
+			"comment": "Comment: Diana is also a tank with shield and a great armor. She can throw a burning spear that burns enemies and reduce their protection over a time. Blind enemies stop them to move stright and reduce their speed while blinded. Diana can create a shield that absorbing enemies damage dealt and also expires at the end that dealing hughe magic damage powered by the absorbing damage. Her Ult is a light from the sky Diana sending at a target location, that stunning and dealing huge magic damage. Diana is a perfect choice in the team as a tank who playing support in the bot lane and can also farm extremely good on top lane and defend as you supposed to do. After get her Ult, she can make the first kill or assist.",
 			"skill": {
 				"Burning Spear":{
 					"prop":{
-						"Active": "Diana throwing a spear of flames, dealing magic damage to all enemies hit in a line.",
+						"Active": "Diana throwing a spear of flames, dealing magic damage over time to all enemies hit and have their protection reduced while their burning.",
+						"Passive": "Diana deals bonus damage to burned enemy by her spear. Doubled against minions and monsters.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
-						"Damage": "Magic: 100 / 150 / 200 / 250 / 300 (+50% Magic Power)"
+						"Cooldown": "15 / 14 / 13 / 12 / 11 seconds",
+						"Bonus Damage": "+ 12 / 24 / 36 / 48 / 60 (+0.25 per hero level = 5 at level 20)",
+						"Damage": "Magic: 122 / 164 / 206 / 248 / 290 (+50% Magic Power) over time",
+						"Protection": "- 12 / 16 / 20 / 24 / 28 %",
+						"Duration": "4 seconds"
 					}
 				},
 				"Eclipse":{
@@ -1755,13 +1688,13 @@
 				},
 				"Sun Light":{
 					"prop":{
-						"Active": "Diana blinds enemies with her shield in a cone for 1 second, decreases their protection for a short duration and they can't move straight.",
+						"Active": "Diana blinds enemies with her shield in a cone for 1 second, decreases their speed for a short duration and they can't move straight.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "50 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
-						"Cooldown":"10 seconds",
-						"Protection": "12 / 18 / 24 / 30 / 36 %",
+						"Cooldown":"12 seconds",
+						"Speed": "- 12 / 18 / 24 / 30 / 36 %",
 						"Duration": "2,5 / 2,75 / 3 / 3,25 / 3,5 seconds"
 					}
 				},
@@ -1782,7 +1715,8 @@
 			"name": "Diode",
 			"class": "tank",
 			"title": "The Crusader",
-			"desc": "Diode lives in the City of Mordune, cousin to princess Asula in Kingdom Port, rival to the shield master Rebecca in the city of Peace, lives as a crusader and also is a believer. Crushing enemies with her mace and always are good with her shouting voice to taunting enemies!",
+			"desc": "Diode lives in the City of Mordune, cousin to princess Asula in Kingdom Port, rival to the shield master Rebecca in the city of Peace. Diode lives as a crusader and also is a believer.",
+			"comment": "Comment: Diode is also a tank with shield and a great armor. Her mace is powerful and get stronger while she takes damage. She can destroy armor from the enemies hit by her mace and also taunt enemies to fight agaisnt her and gain a destructive armor per taunted enemy. She can catch enemies inside a area with dancing swords and her Ult let her fly up to the sky and strike in a target location from miles distance. Diode is a perfect choice in the team as a tank in the top lane. Because of her Taunt and Dancing Swords she is dangerous and maby can manage to survive a gank. Because of her Ult, she can help her allies in the other lanes fast. Thats why she playing better in top lane.",
 			"skill": {
 				"Mace Swing":{
 					"prop":{
@@ -1842,7 +1776,8 @@
 			"name": "Dracula",
 			"class": "tank",
 			"title": "Vampire Lord",
-			"desc": "Dracula lives in the Abandoned Castle, oldest by the sister and brothers, and also the leader of the vampires. He got a blade and his gigantic shield by a head of the king of the bats in the demon world, because of his gigantic body and wings he can be kind of dangerous by also ignoring he got pain.",
+			"desc": "Dracula lives in the Abandoned Castle, oldest by the sister and brothers, and also the leader of the vampires.",
+			"comment": "Comment: Dracula is also a tank with a great armor and a vampiric weapon. He is the strongest hero who can reduce enemies movement speed by 80% from all of his abilities. His bite from his vampiric weapon deal huge physical damage and heal him from a % of all the damage dealt to enemies in the cone. He can kick away an enemy, minion or monster in a line, dealing physical damage to all enemies hit by the target and the movement reduce is the meaning of this, using against a minion. But it isent everything, by jumping ata target location makes him dangerous! No one can't escape this combo in the top lane, he is the perfect tank who deal the most damage. He don't need other defubbs to kill his foes by the speed they lost. His Ult fear every single enemy in the area over a short second and dealing physical damage per .25 seconds that also is a perfect use in a team fight. You will hate to fight him!",
 			"skill": {
 				"Monstrous Bite":{
 					"prop":{
@@ -1902,7 +1837,8 @@
 			"name": "Elise",
 			"class": "tank",
 			"title": "The Crystal Warrior",
-			"desc": "Elise lives in City of Ice, right hand to princess Emiza and like her sister, found helpless in a cave and taken care of by the royal family. Now she working in the military defences, carrying on a self-built armor, hammer and shield. Her strong attacks and the force of ice magic makes her harmless to kill!",
+			"desc": "Elise lives in City of Ice, right hand to princess Emiza and like her sister, found helpless in a cave and taken care of by the royal family. Now she working in the military defences, carrying on a self-built armor, hammer and shield.",
+			"comment": "Comment: Elise is also a tank with a self-built armor, shield and hammer of crystal and ice. She can send enemies up thru the air by her hammer, get destructive armor that can shatter and dealing physical damage to enemies around her. Create a path of ice that dealing physical damage hit and afterwards chill enemies who is walking on it, and also deal an extra damage by landing on it from abilities that sending enemies up thru the sky. Her Ult is like the icy path, but much bigger and create icicles on the ground that deals damage to enemies who walk on them. Elise is strong to handle the top lane and let an other support the bot lane. After she got the icy-hammer item enemies can't escape her and because of her tanky and damage she is dangerous!",
 			"skill": {
 				"Up Smash":{
 					"prop":{
@@ -1930,14 +1866,14 @@
 				},
 				"Line of Crystals":{
 					"prop":{
-						"Active": "Elise smash her hammer at the ground, creates a line of crystals, dealing physical damage to all enemies hit. <br>Affecting enemies by slowness by walking on the following created field and enemies that are landing on this field by Up Smash or other abilities that do alike are taking increased damage.",
+						"Active": "Elise smash her hammer at the ground, creates a line of crystals, dealing physical damage to all enemies hit. <br>Affecting enemies by chill by walking on the following created field and enemies that are landing on this field by Up Smash or other abilities that do alike are taking increased damage.",
 						"": "",
 						"Ability": "Line, Field",
 						"Radius": "80 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"12 seconds",
 						"Damage": "Physical: 90 / 160 / 230 / 300 / 370 (+90 Magic Power)",
-						"Movement Speed": "-35%",
+						"Chill": "-35%",
 						"Fall Damage": "Physical: 70 / 120 / 170 / 220 / 270 (+35% Magic Power)",
 						"Duration": "3,5 seconds"
 					}
@@ -1957,13 +1893,19 @@
 						"Duration": "3,5 seconds"
 					}
 				}
+			},
+			"skin" : {
+				"Dressed Up Elise": {
+					"link": "elise2"
+				}
 			}
 		},
 		"fenrir": {
 			"name": "Fenrir",
 			"class": "tank",
 			"title": "The Armored Phoenix",
-			"desc": "Fenrir lives in City of Mordune together with Leo, leader of the defensive squad in the military. With his mace and fire power as magic, he can run and not to bother if he got any harm, he just continues burning his enemies!",
+			"desc": "Fenrir lives in City of Mordune together with Leo, leader of the defensive squad in the military.",
+			"comment": "Comment: Fenrir is also a tank with shield and a great armor. Fenrir is someone no one wants to fight in close combat, because of his stile, he always passing by to end up behind and start his burning trail that makes enemies can't escape without running on his fire if their no other opinions. Fenrir is build to burn his enemies per second by his cone of fire, maby burn them a last time before death from the flaming wall, or because of his Ult no one want to be close at him, and if he dies with his Ult active, he gain his life back. His Ult also increases his protection against magic damage and health regenation. Fenrir is not needed as a support in the bot lane, because of no debuffs or buffs. He is a perfect choise on the top lane and the one on the top, will hate you as a player!",
 			"skill": {
 				"Cone of Fire":{
 					"prop":{
@@ -2021,6 +1963,7 @@
 			"class": "tank",
 			"title": "The Lonely Soul",
 			"desc": "Golem lives self in the mountains, scare away people who walks through the mountain path. He is a lonely soul with no friends and doesn't know his background and how he came to, he is just a big rock with thoughts and feelings that crush enemies he sees.",
+			"comment": "Comment: Golem is also a tank with great health and armor. Golem gain his damage from his Armor, he also gain a destructive armor after out of combat and 30% of his Armor is thorn and damaging attackers. Golem can slow and deal damage to enemies hit by his ground smashes, also buff him with strength. Golem can increases his allies and him self win an destructive armor, or leap to a target location with a body slam. His Ult let him channel and in reduce their movement speed over 2.5 seconds that after will deal huge physical damage to enemies inside the area. Golem is a great jungler because of his armor and body slam to jump in to a fight and easy fear his enemies by his tanky support.",
 			"skill": {
 				"Earth Blast":{
 					"prop":{
@@ -2118,14 +2061,15 @@
 			"name": "Grey Wonder",
 			"class": "tank",
 			"title": "The Wise Man",
-			"desc": "Grey Wonder lives in the city of Forest, the wise man to the high family and teacher to Chantrea. He can wispering to wisps and expert to use energy magic from the nature, ore summoning the nature by self.",
+			"desc": "Grey Wonder lives in the city of Forest, the wise man to the high family and teacher to Chantrea.",
+			"comment": "Comment: Grey Wonder is also a tank with a two-handed staff but just a light armor. He get increased armor and by an aura he gives a % of his armor to his allies. He can also increases his Armor and Physical Power, while his staff also can get a powerful attack of magic by the energy from spells around him, and also can entange is target with his staff. He can see invisibility and ward places with a wisp, or reduce enemies magic protection. Because of his Ult, enemies can't escape him without taking huge damage from an area by Ents. The best place for Grey Wonder is to support at the bot lane, to both ward and health his ally to not get ganked from invisible enemies, also great huge damage with his attacks and also increases his allieses armor while he self get more tanky for every level.",
 			"skill": {
-				"Nature Energy":{
+				"Fast Growth":{
 					"prop":{
-						"Active": "Grey Wonder sending a magical energy through enemies in a line, dealing magic damage and reduce their physical power.",
+						"Active": "Grey Wonder gain a bonus magic damage to his next basic attack, that also entangle the enemy hit by his next basic attack. Entangles enemy take damage per second and can't move or attack.",
 						"Passive": "Every spell used nearby Grey Wonder, give his staff energy. After get 5 stacks, his next basic attack dealing a bonus magic damage. 10s cooldown.",
 						"": "",
-						"Ability": "Line",
+						"Ability": "Active, Entangle",
 						"Radius": "70 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
@@ -2135,7 +2079,7 @@
 						"Bonus": "Magic: 50 / 75 / 100 / 125 / 150 (+2,5 per hero level = 50 at level 20)"
 					}
 				},
-				"Strength":{
+				"Bear Strength":{
 					"prop":{
 						"Active": "Grey Wonder increases his physical power and armor, half to nearby allies.",
 						"Passive": "Grey Wonder get increased armor and a % of his armor increases armor to nearby allies.",
@@ -2153,14 +2097,15 @@
 				},
 				"Wisp":{
 					"prop":{
-						"Active": "Grey Wonder summon a wisp to ward in a target location, they see invisibility.",
+						"Active": "Grey Wonder summon a wisp to ward in a target location, they see invisibility. If a enemy walks over the invisible wisp, or get an direcly hit from the summoning, they get reduced magic protection by a % of Grey's magic protection, and enemies can get below zero of its magic protection, that also let them take more damage from magic damage.",
 						"Passive": "Grey Wonder get a floating wisp over his shoulder, increases his magic protection and mark enemies hit by nightvision. You and nearby allies can se the enemy even though their invisible.",
 						"": "",
 						"Ability": "Ward",
 						"Radius": "55 size",
 						"Cost":"None",
 						"Cooldown":"12 seconds",
-						"Magic Protection": "15 (+2,5 per hero level = 50 at level 20)",
+						"Magic Protection": "30 / 50 / 70 / 90 / 110 %",
+						"Bonus Magic Protection": "10 / 15 / 20 / 25 / 30 (+2,5 per hero level = 50 at level 20)",
 						"Mark": "5 seconds",
 						"Ward": "120 seconds"
 					}
@@ -2192,6 +2137,7 @@
 			"class": "tank",
 			"title": "The Archangel",
 			"desc": "Oone is a archangel of light with healing tactics, leader of the military by the light angels. Older brother to Aria, and the best swordsman in the world!",
+			"comment": "Comment: Oone is an Archangel with shield and a great armor. He is the best swordsman with shield and because of his angle powers. He can steal protection from enemies hit by his Mighty Sword and stack up his physical power. Every stack can let him heal him and his allies, and to get stacks fast, he can leap to enemies, gain speed and attacking like an creazy angel. His Ult let him dash forward and deal damage to all enemies hit by his sword that also give him stacks. His the fastest tank ever in his class, but doesnt mean his the best to deal damage. But he need to attack his enemies to decreases their protection, not just a easy spell or other, but because of his Leap, his speed is scary! His build made him a perfect Top lane, to defend his lane, and farm as no other tank can do.",
 			"skill": {
 				"Mighty Sword":{
 					"prop":{
@@ -2243,6 +2189,11 @@
 						"Damage": "Physical: 200 / 275 / 350 / 425 / 500 (+100% Physcial Power)"
 					}
 				}
+			},
+			"skin" : {
+				"Human Captain Oone": {
+					"link": "oone1"
+				}
 			}
 		},
 		"pius": {
@@ -2250,20 +2201,20 @@
 			"class": "tank",
 			"title": "Fighter for Justice",
 			"desc": "Pius lives in the holy church in City of Kingdom Port, best friend to Ania, Diana and Malin. He also is a paladin, fighting for justice and destroy all evil in the world by his hammer and blessed powers.",
+			"comment": "Comment: Pius is also a tank with a two-handed hammer and a great armor. He can stun and dealing huge magic damage to one enemy hero by a blessed hammer in a line that also can went through minions and gives him circulating golden hammers that also smite nearby enemies with magic damage. He can shield and heal him and his allies by standing on a five-point star circle on the ground, or heal and gives armor to his allies that also deal magic damage to enemies and light up by his Holy Light that also can stack his Golden Hammers. His Ult reduce his enemies power and defence. Pius is a perfect choice in the team as a tank in the top lane, because of his healing and defence he can stand a chance against witch enemy hero who standing on his way. By stunning and smite enemies gives him the opportunity to kill his foes easier while he gain health and protection both over time, and instant that can fear enemies to not know his full strength.",
 			"skill": {
 				"Blessed Hammer":{
 					"prop":{
-						"Active": "Pius sending a magical hammer in a line to the first hero hit, dealing magic damage and stunning the target. <br>Also dealing magic damage to all enemies in the line before hitting a hero.",
-						"Passive": "Pius get increased power to his basic attacks and a % bonus magic damage by his power.",
+						"Active": "Pius sending a magical hammer in a line through minions to the first hero hit, dealing magic damage and stunning the target. After hit an enemy hero, a Golden Hammer is circulating you and smite nearby enemies.<br>Golden Hammer duplicating by the minions Blessed Hammer went through, or if you hit an enemy hero who is light up by Holy Light, the Golden Hammer stacks by the number of enemy heroes who is light up by Holy Light and removes the light up from the enemy heroes.",
 						"": "",
 						"Ability": "Line, Projectile",
 						"Radius": "70 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12",
-						"Damage": "Magic: 100 / 170 / 240 / 310 / 380 (+60% Physical Power)",
+						"Blessed Hammer": "Magic: 100 / 170 / 240 / 310 / 380 (+50% Physical Power)",
 						"Stun": "1,5 seconds",
-						"Physical Power": "20 / 25 / 30 / 35 / 40",
-						"Magic Damage": "30% of his Physical Power"
+						"Golden Hammer": "Max 5",
+						"Smite": "Magic: 20 / 30 / 40 / 50 / 60 (+50% Magic Power)"
 					}
 				},
 				"Divine":{
@@ -2281,7 +2232,7 @@
 				},
 				"Holy Light":{
 					"prop":{
-						"Active": "Pius sending a light of holy at a target localtion, heal and give armor to allies, but dealing magic damage to enemies hit by this light.",
+						"Active": "Pius sending a light of holy at a target localtion, heal and give armor to allies, but dealing magic damage to enemies hit and light them up for a short time for blessed hammer.",
 						"": "",
 						"Ability": "Target Location",
 						"Radius": "30 size",
@@ -2290,6 +2241,7 @@
 						"Damage": "Magic: 70 / 120 / 170 / 220 / 270 (+70% Magic Power)",
 						"Heal": "50 / 95 / 140 / 185 / 230 (+45% Magic Power)",
 						"Armor": "20 (+1,5 per hero level = 30 at level 20)",
+						"Light Up": "4 seconds",
 						"Duration": "4 seconds"
 					}
 				},
@@ -2303,7 +2255,7 @@
 						"Cooldown":"90 seconds",
 						"Damage Debuff": "- 10 / 15 / 20 / 25 / 30 %",
 						"Protection Debuff": "- 10 / 15 / 20 / 25 / 30 %",
-						"Duration": "3 seconds"
+						"Duration": "6 seconds"
 					}
 				}
 			},
@@ -2319,6 +2271,7 @@
 			"class": "tank",
 			"title": "The Shield Master",
 			"desc": "Rebecca lives in the city of Peace, always fighting for skills and dreaming of a peaceful world, also rival to the crusader Diode. She is also the greatest shield master in the world, fighting with it like it was her right hand like a main weapon as her mace.",
+			"comment": "Comment: Rebecca is also a tank with shield and a great armor. She can stun with her shield, and basic attacks. Throw her shield that bounce between enemies, dealing damage and remove their sight to critt or penetrate. She can rush at a line and knock aside enemies with an huge damage. Because of her Ult, she become the shield master, block every single projectiles and her defence is huge. Rebecca is the best choice if you want to interupt an enemy and standing in a fight without taking huge damage, such as critting and penetrate she can remove. Rebecca is a perfect choice in the team as a support in bot lane, because of her interupting and stunning tactical skills, with no farming skills at all. Her item build is more like a support in this situation, with good passives and actives from items. It's how you want to play her, she can be witch lane you want. She grate as a more offensive strategy too.",
 			"skill": {
 				"Bash":{
 					"prop":{
@@ -2338,7 +2291,7 @@
 				},
 				"Bouncing Shield":{
 					"prop":{
-						"Active": "Rebecca throw her shield in a line, dealing physical damage to the first enemy hit and start to bounce up to 5 enemies in a 30 radius. <br>While the shield is bouncing, she can't do Bash, Shield Rush or other shield item skills the following seconds including the block chance.",
+						"Active": "Rebecca throw her shield in a line, dealing physical damage to the first enemy hit and start to bounce up to 5 enemies in a 30 radius. Hit by this shield remove their sight to critt or penetrate for 3 seconds. <br>While the shield is bouncing, she can't do Bash, Shield Rush or other shield item skills the following seconds including the block chance.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
@@ -2349,7 +2302,7 @@
 				},
 				"Shield Rush":{
 					"prop":{
-						"Active": "Rebecca dash forward, push back all enemies and dealing physical damage to them.",
+						"Active": "Rebecca dash forward, knock aside enemies and dealing physical damage to them.",
 						"": "",
 						"Ability": "Dash",
 						"Radius": "55 size",
@@ -2360,7 +2313,7 @@
 				},
 				"Shield Master":{
 					"prop":{
-						"Active": "Rebecca start to ignore 30% of all physical damage against her, blocking all piercing projectiles for hurting allies from behind. <br>She also get increased damage to her shield skills.",
+						"Active": "Rebecca start to ignore 30% of all physical damage against her, and can't take a critt or penetrate from enemies, blocking all piercing projectiles for hurting allies from behind. <br>She also get increased damage to her shield skills.",
 						"": "",
 						"Ability": "Buff",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
@@ -2381,11 +2334,12 @@
 			"name": "Rohan",
 			"class": "tank",
 			"title": "The Scorpion King",
-			"desc": "Lives in the Deserted Path by himself, trading with humans by giving them protection. Against bounty hunters he is hard to be find, by his tail he poisoned his enemies and destroying their armor with his strong claws and creating much sand eddies.",
+			"desc": "Lives in the Deserted Path by himself, trading with humans by giving them protection.",
+			"comment": "Comment: Rohan is also a tank with a two-handed pole-axe and a great armor. Rohan can pull one enemy to him and give poisen to deal true damage per second while reducing they healing and reduced physical power per second, while he can destroy his enemies armor, dealing piercing damage by a circulating sandstorm around him that increases his armor. He can also slow their movements by a quicksand in a target location, and because of his Ult he can rush to a whole new lane and dealing huge damage to enemies in that target location. Rohan is a perfect choice in the team as a tank in the top lane.",
 			"skill": {
 				"Needle":{
 					"prop":{
-						"Active": "Rohan strike with his tail, poisoning all enemies in a line, dealing true physical damage for a short duration and reducing their Physical Power.",
+						"Active": "Rohan strike with his tail, pull the first enemy hit to him and poison the enemy hit by true damage over time and remove their healing regenation and healed by their allies is reduced by 50% while poisoned. <br>The poisoned enemy have they physical power reduced that increases per second for the duration.",
 						"Passive": "His third basic attack destroying their armor in a cone for a short duration.",
 						"": "",
 						"Ability": "Line, Cone",
@@ -2393,22 +2347,22 @@
 						"Radius (Cone)": "35 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
-						"Damage": "True: 35 / 40 / 45 / 50 / 55 (+15% Physical Power)",
-						"Physical Power": "- 12 / 18 / 24 / 30 / 36 %",
-						"Armor": "- 10 / 15 / 20 / 25 / 30 %",
-						"Duration": "5 seconds"
+						"Damage": "True: 1 / 2 / 3 / 4 / 5 per .25 seconds (+10 / 12.5 / 15 / 17.5 / 19% of target's maximum Health)",
+						"Physical Power": "- .25 / .5 / .75 / 1 / 1.25 per .25 seconds",
+						"Armor": "- 30%",
+						"Duration": "8 seconds"
 					}
 				},
 				"Sandstorm":{
 					"prop":{
-						"Active": "Rohan creates a circulating storm around him by sand, give him increased armor. Every time his third basic attack have been done, Rohan spitting sand in the cone, dealing piercing damage to enemies hit.",
+						"Active": "Rohan creates a circulating storm around him by sand, increases his armor, and dealing piercing damage per .25 seconds.",
 						"": "",
 						"Ability": "Shield, Cone",
 						"Radius (Cone)": "35 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cost":"60 / 65 / 70 / 75 / 80 mana + 10 per second",
 						"Cooldown":"14 seconds",
 						"Armor": "20 / 25 / 30 / 35 / 40",
-						"Damage": "Piercing: 60 / 100 / 140 / 180 / 220 (+40% Physical Power)"
+						"Damage": "Piercing: 7.5 / 13 / 18.5 / 24 / 29.5 (+.5% Physical Power)"
 					}
 				},
 				"Quicksand":{
@@ -2425,13 +2379,13 @@
 				},
 				"Sand Rush":{
 					"prop":{
-						"Active": "Rohan rush to a target location, dealing physical damage to all enemies hit. <br>Can be use from bot lane to top lane, no limit.",
+						"Active": "Rohan run under the ground while you active this again to create a huge physical damage in the target location. <br>This has no limit.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "25 size",
+						"Ability": "Rush, no-limit",
+						"Radius": "20000 size",
 						"Cost":"90 / 100 / 110 / 120 / 130 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Physical: 300 / 400 / 500 / 600 / 700 (+120% Physical Power)"
+						"Damage": "Physical: 200 / 250 / 300 / 350 / 400 (+110% Physical Power)"
 					}
 				}
 			}
@@ -2440,7 +2394,8 @@
 			"name": "Tána",
 			"class": "tank",
 			"title": "Hero of Justice",
-			"desc": "Tána lives in City of Kingdom Port, believe in justice and fight side by side with princess Asula. From living in the streets, she climbed quite high in order to reach her goal. Now with her golden whip and sword she clearing the city from crimes.",
+			"desc": "Tána lives in City of Kingdom Port, believe in justice and fight side by side with princess Asula. From living in the streets, she climbed quite high in order to reach her goal.",
+			"comment": "Comment: Tána is also a tank with shield and a great armor. She can both dash through enemies, throw her sword in a line that comes back to her again, catch enemies by a golden whip that reduce their physical power and movement speed. Her Ult let her leap to a target location and cause huge physical damage. Tána is great because of her bonus damage that dealing true damage of a % between Tána and her enemies health. Thats why she will build with much health. Tána is a perfect choice in the team as a tank in the top lane.",
 			"skill": {
 				"Dash of Justice":{
 					"prop":{
@@ -2497,18 +2452,18 @@
 			"class": "tank",
 			"title": "The Soul Stealer",
 			"desc": "Tank lives in the city of Mordune, left hand to the king, and does horrible things for him.",
+			"comment": "Comment: Tank is also a tank with shield and a great armor. He also strong enough to hold a two-handed sword. He can throw his sword at a target location, that kill enemies below 30% health, and by attacking, the sword comes back to him. He can also breath souls in a cone, that both dealing magic damage and heal him 12% of his maximum health each enemy killed. Killing enemies gives him permanent health, and he can dash forward, sending enemies up to the sky and dealing physical damage increased by his armor. His Ult let him deal huge magic damage instant in his sight and reduce their movement speed that let him get the opportunity to kill them. Tank is a perfect choice in the team as a tank in the top lane and let him farm as much as he can to increase his maximum health.",
 			"skill": {
 				"Soul Breathe":{
 					"prop":{
 						"Active": "Tank breathe out deadly souls in a cone, dealing magic damage to all enemies hit. Kill enemy on hit heal him 12% of their maximum health.",
-						"Passive": "He get a bonus magic damage from a % by his magic protection. <br>Killing enemies give him permanent health and also heal after killing. Double effect from killing heroes.",
+						"Passive": "Killing enemies give him permanent health and also heal after killing. Double effect from killing heroes.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "30 size",
 						"Cost": "70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "13 seconds",
 						"Damage": "Magic: 85 / 140 / 195 / 250 / 305 (+70% Physical Power)",
-						"Magic Damage": "Magic: 35%",
 						"Heal": "12% Maximum Health",
 						"Health": "30"
 					}
@@ -2928,7 +2883,7 @@
 				},
 				"Thorn Area":{
 					"prop":{
-						"Active": "Drya creates a entangling area by thorn, dealing physical damage per second and ensnare enemies hit. Reduce their movement speed inside the area.",
+						"Active": "Drya creates a entangling area by thorn, begins to hug around the enemies inside the area, and after 1.5 seconds, they trapt for 1 second and the thorn area dissapear non-targets hit and dealing dealing physical damage over a time while their movements are reduced.",
 						"": "",
 						"Ability": "Area",
 						"Radius": "50 size",
@@ -2937,7 +2892,7 @@
 						"Damage": "Physical: 50 / 100 / 150 / 200 / 250 (+80% Magic Power) (Per seconds)",
 						"Ensnare": "1 seconds",
 						"Movement Speed": "-80%",
-						"Duration": "3 seconds"
+						"Duration": "2.5 / 3 / 3.5 / 4 / 4.5 seconds"
 					}
 				}
 			},
@@ -4682,8 +4637,8 @@
 			"skill": {
 				"Holy Power":{
 					"prop":{
-						"Active": "Hánet strike with his hammer and burst magic in a cone, dealing magic damage hit and reduce their attack speed.",
-						"Passive": "Hánet overpowering his hammer by holy magic while out of combat. His first basic attack hit reduce the targets protection. <br>10s out of combat.",
+						"Active": "Hánet strike with his hammer and burst magic in a cone, knock up enemies and dealing magic damage hit and reduce their attack speed.",
+						"Passive": "Hánet overpowering his hammer by holy magic while out of combat. His first basic attack hit reduce the targets protection and knock it up. <br>10s out of combat.",
 						"": "",
 						"Ability": "Cone",
 						"Radius": "35 size",
@@ -4697,7 +4652,7 @@
 				},
 				"Leap of Justice":{
 					"prop":{
-						"Active": "Hánet leap to a target location, dealing magic damage and reduce their power. After Hánet leap, he gain a destructive armor.",
+						"Active": "Hánet leap to a target location, pull nearby enemies to him and dealing magic damage and reduce their power. After Hánet leap, he gain a destructive armor.",
 						"": "",
 						"Ability": "Leap",
 						"Radius": "25 size",
