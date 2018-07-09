@@ -3928,6 +3928,71 @@
 				}
 			}
 		},
+		"violet": {
+			"name": "Violet",
+			"class": "assassin",
+			"title": "Full Metal Assassin",
+			"desc": "",
+			"comment": "Comment: Violet is a full metal assassin with a great sword and her blades formed as leafs. She lives in City of Peace and loves to fight at the arena. After marking her enemies with her leaf blades, her next basic attack deal an increadible damage, and her strength is also increadible as being an assassin.",
+			"skill": {
+				"Purple Bunny":{
+					"prop":{
+						"Active": "Violet dash one step forward, increases her physical strength over 3 seconds. <br>Without any cost, or cooldown, it instead stack every 10 seconds with an maximum of 3 stacks. Let her dash with this stacks instead, and stack up her physical strength per dash.",
+						"": "",
+						"Ability": "Dash",
+						"Radius": "30 size",
+						"Cost":"None",
+						"Cooldown": "10 seconds per stack [max 3 stacks]",
+						"Physical Power": "10 / 15 / 20 / 25 / 30",
+						"Duration": "3 seconds"
+					}
+				},
+				"Dark Forest":{
+					"prop":{
+						"Active": "Violet throw six blades around her and become insivible. Enemies hit have their movement speed reduced. <br>Enemies hit by her blades from Dark Forest is marked and can be attacked by Red Moon.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "40 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"18 seconds",
+						"Damage": "Piercing: 25 / 70 / 115 / 160 / 205 (+5% Physical Power)",
+						"Invisible": "5 seconds",
+						"Movement Speed": "16 / 32 / 48 / 64 / 80 %",
+						"Duration": "3 seconds"
+					}
+				},
+				"Leaf Blades":{
+					"prop":{
+						"Active": "Violet throw three blades in a cone. Disarm enemies hit and mark them. Minions and monsters takes piercing damage instead. <br>Marken enemies let Violet teleport behind them and her next basic attack after blinking, is increased by a % of her Physical Power.",
+						"": "",
+						"Ability": "Cone, Mark, Teleport",
+						"Radius": "30 size",
+						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cooldown":"10 seconds",
+						"Damage": "Piercing: 25 / 70 / 115 / 160 / 205 (+5% Physical Power)",
+						"Physical Power": "30%",
+						"Disarm": "1.5 / 1.75 / 2 / 2.25 / 2.5 seconds"
+					}
+				},
+				"Red Moon":{
+					"prop":{
+						"Active": "Violet strike every enemy hit by Dark Forest, dealing physical damage and disarm over 3 seconds.",
+						"": "",
+						"Ability": "Area",
+						"Radius": "90 size",
+						"Cost":"90 / 100 / 110 / 120 / 130 mana",
+						"Cooldown":"90 seconds",
+						"Damage": "Physical: 70 / 115 / 160 / 205 / 250 (+200% Physical Power)",
+						"Disarm": "3 seconds"
+					}
+				}
+			},
+			"skin" : {
+				"Future Violet": {
+					"link": "violet1"
+				}
+			}
+		},
 		"vulpes": {
 			"name": "Vulpes",
 			"class": "assassin",
@@ -5781,15 +5846,16 @@
 			"skill": {
 				"Roots":{
 					"prop":{
-						"Active": "Anthea sending roots in a line, entangle enemies hit and dealing physical damage. The affected enemies takes physical damage from the roots per 0,25s.",
+						"Active": "Anthea sending roots in a line, entangle enemies hit and dealing physical damage per .25 seconds. After hit a minimum of one enemy, Anthea can use this again in a target location, that sending entangled enemies up to the air and reduce their physical protection. Dealing physical damage and renew the durasion of the entangle enemies.",
 						"": "",
 						"Ability": "Line",
 						"Radius": "70 size",
-						"Cost":"70 / 75 / 80 / 85 / 90 mana",
+						"Cost":"60 mana",
+						"Cost [Second Strike]":"75 mana",
 						"Cooldown": "14 / 13 / 12 / 11 / 10 seconds",
-						"Damage": "Physical: 60 / 95 / 130 / 165 / 200 (+50% Magic Power)",
-						"Entangle": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Magic Power) per 0,25 seconds",
-						"Duration": "0,75 / 1 / 1,25 / 1,5 / 1,75 seconds"
+						"Entangle": "Physical: 15 / 20 / 25 / 30 / 35 (+5% Magic Power) per .25 seconds",
+						"Second Strike": "Physical: 60 / 95 / 130 / 165 / 200 (+50% Magic Power)",
+						"Duration": "1 / 1.25 / 1.5 / 1.75 / 2 second(s)"
 					}
 				},
 				"Sleeping Powder":{
@@ -7152,50 +7218,51 @@
 			"skill": {
 				"Lightning Ray":{
 					"prop":{
-						"Active": "Talon sending a lightning from his hand, dealing magic damage to enemies hit and paralyze them. <br>Can't paralyze after 10s if they already get paralyzed from Talon.",
+						"Active": "Talon and his pet is sending a lightning strike through a line between each other, that can be crossed by how close your pointer is to Talon. Dealing magic damage to enemies hit and paralyze them. <br>Dragon Eel show it's line and get further away from Talon as closer your pointer is to Talon to cross the lines and maby deal the full damage of this ability.",
 						"": "",
 						"Ability": "Line",
-						"Radius": "70 size",
+						"Radius": "70 / 75 / 80 / 85 / 90 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown": "12 / 11 / 10 / 9 / 8 seconds",
-						"Damage": "Magic: 80 / 120 / 160 / 200 / 240 (+75% Magic Power)",
+						"Damage": "Magic: 40 / 80 / 120 / 160 / 200 (+75% Magic Power) each hit",
 						"Paralyzed": "1 seconds"
 					}
 				},
-				"Lightning":{
+				"Dragon Eel":{
 					"prop":{
-						"Active": "Talon create lightning in a target location, dealing magic damage to enemies hit and paralyze them. Can be launched three times before the cooldown. <br>Can't paralyze after 10s if they already get paralyzed from Talon.",
+						"Active": "Talon create a chain lightning around a target location that stunning enemies for 1 second who cross the line, in same time an other chain lightning start to strike enemies inside the area randomly up to 10 times witch can bounce between same enemies just twice. This lightning start with a lightning chain around a target location that stunning enemies for 1 turn who cross the line.",
+						"Passive": "Talon has a dragon eel on his side that strike random enemies by a lightning per 10s, that also create a chain lightning with the same damage up to 10 enemies that can bounce randomly between enemies up to twice per same enemy.",
 						"": "",
 						"Ability": "Target Location",
-						"Radius": "15 size",
+						"Radius": "15 / 20 / 25 / 30 / 35 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"14 seconds",
-						"Damage": "Magic: 60 / 100 / 140 / 180 / 220 (+40% Magic Power)",
-						"Paralyzed": "1 seconds"
+						"Damage": "Magic: 60 / 80 / 100 / 120 / 140 (+40% Magic Power) (-10% per bounce)",
+						"Damage [Dragon Eel]": "Magic: 10 / 20 / 30 / 40 / 50 (+10% Magic Power) (-10% per bounce)"
 					}
 				},
 				"Lightning Barrage":{
 					"prop":{
-						"Active": "Talon create lightning in a target location, increases all damage from lightning hit by you and your allies inside the barrage and dealing magic damage per second to enemies inside it.",
+						"Active": "Talon creates a lightning barrage around him that dealing magic damage per second to enemies hit by this lightning. <br>Enemies also has a chance to be paralized.",
 						"": "",
-						"Ability": "Target Location",
-						"Radius": "60 size",
+						"Ability": "Area",
+						"Radius": "30 size",
 						"Cost":"70 / 75 / 80 / 85 / 90 mana",
 						"Cooldown":"18 seconds",
 						"Damage": "Magic: 5 / 7 / 9 / 11 / 13 (+5% Magic Power) per 0,5s",
-						"Bonus": "50%",
+						"Paralize": "15%",
 						"Duration": "8 seconds"
 					}
 				},
 				"Dragon Form":{
 					"prop":{
-						"Active": "Talon become a walking dragon that sending lightning around it, dealing magic damage to nearby enemies per second. <br>Talon become melee and get increased protection and can start to tank with incredible damage.",
+						"Active": "Talon dash in a line and paralize enemies in the area while become a walking dragon with Lightning Barrage active while in dragon form. Lightning Ray just sending one ray that instead is doubled. Dragon Eel cost 50% of its mana. <br>Talon's basic attacks become melee and get increased protection and can start to tank with incredible damage.",
 						"": "",
-						"Ability": "Self, Area",
-						"Radius": "15 size",
+						"Ability": "Dash",
+						"Radius [Dash]": "30 size",
+						"Radius [Area]": "30 size",
 						"Cost":"100 mana",
 						"Cooldown":"90 seconds",
-						"Damage": "Magic: 15 / 20 / 25 / 30 / 35 (+35% Magic Power) per 0,5s",
 						"Protection": "60 / 75 / 90 / 105 / 120",
 						"Duration": "10 seconds"
 					}
